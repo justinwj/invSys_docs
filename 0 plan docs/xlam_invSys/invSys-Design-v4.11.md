@@ -435,7 +435,8 @@ compile/layout/static-maintenance/live-role/full Release 1 chain, current GREEN
 regressions, captured binding/restart and visible operator comparison including
 multiline/long values and incomplete runs. Replay complements these gates; it proves
 the specified conclusion in the tested context, not the whole system universally.
-Commit/push completed slices. RUN-SCALE-01/RUN-UI-01 stay separate pending decisions.
+Commit/push completed slices. RUN-SCALE-01/RUN-UI-01 were separately approved
+2026-10-11; their implementation and acceptance remain required.
 
 **Approval boundary:** The A/B split and this execution contract are approved.
 Further material changes require a new explicit decision. Implementation, B0
@@ -1278,12 +1279,12 @@ False owner load/read results, unavailable required owner surfaces and exception
 are FAILED/Error/Unknown; no partial-state rollback is asserted. All source-event
 references are empty: these nine controls do not submit inventory or Designs events.
 
-**Pending decision RUN-SCALE-01 (not approved; do not implement yet):** Actual
+**Approved decision RUN-SCALE-01 (user approval 2026-10-11):** Actual
 worksheet Apply Scale reads the older Design/BOM projection (`tblDesigns`) for an
 entry selected from released reusable Recipes, then can scale prior local values
 after that read fails. D15 requires released Process/Recipe authority when
 `DesignsEnabled=True`; the branch-preservation wording above grants no exception.
-Proposed resolution: with Designs enabled and no reusable run loaded, Apply Scale
+Required resolution: with Designs enabled and no reusable run loaded, Apply Scale
 refuses before invoking the worksheet recipe owner or changing local staging,
 displaying "Load a released recipe before applying scale." Record REJECTED under
 the existing Run observation contract after the normal captured-context and
@@ -1293,26 +1294,26 @@ Scale on that run. Do not auto-load, query Design/BOM as a substitute, or create
 legacy Design with a matching Recipe identity. Loaded reusable scaling keeps its
 existing limits, completed-Process refusal and reset behavior. With Designs
 disabled, the existing non-reusable branch remains subject to D14 and the existing
-failure-observation rules. If approved, this decision explicitly qualifies D18's
+failure-observation rules. This decision explicitly qualifies D18's
 non-reusable branch-preservation and message-preservation instructions; it does
 not weaken D15 authority. Required D13 evidence: actual packaged Apply Scale
 refusal with a real released selection, unchanged local/custom values and exact
 identity, no Design/BOM read, correct observation, and the existing Load Recipe
 then Apply Scale sequence reaching STAGED through released Process/Recipe reads.
-Until approval, retain the guarded implementation and keep this conflict open.
+Approval authorizes implementation; packaged acceptance remains outstanding.
 
-**Pending decision RUN-UI-01 (not approved; do not implement yet):** Packaged
+**Approved decision RUN-UI-01 (user approval 2026-10-11):** Packaged
 worksheet allocation tests show that List/Tree Apply can display "Acceptable
 inventory allocation updated" when its required local table or QUANTITY column
 is unavailable. The FAILED observation requirement above does not itself waive
-the instruction below to keep existing operator messages. Proposed narrow
+the instruction below to keep existing operator messages. Approved narrow
 exception: in the non-reusable Apply branch, missing required local staging
 tables/columns display "Allocation could not finish: the required local staging
 table or columns are unavailable." Record FAILED under the existing observation
 rules; do not repair surfaces or claim rollback. All other current messages and
-ordinary branch semantics remain governed by the existing contract. Approval of
-this decision is required before changing that operator message. Four worksheet
-test assertions currently express this proposed exception, not an approved gate.
+ordinary branch semantics remain governed by the existing contract. The four
+worksheet message assertions now protect this approved exception; retain their
+recorded failures and require focused packaged RED/GREEN before acceptance.
 
 Each deliberate handler entry creates one attempt/result pair with its own
 ActivityId. Helpers, loading, programmatic selection/mirroring, nested callbacks

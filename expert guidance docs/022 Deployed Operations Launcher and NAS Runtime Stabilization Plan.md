@@ -4,6 +4,17 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Approved 2026-10-11: RUN-SCALE-01 and RUN-UI-01.** Architecture v4.11 D18
+now requires Apply Scale to refuse an unloaded reusable run when Designs is
+enabled, before worksheet recipe reads or staging changes, with "Load a released
+recipe before applying scale." Loaded-run scaling retains its existing rules.
+Missing required worksheet allocation tables/columns must instead report
+"Allocation could not finish: the required local staging table or columns are
+unavailable." and FAILED, without repair or a rollback claim. Protect both through
+the actual packaged handlers with focused RED/GREEN and retained regressions.
+Implementation and acceptance are open. Earlier pending/unapproved references
+below describe their historical checkpoints and are superseded by this approval.
+
 Active group: General Settings observations under D18 catalog31 refinement.
 Recorded full gate passes871/871 on unchanged, unpromoted
 `validation-general-settings-02`: all647 ordered policy/permission checks plus224
@@ -1290,15 +1301,15 @@ FAIL, all33 owner cases and seven native-close receipts. Five compiles, canonica
 pins, preservation, normal cleanup and delayed zero Excel audit pass. Independent
 paths and the separate full reusable171/two-aggregate/replay37 gates remain open.
 
-Pending RUN-SCALE-01 is now concrete in Architecture v4.11 D18: with Designs
+RUN-SCALE-01, approved2026-10-11 in Architecture v4.11 D18: with Designs
 enabled and no reusable run loaded, refuse Apply Scale before worksheet-owner
 reads or staging changes and direct the operator to Load Recipe first. Preserve
 loaded reusable scaling and the Designs-disabled branch under existing rules.
-This would explicitly qualify D18 branch/message preservation while enforcing
-D15; it is not approved and must not be implemented yet. Protect the real selected
+This explicitly qualifies D18 branch/message preservation while enforcing
+D15. Protect the real selected
 Recipe refusal and subsequent Load/Scale sequence through packaged handlers,
 including owner-read authority, unknown columns, exact identity and observations.
-Unrelated approved Run observation work may continue while this decision is open.
+Implementation and packaged acceptance remain open.
 
 Latest checkpoint,2026-10-01 UTC: unpromoted
 `deploy/validation-production-run-binding-02` also guards worksheet Apply Scale
@@ -1484,12 +1495,11 @@ clear/refresh and remaining source-failure/path evidence stay open. The protecte
 headless Core catalog/outcome/reference/terminal implementation can proceed before
 the remaining form-owner changes; that alone will not complete the nine-control gate.
 
-RUN-UI-01 is pending approval in Architecture D18. Correction to the worksheet
-failure classification above:112 missing tracking assertions protect the approved
-contract; four unavailable-surface message assertions propose an exception to
-"keep existing operator messages." They are not approved behavior yet. The exact
-proposed failure text is in Architecture D18 and Controls; do not change those
-messages without approval. Core catalog work is independent and may continue.
+RUN-UI-01 was approved2026-10-11 in Architecture D18. The112 missing tracking
+assertions retain their original approved scope; four unavailable-surface message
+assertions now protect the approved exception to "keep existing operator messages."
+Use the exact failure text in Architecture D18 and Controls, retain the recorded
+failures and prove focused packaged RED/GREEN before acceptance.
 
 Active Slice4be continuation,2026-10-01 UTC: Ingredients Assignment implements
 Architecture v4.11 D18's approved discovered-control refinement in unpromoted

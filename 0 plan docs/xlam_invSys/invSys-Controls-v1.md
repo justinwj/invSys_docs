@@ -1,6 +1,16 @@
 # invSys Form Controls v1
 
-**Version:** 1.508 -- B0 native checks117; restored capture acceptance open.
+**Version:** 1.509 -- RUN-SCALE-01 and RUN-UI-01 approved; acceptance open.
+
+**User approval 2026-10-11:** Architecture v4.11 D18's RUN-SCALE-01 and
+RUN-UI-01 are approved. Apply Scale with Designs enabled and no loaded reusable
+run must stop before worksheet recipe reads/staging changes, record REJECTED and
+show "Load a released recipe before applying scale." Existing loaded-run scaling
+retains its rules. List/Tree Apply with missing required local staging tables or
+columns must record FAILED and show "Allocation could not finish: the required
+local staging table or columns are unavailable." No repair or rollback is implied.
+Packaged-handler RED/GREEN and acceptance remain required. Earlier pending or
+unapproved references describe historical checkpoints, superseded by this approval.
 
 D18 catalog31 specifies nine discovered General controls: ADMIN_SETTINGS_RELOAD,
 ADMIN_SETTINGS_SELECT_CONFIG, ADMIN_CARRIER_ADD/REMOVE/RESET/SELECT,
@@ -1145,14 +1155,14 @@ FAIL), all33 owner cases and seven native-close receipts. Five compiles, package
 settings preservation, normal cleanup and delayed zero Excel audit pass. Separate
 full reusable acceptance and paths for the remaining Run controls remain open.
 
-Pending RUN-SCALE-01, not approved: for Apply Scale with Designs enabled and no
+RUN-SCALE-01, approved2026-10-11: for Apply Scale with Designs enabled and no
 loaded reusable run, show "Load a released recipe before applying scale." and
 record REJECTED after normal context/capability checks, with no worksheet-owner
 read or local staging change. Existing Load Recipe then Apply Scale provides the
 released Process/Recipe path. Loaded reusable scaling and Designs-disabled
-behavior retain existing rules. Architecture v4.11 D18 contains the exact proposed
+behavior retain existing rules. Architecture v4.11 D18 contains the exact approved
 exception to branch/message preservation and the required packaged-handler tests.
-No runtime implementation or acceptance is implied by this proposal.
+Approval authorizes implementation; it does not establish runtime acceptance.
 
 Preceding unpromoted candidate `validation-production-run-binding-02` guards the
 worksheet Apply Scale owner. Nine actual-handler cases move120 PASS/65 FAIL to
@@ -1314,13 +1324,13 @@ Forty-two shared GREEN checks, five compiles, preservation, normal closure and
 delayed zero Excel audit pass. Runtime/static metrics stay unchanged;366 repository
 scripts parse. Worksheet load/clear/refresh and remaining read/path gates stay open.
 
-Pending RUN-UI-01: the four worksheet unavailable-surface message checks exceed
-the current "keep existing operator messages" instruction. They are proposed,
-not approved, acceptance checks; the112 tracking failures remain approved RED.
-Proposed List/Tree Apply text when a required local staging table/column is missing:
+RUN-UI-01, approved2026-10-11: the four worksheet unavailable-surface message
+checks protect the approved exception to "keep existing operator messages";
+the112 tracking failures retain their original approved RED scope.
+Required List/Tree Apply text when a required local staging table/column is missing:
 "Allocation could not finish: the required local staging table or columns are
 unavailable." Keep FAILED observation semantics, no repair and no rollback claim.
-Architecture D18 records the exact exception; implementation awaits approval.
+Architecture D18 records the exact exception; implementation/acceptance remain open.
 
 Architecture v4.11 D18's Ingredients Assignment refinement is implemented in
 unpromoted `validation-production-assignment-01`: catalog23 adds seven buttons
