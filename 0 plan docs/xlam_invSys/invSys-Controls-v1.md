@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.501 -- General Settings independent recording/guide proof verified.
+**Version:** 1.502 -- Native diagnostic scope qualified; 4be-A acceptance remains open.
 
 D18 catalog31 specifies nine discovered General controls: ADMIN_SETTINGS_RELOAD,
 ADMIN_SETTINGS_SELECT_CONFIG, ADMIN_CARRIER_ADD/REMOVE/RESET/SELECT,
@@ -35,6 +35,16 @@ KVM input is verified for this run; RDP/tscon behavior is not declared repaired.
 Fresh General02 smoke86 is clean. Chain32/live48/warehouse15 retains prior checks,
 but one later Excel combase.dll/c0000005 fault fails the native gate. Exact failing
 call remains unresolved; passing assertions do not establish a clean chain.
+Owned-process/phase tracing now records clean isolated late stages15 and collected
+restart12 after correcting only cloned test-configuration paths; source fixtures,
+settings and packages are preserved. A traced full chain fails earlier during
+live-role projection recovery with ntdll.dll/c0000028 and assisted recovery closure.
+These are separate unresolved native failures, not accepted repairs. Tooling56
+protects trace behavior and partial-report scope; no control, runtime or contract
+changed. Next trace the live child's deletion/rebuild boundary, retaining the
+late-stage trace. See `plan022_slice4be_native_localization_results.md`.
+Diagnostic checkpoint: `fe0ff848`; unchanged static ratchets, three schemas and
+455 PowerShell parses pass. Desktop375 has zero failures/error5; Excel is closed.
 Remaining Settings regressions, Launcher/Close/page navigation, broader coverage
 and human acceptance remain open; 4be-A is incomplete.
 

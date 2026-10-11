@@ -25,8 +25,17 @@ warehouse context; no inputs or credential information enter observations.
 KVM input was verified for this run; this does not establish an RDP/tscon repair.
 Fresh same-candidate smoke86 is clean. Chain32/live48/warehouse15 retains all
 ordered checks, but its native audit fails with Excel combase.dll/c0000005 after
-live-role completion. The exact call is unknown; instrument owned-process/phase
-boundaries in the later restart/evidence interval before claiming a clean chain.
+live-role completion. New owned-process/phase tracing does not reproduce that
+fault in isolated late stages15 or collected restart12. Both preserve the source
+fixture after a diagnostic-only cloned-path correction. The traced full chain
+instead fails earlier during live-role projection recovery with ntdll.dll/c0000028;
+recovery closure was assisted. Neither fault is repaired. Pure tooling56 protects
+unchanged business calls, metadata-only tracing and partial-report scope.
+Next: instrument the live child's projection deletion/rebuild boundary while
+retaining the late trace; do not claim a clean chain from partial diagnostics.
+Exact evidence: `tests/integration/plan022_slice4be_native_localization_results.md`.
+Diagnostic checkpoint: `fe0ff848`; unchanged static ratchets, three schemas and
+455 PowerShell parses pass. No runtime/package or architectural change.
 Remaining Settings regressions, Launcher/Close/page navigation and broader
 Operations/Admin coverage remain open. Agent image review is not human acceptance;
 4be-A is not complete.
