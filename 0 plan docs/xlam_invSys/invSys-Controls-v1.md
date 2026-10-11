@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.503 -- Native call localized; 4be-A acceptance remains open.
+**Version:** 1.505 -- Diagnostic cleanup verified; ordinary-chain acceptance open.
 
 D18 catalog31 specifies nine discovered General controls: ADMIN_SETTINGS_RELOAD,
 ADMIN_SETTINGS_SELECT_CONFIG, ADMIN_CARRIER_ADD/REMOVE/RESET/SELECT,
@@ -45,10 +45,19 @@ changed. The continuation localizes the owned live fault to the processor call
 after projection deletion (tooling63/63; chain5/1, live32/1). Fresh copied-fixture
 replay has3 PASS/3 FAIL and delayed matching-owner combase/c0000005 after worker
 exit. The existing unsaved VBA-traced control passes35/35 with four compiles and
-clean closure; neither native fault is repaired. Next classify the three replay
-failures using redacted outcome diagnostics. See the native localization record.
-Diagnostic checkpoint: `fe0ff848`; unchanged static ratchets, three schemas and
-455 PowerShell parses pass. Desktop375 has zero failures/error5; Excel is closed.
+clean closure; neither native fault is repaired. Redacted tooling74 and later
+replay6/6 pass; saved-lock evidence supports lease expiry as the earlier business
+failure explanation. Releasing only the diagnostic's local references gives6/6,
+exit before worker and zero delayed events with full preservation. No runtime or
+control change. Deleted-table release passes a traced32/live48/warehouse15 chain.
+The regular validator retains143 business calls, but its untraced run fails earlier
+at Receiving ConfirmWrites (14 PASS/1 FAIL, HRESULT0x80020009), before cleanup.
+Native child closure is assisted; no Application crash event is found. Final
+diagnostic6/6, tooling74 and static ratchets pass. Ordinary-chain acceptance remains
+open; next isolate Receiving with the existing untraced BeforeProjection control.
+See the native localization record for exact scope and receipts.
+Diagnostic checkpoint: `84c9fe04`; unchanged static ratchets, three schemas and
+455 PowerShell parses pass. No desktop error5 was observed in these runs.
 Remaining Settings regressions, Launcher/Close/page navigation, broader coverage
 and human acceptance remain open; 4be-A is incomplete.
 

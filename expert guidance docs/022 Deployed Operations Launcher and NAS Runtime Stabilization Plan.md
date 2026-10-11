@@ -33,14 +33,26 @@ recovery closure was assisted. Neither fault is repaired. Pure tooling56 protect
 unchanged business calls, metadata-only tracing and partial-report scope.
 Continuation localizes the owned live fault to the processor call after projection
 deletion:51 statement boundaries, tooling63/63, chain5/1 and live32/1. Fresh copied
-fixture replay has3/3 business checks and a matching-owner combase/c0000005 fault
-167.9ms after worker exit. These failed checks remain unresolved. The existing
+fixture replay has3 PASS/3 FAIL and a matching-owner combase/c0000005 fault
+167.9ms after worker exit. The existing
 unsaved VBA-traced Chain control passes35/35 with four compiles, preservation and
 clean unassisted closure; instrumentation success is not a native repair.
-Next: add redacted outcome diagnostics to distinguish the fresh replay's business
-failures from delayed teardown; retain both native failures and original checks.
+Redacted outcome diagnostics, local-reference safety and trace contention pass
+tooling74/74. Later replay6/6 preserves
+source/settings/packages; read-only saved-lock evidence shows44.105 seconds left
+on the earlier replay's lease, supporting lock expiry as the business explanation.
+Explicitly releasing the diagnostic's local references corrects its linger-after-
+Quit gate:6/6, exit while worker alive and zero delayed events. No runtime change.
+Deleted-table release then passes the traced chain32/live48/warehouse15 with clean
+delayed closure. The regular live validator now releases its two deleted table
+wrappers; all143 business calls are unchanged. Its untraced chain fails earlier
+at Receiving ConfirmWrites (14 PASS/1 FAIL, HRESULT0x80020009), before this cleanup;
+child closure is assisted, with zero corresponding Application crash events.
+Final diagnostic6/6, tooling74 and static ratchets pass. No ordinary-chain acceptance
+or universal native fix is claimed. Next isolate Receiving through the existing
+untraced BeforeProjection/Setup Chain control with explicit General02 pins.
 Exact evidence: `tests/integration/plan022_slice4be_native_localization_results.md`.
-Diagnostic checkpoint: `fe0ff848`; unchanged static ratchets, three schemas and
+Diagnostic checkpoint: `84c9fe04`; unchanged static ratchets, three schemas and
 455 PowerShell parses pass. No runtime/package or architectural change.
 Remaining Settings regressions, Launcher/Close/page navigation and broader
 Operations/Admin coverage remain open. Agent image review is not human acceptance;
