@@ -4,6 +4,21 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Current scoped continuation,2026-10-11:** unpromoted
+`validation-run-scale-disabled-01` records seven existing Designs-disabled Scale
+refusal/failure cases, RED111/49 to GREEN160. The worksheet owner exposes its
+completion result; a caught exception records FAILED while preserving existing
+messages and partial local effects. Five cold/instrumented compiles, preservation,
+clean delayed closure, static ratchets and retained enabled-Designs218 pass.
+The reviewed refusal message is complete; long recipe descriptions still clip.
+Successful worksheet reload, D14 rebuild preservation and independent worksheet
+guidance remain open. Loaded-run503, smoke86 and layout with six reviewed images
+also pass. Two ordinary chains failed natively (chain5/1; live35/1 and32/1), so
+chain acceptance remains blocked. The dismissal helper's ownership guard has
+focused RED1/1 to GREEN2/2; the native failure persists and needs localization.
+No new architectural contract or comprehensive Scale/4be-A acceptance is claimed.
+Exact receipts: `tests/integration/plan022_slice4be_production_run_local_results.md`.
+
 **Approved 2026-10-11: RUN-SCALE-01 and RUN-UI-01.** Architecture v4.11 D18
 now requires Apply Scale to refuse an unloaded reusable run when Designs is
 enabled, before worksheet recipe reads or staging changes, with "Load a released
@@ -28,8 +43,10 @@ all three views, six reviewed captures and clean preserved closure. Smoke86 and
 ordinary chain32/live48/warehouse15 pass with clean preserved closure. Full reusable
 regression retains171 Boolean observations/two aggregates, with clean restart and
 final closure. Layout geometry and six reviewed captures qualify on the isolated
-repeat; the first run's two black captures remain rejected. Designs-disabled
-recording and broader acceptance remain open. Two pre-case COM failures
+repeat. Individual reinspection corrects the first run's apparent black previews:
+saved PNGs are readable and the review amendment is retained. The newer scoped
+Designs-disabled proof above supersedes this recording status; broader acceptance
+remains open. Two pre-case COM failures
 remain unaccepted evidence; recovery files were preserved on assisted normal
 closure. Code checkpoint: `6a845ce5`. Exact receipts: Production Run local results in code.
 Earlier pending/unapproved references

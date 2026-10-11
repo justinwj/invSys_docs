@@ -1305,8 +1305,10 @@ RED134/84 to GREEN218 for the enabled load-first boundary and actual released
 Load/Scale sequence, followed by503/503 loaded-run and binding checks.
 Independent Load/Scale guide proof is RED53/1 to GREEN104, with two distinct
 recordings and a local-command conclusion; it does not assert inventory application.
-Designs-disabled recording and full acceptance remain separate requirements;
-see the current Plan022 record.
+Designs-disabled refusal/caught-owner-failure recording has scoped RED111/49 to
+GREEN160 on 2026-10-11. It preserves existing messages and partial local effects;
+successful worksheet reload, D14 rebuild preservation and full acceptance remain
+separate requirements. See the current Plan022 record.
 
 **Approved decision RUN-UI-01 (user approval 2026-10-11):** Packaged
 worksheet allocation tests show that List/Tree Apply can display "Acceptable

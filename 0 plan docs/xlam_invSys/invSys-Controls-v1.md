@@ -1,6 +1,20 @@
 # invSys Form Controls v1
 
-**Version:** 1.512 -- RUN-SCALE-01 focused GREEN218 and guide104; broader acceptance open.
+**Version:** 1.513 -- Designs-disabled Scale refusal/failure GREEN160; broader acceptance open.
+
+Current unpromoted `validation-run-scale-disabled-01` adds D18 recording for
+Designs-disabled Scale: RED111/49 to GREEN160 across seven refusal/failure cases.
+A caught owner exception records FAILED while retaining existing partial effects
+and messages; no rollback or completed inventory operation is claimed. Five cold/
+instrumented compiles, preservation, clean delayed closure, static ratchets and
+enabled-Designs regression218 pass. The complete existing refusal is readable in
+the reviewed capture; long recipe descriptions still clip. Successful worksheet
+reload, D14 rebuild preservation and independent worksheet guidance remain open.
+Loaded-run503, smoke86 and layout with six reviewed images also pass. Ordinary
+chain acceptance is blocked by two native failures (chain5/1, live35/1 and32/1).
+The separately tested dismissal-owner guard does not repair that failure.
+Exact receipts are in
+the Production Run local results. No comprehensive Scale or4be-A acceptance.
 
 RUN-SCALE-01's enabled/unloaded refusal and actual released Load/Scale sequence
 pass RED134/84 to GREEN218 on unpromoted `validation-run-scale-01`. Five cold/
@@ -16,8 +30,10 @@ recordings, exact two-action conclusion, all three views and six reviewed captur
 Smoke86 and ordinary chain32/live48/warehouse15 pass with clean preserved closure.
 Full reusable regression retains171 Boolean observations/two aggregates, including
 clean restart/final closure. Layout geometry and six reviewed captures qualify on
-an unchanged isolated repeat; the first run's two black captures remain rejected.
-Designs-disabled recording and broader acceptance remain open.
+an unchanged isolated repeat. Individual reinspection corrects the first run's
+apparent black previews: saved PNGs are readable; the review amendment is retained.
+The newer Designs-disabled proof above supersedes this earlier recording status;
+broader acceptance remains open.
 Two pre-case COM interruptions remain unaccepted evidence;
 normal assisted closure preserved recovery files. Exact receipts: Production Run
 local results in code, checkpoint `6a845ce5`. No comprehensive Scale, human or
