@@ -1,6 +1,14 @@
 # invSys Form Controls v1
 
-**Version:** 1.509 -- RUN-SCALE-01 and RUN-UI-01 approved; acceptance open.
+**Version:** 1.510 -- B0 native captures verified; Run approvals retained.
+
+B0 passes121/121 on unchanged General02, retaining117 and adding four bounded
+capture-settling checks. Actual native maximize/restore retains exact bounds and
+layout; both restored forms are intact in reviewed images. Five compiles,
+preservation and clean delayed closure pass. Tooling publishes only repeated
+matching frames and retains the initial transition image. No runtime change;
+observation accounting, broader gates and human acceptance remain open.
+Exact receipts: Receiving replay results in code.
 
 **User approval 2026-10-11:** Architecture v4.11 D18's RUN-SCALE-01 and
 RUN-UI-01 are approved. Apply Scale with Designs enabled and no loaded reusable

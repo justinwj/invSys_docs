@@ -15,7 +15,15 @@ the actual packaged handlers with focused RED/GREEN and retained regressions.
 Implementation and acceptance are open. Earlier pending/unapproved references
 below describe their historical checkpoints and are superseded by this approval.
 
-Active group: General Settings observations under D18 catalog31 refinement.
+Native B0 capture continuation passes121/121 on unchanged General02, retaining
+117 and adding four bounded frame-settling checks. Both restored forms are intact
+in reviewed images; five compiles, preservation and clean delayed closure pass.
+Only tooling changed. Earlier clipped transition images remain documented;
+observation coverage, broader gates and human acceptance remain open. Exact
+receipts: `tests/integration/plan022_slice4be_receiving_replay_results.md`.
+
+Active group: approved Production Run corrections; retain the General Settings
+observations below under D18 catalog31 refinement.
 Recorded full gate passes871/871 on unchanged, unpromoted
 `validation-general-settings-02`: all647 ordered policy/permission checks plus224
 recording/guide checks. Nine independent positive conclusions and a nine-step
