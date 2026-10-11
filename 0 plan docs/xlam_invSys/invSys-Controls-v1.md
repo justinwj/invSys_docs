@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.502 -- Native diagnostic scope qualified; 4be-A acceptance remains open.
+**Version:** 1.503 -- Native call localized; 4be-A acceptance remains open.
 
 D18 catalog31 specifies nine discovered General controls: ADMIN_SETTINGS_RELOAD,
 ADMIN_SETTINGS_SELECT_CONFIG, ADMIN_CARRIER_ADD/REMOVE/RESET/SELECT,
@@ -41,8 +41,12 @@ settings and packages are preserved. A traced full chain fails earlier during
 live-role projection recovery with ntdll.dll/c0000028 and assisted recovery closure.
 These are separate unresolved native failures, not accepted repairs. Tooling56
 protects trace behavior and partial-report scope; no control, runtime or contract
-changed. Next trace the live child's deletion/rebuild boundary, retaining the
-late-stage trace. See `plan022_slice4be_native_localization_results.md`.
+changed. The continuation localizes the owned live fault to the processor call
+after projection deletion (tooling63/63; chain5/1, live32/1). Fresh copied-fixture
+replay has3 PASS/3 FAIL and delayed matching-owner combase/c0000005 after worker
+exit. The existing unsaved VBA-traced control passes35/35 with four compiles and
+clean closure; neither native fault is repaired. Next classify the three replay
+failures using redacted outcome diagnostics. See the native localization record.
 Diagnostic checkpoint: `fe0ff848`; unchanged static ratchets, three schemas and
 455 PowerShell parses pass. Desktop375 has zero failures/error5; Excel is closed.
 Remaining Settings regressions, Launcher/Close/page navigation, broader coverage

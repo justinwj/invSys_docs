@@ -31,8 +31,14 @@ fixture after a diagnostic-only cloned-path correction. The traced full chain
 instead fails earlier during live-role projection recovery with ntdll.dll/c0000028;
 recovery closure was assisted. Neither fault is repaired. Pure tooling56 protects
 unchanged business calls, metadata-only tracing and partial-report scope.
-Next: instrument the live child's projection deletion/rebuild boundary while
-retaining the late trace; do not claim a clean chain from partial diagnostics.
+Continuation localizes the owned live fault to the processor call after projection
+deletion:51 statement boundaries, tooling63/63, chain5/1 and live32/1. Fresh copied
+fixture replay has3/3 business checks and a matching-owner combase/c0000005 fault
+167.9ms after worker exit. These failed checks remain unresolved. The existing
+unsaved VBA-traced Chain control passes35/35 with four compiles, preservation and
+clean unassisted closure; instrumentation success is not a native repair.
+Next: add redacted outcome diagnostics to distinguish the fresh replay's business
+failures from delayed teardown; retain both native failures and original checks.
 Exact evidence: `tests/integration/plan022_slice4be_native_localization_results.md`.
 Diagnostic checkpoint: `fe0ff848`; unchanged static ratchets, three schemas and
 455 PowerShell parses pass. No runtime/package or architectural change.
