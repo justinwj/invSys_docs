@@ -60,9 +60,12 @@ Diagnostic checkpoint: `84c9fe04`; unchanged static ratchets, three schemas and
 Settings202/202 and user-policy104/104 now retain all prior ordered checks on
 General02, with five compiles each, preservation and zero delayed errors. Four
 user-policy captures were reviewed. A stale catalog27/131 fixture expectation
-became31/144; no runtime change or product RED. Next Settings action-recording
-regression, then Launcher/Close/page navigation and broader
-Operations/Admin coverage remain open. Agent image review is not human acceptance;
+became31/144; no runtime change or product RED. Settings action-recording548 now
+retains535 prior checks plus13 older-policy exclusions, five compiles, eight
+reviewed captures, preservation and clean delayed closure. Its509/39 first run
+exposed only a stale catalog27 assertion; correcting it to31 changes no runtime.
+Next B0 native maximize/restore, Launcher/Close/page navigation and broader
+Operations/Admin coverage. Agent image review is not human acceptance;
 4be-A is not complete.
 
 Recorded transfers and independent guide comparisons pass **499/499** on unchanged
