@@ -49,12 +49,19 @@ wrappers; all143 business calls are unchanged. Its untraced chain fails earlier
 at Receiving ConfirmWrites (14 PASS/1 FAIL, HRESULT0x80020009), before this cleanup;
 child closure is assisted, with zero corresponding Application crash events.
 Final diagnostic6/6, tooling74 and static ratchets pass. No ordinary-chain acceptance
-or universal native fix is claimed. Next isolate Receiving through the existing
-untraced BeforeProjection/Setup Chain control with explicit General02 pins.
+or universal native fix is claimed. The existing untraced BeforeProjection/Setup
+Chain control passes31/31 with preservation and clean delayed closure;17 later
+live checks are unreached. Receiving succeeds, but the14/1 cause remains unproved.
+Next continue independent Settings regressions and observation coverage; the
+ordinary-chain final gate stays open.
 Exact evidence: `tests/integration/plan022_slice4be_native_localization_results.md`.
 Diagnostic checkpoint: `84c9fe04`; unchanged static ratchets, three schemas and
 455 PowerShell parses pass. No runtime/package or architectural change.
-Remaining Settings regressions, Launcher/Close/page navigation and broader
+Settings202/202 and user-policy104/104 now retain all prior ordered checks on
+General02, with five compiles each, preservation and zero delayed errors. Four
+user-policy captures were reviewed. A stale catalog27/131 fixture expectation
+became31/144; no runtime change or product RED. Next Settings action-recording
+regression, then Launcher/Close/page navigation and broader
 Operations/Admin coverage remain open. Agent image review is not human acceptance;
 4be-A is not complete.
 

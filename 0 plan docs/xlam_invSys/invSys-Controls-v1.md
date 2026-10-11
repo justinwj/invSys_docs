@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.505 -- Diagnostic cleanup verified; ordinary-chain acceptance open.
+**Version:** 1.506 -- Settings and user-policy regressions retained; 4be-A open.
 
 D18 catalog31 specifies nine discovered General controls: ADMIN_SETTINGS_RELOAD,
 ADMIN_SETTINGS_SELECT_CONFIG, ADMIN_CARRIER_ADD/REMOVE/RESET/SELECT,
@@ -54,11 +54,17 @@ The regular validator retains143 business calls, but its untraced run fails earl
 at Receiving ConfirmWrites (14 PASS/1 FAIL, HRESULT0x80020009), before cleanup.
 Native child closure is assisted; no Application crash event is found. Final
 diagnostic6/6, tooling74 and static ratchets pass. Ordinary-chain acceptance remains
-open; next isolate Receiving with the existing untraced BeforeProjection control.
+open. The untraced BeforeProjection/Setup Chain control passes31/31 with clean
+closure and preservation;17 later checks are unreached. Receiving succeeds without
+explaining14/1. Independent Settings regressions and coverage continue.
 See the native localization record for exact scope and receipts.
 Diagnostic checkpoint: `84c9fe04`; unchanged static ratchets, three schemas and
 455 PowerShell parses pass. No desktop error5 was observed in these runs.
-Remaining Settings regressions, Launcher/Close/page navigation, broader coverage
+General02 Settings202/202 and user-policy104/104 retain every prior ordered check,
+five compiles each, preservation and zero delayed errors. Four user-policy captures
+were reviewed; no new long-value or human acceptance. Only a stale fixture
+expectation changed from catalog27/131 to31/144. Settings action-recording,
+Launcher/Close/page navigation, broader coverage
 and human acceptance remain open; 4be-A is incomplete.
 
 Published guides Export/Import now have scoped recording/evaluation proof:
