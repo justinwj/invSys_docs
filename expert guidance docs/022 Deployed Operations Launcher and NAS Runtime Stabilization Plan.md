@@ -5,29 +5,31 @@
 ## Slice 4be -- recording/guidance and replay/proof
 
 Active group: General Settings observations under D18 catalog31 refinement.
-Full policy/permission gate passes647/647 on unchanged, unpromoted
-`validation-general-settings-02`, retaining all191 ordered initial checks and
-adding456 checks. Six policy modes cover action/user exclusions, older/invalid
-policy, unavailable storage and recovery; same-session ADMIN_MAINT loss denies
-five commands without changing settings. Five instrumented compiles, five reviewed
-captures, preservation, unassisted closure and delayed zero Excel failures pass.
-Runtime/static metrics remain unchanged;449 scripts parse. Retain the initial
-RED105/86 -> GREEN191, cold build02 and bounded maintenance exceptions in the results.
-The repaired499-check diagnostic is separate evidence, not full acceptance GREEN.
-Fresh UOM228 retains every ordered prior check after the test-only native capture
-correction, with five compiles, two reviewed images, preservation and clean closure.
+Recorded full gate passes871/871 on unchanged, unpromoted
+`validation-general-settings-02`: all647 ordered policy/permission checks plus224
+recording/guide checks. Nine independent positive conclusions and a nine-step
+guide compared with separate successful/interrupted/denied runs pass in all
+three views. Exact observed matches are9/1/4; partial progress cannot borrow guide
+source success. Five instrumented compiles, nine layout checks,14 reviewed images,
+preservation, unassisted closure and delayed zero Excel failures pass.
+The preceding250/2 diagnostic exposed incorrect test expectations, not product
+RED. Only tests changed; static metrics remain unchanged and452 scripts parse.
+Retain initial RED105/86 -> GREEN191, policy647, same-candidate UOM228,
+cold build02 and the bounded maintenance exceptions in the results.
 Exact receipts: `tests/integration/plan022_slice4be_general_settings_results.md`.
 Runtime checkpoint: `6f583238`; policy/permission test checkpoint: `48ae1cd4`.
+Independent recording/guide test checkpoint: `03efb0ca` (2026-10-11 UTC).
 Implemented config Reload/selection, carrier Add/Remove/Reset/selection, UOM
 selection and connection choice/save retain per-Windows-user storage and captured
 warehouse context; no inputs or credential information enter observations.
-Independent recording/guide tests are staged. The first trial stops at baseline
-native capture (17 passes/1 harness failure), before new cases; five compiles and
-preservation pass. Console desktop reads work but cursor positioning fails without
-error5. Restore native input, then run the recorded gate retaining General647/UOM228;
-no new product RED/GREEN or contract change is claimed. Remaining
-Settings regressions, Launcher/Close/page navigation
-and broader Operations/Admin coverage remain open.
+KVM input was verified for this run; this does not establish an RDP/tscon repair.
+Fresh same-candidate smoke86 is clean. Chain32/live48/warehouse15 retains all
+ordered checks, but its native audit fails with Excel combase.dll/c0000005 after
+live-role completion. The exact call is unknown; instrument owned-process/phase
+boundaries in the later restart/evidence interval before claiming a clean chain.
+Remaining Settings regressions, Launcher/Close/page navigation and broader
+Operations/Admin coverage remain open. Agent image review is not human acceptance;
+4be-A is not complete.
 
 Recorded transfers and independent guide comparisons pass **499/499** on unchanged
 `validation-guide-transfer-notice-01`, retaining all79 ordered observation checks.

@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.500 -- General recording/guide proof staged; native input blocks validation.
+**Version:** 1.501 -- General Settings independent recording/guide proof verified.
 
 D18 catalog31 specifies nine discovered General controls: ADMIN_SETTINGS_RELOAD,
 ADMIN_SETTINGS_SELECT_CONFIG, ADMIN_CARRIER_ADD/REMOVE/RESET/SELECT,
@@ -15,24 +15,28 @@ preservation, normal closure and delayed zero Excel failures pass;447 scripts pa
 Dynamic/oversized limits are unchanged; two duplicate groups have bounded reviewed
 exceptions in the General Settings results record. Visible owner wording distinguishes
 duplicate/already-matching local settings, cancellation and staged connection choice;
-tracking notices remain separate. The unchanged candidate now passes647/647,
-retaining all191 ordered checks and adding456 for action/user exclusion,
-older/invalid policy, unavailable storage, recovery and same-session permission
-loss. Five instrumented compiles, five reviewed captures, preserved state/packages,
-unassisted closure and zero delayed Excel failures pass;449 scripts parse with
-unchanged runtime/static metrics. The499-check diagnostic and its fixture failures
-are separately qualified in the results. Independent guide conclusions and
-remaining regressions remain required. Same-candidate
-UOM228 was refreshed2026-10-08 after the test-only native capture correction; it
-retains all prior ordered checks with five compiles, two reviewed captures,
-preservation, normal closure and zero delayed Excel failures.
+tracking notices remain separate. The unchanged candidate now passes871/871,
+retaining all647 ordered policy/permission checks and adding224 recording/guide
+checks. Nine controls have independent positive conclusions. A nine-step guide
+paired with separate successful/interrupted/denied recordings produces Concluded,
+Incomplete and Failed results with exact9/1/4 observed matches. Missing/denied
+actions cannot borrow guide-source success. All three views, exact saved-result
+text, nine layouts, five instrumented compiles and14 reviewed captures pass.
+Captures show matched/missing/mismatched steps; not every scrolled excerpt includes
+the state heading. Agent review is not human acceptance. Settings/packages,
+training evidence and warehouse authority are preserved; normal closure and
+zero delayed Excel failures pass. Static metrics are unchanged;452 scripts parse.
+The preceding250/2 diagnostic had two incorrect test expectations, not product RED.
+Retain same-candidate UOM228 refreshed2026-10-08 with clean preservation/closure.
 Runtime checkpoint: `6f583238`; policy/permission test checkpoint: `48ae1cd4`.
+Independent recording/guide test checkpoint: `03efb0ca` (2026-10-11 UTC).
 Exact receipts: General Settings results.
-The new recorded/guide gate has not reached its cases: baseline native capture
-stopped at17 passes/1 harness failure. Five compiles and preservation pass; cursor
-positioning fails despite readable console desktop. This is not error5 or product
-RED, and adds no accepted behavior. Retain647/UOM228 and restore input before retry.
-Launcher/Close/page navigation and broader coverage remain open.
+KVM input is verified for this run; RDP/tscon behavior is not declared repaired.
+Fresh General02 smoke86 is clean. Chain32/live48/warehouse15 retains prior checks,
+but one later Excel combase.dll/c0000005 fault fails the native gate. Exact failing
+call remains unresolved; passing assertions do not establish a clean chain.
+Remaining Settings regressions, Launcher/Close/page navigation, broader coverage
+and human acceptance remain open; 4be-A is incomplete.
 
 Published guides Export/Import now have scoped recording/evaluation proof:
 499/499 retains all79 ordered observation checks and adds420 checks covering20
