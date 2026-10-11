@@ -4,7 +4,26 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current scoped continuation,2026-10-11:** unpromoted
+**Pending RUN-SCALE-02:** the actual missing-definition Scale capture still says
+the recipe loaded and shows prior values scaled after the owner failed. The
+Architecture v4.11 proposal stops subsequent scaling/output preparation/refresh
+on a False worksheet-load result and displays "Recipe could not be loaded. Scale
+was not applied." Keep FAILED without rollback claims. This explicitly changes
+RUN-SCALE-01's preserved partial effects/wording and requires user approval before
+implementation; the independent D14 missing-definition guard does not authorize it.
+
+**Current D14 continuation,2026-10-11:** unpromoted
+`validation-run-scale-empty-recipe-01` returns False before rebuilding staging
+when the selected worksheet definition remains unavailable after refresh.
+Actual-handler RED54/7 to GREEN61 preserves unknown columns/values/formulas and
+records FAILED, with five cold/instrumented compiles, clean preserved closure,
+retained disabled160/smoke86 and unchanged static ratchets. Existing subsequent
+scaling and loaded-recipe wording remain visible; RUN-SCALE-02 is pending. This is
+not successful worksheet reload,
+general rebuild preservation, native chain or comprehensive Scale/4be-A acceptance.
+Exact receipts: Production Run local results in code.
+
+**Earlier scoped continuation,2026-10-11:** unpromoted
 `validation-run-scale-disabled-01` records seven existing Designs-disabled Scale
 refusal/failure cases, RED111/49 to GREEN160. The worksheet owner exposes its
 completion result; a caught exception records FAILED while preserving existing

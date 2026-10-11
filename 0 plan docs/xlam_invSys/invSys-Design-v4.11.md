@@ -1308,7 +1308,24 @@ recordings and a local-command conclusion; it does not assert inventory applicat
 Designs-disabled refusal/caught-owner-failure recording has scoped RED111/49 to
 GREEN160 on 2026-10-11. It preserves existing messages and partial local effects;
 successful worksheet reload, D14 rebuild preservation and full acceptance remain
-separate requirements. See the current Plan022 record.
+separate requirements. The missing-definition D14 guard has scoped RED54/7 to
+GREEN61 on 2026-10-11: an unavailable definition after refresh returns False
+before staging rebuild, preserving unknown columns. Subsequent Scale effects and
+wording remain unchanged pending RUN-SCALE-02. See the current Plan022 record.
+
+**Proposed decision RUN-SCALE-02 -- approval required:** With Designs disabled,
+a failed worksheet recipe load can still scale prior local values and display
+"Loaded recipe, but no output rows were prepared". The missing-definition D14
+guard preserves custom fields and records FAILED, but RUN-SCALE-01 currently
+preserves these subsequent effects and wording. Proposed exception: after the
+worksheet owner returns False and captured-context checks pass, Apply Scale stops
+before scaling, output preparation or subsequent refresh. Display exactly
+"Recipe could not be loaded. Scale was not applied." Keep FAILED/Error/Unknown;
+do not claim rollback of effects inside the owner. Successful worksheet loads,
+loaded reusable runs and the enabled/unloaded refusal retain their contracts.
+Require actual-handler RED/GREEN for missing definitions and caught owner
+failures, unchanged prior quantities/custom fields, exact wording and observations.
+This proposal is not authorization to implement the changed behavior.
 
 **Approved decision RUN-UI-01 (user approval 2026-10-11):** Packaged
 worksheet allocation tests show that List/Tree Apply can display "Acceptable

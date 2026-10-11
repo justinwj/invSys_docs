@@ -1,8 +1,26 @@
 # invSys Form Controls v1
 
-**Version:** 1.513 -- Designs-disabled Scale refusal/failure GREEN160; broader acceptance open.
+**Version:** 1.514 -- Missing-definition staging preservation GREEN61; RUN-SCALE-02 pending.
 
-Current unpromoted `validation-run-scale-disabled-01` adds D18 recording for
+Pending RUN-SCALE-02 in Architecture v4.11: when worksheet loading returns False,
+Apply Scale would stop before further scaling/output preparation/refresh and say
+"Recipe could not be loaded. Scale was not applied." FAILED remains; owner effects
+are not rolled back. This change is not approved or implemented. The current
+captured status still claims the recipe loaded and prior quantities are scaled;
+visible acceptance of that failure remains open despite corrected recording.
+
+Current unpromoted `validation-run-scale-empty-recipe-01` protects custom columns,
+values and formulas when the selected worksheet recipe remains unavailable after
+refresh. Actual-handler RED54/7 to GREEN61 records FAILED and stops staging rebuild.
+Five cold/instrumented compiles, retained disabled160/smoke86, clean preserved
+closure and unchanged static ratchets pass. The reviewed image shows the existing
+misleading loaded status and subsequent scaling; correcting that behavior awaits
+RUN-SCALE-02 approval above.
+Successful worksheet reload, general D14 rebuild preservation, independent guidance
+and native chain acceptance remain open. Exact receipts: Production Run local
+results in code. No comprehensive Scale or4be-A acceptance.
+
+Earlier unpromoted `validation-run-scale-disabled-01` adds D18 recording for
 Designs-disabled Scale: RED111/49 to GREEN160 across seven refusal/failure cases.
 A caught owner exception records FAILED while retaining existing partial effects
 and messages; no rollback or completed inventory operation is claimed. Five cold/
