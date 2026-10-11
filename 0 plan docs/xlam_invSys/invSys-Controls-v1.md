@@ -1,6 +1,18 @@
 # invSys Form Controls v1
 
-**Version:** 1.510 -- B0 native captures verified; Run approvals retained.
+**Version:** 1.511 -- RUN-UI-01 packaged GREEN276; broader acceptance open.
+
+Approved RUN-UI-01 is implemented in unpromoted `validation-run-ui-01`:
+worksheet List/Tree Apply reports the exact approved failure wording when staging
+is unavailable, retaining FAILED and existing partial effects. RED272/4→GREEN276
+retains272 ordered checks and adds four visible-page checks. Five cold/instrumented
+compiles, preservation, clean delayed closure, smoke86 and static ratchets pass.
+Four reviewed images show the complete message; existing Tree header/long-row
+limitations remain. Exact receipts: Production Run local results in code.
+Ordinary chain32/live48/warehouse15 also passes in prior order, with preservation,
+unassisted closure and zero delayed Excel errors. This is a clean current run,
+not a root-cause claim for prior intermittent failures. RUN-SCALE-01 implementation
+and broader acceptance remain open.
 
 B0 passes121/121 on unchanged General02, retaining117 and adding four bounded
 capture-settling checks. Actual native maximize/restore retains exact bounds and
@@ -1338,7 +1350,8 @@ the112 tracking failures retain their original approved RED scope.
 Required List/Tree Apply text when a required local staging table/column is missing:
 "Allocation could not finish: the required local staging table or columns are
 unavailable." Keep FAILED observation semantics, no repair and no rollback claim.
-Architecture D18 records the exact exception; implementation/acceptance remain open.
+Architecture D18 records the exact exception. UI01 now has packaged GREEN276;
+broader acceptance remains open (see current evidence above).
 
 Architecture v4.11 D18's Ingredients Assignment refinement is implemented in
 unpromoted `validation-production-assignment-01`: catalog23 adds seven buttons
