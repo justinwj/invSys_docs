@@ -68,6 +68,15 @@ Next B0 native maximize/restore, Launcher/Close/page navigation and broader
 Operations/Admin coverage. Agent image review is not human acceptance;
 4be-A is not complete.
 
+B0 now retains103 prior checks and adds14 native maximize/restore checks on
+General02:117/117, five compiles, preservation and clean delayed closure. Both
+forms restore exact measured bounds with controls fitting, but two immediate
+restore captures clip left-edge content; later runner display is normal. Native
+visible acceptance remains open. Next compare immediate and later same-state
+captures before changing runtime or desktop bindings. Static metrics/28 caps are
+unchanged, three schemas and456 PowerShell parses pass. This is test evidence,
+not a runtime fix or B0 acceptance; see the Receiving replay results record.
+
 Recorded transfers and independent guide comparisons pass **499/499** on unchanged
 `validation-guide-transfer-notice-01`, retaining all79 ordered observation checks.
 Twenty actual recordings/evaluations cover terminal faults, interruption,

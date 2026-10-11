@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.507 -- Settings action-recording548 retained; 4be-A open.
+**Version:** 1.508 -- B0 native checks117; restored capture acceptance open.
 
 D18 catalog31 specifies nine discovered General controls: ADMIN_SETTINGS_RELOAD,
 ADMIN_SETTINGS_SELECT_CONFIG, ADMIN_CARRIER_ADD/REMOVE/RESET/SELECT,
@@ -69,6 +69,14 @@ reviewed captures, preservation and clean delayed closure. Its509/39 first run
 had only a stale catalog27 assertion; correcting it to31 changes no runtime.
 Next B0 native maximize/restore, Launcher/Close/page navigation, broader coverage
 and human acceptance remain open; 4be-A is incomplete.
+
+B0 General02 retains103 checks and adds14 native maximize/restore checks:117/117,
+five compiles, preservation and clean delayed closure. Both forms restore exact
+measured bounds and fit controls; two immediate restored captures clip left-edge
+content, while a later runner capture is normal. Native visible acceptance remains
+open pending same-state capture diagnosis. Runtime is unchanged; static metrics/
+28 caps and three schemas remain valid,456 scripts parse. See the Receiving replay
+results record; these tests do not accept B0 or4be-A.
 
 Published guides Export/Import now have scoped recording/evaluation proof:
 499/499 retains all79 ordered observation checks and adds420 checks covering20
