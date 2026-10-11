@@ -1311,13 +1311,14 @@ successful worksheet reload, D14 rebuild preservation and full acceptance remain
 separate requirements. The missing-definition D14 guard has scoped RED54/7 to
 GREEN61 on 2026-10-11: an unavailable definition after refresh returns False
 before staging rebuild, preserving unknown columns. Subsequent Scale effects and
-wording remain unchanged pending RUN-SCALE-02. See the current Plan022 record.
+wording remain unchanged in that candidate; approved RUN-SCALE-02 below governs
+the next implementation. See the current Plan022 record.
 
-**Proposed decision RUN-SCALE-02 -- approval required:** With Designs disabled,
+**Approved decision RUN-SCALE-02 (user approval 2026-10-11):** With Designs disabled,
 a failed worksheet recipe load can still scale prior local values and display
 "Loaded recipe, but no output rows were prepared". The missing-definition D14
 guard preserves custom fields and records FAILED, but RUN-SCALE-01 currently
-preserves these subsequent effects and wording. Proposed exception: after the
+preserves these subsequent effects and wording. Approved exception: after the
 worksheet owner returns False and captured-context checks pass, Apply Scale stops
 before scaling, output preparation or subsequent refresh. Display exactly
 "Recipe could not be loaded. Scale was not applied." Keep FAILED/Error/Unknown;
@@ -1325,7 +1326,7 @@ do not claim rollback of effects inside the owner. Successful worksheet loads,
 loaded reusable runs and the enabled/unloaded refusal retain their contracts.
 Require actual-handler RED/GREEN for missing definitions and caught owner
 failures, unchanged prior quantities/custom fields, exact wording and observations.
-This proposal is not authorization to implement the changed behavior.
+Approval authorizes implementation; acceptance still requires the stated evidence.
 
 **Approved decision RUN-UI-01 (user approval 2026-10-11):** Packaged
 worksheet allocation tests show that List/Tree Apply can display "Acceptable
@@ -2688,6 +2689,36 @@ acceptance rule and D18's Settings surface; it introduces no control action,
 configuration schema, authority or permission change. Define and run the packaged
 geometry criterion on the current candidate before correcting the layout, then
 verify the same criterion and visible screenshots on the corrected candidate.
+
+**Admin Settings Close observation refinement (catalog32; acceptance pending):**
+Under approved D18 comprehensive recording and semantic inheritance, register
+`ADMIN_SETTINGS_CLOSE` for `frmAdminSettings.mBtnClose_Click` and explicit native
+window close. Preserve catalogs1-31. Owner is ADMIN_SETTINGS_UI, role Admin,
+class Command, caption Close, surface `Admin > Settings`, capability ADMIN_MAINT.
+This describes existing form eligibility; permission loss must never prevent
+dismissal. Older policies do not implicitly enable the new control.
+
+For one deliberate dismissal, record REQUESTED/Info/Unknown and then
+CLOSED/Info/Unchanged only after dismissal is committed. Fixed CLOSED wording is
+"Settings form dismissed; unsaved form edits discarded. No settings save or Domain application is asserted."
+Unchanged refers to saved settings/authority, not discarded unsaved form controls.
+A dismissal exception permits FAILED/Error/Unknown, never assumed CLOSED.
+EventCode is ControlId plus underscore and outcome; references remain empty.
+Only CLOSED supplies a local CommandCompleted fact; SourceEventsApplied cannot
+conclude. No values, keys, paths, credentials or raw errors belong in observations.
+
+Retain the form's captured warehouse/session and current policy. Stale, switched
+or signed-out context still permits Close, without recording under a replacement
+context. Optional tracking failure cannot block dismissal or retry it; show its
+fixed notice even after the form disappears. Internal Unload, cleanup, termination
+and Excel shutdown create no user Close event. Native QueryClose may hide the
+form, finish the dismissal observation and allow ordinary teardown, as in the
+existing Production Close contract; no hidden reusable instance, deferred event,
+new save, confirmation or authority write is introduced. Retain public-launcher
+reopening and unsaved-edit discard. Settings Open and deliberate pages remain
+separate coverage. Require actual-handler/native-window RED/GREEN, internal-unload
+exclusion, captured-context/permission/policy/storage cases, preserved authority,
+immutable records and independent guide conclusion before accepting this control.
 
 **General Settings observation refinement (catalog31):** Register the nine
 existing General controls below under D18's comprehensive recording rule. This

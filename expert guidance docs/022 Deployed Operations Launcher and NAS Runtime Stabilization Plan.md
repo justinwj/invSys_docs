@@ -4,13 +4,27 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Pending RUN-SCALE-02:** the actual missing-definition Scale capture still says
+**Independent Close continuation:** unpromoted `validation-admin-close-02`
+implements D18 catalog32 under approved comprehensive recording/semantic
+inheritance, preserving the existing workflow. Actual-handler RED34/19 to GREEN53
+protects button/native dismissal, discard/reopen, internal cleanup exclusion,
+captured-context loss, disabled tracking and same-session permission revocation.
+Five cold/instrumented compiles, static ratchets, Production Close232, clean
+preserved closure and two intact reviewed forms pass. Initial01 Settings202 retains
+its scope. Final02 smoke86 and ordinary chain32/live48/warehouse15 also pass;
+the prior intermittent native fault remains unresolved. Extended GREEN70 covers
+user-off, older-policy and storage notices. Independent guide and broader
+acceptance remain open.
+Open/page navigation remain separate; RUN-SCALE-02 is approved below. Exact receipts:
+`tests/integration/plan022_slice4be_admin_close_results.md`.
+
+**Approved RUN-SCALE-02 (2026-10-11; implementation pending):** the actual missing-definition Scale capture still says
 the recipe loaded and shows prior values scaled after the owner failed. The
-Architecture v4.11 proposal stops subsequent scaling/output preparation/refresh
+Architecture v4.11 decision stops subsequent scaling/output preparation/refresh
 on a False worksheet-load result and displays "Recipe could not be loaded. Scale
 was not applied." Keep FAILED without rollback claims. This explicitly changes
-RUN-SCALE-01's preserved partial effects/wording and requires user approval before
-implementation; the independent D14 missing-definition guard does not authorize it.
+RUN-SCALE-01's preserved partial effects/wording. User approval is recorded in the
+normative decision before implementation; focused actual-handler RED/GREEN is next.
 
 **Current D14 continuation,2026-10-11:** unpromoted
 `validation-run-scale-empty-recipe-01` returns False before rebuilding staging
@@ -18,7 +32,7 @@ when the selected worksheet definition remains unavailable after refresh.
 Actual-handler RED54/7 to GREEN61 preserves unknown columns/values/formulas and
 records FAILED, with five cold/instrumented compiles, clean preserved closure,
 retained disabled160/smoke86 and unchanged static ratchets. Existing subsequent
-scaling and loaded-recipe wording remain visible; RUN-SCALE-02 is pending. This is
+scaling and loaded-recipe wording remain visible; RUN-SCALE-02 implementation is pending. This is
 not successful worksheet reload,
 general rebuild preservation, native chain or comprehensive Scale/4be-A acceptance.
 Exact receipts: Production Run local results in code.

@@ -1,11 +1,25 @@
 # invSys Form Controls v1
 
-**Version:** 1.514 -- Missing-definition staging preservation GREEN61; RUN-SCALE-02 pending.
+**Version:** 1.516 -- Admin Settings Close scoped GREEN70; RUN-SCALE-02 approved.
 
-Pending RUN-SCALE-02 in Architecture v4.11: when worksheet loading returns False,
-Apply Scale would stop before further scaling/output preparation/refresh and say
+Unpromoted `validation-admin-close-02` implements Architecture D18 catalog32:
+btnClose/native window close record ADMIN_SETTINGS_CLOSE only for deliberate
+dismissal. Actual-handler RED34/19 to GREEN53 preserves discard/reopen, internal
+cleanup exclusion, stale/signed-out dismissal and disabled tracking; same-session
+permission loss still permits Close. Five cold/instrumented compiles, static
+ratchets, Production Close232, clean preserved closure and two reviewed intact
+forms pass; final02 chain32/live48/warehouse15 passes without a delayed native
+fault, and final02 smoke86 passes. Earlier intermittent native failures remain
+unresolved. Initial01 Settings202 retains its scope. Extended GREEN70 covers user-off,
+older-policy and storage notices. Independent guide and broader gates remain
+open; no full control/4be-A acceptance.
+Exact receipts: `plan022_slice4be_admin_close_results.md` in code. Open/page
+navigation remain separate coverage; Scale proof below retains its candidate scope.
+
+Approved RUN-SCALE-02 in Architecture v4.11 (user approval 2026-10-11): when worksheet loading returns False,
+Apply Scale must stop before further scaling/output preparation/refresh and say
 "Recipe could not be loaded. Scale was not applied." FAILED remains; owner effects
-are not rolled back. This change is not approved or implemented. The current
+are not rolled back. Implementation and focused RED/GREEN remain pending. The current
 captured status still claims the recipe loaded and prior quantities are scaled;
 visible acceptance of that failure remains open despite corrected recording.
 
@@ -14,8 +28,8 @@ values and formulas when the selected worksheet recipe remains unavailable after
 refresh. Actual-handler RED54/7 to GREEN61 records FAILED and stops staging rebuild.
 Five cold/instrumented compiles, retained disabled160/smoke86, clean preserved
 closure and unchanged static ratchets pass. The reviewed image shows the existing
-misleading loaded status and subsequent scaling; correcting that behavior awaits
-RUN-SCALE-02 approval above.
+misleading loaded status and subsequent scaling; correcting that behavior is now
+authorized by RUN-SCALE-02 above.
 Successful worksheet reload, general D14 rebuild preservation, independent guidance
 and native chain acceptance remain open. Exact receipts: Production Run local
 results in code. No comprehensive Scale or4be-A acceptance.
