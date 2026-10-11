@@ -12,7 +12,27 @@ Missing required worksheet allocation tables/columns must instead report
 "Allocation could not finish: the required local staging table or columns are
 unavailable." and FAILED, without repair or a rollback claim. Protect both through
 the actual packaged handlers with focused RED/GREEN and retained regressions.
-RUN-SCALE-01 implementation and remaining acceptance are open. Earlier pending/unapproved references
+RUN-SCALE-01 now has focused RED134/84 to GREEN218 on unpromoted
+`validation-run-scale-01`: nine enabled/unloaded refusals and an actual released
+Load/Scale sequence. Five cold/instrumented compiles, preservation, clean delayed
+closure and static ratchets pass. Both reviewed status messages are readable;
+long row labels still clip. Loaded-run/binding503 now passes in prior order,
+retaining445 passes and resolving58 Scale failures, with normal closure and clean
+delayed audit. Fault/nesting245 and read-interruption236 also pass in prior order,
+with preservation and clean unassisted closure. The interruption fixture required
+an identifier-casing correction before execution. Ordinary policy218 also passes
+in exact prior order after correcting the historical-policy fixture, with five
+compiles and clean preserved closure. Independent Load/Scale guidance now passes
+RED53/1 to GREEN104: two separate recordings, exact matched local conclusion,
+all three views, six reviewed captures and clean preserved closure. Smoke86 and
+ordinary chain32/live48/warehouse15 pass with clean preserved closure. Full reusable
+regression retains171 Boolean observations/two aggregates, with clean restart and
+final closure. Layout geometry and six reviewed captures qualify on the isolated
+repeat; the first run's two black captures remain rejected. Designs-disabled
+recording and broader acceptance remain open. Two pre-case COM failures
+remain unaccepted evidence; recovery files were preserved on assisted normal
+closure. Code checkpoint: `6a845ce5`. Exact receipts: Production Run local results in code.
+Earlier pending/unapproved references
 below describe their historical checkpoints and are superseded by this approval.
 
 Native B0 capture continuation passes121/121 on unchanged General02, retaining
@@ -32,7 +52,7 @@ Four reviewed captures show the approved failure text; existing Tree layout
 limitations remain. Ordinary chain32/live48/warehouse15 now passes in prior order
 with preservation, unassisted closure and zero delayed Excel failures. This
 qualifies the current run without claiming the earlier intermittent failures are
-repaired. RUN-SCALE-01 implementation and broader acceptance remain open.
+repaired. The scoped Scale implementation is recorded above; broader acceptance remains open.
 Exact receipts: `tests/integration/plan022_slice4be_production_run_local_results.md`.
 Recorded full gate passes871/871 on unchanged, unpromoted
 `validation-general-settings-02`: all647 ordered policy/permission checks plus224

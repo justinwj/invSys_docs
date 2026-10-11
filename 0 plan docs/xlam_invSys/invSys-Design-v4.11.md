@@ -1300,7 +1300,13 @@ not weaken D15 authority. Required D13 evidence: actual packaged Apply Scale
 refusal with a real released selection, unchanged local/custom values and exact
 identity, no Design/BOM read, correct observation, and the existing Load Recipe
 then Apply Scale sequence reaching STAGED through released Process/Recipe reads.
-Approval authorizes implementation; packaged acceptance remains outstanding.
+Approval authorizes implementation. Focused packaged evidence on 2026-10-11 is
+RED134/84 to GREEN218 for the enabled load-first boundary and actual released
+Load/Scale sequence, followed by503/503 loaded-run and binding checks.
+Independent Load/Scale guide proof is RED53/1 to GREEN104, with two distinct
+recordings and a local-command conclusion; it does not assert inventory application.
+Designs-disabled recording and full acceptance remain separate requirements;
+see the current Plan022 record.
 
 **Approved decision RUN-UI-01 (user approval 2026-10-11):** Packaged
 worksheet allocation tests show that List/Tree Apply can display "Acceptable

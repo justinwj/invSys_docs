@@ -1,6 +1,27 @@
 # invSys Form Controls v1
 
-**Version:** 1.511 -- RUN-UI-01 packaged GREEN276; broader acceptance open.
+**Version:** 1.512 -- RUN-SCALE-01 focused GREEN218 and guide104; broader acceptance open.
+
+RUN-SCALE-01's enabled/unloaded refusal and actual released Load/Scale sequence
+pass RED134/84 to GREEN218 on unpromoted `validation-run-scale-01`. Five cold/
+instrumented compiles, preservation, clean delayed closure and static ratchets
+pass. Both status messages are fully visible in reviewed images; long row labels
+still clip. Loaded-run/binding503 passes in prior order, retaining445 passes and
+resolving58 Scale failures, with normal closure and clean delayed audit.
+Fault/nesting245 and read-interruption236 also pass in prior order with preservation
+and clean unassisted closure. Ordinary policy218 passes in exact prior order after
+correcting the historical-policy fixture, with five compiles and clean preserved
+closure. Independent Load/Scale guidance passes RED53/1 to GREEN104: two distinct
+recordings, exact two-action conclusion, all three views and six reviewed captures.
+Smoke86 and ordinary chain32/live48/warehouse15 pass with clean preserved closure.
+Full reusable regression retains171 Boolean observations/two aggregates, including
+clean restart/final closure. Layout geometry and six reviewed captures qualify on
+an unchanged isolated repeat; the first run's two black captures remain rejected.
+Designs-disabled recording and broader acceptance remain open.
+Two pre-case COM interruptions remain unaccepted evidence;
+normal assisted closure preserved recovery files. Exact receipts: Production Run
+local results in code, checkpoint `6a845ce5`. No comprehensive Scale, human or
+4be-A acceptance is claimed.
 
 Approved RUN-UI-01 is implemented in unpromoted `validation-run-ui-01`:
 worksheet List/Tree Apply reports the exact approved failure wording when staging
@@ -11,8 +32,8 @@ Four reviewed images show the complete message; existing Tree header/long-row
 limitations remain. Exact receipts: Production Run local results in code.
 Ordinary chain32/live48/warehouse15 also passes in prior order, with preservation,
 unassisted closure and zero delayed Excel errors. This is a clean current run,
-not a root-cause claim for prior intermittent failures. RUN-SCALE-01 implementation
-and broader acceptance remain open.
+not a root-cause claim for prior intermittent failures. The Scale checkpoint above
+supersedes the earlier implementation-pending status; broader acceptance is open.
 
 B0 passes121/121 on unchanged General02, retaining117 and adding four bounded
 capture-settling checks. Actual native maximize/restore retains exact bounds and
