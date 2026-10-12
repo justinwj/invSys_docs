@@ -1338,9 +1338,13 @@ reload with custom columns between managed fields. The correction retains custom
 columns/values/formulas in chooser, palette and output staging and resolves managed
 fields by normalized name. It preserves the exact input key, prepares output without
 allocating a premature key, and does not compound the scale on repetition. This
-implements D14 without changing the successful-load contract. General rebuild
-coverage and independent worksheet guides remain separate acceptance requirements;
-Plan022 and the controls catalog record the current candidate and regression scope.
+implements D14 without changing the successful-load contract. Independent successful
+and interrupted worksheet Scale guide proof now passes197 on that unchanged candidate:
+fresh exact recordings, published observations, authorized authoring, reader evaluation
+and all three views retain provenance and distinguish concluded from incomplete evidence.
+This verifies existing D18, without claiming Domain application or human acceptance.
+General rebuild coverage remains separate; Plan022 and the controls catalog record
+the current candidate and regression scope.
 
 **Approved decision RUN-UI-01 (user approval 2026-10-11):** Packaged
 worksheet allocation tests show that List/Tree Apply can display "Acceptable

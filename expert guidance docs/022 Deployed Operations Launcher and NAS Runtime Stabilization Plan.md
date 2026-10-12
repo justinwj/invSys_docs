@@ -17,14 +17,26 @@ at Shipping Sent with COM0x800706BE/ntdll c0000028: chain5/1, live40/1, warehous
 Recovery closure was assisted; no current full-chain acceptance. Independent smoke86
 and six-page layout pass with clean preserved closure and reviewed capture evidence.
 Receipts: `tests/integration/plan022_slice4be_production_run_local_results.md`.
-This enforces existing D14; general rebuild coverage, independent worksheet guides
-and comprehensive4be-A acceptance remain open.
+This enforces existing D14; general rebuild coverage and comprehensive4be-A acceptance remain open.
+
+**Independent worksheet Scale guides,2026-10-12:** the unchanged candidate passes197
+through actual packaged handlers. Separate source/observed recordings conclude only
+from the observed two Scale actions; sign-out after one action stays Incomplete with
+one missing step. Exact publication/provenance, authorized authoring, reader evaluation,
+all three views and six reviewed captures pass without a Domain-application claim.
+Five compiles, all48 shared checks, preservation and normal delayed closure pass.
+Static metrics and all28 size caps are unchanged;462 scripts parse. Two corrected
+fixture failures are not behavioral RED. The shared-helper Close regression retains123
+in exact prior order on this candidate, with five compiles and clean preserved closure.
+This adds existing-contract evidence only;
+human and remaining Operations/Admin acceptance remain open. Exact receipts are in
+`tests/integration/plan022_slice4be_production_run_local_results.md`.
 
 **Native diagnostic follow-up,2026-10-12:** early observer attachment fails before
 Shipping at Config bootstrap. Attachment at the Sent boundary then retains31
 executed chain/live48/warehouse15 checks with clean shutdown; static is deliberately
 skipped. Neither result diagnoses or repairs the original fault. Keep the bounded
-observer for the next planned chain and resume independent worksheet Scale guides.
+observer for the next planned chain; continue the remaining Operations/Admin coverage audit.
 Exact evidence: `tests/integration/plan022_slice4be_native_localization_results.md`.
 
 **Independent Close continuation:** unpromoted `validation-admin-close-02`

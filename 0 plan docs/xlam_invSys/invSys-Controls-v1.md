@@ -1,6 +1,19 @@
 # invSys Form Controls v1
 
-**Version:** 1.519 -- Successful worksheet Scale preserves custom staging fields.
+**Version:** 1.520 -- Independent worksheet Scale recording and guide conclusions verified.
+
+On unchanged `validation-run-scale-success-02`, independent worksheet Scale guide
+proof passes197. Exact separate source/observed recordings, publication and Event Detail,
+authorized guide authoring and reader evaluation distinguish two successful matches
+from an interrupted run with one match/one missing step. All three views preserve
+the evidence without claiming Domain application. Six captures were individually
+reviewed; multiline guidance, provenance and saved conclusions are readable, with
+scrolling exposing the successful comparison's tail. Five compiles, all48 shared
+checks, preservation and normal delayed closure pass. Static metrics/all28 size caps
+are unchanged;462 scripts parse. This is existing-contract agent evidence, not human
+or comprehensive4be-A acceptance. Exact receipts: Production Run local results.
+The shared-helper Close regression retains123 in exact prior order on this candidate,
+with five compiles, preservation and clean delayed closure; no runtime changed.
 
 Current unpromoted `validation-run-scale-success-02` enforces existing D14 through
 the packaged Apply Scale handler: RED66/3 to GREEN69, extended GREEN86 for repeated
@@ -12,7 +25,7 @@ Sent with COM0x800706BE/ntdll c0000028 (chain5/1, live40/1, warehouse15/15); rec
 closure was assisted and full-chain acceptance is blocked. Independent smoke86 and
 six-page layout pass with clean closure and reviewed capture evidence. Both success
 captures are reviewed; long recipe descriptions still clip. Current receipts are in the Production
-Run local results. General rebuild coverage, independent worksheet guides and
+Run local results. General rebuild coverage and
 human/comprehensive4be-A acceptance remain open. This changes no approved wording
 or workflow contract; earlier evidence below retains its candidate scope.
 Later observation attached at Shipping Sent retains31 executed chain/live48/warehouse15
