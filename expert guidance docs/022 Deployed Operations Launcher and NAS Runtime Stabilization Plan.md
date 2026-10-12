@@ -4,6 +4,17 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Current next action,2026-10-12:** begin approved D8-USERS-01 with actual-handler
+denial RED. Catalog37/157 `ADMIN_DEMO_SEED` has a qualified automated checkpoint:
+Console118, Settings202, smoke86 and chain32/live-role48/Create15 pass, with
+compile/static/preservation and clean delayed closure.
+Seed context/reentrancy/storage failures, publication and independent guide
+conclusions remain required. Recording RED37/6 -> GREEN114 retains70 prior
+lifecycle checks and covers all five outcomes, action/user suppression, immutable
+pending observations and unchanged prior156 catalog definitions. Other Demo
+Inventory form controls remain open. See the code Seed recording receipt for
+exact scope; comprehensive Seed recording and4be-A are not accepted.
+
 **Seed completion prerequisite,2026-10-12:** before recording successful Seed/Delete,
 protect exact owner completion. Packaged RED27/2 proves both callbacks report
 success when BatchSize1 applies an earlier event and leaves their own event NEW;
@@ -32,10 +43,10 @@ chooser/confirmation interaction is not claimed by these callback-seam regressio
 retains111 checks and confirms nine persisted writes without live Admin authority
 for the original warehouse: Save/Deactivate/Delete after sign-out, Reader switch
 or target change. Fixture and measurement checks passing are not authorization
-acceptance. Proposed v4.11 D8-USERS-01 places the three commands in headless Core,
+acceptance. The user approved v4.11 D8-USERS-01 on2026-10-12: it places the three commands in headless Core,
 binds them to the captured live authorized target/session and refuses unrelated
-dirty/invalid authority. Approval is required before changing the form-owned write
-and schema-ensure behavior. D8-A read/provisioning and processor rules remain.
+dirty/invalid authority. Proceed under D13 with the approved replacement of the
+form-owned write/schema-ensure behavior. D8-A read/provisioning and processor rules remain.
 No runtime change or new recording ID; code diagnostic receipt records exact scope.
 
 **Independent D18 rendering correction,2026-10-12:** refreshing Detail on the

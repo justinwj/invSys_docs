@@ -1,6 +1,19 @@
 # invSys Form Controls v1
 
-**Version:** 1.553 -- Seed/Delete completion qualified; recording and4be-A incomplete.
+**Version:** 1.554 -- Seed observation focused114; comprehensive recording and4be-A incomplete.
+
+`ADMIN_DEMO_SEED` is implemented for catalog37/157 under v4.11 D18 semantic inheritance;
+recording RED37/6 -> focused GREEN114 retains the70 lifecycle checks. Existing Seed Demo Inventory runs built-in or
+selected uploaded inventory through its ordinary callback. Owner evidence maps to
+APPLIED, UNCHANGED, PENDING, REJECTED or FAILED; only APPLIED/UNCHANGED conclude the
+command, and source application remains exact published Domain evidence. No CSV
+contents/paths, names, inventory values or entered user text enter observations.
+Other Demo Inventory controls, native form paths and complete recording/guide
+coverage remain open. All prior156 definitions remain unchanged; action/user
+suppression and pending-observation preservation pass. Fresh Console118,
+Settings202, smoke86 and chain32/live-role48/Create15 pass, with compile/static,
+preservation and clean delayed closure. See the code Seed recording receipt;
+this automated checkpoint does not close comprehensive Seed or4be-A acceptance.
 
 Seed Demo Inventory and Delete Demo Inventory: packaged RED27/2 proves false
 success when a one-event batch applies an earlier command instead. Under the
@@ -25,10 +38,10 @@ candidate01 approach was rejected. Exact scope: code Seed outcome receipt.
 Users & Roles Create/Update, Deactivate and Delete: diagnostic139 retains111
 baseline checks but shows all three writes persisting after sign-out, a Reader
 switch and a warehouse switch. This is a confirmed write-boundary gap, not
-recording or authorization acceptance. Proposed D8-USERS-01 requires captured
+recording or authorization acceptance. D8-USERS-01, approved by the user2026-10-12, requires captured
 live Admin authority through headless Core commands, exact trusted Auth target,
 and protection of unrelated edits; it replaces the form-owned write/schema-ensure
-path only after approval and D13. Existing captions, read/provisioning behavior
+path under D13. Implementation/acceptance remain pending. Existing captions, read/provisioning behavior
 and separate processor authorization remain. No new ControlId or runtime change.
 D16-VBA-LOAD-01 and D18-LOCAL-01 also remain proposed/unapproved.
 

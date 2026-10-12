@@ -4988,7 +4988,9 @@ authorization review or establish action-recording acceptance. Visible GREEN
 retains 111 checks and shows the readable refusal; existing form clipping remains
 open. Code receipt: `tests/integration/plan022_slice4be_admin_auth_read_results.md`.
 
-**D8-USERS-01 — Users & Roles write authority (PROPOSED; requires approval):**
+**D8-USERS-01 — Users & Roles write authority (APPROVED,2026-10-12):**
+The user explicitly approved this decision on2026-10-12. Implementation and
+acceptance remain pending; the approval authorizes the D13 work below.
 The packaged write diagnostic retains111 existing checks and adds28 fixture/
 measurement checks. Create/Update, Deactivate and Delete each persist after
 sign-out, a change to Reader, and a change to another warehouse's Admin session,
@@ -4997,7 +4999,7 @@ The form directly opens/mutates/saves its selected Auth workbook. D8 names Core
 authorization for posting/processor actions; the D8-A follow-up explicitly leaves
 this separate write review unresolved. Diagnostic139 is not authorization GREEN.
 
-If approved, headless Core commands own these three Auth mutations; Admin retains
+Headless Core commands own these three Auth mutations; Admin retains
 the existing form, staging, Delete confirmation and result presentation. Core must
 check the live invSys user/session generation, warehouse/station and ADMIN_MAINT
 against the context captured when the form opened, immediately before mutation
@@ -5021,7 +5023,7 @@ real packaged form handlers and direct Core boundary; then prove authorized writ
 post-confirmation context loss, exact target, dirty/read-only/missing/invalid Auth,
 unknown columns, read/provisioning regressions and truthful results. Use typed calls
 and primitive envelopes. New recording controls/results remain a later D18 step.
-Plan022 and Controls1.550 track this proposal; no implementation is approved yet.
+Plan022 and the controls catalog track this approved decision; no acceptance is claimed.
 
 ---
 ### D9 -- Operator Read Models and Refresh Contract (R1 Locked)
@@ -5521,6 +5523,41 @@ with Admin Generate Warehouse/Create Warehouse and optional bootstrap or Admin
 - Added custom headers survive their declared local/shared persistence boundary.
 - The supported greenfield generation/seed path does not call legacy inventory
   import or migration behavior.
+
+**Demo Seed observation (D18 discovered-control refinement,2026-10-12; comprehensive acceptance pending):**
+Catalog37 adds `ADMIN_DEMO_SEED`, caption Seed Demo Inventory, surface Admin > Demo
+Inventory, class Command, owner `ADMIN_DEMO_INVENTORY`, capability ADMIN_MAINT.
+It observes the existing public callback's built-in or selected uploaded Seed
+owner; the legacy programmatic UPLOAD alias uses this same inventory-creation
+observation, not the separate Upload Data Set definition command. Existing catalog36
+definitions remain unchanged. This clarifies approved comprehensive D18 coverage;
+it changes no authorization, processing limit, selection or replay capability.
+
+Record REQUESTED/Unknown and exactly one owner-derived terminal: APPLIED/Changed
+only for this command's saved Domain receipt; UNCHANGED/Unchanged for the owner's
+successful no-op; PENDING/Unknown when its accepted event has no saved application
+receipt; REJECTED/Unchanged for an established non-mutating owner validation refusal
+before submission; FAILED/Unknown
+for an exception or uncertain result. APPLIED/PENDING require exactly this command's
+one Inventory SourceEventRef with SubmissionState Submitted. FAILED may retain its
+one actually accepted reference; REQUESTED/UNCHANGED/REJECTED have none. Never infer
+an EventId from the latest inbox row, processor count or another command. Only
+APPLIED and UNCHANGED satisfy CommandCompleted; SourceEventsApplied still requires
+the exact published Domain event evidence. Recording an APPLIED receipt does not
+claim publication, operator refresh or replay support.
+
+Use the captured signed-in actor/warehouse/session and current recording policy.
+Never label a selected different warehouse/user as that captured context. Preserve
+ordinary action semantics when optional recording is unavailable; disclose the
+tracking failure without substituting it for the business result. Do not record
+CSV contents, paths, selected names, inventory values, entered user text or error
+details. Names/versions and source-reference envelopes use existing D18 validation.
+
+The remaining reachable Demo Inventory controls stay open: launcher, warehouse and
+data-set selectors, user entry, Delete Inventory, Upload/Delete Data Set, Repair
+Inboxes and Close. Their form-level validation/cancellation and owner facts require
+separate observation tests; registering Seed does not cover them or authorize
+automatic replay. Native chooser behavior is unchanged by this mapping.
 
 **Demo completion correction (D14/D18 implementation refinement,2026-10-12):**
 Seed (built-in or uploaded) and Delete Demo Inventory may report applied success
