@@ -1,6 +1,18 @@
 # invSys Form Controls v1
 
-**Version:** 1.531 -- Users & Roles read separation; Reconcile contract approved.
+**Version:** 1.532 -- Approved Reconcile history and Domain RED.
+
+Shipment Reconcile expanded RED31/24 retains all18 prior checks. The actual
+callback selects older and multi-entity/multiline shipments; failures cover
+entity-only quantity, exact identity in payload/prompts, current attributes and
+nonmutating inspection. Actual queued application fails exact quantity/custom
+value preservation. Domain accepts wrong-entity/non-SHIP references and positive
+corrections; missing narrative and duplicate handling pass. Five compiles,
+preservation and clean delayed closure pass. Distinct key-bound canaries/sorted
+rows retain the result; static caps/metrics, three schemas and473 scripts pass.
+No runtime correction, new tracking
+ID, native-dialog or full acceptance claim. Approved D14-RECON-01 governs the
+next correction; code `plan022_slice4be_admin_reconcile_results.md` has receipts.
 
 `frmCreateDeleteUser` Refresh/user selection now opens closed Auth read-only and
 validates without schema maintenance under approved D8-A. Missing/invalid Auth

@@ -4,6 +4,20 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Expanded Reconcile RED, 2026-10-12:** approved D14-RECON-01 now has31 pass/24
+expected fail on unchanged Reconcile code in `validation-admin-auth-read-01`,
+retaining all18 original checks/outcomes. Repeated/multi-entity/multiline history,
+actual queued application and Domain guards expose exact-key/quantity/prompt/
+attribute/read-preservation defects and custom-value loss on projection rebuild.
+Wrong-entity, non-SHIP and positive corrections are accepted; missing narrative
+and duplicate-event handling pass. Five compiles, preservation and clean delayed
+closure pass. Distinct key-bound canaries and sorted rows retain the same RED;
+static caps/metrics hold, three schemas and473 scripts validate. No runtime fix
+yet. Implement the approved owner/read/queue and
+Domain corrections next; closed/missing/invalid authority, cancellation, role,
+native/layout, processor and regressions remain required. Controls1.532 and code
+`plan022_slice4be_admin_reconcile_results.md` record exact scope.
+
 **Users & Roles read prerequisite, 2026-10-12:** approved D8-A correction on
 `validation-admin-auth-read-01`: RED 103/8 -> GREEN 111/111, retaining all 82
 previous Auth checks and explicit Save/Deactivate/Delete behavior. Only the
@@ -13,8 +27,7 @@ metrics hold. Visible GREEN retains111 with three reviewed captures and readable
 refusal; existing clipping, write authorization and comprehensive Admin recording
 remain open. Controls1.531 and code
 `plan022_slice4be_admin_auth_read_results.md` record this scope. D14-RECON-01
-is approved; its repeated/multi-entity and Domain tests remain next after this
-read prerequisite.
+is approved; the expanded protecting RED is recorded above.
 
 **Shipment Reconcile prerequisite,2026-10-12:** actual packaged callback RED is
 15 pass/3 fail: selected System_Key absent, legacy Row queued, borrowed inventory

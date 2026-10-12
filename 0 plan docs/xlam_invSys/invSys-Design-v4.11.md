@@ -5030,6 +5030,17 @@ five compiles and normal delayed shutdown pass. This is queue-side evidence, not
 Domain application or native-dialog acceptance. Code receipt:
 `tests/integration/plan022_slice4be_admin_reconcile_results.md`.
 
+Expanded approved-contract RED, 2026-10-12:31 pass/24 expected fail, retaining
+the original18 checks. Real owner-generated repeated/multi-entity/multiline
+history exposes aggregate contamination, missing visible identity and current
+attributes, and dirty inspection. Actual queued Domain application fails exact
+entity quantity/custom-value preservation; wrong-key, non-SHIP and positive
+corrections are accepted. Missing narrative and idempotency pass. Five compiles,
+normal preserved closure and delayed native audit pass. These findings require
+implementation corrections under D14/D14-RECON-01, not a compatibility exception.
+No runtime correction or broader acceptance is claimed; the same code receipt
+records exact fixtures, attribution and remaining gates.
+
 `EventID`, `RunId`, `DesignId`/`DesignVersion`, shipment IDs, and other
 specialized identifiers remain when they identify a different record or
 workflow concept. They do not replace the affected inventory entity's
