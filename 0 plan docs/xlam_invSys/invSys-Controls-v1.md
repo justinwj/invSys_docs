@@ -1,6 +1,16 @@
 # invSys Form Controls v1
 
-**Version:** 1.549 -- Event Detail final-glyph correction; station/local proposals pending;4be-A incomplete.
+**Version:** 1.550 -- Users & Roles write-authority proposal;4be-A incomplete.
+
+Users & Roles Create/Update, Deactivate and Delete: diagnostic139 retains111
+baseline checks but shows all three writes persisting after sign-out, a Reader
+switch and a warehouse switch. This is a confirmed write-boundary gap, not
+recording or authorization acceptance. Proposed D8-USERS-01 requires captured
+live Admin authority through headless Core commands, exact trusted Auth target,
+and protection of unrelated edits; it replaces the form-owned write/schema-ensure
+path only after approval and D13. Existing captions, read/provisioning behavior
+and separate processor authorization remain. No new ControlId or runtime change.
+D16-VBA-LOAD-01 and D18-LOCAL-01 also remain proposed/unapproved.
 
 Event Detail's existing multiline value Labels now retain two points of height
 after text measurement, preventing final-glyph clipping observed at96DPI. No new

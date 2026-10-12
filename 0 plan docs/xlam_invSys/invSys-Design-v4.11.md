@@ -4988,6 +4988,41 @@ authorization review or establish action-recording acceptance. Visible GREEN
 retains 111 checks and shows the readable refusal; existing form clipping remains
 open. Code receipt: `tests/integration/plan022_slice4be_admin_auth_read_results.md`.
 
+**D8-USERS-01 — Users & Roles write authority (PROPOSED; requires approval):**
+The packaged write diagnostic retains111 existing checks and adds28 fixture/
+measurement checks. Create/Update, Deactivate and Delete each persist after
+sign-out, a change to Reader, and a change to another warehouse's Admin session,
+although Core denies ADMIN_MAINT for the original warehouse in all nine cases.
+The form directly opens/mutates/saves its selected Auth workbook. D8 names Core
+authorization for posting/processor actions; the D8-A follow-up explicitly leaves
+this separate write review unresolved. Diagnostic139 is not authorization GREEN.
+
+If approved, headless Core commands own these three Auth mutations; Admin retains
+the existing form, staging, Delete confirmation and result presentation. Core must
+check the live invSys user/session generation, warehouse/station and ADMIN_MAINT
+against the context captured when the form opened, immediately before mutation
+(after any confirmation). Sign-out, user/session/target change or lost capability
+refuses the write. Reopen the form under the intended authorized warehouse; do
+not silently rebind a stale form or substitute a Windows/Office identity.
+
+The selected Auth path must equal the captured trusted target's exact Auth path;
+typed/discovered paths and user scope fields are not authority to select another
+write target. Preserve existing user/capability field semantics and unknown columns.
+Reject missing/invalid/read-only authority and unrelated dirty borrowed workbooks
+before mutation; never save unrelated edits. Normal user commands do not create
+or repair Auth schema. This explicitly replaces the form's current write/opener
+schema-ensure path; approved Generate Warehouse and station provisioning remain
+separate. Borrowed workbook ownership, ordinary read behavior and headless
+processor authorization stay unchanged. Failed persistence never reports success
+or claims unproved rollback. No credentials/account payloads enter activity or logs.
+
+Approval authorizes D13, not acceptance: first require denied writes through the
+real packaged form handlers and direct Core boundary; then prove authorized writes,
+post-confirmation context loss, exact target, dirty/read-only/missing/invalid Auth,
+unknown columns, read/provisioning regressions and truthful results. Use typed calls
+and primitive envelopes. New recording controls/results remain a later D18 step.
+Plan022 and Controls1.550 track this proposal; no implementation is approved yet.
+
 ---
 ### D9 -- Operator Read Models and Refresh Contract (R1 Locked)
 **Decision:** Operator-facing inventory tables are read models refreshed from published or local warehouse snapshots. They are not authoritative write targets.

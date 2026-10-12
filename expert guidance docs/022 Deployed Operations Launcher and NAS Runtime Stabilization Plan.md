@@ -4,6 +4,16 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Independent Users & Roles prerequisite,2026-10-12:** packaged diagnostic139
+retains111 checks and confirms nine persisted writes without live Admin authority
+for the original warehouse: Save/Deactivate/Delete after sign-out, Reader switch
+or target change. Fixture and measurement checks passing are not authorization
+acceptance. Proposed v4.11 D8-USERS-01 places the three commands in headless Core,
+binds them to the captured live authorized target/session and refuses unrelated
+dirty/invalid authority. Approval is required before changing the form-owned write
+and schema-ensure behavior. D8-A read/provisioning and processor rules remain.
+No runtime change or new recording ID; code diagnostic receipt records exact scope.
+
 **Independent D18 rendering correction,2026-10-12:** refreshing Detail on the
 current dependency set exposed final-glyph clipping at96DPI despite88 passing
 geometry/content checks. Packaged pixel comparison with temporary label enlargement
