@@ -5329,6 +5329,15 @@ before events are queued.
 - Sensitive custom fields follow the same runtime-report redaction rules as
   managed sensitive data.
 
+**Warehouse Directory enforcement clarification, 2026-10-12:** D14 also applies
+to `tblWarehouseDirectory`. Refresh replaces its managed fields in discovery
+order while retaining unknown headers, cells, formulas and column positions,
+including local cells beyond the refreshed result count. Reuse existing table
+rows and clear only managed fields; retained local cells must not prevent the
+existing no-results message. This is workbook-local preservation, not a new
+warehouse identity, annotation-association, or shared custom-field contract.
+Discovery, deduplication, permissions and saved warehouse authority are unchanged.
+
 **Condition rule:** `Condition` is a managed inventory header, not an
 uncontrolled custom field. Seeded demo inventory defaults to `GOOD`. Condition
 may change only through the declared event/service path, and partial condition

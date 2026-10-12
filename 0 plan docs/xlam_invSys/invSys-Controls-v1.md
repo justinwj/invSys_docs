@@ -1,6 +1,18 @@
 # invSys Form Controls v1
 
-**Version:** 1.545 -- Admin Console coverage verified; D18-LOCAL-01 pending;4be-A incomplete.
+**Version:** 1.546 -- View Warehouses D14 prerequisite; D18-LOCAL-01 pending;4be-A incomplete.
+
+View Warehouses (`btnAdminWarehouses`, Admin, ADMIN_MAINT): packaged directory
+refresh on console-03 loses unknown-column text and a local tail value (initial
+19/2 RED, expanded26/4). D14 requires managed-field-only refresh with existing
+local cells/formulas/header positions preserved. Discovery order and existing
+no-results wording remain; retaining local cells is not warehouse identity or
+annotation association. Unpromoted directory-01 passes31 focused checks,
+Console118, smoke86, five compiles and static limits. One reviewed generated
+capture shows retained local cells. Native chain failures prevent acceptance;
+tracing localizes one to the live-role processor call after projection deletion.
+The narrower trace currently fails installation, not business assertions.
+Clean chain qualification and recording remain pending; no native repair claimed.
 
 Verified eligible NAS D18 coverage: catalog36 `ADMIN_CONSOLE_OPEN`, Admin
 Console / Admin, Navigation, ADMIN_MAINT. Actual callback REQUESTED then OPENED

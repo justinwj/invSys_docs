@@ -4,6 +4,20 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Active prerequisite: View Warehouses / D14.** Before recording this callback,
+protect unknown local cells during directory refresh. Actual packaged
+`btnAdminWarehouses` RED26/4 on console-03 leads to GREEN31 on unpromoted
+directory-01: clear only managed fields and reuse rows, leaving local cells in
+place. Discovery order, deduplication, the no-results message and saved authority
+remain. Five compiles, Console118, smoke86, one reviewed capture and static limits
+pass. Chain acceptance remains blocked by native Excel failures: the traced run
+identifies the live-role processor call after projection deletion; another run's
+32/live48/Create15 passes coexist with a native crash. A narrower diagnostic stops
+at a compiled trace-anchor mismatch before business execution. Correct/protect
+that tooling before further localization; no native repair is claimed. The code
+directory-columns receipt records exact runs, restoration and next test.
+No new control ID or recording acceptance yet.
+
 **Completed independent control:** Admin Console, under v4.11 D18's discovered-control
 refinement. Catalog36 `ADMIN_CONSOLE_OPEN` observes actual presentation only;
 REQUESTED/OPENED/FAILED retain Unknown effects and empty references. Protect the
