@@ -1,6 +1,13 @@
 # invSys Form Controls v1
 
-**Version:** 1.557 -- Registered SAVED/APPLIED editor choices GREEN43;4be-A incomplete.
+**Version:** 1.558 -- Users recording storage-failure gate GREEN420;4be-A incomplete.
+
+Users Create/Update, Deactivate and Delete each retain one persisted write and one
+fixed tracking notice when the attempt or outcome activity-file Open fails.
+GREEN420 retains353 checks, adds six real failures, fresh saved-state reads and
+honest partial evidence; fixtures/pins/settings and earlier activity are preserved.
+No product or wording change. Native notice presentation, context/continuous
+recording and independent guide proof remain open. See the code Users storage receipt.
 
 The shared Expected conclusion editor must offer SAVED for all three Users writes
 and APPLIED for Seed, retaining other registered choices and excluding unrelated

@@ -4,8 +4,12 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current next action,2026-10-12:** protect Users recording storage/context/continuous-recording boundaries
-before independent publication and saved-guide conclusions. Actual editor RED35/4
+**Current next action,2026-10-12:** protect Users recording context loss at the optional
+observation boundary, then continuous recording, publication and independent guides.
+Test-only GREEN420 retains353 checks and proves six real attempt/outcome Open
+failures leave one business write, one fixed notice and truthful partial records.
+Pins/settings/fixtures, five instrumented compiles, static metrics/schemas and
+delayed native audit pass; see the code Users storage receipt. Actual editor RED35/4
 -> GREEN43 offers/selects Users SAVED and Seed APPLIED, retaining39 RED checks;
 two reviewed editor captures are readable. Only Core/modExpectationDraft changes
 among335 compiled components; five cold compiles and Operations cold start pass.

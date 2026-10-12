@@ -2164,13 +2164,20 @@ confirmed saves, dirty-authority rejection, real BeforeSave cancellation, Reader
 denial, declined Delete and quiet global/action/user suppression. All157 prior
 definitions remain unchanged. Five cold/instrumented compiles, four reviewed
 captures, preservation and delayed native audits pass. Context/storage boundaries,
-publication, saved-guide conclusions and native acceptance remain open. SAVED
-must be selectable in the shared expected-conclusion editor; its missing choice
-requires actual-editor RED before correction. See the code Users recording receipt.
+publication, saved-guide conclusions and native acceptance remain open. The shared
+editor's SAVED/APPLIED correction is qualified by the separate editor evidence above.
+See the code Users recording receipt.
 Fresh smoke86, Settings202, Seed114, Console118 and chain32/live-role48/Create15
 retain their prior ordered checks, with normal closure/restoration and zero
 delayed native failures through20:00:09.5420332UTC. This qualifies the automated
 recording checkpoint, not comprehensive Users or4be-A acceptance.
+
+Subsequent storage evidence,2026-10-12: GREEN420 retains all353 checks and adds
+six real attempt/outcome file-Open failures through the three packaged handlers.
+Each still persists once, shows one fixed notice and leaves honest partial evidence;
+fresh read-only Auth checks, privacy and preservation pass. Packages are unchanged.
+See the code Users storage receipt; context/continuous recording, publication,
+independent guides and native acceptance remain open.
 
 **Admin Console coverage (D18 discovered-control refinement):**
 Catalog36 adds `ADMIN_CONSOLE_OPEN`, caption **Admin Console**, Admin surface,
