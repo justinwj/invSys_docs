@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.521 -- Settings entry/navigation controls specified; packaged RED next.
+**Version:** 1.522 -- Settings entry/native tab recording has focused RED/GREEN; acceptance remains open.
 
 D18's catalog33 refinement names `ADMIN_SETTINGS_OPEN` and
 `ADMIN_SETTINGS_PAGE_GENERAL`, `ADMIN_SETTINGS_PAGE_EVENT_TRACKING`,
@@ -9,7 +9,21 @@ D18's catalog33 refinement names `ADMIN_SETTINGS_OPEN` and
 retain their UI/permission behavior; navigation defaults off outside eligible capture.
 Only actual visible opening/selection can supply OPENED/SELECTED, without a save or
 Domain-application claim. Initialization/programmatic navigation is excluded.
-Implementation and acceptance remain pending; current runtime is still catalog32/145.
+Unpromoted `validation-admin-entry-02` implements catalog33/151: public-launcher
+RED17/7 -> GREEN24 and native five-tab RED33/10 -> GREEN43. Five cold/instrumented
+compiles, preservation and clean delayed closure pass. Three default-size captures
+show intact General, Event Detail and Action Paths with readable tabs. All28 size
+caps hold; dynamic9/45 and192 duplicate candidates are unchanged;465 scripts parse.
+Policy/context/permission/storage cases, publication, independent guides, broader
+layout and human acceptance remain open. Exact receipts: code
+`plan022_slice4be_admin_entry_results.md`. This is agent evidence, not family closure.
+The existing Close regression retains70 in exact prior order, with five compiles,
+preservation and clean delayed closure. Its historical-policy fixture was corrected
+for the expanded catalog; no Close runtime behavior changed.
+Packaged smoke retains86 in exact prior order, with both unassisted exits,
+preservation and a clean delayed audit. Broader chain acceptance remains open.
+Settings202 retains exact prior order, including preference restart and Operations
+Settings binding/layout; five compiles and clean preserved closure pass.
 See Architecture v4.11 "Admin Settings entry/navigation refinement" and Plan022.
 
 On unchanged `validation-run-scale-success-02`, independent worksheet Scale guide
@@ -25,7 +39,7 @@ or comprehensive4be-A acceptance. Exact receipts: Production Run local results.
 The shared-helper Close regression retains123 in exact prior order on this candidate,
 with five compiles, preservation and clean delayed closure; no runtime changed.
 
-Current unpromoted `validation-run-scale-success-02` enforces existing D14 through
+Prior unpromoted `validation-run-scale-success-02` enforces existing D14 through
 the packaged Apply Scale handler: RED66/3 to GREEN69, extended GREEN86 for repeated
 reload with inserted custom columns. Chooser/palette values and formulas, output
 formulas and exact input identity survive; repeated scaling does not compound.

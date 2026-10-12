@@ -4,16 +4,27 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Next entry/navigation family:** Architecture D18 names Settings Open and five
-tab destinations for catalog33 under approved comprehensive recording/semantic
-inheritance. Runtime remains catalog32/145 until packaged RED and implementation.
-Preserve the modal launcher, local navigation, captured context, navigation-off
-policy, and constructor/programmatic exclusions. OPENED/SELECTED prove presentation
-only. Require native input, policy/context failures, exact publication and independent
-guide evidence; no acceptance or replay adapter is implied. Governing section:
-"Admin Settings entry/navigation refinement" in v4.11; Controls1.521 is synchronized.
+**Current entry/navigation family,2026-10-12:** unpromoted `validation-admin-entry-02`
+implements D18 catalog33/151 under approved comprehensive recording/semantic inheritance.
+Public-launcher RED17/7 -> GREEN24 and native five-tab RED33/10 -> GREEN43 preserve
+the modal launcher, programmatic/same-tab exclusions and saved authority/host state.
+OPENED/SELECTED prove presentation only. Five cold/instrumented compiles, clean delayed
+closure and static ratchets pass; dynamic9/45 and192 duplicate candidates are unchanged,
+modAdmin shrinks11 lines,465 scripts parse. Three default-size captures are reviewed.
+Policy/context/permission/storage failures, exact publication, independent guides and
+broader acceptance remain open. See v4.11 "Admin Settings entry/navigation refinement",
+Controls1.522 and code `plan022_slice4be_admin_entry_results.md`; no replay adapter or
+family closure is implied.
+Existing Close regression retains70 in exact prior order with five compiles,
+preservation and clean delayed closure. Its historical-policy fixture now removes
+all controls absent from catalog31; this is not new entry/tab failure coverage.
+Packaged smoke retains86 in exact prior order with both unassisted exits,
+preservation and clean delayed audit; the full-chain blocker remains unresolved.
+Settings202 retains exact prior order, including preference restart and Operations
+Settings binding/layout, with five compiles and clean preserved closure. Only its
+fixed catalog expectation advances to33/151; all behavior checks remain.
 
-**Current D14 worksheet reload correction,2026-10-12:** unpromoted
+**Prior D14 worksheet reload correction,2026-10-12:** unpromoted
 `validation-run-scale-success-02` preserves custom chooser/palette columns and
 output formulas during successful worksheet Apply Scale. Actual-handler RED66/3
 becomes GREEN69; extended GREEN86 protects repeated reload, inserted custom columns,

@@ -2708,7 +2708,7 @@ configuration schema, authority or permission change. Define and run the package
 geometry criterion on the current candidate before correcting the layout, then
 verify the same criterion and visible screenshots on the corrected candidate.
 
-**Admin Settings entry/navigation refinement (catalog33; implementation and acceptance pending):**
+**Admin Settings entry/navigation refinement (catalog33; scoped implementation, acceptance pending):**
 Under approved D18 comprehensive recording and semantic inheritance, add these
 discovered controls without changing their existing UI, permissions or owners of
 settings data. Preserve catalogs1-32. All six have owner ADMIN_SETTINGS_UI, role
@@ -2757,6 +2757,15 @@ exclusion, repeated activation, captured-context/permission/policy/storage cases
 preserved authority/custom columns/older evidence, exact publication and independent
 guide conclusions before accepting this family. This refines approved D18; it does
 not introduce replay adapters or weaken D5/D8/D12/D14.
+
+Scoped verification,2026-10-12: unpromoted `validation-admin-entry-02` passes
+public-launcher RED17/7 -> GREEN24 and native five-tab RED33/10 -> GREEN43.
+Both mouse and keyboard destinations, constructor/programmatic/same-tab exclusions,
+captured successful context and preservation pass. Five cold/instrumented compiles,
+static ratchets and normal delayed closure pass; three default-size captures are
+reviewed. Policy/context failures, publication, independent guides, broader layout
+and human acceptance remain open. Exact receipts: code
+`plan022_slice4be_admin_entry_results.md`. This is scoped evidence, not family closure.
 
 **Admin Settings Close observation refinement (catalog32; acceptance pending):**
 Under approved D18 comprehensive recording and semantic inheritance, register
