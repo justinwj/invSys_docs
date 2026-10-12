@@ -5522,6 +5522,36 @@ with Admin Generate Warehouse/Create Warehouse and optional bootstrap or Admin
 - The supported greenfield generation/seed path does not call legacy inventory
   import or migration behavior.
 
+**Demo completion correction (D14/D18 implementation refinement,2026-10-12):**
+Seed (built-in or uploaded) and Delete Demo Inventory may report applied success
+only when Inventory Domain confirms the exact newly queued EventID in saved
+`tblAppliedEvents` with status APPLIED. A processor batch count can include other
+commands and is not that receipt. The existing batch limit/order and bounded retry
+remain; do not drain extra batches to manufacture success. When application is
+unconfirmed, retain the queued event and report "Demo inventory event was queued;
+application was not confirmed." or "Delete event was queued; application was not
+confirmed." Existing no-op/idempotent successes remain.
+
+Core `modInventoryDomainBridge.InventoryEventAppliedBridge` uses the existing
+read-only lease and explicit warehouse path; the declared Domain bridge returns
+a Boolean for exact binary EventID matching. Missing/invalid/dirty authority,
+duplicate receipts, an absent event or a read failure cannot establish success.
+The read never ensures schemas, writes, saves or closes a borrowed workbook.
+`RunBatch` captures this optional exact-event receipt immediately after canonical
+persistence, before later publication can dirty the workbook; existing callers
+retain their count/result behavior. The receipt starts False for each call.
+Seed retains a confirmed receipt across its existing bounded retry. Later
+unrelated publication work cannot erase a known saved application or turn an
+unconfirmed one into success. A post-batch dirty-workbook check alone is inadequate:
+candidate01's32/2 gate refused legitimate saved applications as well as pending ones.
+This enforces the existing lifecycle/truthful-outcome requirements; it introduces
+no new authorization, tracking policy, replay adapter or claim of publication.
+Actual packaged callback RED27/2 proves both false-success cases with BatchSize1
+and an earlier independently queued event. Candidate02 focused GREEN35 retains29
+original checks plus six receipt protections; five cold compiles and smoke86 pass.
+Visible feedback, expanded edge/regression cases and full qualification remain.
+This is not recording or4be-A acceptance; see the code Seed outcome receipt.
+
 **Admin inventory worksheet workbench:**
 - The Admin ribbon launcher is named **Add/Edit Inventory Items**. Its existing
   single-item Add/Edit form remains available and additionally exposes two

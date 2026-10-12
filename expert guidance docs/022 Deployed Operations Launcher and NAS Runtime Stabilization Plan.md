@@ -4,6 +4,22 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Seed completion prerequisite,2026-10-12:** before recording successful Seed/Delete,
+protect exact owner completion. Packaged RED27/2 proves both callbacks report
+success when BatchSize1 applies an earlier event and leaves their own event NEW;
+a later independent processor call applies each valid payload. Apply v4.11's
+D14/D18 refinement: a read-only exact Domain receipt, unchanged processing limits,
+and queued/unconfirmed feedback when no saved receipt exists. Preserve no-op
+successes, identities and accepted workflows. No new tracking ID or policy.
+The code Seed outcome receipt records the focused evidence and remaining gates.
+Focused GREEN35 retains the original29 checks, with six receipt protections;
+unpromoted seed-outcome-02 also passes five cold compiles and smoke86. Core captures
+the receipt at canonical persistence, before publication can dirty the workbook.
+Candidate01's post-batch check refused valid successes and is superseded. Native
+feedback, expanded edge/regression cases and full qualification remain open.
+Static03 retains all28 caps, dynamic9/45 and194 duplicate groups; preservation and
+delayed native audits pass. This is a tested checkpoint, not closure of the prerequisite.
+
 **Independent Users & Roles prerequisite,2026-10-12:** packaged diagnostic139
 retains111 checks and confirms nine persisted writes without live Admin authority
 for the original warehouse: Save/Deactivate/Delete after sign-out, Reader switch

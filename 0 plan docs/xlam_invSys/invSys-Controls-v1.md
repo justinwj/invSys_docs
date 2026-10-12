@@ -1,6 +1,20 @@
 # invSys Form Controls v1
 
-**Version:** 1.550 -- Users & Roles write-authority proposal;4be-A incomplete.
+**Version:** 1.551 -- Seed/Delete exact completion prerequisite;4be-A incomplete.
+
+Seed Demo Inventory and Delete Demo Inventory: packaged RED27/2 proves false
+success when a one-event batch applies an earlier command instead. Under the
+v4.11 D14/D18 refinement, applied-success feedback requires the exact saved Domain
+receipt. Otherwise show "Demo inventory event was queued; application was not
+confirmed." or "Delete event was queued; application was not confirmed." followed
+by the existing processor report. Keep the queued event, processing limits and
+no-op successes. No new control, tracking ID or recording acceptance. Native
+feedback, package qualification and comprehensive Seed recording remain required.
+Focused GREEN35 now retains29 original checks plus six receipt protections on
+unpromoted seed-outcome-02; five cold compiles and smoke86 pass. Native feedback,
+expanded edge/regression cases and full qualification remain open. Core captures
+the receipt at persistence before publication can dirty authority; the post-batch
+candidate01 approach was rejected. Exact scope: code Seed outcome receipt.
 
 Users & Roles Create/Update, Deactivate and Delete: diagnostic139 retains111
 baseline checks but shows all three writes persisting after sign-out, a Reader
