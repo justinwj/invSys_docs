@@ -13,8 +13,12 @@ Five cold/instrumented compiles, static ratchets, Production Close232, clean
 preserved closure and two intact reviewed forms pass. Initial01 Settings202 retains
 its scope. Final02 smoke86 and ordinary chain32/live48/warehouse15 also pass;
 the prior intermittent native fault remains unresolved. Extended GREEN70 covers
-user-off, older-policy and storage notices. Independent guide and broader
-acceptance remain open.
+user-off, older-policy and storage notices. Independent guide proof now passes123
+on unchanged `validation-run-scale-stop-01`: distinct successful/interrupted runs,
+exact saved conclusions and three views, six reviewed captures, five instrumented
+compiles, preservation and clean delayed closure. Fresh static metrics are unchanged;
+human and broader acceptance remain open. Existing current-candidate chain/live-role,
+smoke and layout evidence retains its scope; no runtime rebuild was needed.
 Open/page navigation remain separate; RUN-SCALE-02 is approved below. Exact receipts:
 `tests/integration/plan022_slice4be_admin_close_results.md`.
 

@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.517 -- RUN-SCALE-02 scoped GREEN64/162; Admin Close GREEN70.
+**Version:** 1.518 -- Admin Close independent guide proof123; RUN-SCALE-02 GREEN64/162.
 
 Unpromoted `validation-admin-close-02` implements Architecture D18 catalog32:
 btnClose/native window close record ADMIN_SETTINGS_CLOSE only for deliberate
@@ -11,8 +11,12 @@ ratchets, Production Close232, clean preserved closure and two reviewed intact
 forms pass; final02 chain32/live48/warehouse15 passes without a delayed native
 fault, and final02 smoke86 passes. Earlier intermittent native failures remain
 unresolved. Initial01 Settings202 retains its scope. Extended GREEN70 covers user-off,
-older-policy and storage notices. Independent guide and broader gates remain
-open; no full control/4be-A acceptance.
+older-policy and storage notices. Independent guide proof now passes123 on unchanged
+`validation-run-scale-stop-01`: two observed Close matches conclude, while an
+interrupted run retains one match/one missing step and stays Incomplete. All three
+views, exact provenance, six reviewed captures, five instrumented compiles,
+preservation and clean delayed closure pass. Fresh static metrics are unchanged.
+Human and broader gates remain open; no full control/4be-A acceptance.
 Exact receipts: `plan022_slice4be_admin_close_results.md` in code. Open/page
 navigation remain separate coverage; Scale proof below retains its candidate scope.
 

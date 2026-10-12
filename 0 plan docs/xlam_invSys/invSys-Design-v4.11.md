@@ -2724,6 +2724,13 @@ separate coverage. Require actual-handler/native-window RED/GREEN, internal-unlo
 exclusion, captured-context/permission/policy/storage cases, preserved authority,
 immutable records and independent guide conclusion before accepting this control.
 
+Scoped verification,2026-10-12: independent Close guide proof passes123 on unchanged
+`validation-run-scale-stop-01`, following Close RED34/19 -> GREEN53 and extended70.
+Distinct successful/interrupted recordings retain exact provenance and dismissal-only
+conclusions in all three views. Six captures are reviewed; human and broader acceptance
+remain pending. See code `plan022_slice4be_admin_close_results.md`; this adds evidence,
+not a new contract. Settings Open/pages remain separate coverage.
+
 **General Settings observation refinement (catalog31):** Register the nine
 existing General controls below under D18's comprehensive recording rule. This
 clarifies observation and existing captured-context/access requirements; it does
