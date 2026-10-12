@@ -4,15 +4,34 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Reconcile authority/permission follow-up, 2026-10-12:** unchanged candidate
+**Reconcile authentication GREEN,2026-10-12:** approved D8-RECON-01 passes172/172
+ordered callback checks after160/12 RED in `validation-admin-reconcile-access-02`.
+Core validates the captured live context and ADMIN_MAINT through `modAuth.CanPerform`;
+signed-in local fallback remains allowed. Native dates and capture now pass;
+combined gate179/2 retains long-history truncation/clipping as open defects.
+Controls1.536 and the code receipt are current. No4be-A closure.
+The same candidate passes86 smoke,32 full-chain,48 live-role and15 Create Warehouse
+checks, normal preserved shutdown, delayed native audits and static ratchets.
+
+**Earlier Reconcile native RED, 2026-10-12:** actual InputBox capture with20 owner-applied
+shipments records134/5, retaining the prior130 outcomes. The prompt truncates at
+1023 characters, clips history and displays numeric date serials; Cancel preserves
+inventory and queues nothing. Correct presentation without shortening exact keys
+or removing choices. D8-RECON-01 is approved; extend its session-change tests before
+the authentication implementation. No complete native or4be-A acceptance.
+
+**Earlier Reconcile authority/permission follow-up, 2026-10-12:** unchanged candidate
 `validation-admin-reconcile-01` retains all55 original GREEN checks and passes
 closed read-only, missing/invalid authority, borrowed-edit, cancellation and reader
 denial probes. Expanded gate130 is128 pass/2 behavioral fail: a signed-out caller
 with a provisioned stale local user-ID hint queues a correction. D8-RECON-01 in
 v4.11 proposes a Core gate for the captured interactive session/user/target and
 ADMIN_MAINT, preserving permitted Admin local targets and headless processing.
-**Approval pending; do not implement or silently broaden NAS requirements.**
-Controls1.534 and the code Reconcile receipt record this scope. Native UI,
+**D8-RECON-01 approved 2026-10-12; extend focused RED before implementing. Do not broaden NAS requirements.**
+The Core `modAdminReconcileAccess` capture/validation boundary preserves the
+existing provisioned-system queue API. Protect sign-out at selection/confirmation,
+re-sign-in, user/warehouse changes, and successful signed-in local submission.
+Controls1.536 and the code Reconcile receipt record this scope. Native UI,
 mid-dialog binding changes, comprehensive recording and4be-A closure remain open.
 
 **Reconcile scoped GREEN, 2026-10-12:** approved D14-RECON-01 is implemented in

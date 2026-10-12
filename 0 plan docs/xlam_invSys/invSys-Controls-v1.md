@@ -1,22 +1,30 @@
 # invSys Form Controls v1
 
-**Version:** 1.534 -- Reconcile authority proof and authentication proposal.
+**Version:** 1.536 -- Reconcile authentication GREEN; native history remains open.
 
-Unchanged candidate `validation-admin-reconcile-01`: the expanded callback gate
-has128 pass/2 behavioral failures, retaining all55 original GREEN checks. Closed
-inventory reaches Domain read-only and closes without saving; missing inventory
-is not recreated, invalid schema/ambiguous identity is refused, borrowed unsaved
-edits and saved state are preserved, and cancellation/fractional selection do not
-queue. A reader without ADMIN_MAINT is refused. However, a signed-out caller with
-a provisioned stale user-ID hint queues an event. This is not an applied inventory
-change, and no native-input acceptance is claimed.
+Current candidate `validation-admin-reconcile-access-02` passes all172 ordered
+identity/authority checks after160/12 RED. Core rejects stale or changed live
+sessions and unauthorized users, while a signed-in Admin can still submit against
+a permitted local target. Headless authorization is unchanged. Native timestamps
+now render as `yyyy-mm-dd hh:mm:ss`; actual capture/Cancel and preservation pass.
+Combined gate179/2 fails only long-history truncation/clipping. Five cold and
+instrumented compiles and normal preserved closure pass. Full4be-A is incomplete.
+The same candidate retains86 smoke,32 full-chain,48 live-role and15 Create Warehouse
+checks; static caps/dynamic/duplicate counts and delayed native audits pass.
 
-**D8-RECON-01 is proposed, awaiting approval in v4.11:** Core validates the captured
-live invSys session/user, warehouse/station and ADMIN_MAINT before interactive
-Reconcile submission. No Windows/Office/local-hint authentication fallback; keep
-permitted Admin target modes and headless processor authorization. No runtime
-correction or new tracking ID is included in this checkpoint. Exact evidence:
-code `plan022_slice4be_admin_reconcile_results.md`.
+Shipment Reconcile selection remains **not accepted**:20 owner-applied SHIP
+entries produce a1023-character InputBox prompt that stops before choice20 and
+clips text. Preserve full exact keys and every offered choice. Historical native
+RED134/5 also exposed the now-corrected dates and stale-identity authentication.
+The retained authority checks cover read-only leases, missing/invalid inventory,
+borrowed edits, cancellation, fractional selection and role denial. No new tracking
+ID. Exact receipts: code `plan022_slice4be_admin_reconcile_results.md`.
+
+Approved D8-RECON-01 refusal wording: "Current invSys user is not signed in."
+or "The invSys session or warehouse changed. Reopen Shipment Reconcile."
+The captured context is checked in Core before submission; existing ADMIN_MAINT
+denial wording and permitted local warehouse access remain. The packaged
+mid-dialog mutation and local-target cases now pass under approved D8-RECON-01.
 
 `btnAdminShipmentReconcile` / `OpenShipmentReconcileTool` now selects an exact
 event/System_Key, shows the key in selection and narrative confirmation, previews

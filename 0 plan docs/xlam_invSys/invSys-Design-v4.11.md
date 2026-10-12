@@ -5066,8 +5066,8 @@ unavailable/invalid authority or history. Core borrows an explicit workbook or
 leases only the existing captured target file read-only; it closes only its own
 lease without saving. No workbook is returned across this new boundary.
 
-**D8-RECON-01 — Interactive Shipment Reconcile authentication (proposed; approval required).**
-Packaged authority tests retain the original55 GREEN checks and prove closed
+**D8-RECON-01 — Interactive Shipment Reconcile authentication (approved 2026-10-12).**
+Pre-implementation authority tests retain the original55 GREEN checks and prove closed
 read-only leases, missing/invalid authority, borrowed edits and reader denial.
 The final130-check run is128 pass/2 fail: after sign-out, restoring only a local
 user-ID hint naming a provisioned Admin allows the actual callback to queue an
@@ -5084,10 +5084,40 @@ session/user/target change or missing capability refuses the submission with no
 queued event. Windows/Office identities and persisted user-ID hints cannot replace
 authentication. Existing permitted Admin target modes, read-only inspection,
 D14-RECON-01 quantity rules, required audit, and provisioned headless processor
-authorization remain unchanged. No implementation of this proposal is authorized
-until user approval is recorded here. Protect it through the actual packaged
+authorization remain unchanged. The user explicitly approved this decision on
+2026-10-12. Protect it through the actual packaged
 callback and Core gate, including signed-out stale identity and mid-dialog changes.
 Exact receipt: code `plan022_slice4be_admin_reconcile_results.md`.
+
+Implementation boundary: Admin captures the opaque primitive context returned by
+`Core.modAdminReconcileAccess.CaptureContext` when opening Reconcile. Its queue
+helper calls `ValidateSubmission` with that context and the captured warehouse,
+station, root and authenticated user before reading/queuing the correction.
+Core checks live sign-in, session/target continuity and existing ADMIN_MAINT
+authorization; it does not apply Operations' NAS-only prerequisite. Refusals say
+"Current invSys user is not signed in." or "The invSys session or warehouse changed.
+Reopen Shipment Reconcile." Existing capability-denial wording remains. Context
+is transient, never persisted in the event or used as an inventory identity.
+
+D8-RECON-01 focused GREEN,2026-10-12: candidate `validation-admin-reconcile-access-02`
+passes all172 ordered identity/authority checks after160/12 RED. Sign-out during
+selection/confirmation, re-sign-in and user/warehouse changes refuse without
+queuing; signed-in local fallback still queues one correction. Core uses live
+`modAuth.CanPerform`, retaining headless writer authorization. Five cold and
+instrumented compiles and preserved normal closure pass. The combined native
+run is179/2: readable dates and captured Cancel pass; long history truncation and
+clipping remain RED. This is not4be-A acceptance; exact receipt is in code.
+The same candidate retains86 smoke,32 full-chain,48 live-role and15 Create Warehouse
+checks, normal preserved shutdown and clean delayed native audits. Static caps and
+dynamic/duplicate counts hold; complete native history and recording remain open.
+
+Native presentation RED, 2026-10-12: the same packaged callback with20 real
+owner-applied SHIP entries passes134/139 checks, retaining the prior130 outcomes.
+The native InputBox truncates its prompt to1023 characters before choice20,
+clips visible text, and shows numeric date serials. Cancel queues nothing and
+preserves inventory. This is a presentation defect under D14-RECON-01, not
+permission to shorten exact keys or remove history choices. Five compiles and
+normal preserved closure with a clean delayed native audit pass.
 
 `EventID`, `RunId`, `DesignId`/`DesignVersion`, shipment IDs, and other
 specialized identifiers remain when they identify a different record or
