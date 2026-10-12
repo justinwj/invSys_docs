@@ -4997,7 +4997,8 @@ RULE: ROW is not a managed runtime header, migration key, display key, or
       compatibility field in the new system.
 ```
 
-Source-audit checkpoint,2026-10-12: the packaged Admin Shipment Reconcile entry
+Historical source-audit checkpoint,2026-10-12 (superseded by scoped GREEN below):
+the packaged Admin Shipment Reconcile entry
 still reaches SKU-based history/balance lookup, `ResolveRowForSku` reading `ROW`,
 and `CreatePayloadItem` emitting Row/SKU. This is an implementation conflict with
 D14, not an approved compatibility exception. The source/package map is code
@@ -5038,8 +5039,32 @@ entity quantity/custom-value preservation; wrong-key, non-SHIP and positive
 corrections are accepted. Missing narrative and idempotency pass. Five compiles,
 normal preserved closure and delayed native audit pass. These findings require
 implementation corrections under D14/D14-RECON-01, not a compatibility exception.
-No runtime correction or broader acceptance is claimed; the same code receipt
-records exact fixtures, attribution and remaining gates.
+
+Implemented scoped GREEN, 2026-10-12: candidate `validation-admin-reconcile-01`
+passes all 55 retained checks and 86 packaged smoke checks. Admin captures the
+warehouse/root and requests read-only Domain history through Core; Domain validates
+the exact event/key and preserves current attributes. Projection rebuilding
+preserves unknown column values by exact key. Five cold and five instrumented
+compiles, normal shutdown, preservation and delayed native audits pass. All 28
+module caps hold; dynamic/duplicate counts do not grow. Native presentation,
+closed/missing/invalid authority, role and full-processor gates remain open;
+this is not 4be-A acceptance. Exact evidence is in the code receipt above.
+The same candidate also retains32 full-chain/48 live-role/15 Create Warehouse
+checks, with unassisted closure, preservation and a clean delayed native audit.
+The source harness import lists were repaired to include both new Domain modules;
+the preceding compile interruption is not behavioral RED or accepted shutdown.
+
+The declared Reconcile read bridge is
+`Core.modInventoryDomainBridge.ReadShipmentReconcileBridge` to
+`Inventory.Domain.modInventoryBridgeApi.ReadShipmentReconcileBridgeResult`.
+Its tab-delimited primitive request is `LIST<TAB>limit` or
+`STATE<TAB>EventID<TAB>System_Key`. LIST returns a one-based two-dimensional
+primitive array of EventID, System_Key, SKU, QtyDelta, OccurredAtUTC and Location;
+STATE returns a zero-based primitive array of current quantity, selected-event
+balance, SKU, Location, Condition, AttributesJson and InventoryState. Empty means
+unavailable/invalid authority or history. Core borrows an explicit workbook or
+leases only the existing captured target file read-only; it closes only its own
+lease without saving. No workbook is returned across this new boundary.
 
 `EventID`, `RunId`, `DesignId`/`DesignVersion`, shipment IDs, and other
 specialized identifiers remain when they identify a different record or

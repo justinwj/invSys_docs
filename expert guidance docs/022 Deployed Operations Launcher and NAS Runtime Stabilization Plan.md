@@ -4,6 +4,22 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Reconcile scoped GREEN, 2026-10-12:** approved D14-RECON-01 is implemented in
+`validation-admin-reconcile-01`: all 55 retained focused checks and 86 packaged
+smoke checks pass. Core leases the captured authority read-only, Domain owns
+event/key history and correction validation, and projection rebuilding preserves
+unknown values by exact key. Five cold/instrumented compiles, normal preserved
+shutdown and delayed native audits pass. All 28 module caps hold; dynamic calls
+and duplicates are unchanged. Controls1.533 and code
+`plan022_slice4be_admin_reconcile_results.md` record the implementation and limits.
+Closed/missing/invalid authority, cancellation, role, native/layout and full
+processor evidence remain open. This supersedes the no-fix status below;
+comprehensive recording and 4be-A acceptance remain incomplete.
+The same candidate retains32 full-chain/48 live-role/15 Create Warehouse checks
+with normal closure, preservation and no delayed native failures. Sixteen source
+harness import lists now include the new Domain dependencies; the preceding
+compile interruption is a harness diagnostic, not behavioral RED or acceptance.
+
 **Expanded Reconcile RED, 2026-10-12:** approved D14-RECON-01 now has31 pass/24
 expected fail on unchanged Reconcile code in `validation-admin-auth-read-01`,
 retaining all18 original checks/outcomes. Repeated/multi-entity/multiline history,

@@ -1,8 +1,33 @@
 # invSys Form Controls v1
 
-**Version:** 1.532 -- Approved Reconcile history and Domain RED.
+**Version:** 1.533 -- Approved Reconcile scoped GREEN.
 
-Shipment Reconcile expanded RED31/24 retains all18 prior checks. The actual
+`btnAdminShipmentReconcile` / `OpenShipmentReconcileTool` now selects an exact
+event/System_Key, shows the key in selection and narrative confirmation, previews
+the negative entity-only delta, and distinguishes queued correction from applied
+inventory. No higher current quantity means no queue. Missing/invalid identity
+fails closed; stale quantity says "Inventory quantity changed. Inspect the shipment
+again before queuing a correction." Selection requires a whole number; an empty
+narrative cancels. Missing target says "Select a warehouse before opening Shipment
+Reconcile." Unavailable history says "No valid server shipment deduction entries
+are available in the selected warehouse." Invalid association says "The selected
+shipment and exact inventory entity could not be validated."
+
+Candidate `validation-admin-reconcile-01` passes all 55 focused checks after
+31/24 RED, including actual queued Domain application, current attributes,
+custom values after sorting/rebuild and invalid Domain refusals. Five cold and
+five instrumented compiles plus all 86 packaged smoke checks pass with normal
+preserved shutdown and delayed native audits. Static caps hold without dynamic
+or duplicate growth. This supersedes the historical no-fix status below. Native
+dialog readability/input, authority edge cases, roles and full processor remain
+unproved. No new tracking ID or 4be-A acceptance is claimed. Exact receipt:
+code `plan022_slice4be_admin_reconcile_results.md`.
+The same candidate also retains32 full-chain/48 live-role/15 Create Warehouse
+checks, normal closure, preservation and a clean delayed native audit. Source
+harness dependency repair does not change the control contract or close the
+remaining native/role/authority/recording gates.
+
+Historical Shipment Reconcile expanded RED31/24 retains all18 prior checks. The actual
 callback selects older and multi-entity/multiline shipments; failures cover
 entity-only quantity, exact identity in payload/prompts, current attributes and
 nonmutating inspection. Actual queued application fails exact quantity/custom
