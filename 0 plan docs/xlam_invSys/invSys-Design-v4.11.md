@@ -5659,6 +5659,17 @@ Inboxes and Close. Their form-level validation/cancellation and owner facts requ
 separate observation tests; registering Seed does not cover them or authorize
 automatic replay. Native chooser behavior is unchanged by this mapping.
 
+Test-only boundary qualification,2026-10-12: GREEN181 retains114 prior Seed checks.
+Four real attempt/outcome Open failures preserve one successful owner call, one
+fixed notice and honest partial records. Entry/completion sign-out on no-op Seed
+preserves inventory/inbox and avoids stale terminal attribution; reentrant optional
+entry is quiet while the outer uploaded command applies once. Three fresh read-only
+inventory checks prove exact saved entities/receipts without changing file bytes.
+Five instrumented compiles, unchanged static metrics/caps, restoration and native
+audit pass on the existing qualified package. See the code Seed boundaries receipt;
+continuous capture/publication/independent guides, native notice presentation and
+the remaining controls/context cases are not accepted by this checkpoint.
+
 **Demo completion correction (D14/D18 implementation refinement,2026-10-12):**
 Seed (built-in or uploaded) and Delete Demo Inventory may report applied success
 only when Inventory Domain confirms the exact newly queued EventID in saved

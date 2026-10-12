@@ -1,6 +1,15 @@
 # invSys Form Controls v1
 
-**Version:** 1.560 -- Users continuous recording and independent guide GREEN129;4be-A incomplete.
+**Version:** 1.561 -- Seed recording boundaries GREEN181;4be-A incomplete.
+
+Seed boundary GREEN181 retains114 earlier checks. Four real attempt/outcome Open
+failures preserve one successful owner call and one fixed notice. Entry/completion
+sign-out on no-op Seed avoids stale terminal records; reentrant recording is quiet.
+Three fresh read-only entity/receipt checks preserve saved bytes. Five instrumented
+compiles, unchanged static metrics/caps, preservation and native audit pass. No
+product, wording or catalog change. See the code Seed boundaries receipt; ordinary
+native notices, continuous recording/publication/independent guides, remaining Demo
+controls and broader context cases remain open.
 
 Three actual Users Save/Deactivate/Delete sequences now prove exact publication
 and independently evaluated three-step SAVED guides. Nine fresh Auth results retain

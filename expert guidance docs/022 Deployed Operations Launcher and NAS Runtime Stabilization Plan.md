@@ -4,8 +4,15 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current next action,2026-10-12:** protect Seed recording context/storage boundaries
-through the actual packaged callback, then exact publication and independent guides.
+**Current next action,2026-10-12:** prove continuous Seed recording, exact publication
+and independently evaluated guides through packaged controls.
+Seed boundary GREEN181 retains114 earlier checks: four real Open failures,
+entry/completion sign-out on no-op Seed and quiet reentrant recording pass.
+One owner call per callback and three fresh persisted entity/receipt reads prove
+recording failure does not repeat or block business work. Five instrumented
+compiles, unchanged static metrics/caps, preservation and native audit pass; no
+product change. See the code Seed boundaries receipt. Native notice presentation,
+other context cases and remaining Demo controls stay open.
 Users continuous recording/publication/independent guide qualification passes
 GREEN129, with three sequences, nine fresh Auth results and successful/incomplete
 conclusions that cannot borrow source-run success. Six guide captures, five
