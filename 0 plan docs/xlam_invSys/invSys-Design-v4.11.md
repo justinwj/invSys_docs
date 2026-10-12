@@ -2041,9 +2041,16 @@ all203 prior identity/authority/native checks. Actual Open/Inspect/Cancel handle
 produce the specified records; global/action/user suppression preserves business
 execution. Core rejects invalid correction references. Original business context
 is captured before optional logging; reauthentication during logging refuses the
-correction. Recording storage failure, publication/guide proof and local-target
-eligibility remain open. Exact D13 evidence is in the code Reconcile receipt;
-this is not complete4be-A acceptance.
+correction. The same candidate subsequently passes258/258 with the exact248-check
+prefix: real activity-store write failures preserve one business execution,
+one fixed warning, truthful incomplete records and unchanged inventory.
+The final extension passes330/330 with the exact258 prefix: independent native
+recordings, exact publication, versioned guide authoring, Concluded versus
+Incomplete CommandCompleted evaluation and all three presentations pass. Six
+guide captures show multiline instructions, full provenance and saved conclusions.
+Original evidence and inventory remain unchanged. SourceEventsApplied guide
+proof and local-target recording eligibility remain open. Exact D13 evidence is
+in the code Reconcile receipt; this is not complete4be-A acceptance.
 
 - Maintain a versioned coverage catalog for every reachable Operations/Admin
   launcher, form command, deliberate page/selection action and result. Each
