@@ -1,6 +1,15 @@
 # invSys Form Controls v1
 
-**Version:** 1.522 -- Settings entry/native tab recording has focused RED/GREEN; acceptance remains open.
+**Version:** 1.523 -- Expanded Settings boundary tests await native-input qualification.
+
+The original launcher24/tab43 GREEN remains valid on unchanged
+`validation-admin-entry-02`. The expanded policy/context/storage gate is unaccepted:
+after a fixture correction, two runs stopped on cursor prerequisites. The latest
+shows SetCursorPos success with unexpected coordinates, without observed error5.
+Standalone cursor checks pass but cannot establish the failed helper's state.
+Same-helper diagnosis precedes another Excel retry. No runtime or contract change;
+static ratchets hold and466 scripts parse. Exact attempts: code
+`plan022_slice4be_admin_entry_results.md`. Family and4be-A acceptance remain open.
 
 D18's catalog33 refinement names `ADMIN_SETTINGS_OPEN` and
 `ADMIN_SETTINGS_PAGE_GENERAL`, `ADMIN_SETTINGS_PAGE_EVENT_TRACKING`,

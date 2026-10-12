@@ -2767,6 +2767,13 @@ reviewed. Policy/context failures, publication, independent guides, broader layo
 and human acceptance remain open. Exact receipts: code
 `plan022_slice4be_admin_entry_results.md`. This is scoped evidence, not family closure.
 
+Boundary verification follow-up,2026-10-12: the expanded native policy/context/storage
+gate remains unaccepted. A corrected test fixture was followed by two cursor-input
+prerequisite failures; the latter distinguishes SetCursorPos success with unexpected
+coordinates from an API failure. Standalone cursor checks pass without error5,
+but do not establish the failed helper's thread state. No runtime/contract change,
+package promotion or new GREEN is claimed; exact attempts are in the same results record.
+
 **Admin Settings Close observation refinement (catalog32; acceptance pending):**
 Under approved D18 comprehensive recording and semantic inheritance, register
 `ADMIN_SETTINGS_CLOSE` for `frmAdminSettings.mBtnClose_Click` and explicit native

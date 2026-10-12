@@ -4,6 +4,14 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Boundary-gate follow-up,2026-10-12:** the expanded native Settings tests remain
+unaccepted after a fixture correction and two cursor prerequisites failed. At02:29:24Z,
+SetCursorPos succeeded but the read-back position was unexpected; no error5 is observed.
+Standalone movement passes, so capture the failing helper's own desktop/bounds/timing
+before another Excel retry. Runtime and candidate pins are unchanged; static ratchets
+hold and466 scripts parse. See code `plan022_slice4be_admin_entry_results.md` and
+Controls1.523. Do not combine partial attempts into GREEN or infer a product failure.
+
 **Current entry/navigation family,2026-10-12:** unpromoted `validation-admin-entry-02`
 implements D18 catalog33/151 under approved comprehensive recording/semantic inheritance.
 Public-launcher RED17/7 -> GREEN24 and native five-tab RED33/10 -> GREEN43 preserve
