@@ -2002,6 +2002,49 @@ authority, and retain prior catalog definitions and GREEN identities. This
 clarifies discovered controls under semantic inheritance; it changes no authority,
 permission grant or saved-definition contract.
 
+**Reconcile action coverage refinement (D18; focused recording gate implemented):**
+Catalog34 adds these existing Admin controls under `ADMIN_SHIPMENT_RECONCILE`
+ownership and existing ADMIN_MAINT authority. Catalog1--33 definitions remain
+unchanged. This records existing actions; D14-RECON-01/D8-RECON-01 still govern
+business behavior, including permitted Admin local targets.
+
+| ControlId | Caption / surface | Handler boundary and outcomes after REQUESTED |
+|---|---|---|
+| `ADMIN_RECONCILE_OPEN` | Shipment Reconcile / Admin | Public launcher; OPENED only on actual selection-form presentation; REJECTED when no valid history/target is available; FAILED on an opening error. |
+| `ADMIN_RECONCILE_INSPECT` | Inspect / Admin > Shipment Reconcile | Actual Inspect handler through callback validation and its existing native narrative confirmation; NO_CORRECTION for a valid inspection needing no correction, CANCELLED for empty/cancelled narrative, REJECTED for invalid selection/history/changed quantity, DENIED for failed live authorization, CONFIRMED only when the queue owner accepts the correction, FAILED for other errors. |
+| `ADMIN_RECONCILE_CANCEL` | Cancel / Admin > Shipment Reconcile | Actual Cancel handler, including Escape and native window-close; CANCELLED after dismissal, FAILED if dismissal fails. Internal unload is not an operator action. |
+
+Open/Cancel are Navigation; Inspect is Command. Typing, scrolling, native narrative
+entry and confirmation responses are not fabricated as separate command clicks:
+the native dialog belongs to Inspect and its response determines Inspect's result,
+as with other command confirmation dialogs. No selection, narrative, key, quantity,
+path or raw error text enters activity. OPENED, NO_CORRECTION, CANCELLED, REJECTED
+and DENIED have Unchanged effect; REQUESTED/CONFIRMED/FAILED remain Unknown about
+canonical data. Messages are fixed and must distinguish queuing from application.
+Only OPENED for Open and CONFIRMED for Inspect are positive CommandCompleted facts.
+CONFIRMED references exactly the new correction event as Inventory/Submitted;
+FAILED may reference an owner-returned new event as Unknown. Never use the older
+corrected shipment as evidence that this action submitted a correction. Other
+outcomes have no references. SourceEventsApplied requires later published exact
+Domain evidence; command completion alone cannot satisfy it.
+
+Optional tracking cannot block or repeat Reconcile. Capture the originating
+context; changed context leaves incomplete original evidence without attributing
+the action to a later target/user. Require packaged absent-record RED before
+implementation, retained203 checks, per-control/user suppression, tracking failure,
+publication/guide conclusions and visible native evidence. The initial NAS-context
+test does not settle local-target recording eligibility; no local exclusion or
+shared-store policy change is authorized by this refinement.
+
+Focused acceptance,2026-10-12: unpromoted recording-06 passes248/248, retaining
+all203 prior identity/authority/native checks. Actual Open/Inspect/Cancel handlers
+produce the specified records; global/action/user suppression preserves business
+execution. Core rejects invalid correction references. Original business context
+is captured before optional logging; reauthentication during logging refuses the
+correction. Recording storage failure, publication/guide proof and local-target
+eligibility remain open. Exact D13 evidence is in the code Reconcile receipt;
+this is not complete4be-A acceptance.
+
 - Maintain a versioned coverage catalog for every reachable Operations/Admin
   launcher, form command, deliberate page/selection action and result. Each
   entry names a stable ControlId, fixed captions, role/family, public handler,

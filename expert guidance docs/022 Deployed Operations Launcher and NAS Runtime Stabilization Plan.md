@@ -4,6 +4,22 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Reconcile recording checkpoint,2026-10-12:** under v4.11 D18, catalog34 adds
+Open/Inspect/Cancel; recording-06 passes248/248, preserving the original203 checks
+and151 definitions. Absent records, missing context warnings, invalid references
+and capture-after-logging each have focused RED/GREEN evidence in the code receipt.
+Suppression preserves business execution; queued correction never claims Domain
+application. Next prove storage failure and active recording/publication/guide use.
+Local-target recording eligibility remains unresolved; do not change Admin local
+business permissions or invent an exclusion. Controls1.540 records this partial
+scope;4be-A remains incomplete.
+
+Same-candidate gates: five cold/instrumented compiles,86 smoke,202 Settings and
+32 chain/48 live-role/15 Create Warehouse pass. All28 static caps and dynamic9/45
+hold; the code receipt records the one fixed-ID-list duplicate exception and an
+earlier unaccepted native Excel crash. The separate fresh chain closed normally
+with a clean delayed audit; no native-crash repair is claimed.
+
 **Reconcile native confirmation GREEN,2026-10-12:** the unchanged selection-02
 candidate passes203/203, retaining the191-check prefix. Native window-close,
 confirmation Cancel and typed narrative/Submit have exact queue/preservation

@@ -1,6 +1,18 @@
 # invSys Form Controls v1
 
-**Version:** 1.539 -- Reconcile native confirmation203 GREEN;4be-A incomplete.
+**Version:** 1.540 -- Reconcile recording248 GREEN;4be-A incomplete.
+
+Under v4.11 D18: `ADMIN_RECONCILE_OPEN` observes actual form presentation;
+`ADMIN_RECONCILE_INSPECT` observes Inspect and its existing narrative confirmation
+through rejection/cancellation/no-correction/queue result; `ADMIN_RECONCILE_CANCEL`
+observes Cancel/Escape/window-close. Native narrative responses remain within the
+Inspect command. No entered values enter activity. Open/CONFIRMED queue completion
+and later Domain application remain distinct. Unpromoted recording-06 passes248
+checks, retaining203 prior checks and151 definitions. Global/action/user suppression,
+exact references and business-context capture before optional logging pass.
+Storage-failure and active recording/publication/guide proof remain pending.
+Local-target recording eligibility remains unresolved; no business permission or
+recording exclusion changes are accepted here.
 
 The unchanged `validation-admin-reconcile-selection-02` now passes203/203,
 retaining all191 prior checks in order. Native window-close and confirmation
