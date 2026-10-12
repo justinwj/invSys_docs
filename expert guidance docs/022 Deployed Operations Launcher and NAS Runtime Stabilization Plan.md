@@ -4,6 +4,18 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Remaining Admin entry audit,2026-10-12:** code
+`plan022_slice4be_admin_remaining_coverage.md` verifies14 packaged Actions IDs,
+maps the13 non-Settings macros to their owners and separately accounts for three
+Session/target entries. Public console functions and old removed buttons are not
+automatic proof of user reachability or exclusion. The reachable Shipment Reconcile
+path still reads ROW and constructs a Row/SKU payload, contrary to D14; put an
+actual packaged System_Key correction test before its tracking implementation.
+Users and Roles Refresh also enters Auth schema maintenance when opening a closed
+workbook; require a separate D8-A read-preservation test. No runtime was run or
+changed for this audit, no behavioral RED is claimed, and no new contract/exclusion
+is approved. Controls1.528 retains the same status. Settings125/123/177 remains valid.
+
 **Continuous modal recording proof,2026-10-12:** unchanged candidate02 passes125,
 retaining43 shared checks. Actual Viewer recording/public Settings launcher, native
 tabs and Close produce independent seven-action source/observed runs; sign-out after

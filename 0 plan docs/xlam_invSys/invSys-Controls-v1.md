@@ -1,6 +1,15 @@
 # invSys Form Controls v1
 
-**Version:** 1.527 -- Settings recording/guide125 and boundaries177/98; wider acceptance remains open.
+**Version:** 1.528 -- Remaining Admin entry map verified; identity/read prerequisites remain open.
+
+Source/package audit2026-10-12 verifies14 Actions buttons in the current Admin
+Ribbon, with Settings retaining its scoped evidence below and13 other entry paths
+mapped to existing owners. Three shared Session/target entries remain separately
+accounted for. No new ControlId, exclusion, outcome or behavior is approved by this
+audit. `plan022_slice4be_admin_remaining_coverage.md` in the code repository records
+the map, the reachable Shipment Reconcile ROW/SKU conflict with D14, and the Users
+and Roles Refresh path into Auth schema maintenance. Both need focused packaged
+runtime proof; neither is behavioral RED yet. Keep the complete4be-A scope open.
 
 On unchanged candidate02, continuous modal Settings recording/guide proof passes125:
 public Open, five native tab selections and Close produce independent seven-action

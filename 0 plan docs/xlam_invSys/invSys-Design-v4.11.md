@@ -4987,6 +4987,14 @@ RULE: ROW is not a managed runtime header, migration key, display key, or
       compatibility field in the new system.
 ```
 
+Source-audit checkpoint,2026-10-12: the packaged Admin Shipment Reconcile entry
+still reaches SKU-based history/balance lookup, `ResolveRowForSku` reading `ROW`,
+and `CreatePayloadItem` emitting Row/SKU. This is an implementation conflict with
+D14, not an approved compatibility exception. The source/package map is code
+`plan022_slice4be_admin_remaining_coverage.md`; obtain focused actual-handler
+behavioral RED before correction. Do not infer new quantity-correction semantics,
+remove the operator entry or weaken exact identity to make the test pass.
+
 `EventID`, `RunId`, `DesignId`/`DesignVersion`, shipment IDs, and other
 specialized identifiers remain when they identify a different record or
 workflow concept. They do not replace the affected inventory entity's
