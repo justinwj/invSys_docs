@@ -4,8 +4,15 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current next action,2026-10-12:** begin approved D8-USERS-01 with actual-handler
-denial RED. Catalog37/157 `ADMIN_DEMO_SEED` has a qualified automated checkpoint:
+**Current next action,2026-10-12:** begin Users & Roles recording under D18 through
+the qualified D8-USERS-01 owner commands. Actual-handler RED139/9 -> visible/data
+GREEN259 retains all earlier checks,
+including direct Core, ownership, confirmation/context loss, cancelled saves,
+custom fields and fresh saved new-user scope. Five compiles, smoke86, four reviewed
+captures, chain32/live-role48/Create15 and preservation/native audits pass, with
+unassisted chain closure. Existing form clipping and comprehensive form/recording
+acceptance remain open. No Users ControlId added yet. Catalog37/157
+`ADMIN_DEMO_SEED` has a qualified automated checkpoint:
 Console118, Settings202, smoke86 and chain32/live-role48/Create15 pass, with
 compile/static/preservation and clean delayed closure.
 Seed context/reentrancy/storage failures, publication and independent guide
@@ -47,7 +54,8 @@ acceptance. The user approved v4.11 D8-USERS-01 on2026-10-12: it places the thre
 binds them to the captured live authorized target/session and refuses unrelated
 dirty/invalid authority. Proceed under D13 with the approved replacement of the
 form-owned write/schema-ensure behavior. D8-A read/provisioning and processor rules remain.
-No runtime change or new recording ID; code diagnostic receipt records exact scope.
+The runtime correction is qualified at the checkpoint above; no new recording ID.
+The code diagnostic receipt records exact scope.
 
 **Independent D18 rendering correction,2026-10-12:** refreshing Detail on the
 current dependency set exposed final-glyph clipping at96DPI despite88 passing

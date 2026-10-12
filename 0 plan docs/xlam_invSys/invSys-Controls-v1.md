@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.554 -- Seed observation focused114; comprehensive recording and4be-A incomplete.
+**Version:** 1.555 -- Users authority qualified at GREEN259; recording/form acceptance open;4be-A incomplete.
 
 `ADMIN_DEMO_SEED` is implemented for catalog37/157 under v4.11 D18 semantic inheritance;
 recording RED37/6 -> focused GREEN114 retains the70 lifecycle checks. Existing Seed Demo Inventory runs built-in or
@@ -41,8 +41,22 @@ switch and a warehouse switch. This is a confirmed write-boundary gap, not
 recording or authorization acceptance. D8-USERS-01, approved by the user2026-10-12, requires captured
 live Admin authority through headless Core commands, exact trusted Auth target,
 and protection of unrelated edits; it replaces the form-owned write/schema-ensure
-path under D13. Implementation/acceptance remain pending. Existing captions, read/provisioning behavior
-and separate processor authorization remain. No new ControlId or runtime change.
+path under D13. Packaged authority RED139/9 retains all139 prior checks and proves
+the nine denied writes still persist. Core-command/form-delegation GREEN148 now
+denies those nine writes, retains all139 prior checks and preserves three authorized
+commands. Expanded direct Core GREEN250 and visible/data GREEN259 retain all
+earlier checks: ownership, stale grants, confirmation-time sign-out, cancelled
+saves, custom columns/dates and fresh saved new-user scope pass. Four captures
+show the complete refusal with blank credential controls; existing path/account-copy
+clipping and ordinary modal launch remain open. Five compiles, smoke86,
+chain32/live-role48/Create15, preservation and delayed native audits pass; chain
+closure is unassisted. This qualifies the command correction, not Users recording
+or comprehensive form acceptance.
+New refusals use the existing status
+label, including "The invSys session or warehouse changed. Reopen Users & Roles."
+and "Users & Roles could not persist the command. Inspect the current Auth state before retrying."
+Existing captions, read/provisioning behavior
+and separate processor authorization remain. No new ControlId.
 D16-VBA-LOAD-01 and D18-LOCAL-01 also remain proposed/unapproved.
 
 Event Detail's existing multiline value Labels now retain two points of height

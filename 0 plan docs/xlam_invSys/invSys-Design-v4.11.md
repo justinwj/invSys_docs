@@ -4989,8 +4989,9 @@ retains 111 checks and shows the readable refusal; existing form clipping remain
 open. Code receipt: `tests/integration/plan022_slice4be_admin_auth_read_results.md`.
 
 **D8-USERS-01 — Users & Roles write authority (APPROVED,2026-10-12):**
-The user explicitly approved this decision on2026-10-12. Implementation and
-acceptance remain pending; the approval authorizes the D13 work below.
+The user explicitly approved this decision on2026-10-12. The command correction
+is implemented and automatically qualified below; broader form/recording
+acceptance remains separate.
 The packaged write diagnostic retains111 existing checks and adds28 fixture/
 measurement checks. Create/Update, Deactivate and Delete each persist after
 sign-out, a change to Reader, and a change to another warehouse's Admin session,
@@ -5024,6 +5025,16 @@ post-confirmation context loss, exact target, dirty/read-only/missing/invalid Au
 unknown columns, read/provisioning regressions and truthful results. Use typed calls
 and primitive envelopes. New recording controls/results remain a later D18 step.
 Plan022 and the controls catalog track this approved decision; no acceptance is claimed.
+
+Implementation checkpoint,2026-10-12: actual-handler RED139/9 -> GREEN148 ->
+expanded GREEN250 -> visible/data GREEN259 retains all earlier checks on
+`validation-admin-users-authority-01`. Direct Core denial, stale cached grants,
+confirmation-time sign-out, borrowed ownership, cancelled saves, unknown columns,
+dates and fresh saved new-user scope pass. Four captures show the complete refusal;
+ordinary modal launch and existing form clipping remain open. Five cold/instrumented
+compiles, smoke86, chain32/live-role48/Create15, preservation and delayed native
+audits pass. The chain closes without intervention. No Users recording ID or4be-A
+acceptance is introduced; the code Auth-write receipt records the exact scope.
 
 ---
 ### D9 -- Operator Read Models and Refresh Contract (R1 Locked)
