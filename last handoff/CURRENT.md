@@ -1,1 +1,1 @@
-`145 Reconcile Native Confirmation GREEN.md`
+`146 Reconcile Recording and Binding GREEN.md`
