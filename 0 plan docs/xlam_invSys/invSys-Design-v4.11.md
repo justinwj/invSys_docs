@@ -5119,6 +5119,26 @@ preserves inventory. This is a presentation defect under D14-RECON-01, not
 permission to shorten exact keys or remove history choices. Five compiles and
 normal preserved closure with a clean delayed native audit pass.
 
+Presentation clarification under approved D14-RECON-01: an Admin-owned modal
+selection form replaces the truncated InputBox. Keep all20 offered entries with
+full EventID/System_Key in a locked, wrapped, vertically scrollable history view.
+Retain numbered selection and existing whole-number validation; Inspect returns
+that choice to the same callback, while Cancel/window-close returns no choice.
+Resizing must keep history and actions reachable. This changes presentation only;
+read ownership, confirmation/narrative, quantity and D8-RECON-01 rules remain.
+
+Selection presentation GREEN,2026-10-12: `validation-admin-reconcile-selection-02`
+passes191/191, retaining all181 prior checks and correcting both native history
+failures. Native entry20/Inspect, Escape, exact Domain event/key lookup, unchanged
+inventory and minimum/grow/maximize/restore captures pass. The native harness
+requires a visible disposable operator workbook; hidden-host Excel crashes are
+not accepted evidence. Five cold/instrumented compiles and86 smoke pass; static
+caps/dynamic counts hold with one reviewed duplicate event-adapter exception.
+Native confirmation/window-close coverage and comprehensive recording remain open.
+Exact scope/receipts: code `plan022_slice4be_admin_reconcile_results.md`. No4be-A closure.
+The same candidate retains32 full-chain/48 live-role/15 Create Warehouse checks,
+normal preserved closure and a clean delayed native audit.
+
 `EventID`, `RunId`, `DesignId`/`DesignVersion`, shipment IDs, and other
 specialized identifiers remain when they identify a different record or
 workflow concept. They do not replace the affected inventory entity's

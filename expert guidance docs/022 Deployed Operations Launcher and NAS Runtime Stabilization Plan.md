@@ -4,12 +4,25 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Reconcile selection GREEN,2026-10-12:** `validation-admin-reconcile-selection-02`
+passes191/191 after the native179/2 RED. The Admin form retains all20 full entries;
+native scroll/entry20/Inspect/Escape and minimum/grow/maximize/restore captures pass.
+All181 prior checks remain in order, including172 identity/authority checks.
+Five cold/instrumented compiles and86 smoke pass. Static caps/dynamic counts hold;
+the one-line shared-anchor event adapter has an explicit duplicate exception.
+Controls1.538 and code `plan022_slice4be_admin_reconcile_results.md` record scope.
+Next: native confirmation/window-close coverage and remaining Admin recording.
+Hidden-host crashes are diagnostic only; native tests require a visible disposable
+operator workbook. No new tracking ID, deployment promotion or4be-A closure.
+The same candidate retains32 full-chain/48 live-role/15 Create Warehouse checks
+with normal preserved closure and a clean delayed native audit.
+
 **Reconcile authentication GREEN,2026-10-12:** approved D8-RECON-01 passes172/172
 ordered callback checks after160/12 RED in `validation-admin-reconcile-access-02`.
 Core validates the captured live context and ADMIN_MAINT through `modAuth.CanPerform`;
 signed-in local fallback remains allowed. Native dates and capture now pass;
 combined gate179/2 retains long-history truncation/clipping as open defects.
-Controls1.536 and the code receipt are current. No4be-A closure.
+Controls1.536 and the code receipt record that checkpoint. No4be-A closure.
 The same candidate passes86 smoke,32 full-chain,48 live-role and15 Create Warehouse
 checks, normal preserved shutdown, delayed native audits and static ratchets.
 

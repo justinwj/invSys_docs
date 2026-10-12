@@ -1,8 +1,23 @@
 # invSys Form Controls v1
 
-**Version:** 1.536 -- Reconcile authentication GREEN; native history remains open.
+**Version:** 1.538 -- Reconcile selection/history191 GREEN;4be-A incomplete.
 
-Current candidate `validation-admin-reconcile-access-02` passes all172 ordered
+`frmShipmentReconcileSelection` implements the approved presentation requirement:
+`txtHistory` is locked, wrapped and vertically scrollable, retaining full EventID/
+System_Key for all20 offered entries. `txtSelection` retains numbered choice;
+`btnInspect` returns the choice to existing callback validation, and `btnCancel`,
+Escape or window-close cancels. History expands with the resizable form; actions
+stay reachable. Native scroll to entry20, Tab/20/Enter Inspect, Escape cancellation
+and minimum/grow/maximize/restore geometry and six reviewed captures pass in
+`validation-admin-reconcile-selection-02`:191/191 with all181 prior checks retained.
+Default720x480; minimum540x360. Native confirmation and window-close coverage remain
+open. Five cold/instrumented compiles and86 smoke pass; static caps/dynamic counts
+hold with a reviewed one-line anchor event-adapter duplicate exception. No
+quantity, authentication, confirmation or recording contract changes are implied.
+The same candidate retains32 full-chain/48 live-role/15 Create Warehouse checks,
+normal preserved closure and a clean delayed native audit.
+
+Earlier authentication candidate `validation-admin-reconcile-access-02` passes all172 ordered
 identity/authority checks after160/12 RED. Core rejects stale or changed live
 sessions and unauthorized users, while a signed-in Admin can still submit against
 a permitted local target. Headless authorization is unchanged. Native timestamps
@@ -12,7 +27,7 @@ instrumented compiles and normal preserved closure pass. Full4be-A is incomplete
 The same candidate retains86 smoke,32 full-chain,48 live-role and15 Create Warehouse
 checks; static caps/dynamic/duplicate counts and delayed native audits pass.
 
-Shipment Reconcile selection remains **not accepted**:20 owner-applied SHIP
+Historical Shipment Reconcile selection RED:20 owner-applied SHIP
 entries produce a1023-character InputBox prompt that stops before choice20 and
 clips text. Preserve full exact keys and every offered choice. Historical native
 RED134/5 also exposed the now-corrected dates and stale-identity authentication.
