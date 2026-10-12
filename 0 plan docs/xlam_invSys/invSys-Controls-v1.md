@@ -1,6 +1,15 @@
 # invSys Form Controls v1
 
-**Version:** 1.558 -- Users recording storage-failure gate GREEN420;4be-A incomplete.
+**Version:** 1.559 -- Users context-entry correction GREEN493;4be-A incomplete.
+
+Context-entry RED254/3 isolates a missing fixed tracking notice for all three Users
+writes when sign-out occurs during optional observation. The nine context changes
+already preserve write refusal, authorities and attribution. Recheck live context
+after observation; wording and permissions remain as specified. GREEN493 retains
+all420 prior and257 RED checks. Nine context changes, six storage failures and four
+reviewed captures pass. Existing clipping and ordinary native warning presentation
+remain open. Fresh chain32/live-role48/Create15, unchanged static metrics/caps,
+preservation and native audits pass; see the code Users context receipt.
 
 Users Create/Update, Deactivate and Delete each retain one persisted write and one
 fixed tracking notice when the attempt or outcome activity-file Open fails.

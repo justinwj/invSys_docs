@@ -4,8 +4,16 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current next action,2026-10-12:** protect Users recording context loss at the optional
-observation boundary, then continuous recording, publication and independent guides.
+**Current next action,2026-10-12:** protect continuous Users recording, exact
+publication and independent saved-guide conclusions through packaged handlers.
+The context-entry correction is qualified: RED254/3 -> GREEN493 retains all420
+prior and257 RED checks. Nine context
+changes preserve refusal/attribution and now show the fixed notice; six storage
+failures still preserve business execution. Five cold/instrumented compiles, four
+reviewed captures, static caps/metrics, preservation and native audits pass. No new
+contract is introduced. Fresh chain32/live-role48/Create15 retains prior ordered
+checks, closes unassisted and passes preservation/native audits. See the code Users
+context receipt; other context boundaries and native/layout acceptance remain open.
 Test-only GREEN420 retains353 checks and proves six real attempt/outcome Open
 failures leave one business write, one fixed notice and truthful partial records.
 Pins/settings/fixtures, five instrumented compiles, static metrics/schemas and

@@ -2179,6 +2179,23 @@ fresh read-only Auth checks, privacy and preservation pass. Packages are unchang
 See the code Users storage receipt; context/continuous recording, publication,
 independent guides and native acceptance remain open.
 
+Context-entry diagnostic,2026-10-12: packaged RED254/3 shows Save, Deactivate and
+Delete omit the fixed tracking notice when sign-out happens inside optional
+recording entry. All nine sign-out/actor/warehouse-change cases preserve Core's
+write refusal, both authorities and prior activity without stale attribution.
+The observer compared against a live context read before the optional call;
+compare after the call to enforce the existing notice requirement. This is an
+implementation correction under D18/D8-USERS-01, with no authority or policy change.
+
+Expanded GREEN493/493 retains all420 prior checks and all257 focused RED checks
+in order. Nine context changes and six real storage failures pass on the corrected
+candidate. Five cold/instrumented compiles, four reviewed captures, unchanged
+static metrics/caps, preservation and delayed native audits pass. Only the Admin
+observer changes among335 compiled components. Fresh chain32/live-role48/Create15
+retains prior checks and passes unassisted closure, preservation and native audits.
+See the code Users context receipt; broader context/continuous recording and guide
+acceptance remain open.
+
 **Admin Console coverage (D18 discovered-control refinement):**
 Catalog36 adds `ADMIN_CONSOLE_OPEN`, caption **Admin Console**, Admin surface,
 Navigation class, `ADMIN_CONSOLE` owner and existing ADMIN_MAINT capability.
