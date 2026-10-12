@@ -1,1 +1,1 @@
-`146 Reconcile Recording and Binding GREEN.md`
+`147 Reconcile Command Guide GREEN.md`
