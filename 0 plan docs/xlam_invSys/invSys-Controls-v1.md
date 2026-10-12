@@ -1,6 +1,23 @@
 # invSys Form Controls v1
 
-**Version:** 1.543 -- local recording diagnostic; D18-LOCAL-01 pending;4be-A incomplete.
+**Version:** 1.544 -- Verify Add-ins coverage refinement; D18-LOCAL-01 pending;4be-A incomplete.
+
+Accepted eligible NAS recording/guide coverage, within D18 semantic inheritance: catalog35
+`ADMIN_VERIFY_ADDINS` observes the existing Verify Add-ins Published callback.
+REQUESTED -> VERIFIED means five required files exist and are nonempty; a failed
+owner result/error is FAILED. Unknown data effect preserves the callback's local
+surface-preparation semantics. Empty references, no paths/raw diagnostics, and
+only VERIFIED establishes CommandCompleted; no SourceEventsApplied claim.
+Existing callback wording, D16 behavior, permissions and captured workbook/folder remain
+binding. Packaged recording RED/GREEN and context-boundary130/130 are verified;
+complete recording/guide proof is202/202 with six reviewed captures on verify-03.
+The same candidate retains Reconcile360, Settings202, smoke86 and
+chain32/live-role48/Create15. Compiles, static06 limits, preservation and delayed
+native audits pass. Result-dialog wording is unchanged; focused tests intercept
+that presentation, while guide captures exercise the actual views. Candidate03
+remains unpromoted; local eligibility and other Admin coverage keep4be-A open.
+The shared Expected conclusion picker must offer this control's VERIFIED outcome;
+its omission has focused22/1 RED and23/23 GREEN through the actual form.
 
 Local diagnostic199/199 retains172 identity/authority checks. With policy enabled,
 actual Reconcile queues once in a genuinely resolved local runtime and in the

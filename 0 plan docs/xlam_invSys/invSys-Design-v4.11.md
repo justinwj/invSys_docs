@@ -2084,6 +2084,43 @@ use, NAS behavior, sign-out/target-change refusal, policy suppression, storage
 failure and unchanged business results. Diagnostic evidence alone is not GREEN
 acceptance of the proposal. Plan022 and Controls1.543 track this pending decision.
 
+**Verify Add-ins Published coverage (D18 discovered-control refinement):**
+Catalog35 adds `ADMIN_VERIFY_ADDINS`, caption **Verify Add-ins Published**, Admin
+surface, Command class, `ADMIN_ADDINS_VERIFY` owner and existing ADMIN_MAINT
+capability. Catalog1–34 definitions remain unchanged. Observe the existing
+`modAdmin.Verify_AddinsPublished` entry: REQUESTED, then VERIFIED only when its
+owning file check returns True; otherwise FAILED. Unexpected errors also remain
+FAILED. All outcomes have Unknown data effect because the callback can prepare
+local workbook surfaces. VERIFIED is Info; FAILED is Error; REQUESTED is Info.
+Only VERIFIED is positive CommandCompleted. It means the five required add-in
+files were present and nonempty. VERIFIED must be selectable in the shared
+Expected conclusion editor for this control. This is not hash/manifest validation,
+deployment promotion or Domain application. SourceEventRefs is always empty; SourceEventsApplied
+cannot conclude. Messages are fixed, with no paths, raw diagnostics or entered
+values in activity. Existing operator result wording and verification rules stay.
+
+Capture the original workbook/context and verification folder before optional
+observation, preserve unknown columns, and never retarget because logging changes the active
+workbook/session. An originally empty folder stays empty; it must not fall through
+to a later target. If the captured session changes during observation, show the
+fixed tracking-unavailable notice without altering the original file-check result.
+Tracking failure/suppression must not block or repeat the file check.
+Existing Ribbon permission gates remain; no new direct-call permission
+exception or replay adapter is introduced. D13 requires packaged absent-record
+RED/GREEN for successful/missing/zero-byte checks, owner invocation/result,
+preservation, policy suppression, context changes and honest guide conclusions.
+This implements existing comprehensive D18 coverage under semantic inheritance;
+it does not decide D18-LOCAL-01 or change D16 publication verification.
+
+Acceptance evidence2026-10-12: recording/guide202/202 preserves the prior130 checks;
+the missing VERIFIED expectation choice has22/1 RED and23/23 GREEN. Six reviewed
+captures show independent successful/incomplete conclusions and all three views.
+Candidate03 also retains Reconcile360, Settings202, smoke86 and chain32/live-role48/
+Create15. Compiles, static06 limits, preservation and delayed native audits pass.
+See the code Verify Add-ins receipt for exact pins, scope and the excluded
+native-error run. Eligible NAS recording/guide coverage is accepted; local
+eligibility and remaining Admin coverage keep4be-A open.
+
 - Maintain a versioned coverage catalog for every reachable Operations/Admin
   launcher, form command, deliberate page/selection action and result. Each
   entry names a stable ControlId, fixed captions, role/family, public handler,

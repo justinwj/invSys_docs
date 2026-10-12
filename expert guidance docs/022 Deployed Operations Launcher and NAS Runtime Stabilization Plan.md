@@ -4,6 +4,22 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Completed independent coverage:** v4.11 D18's Verify Add-ins Published refinement
+adds catalog35 `ADMIN_VERIFY_ADDINS` around the existing public callback. Require
+absent-record RED before implementation, then packaged successful/missing/zero-byte
+file checks, one invocation, original-workbook/folder/custom-value preservation, policy
+and context boundaries, and guide conclusions limited to present/nonempty files.
+The shared Expected conclusion picker must offer VERIFIED for this control.
+No hash/deployment/Domain success claim or new business permission. D18-LOCAL-01
+remains separately pending; this control can progress in an eligible NAS context.
+Recording/guide202/202, exact130 prefix, plus the separate expectation-picker23/23
+and six reviewed captures are verified on verify-03. That candidate retains
+Reconcile360, Settings202, smoke86 and chain32/live-role48/Create15. Compiles,
+static06 limits, preservation and delayed native audits pass. This closes eligible
+NAS recording/guide coverage for the callback. Local eligibility and remaining
+Admin entries keep4be-A open; next independent audit is Admin Console's actual
+callback, as mapped in the code remaining-coverage receipt.
+
 **Local recording decision pending,2026-10-12:** D18-LOCAL-01 in v4.11 proposes
 recording/library eligibility for any valid captured signed-in warehouse runtime,
 local or UNC, including a valid local fallback context. It never redirects an
