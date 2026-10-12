@@ -4,6 +4,17 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Local recording decision pending,2026-10-12:** D18-LOCAL-01 in v4.11 proposes
+recording/library eligibility for any valid captured signed-in warehouse runtime,
+local or UNC, including a valid local fallback context. It never redirects an
+unavailable NAS library or changes business/replay target permissions. Do not
+implement before approval. The199-check diagnostic preserves172 existing checks:
+enabled local policy and successful Reconcile queuing coexist with no recording
+context, no activity/journal access and no warning. Five instrumented compiles,
+normal restoration and clean delayed native audit pass. This proves the gap,
+not acceptance of the proposed policy. Controls1.543 and the code Reconcile
+receipt record scope;360 recording/guide GREEN remains the accepted baseline.
+
 **Reconcile recording checkpoint,2026-10-12:** under v4.11 D18, catalog34 adds
 Open/Inspect/Cancel; recording-06 passes248/248, preserving the original203 checks
 and151 definitions. Absent records, missing context warnings, invalid references

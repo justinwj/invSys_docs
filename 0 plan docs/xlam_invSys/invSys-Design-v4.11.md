@@ -2059,6 +2059,31 @@ adds tests only, not a replay adapter or a new contract. Local-target recording
 eligibility remains open. Exact D13 evidence is in the code Reconcile receipt;
 this is not complete4be-A acceptance.
 
+**D18-LOCAL-01 — local recording eligibility (PROPOSED; requires approval):**
+The199-check packaged diagnostic confirms that Reconcile queues in a genuinely
+resolved WH_SOURCE_LOCAL context and in the valid signed-in fallback fixture,
+while enabled policy remains readable but recording context/activity/journal
+stores are unavailable. Neither case records activity or shows a tracking warning.
+This is observed behavior, not an accepted exclusion from comprehensive recording.
+
+Proposed decision: optional activity recording and the recording/guide library
+use the captured, fully resolved warehouse's own existing RuntimeRoot, whether
+local or UNC. A valid signed-in local fallback warehouse is also eligible as its
+own context. No trusted invSys actor or no valid existing runtime remains
+ineligible. An unavailable NAS library never redirects a captured context into a
+different local root. Preserve all role/capability, per-action/per-user policy,
+integrity, immutable history and session/target binding checks. Optional storage
+failure remains non-blocking with truthful incomplete evidence and the existing
+tracking-unavailable notice. This decision changes no business-operation or replay
+target eligibility; their existing gates still apply independently.
+
+If approved, change the shared context/activity/journal eligibility consistently;
+do not patch Reconcile alone. D13 must first show missing local observations and
+journal creation through packaged handlers, then prove local recording/library
+use, NAS behavior, sign-out/target-change refusal, policy suppression, storage
+failure and unchanged business results. Diagnostic evidence alone is not GREEN
+acceptance of the proposal. Plan022 and Controls1.543 track this pending decision.
+
 - Maintain a versioned coverage catalog for every reachable Operations/Admin
   launcher, form command, deliberate page/selection action and result. Each
   entry names a stable ControlId, fixed captions, role/family, public handler,

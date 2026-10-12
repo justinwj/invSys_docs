@@ -1,6 +1,16 @@
 # invSys Form Controls v1
 
-**Version:** 1.542 -- Reconcile recording/guide360 GREEN;4be-A incomplete.
+**Version:** 1.543 -- local recording diagnostic; D18-LOCAL-01 pending;4be-A incomplete.
+
+Local diagnostic199/199 retains172 identity/authority checks. With policy enabled,
+actual Reconcile queues once in a genuinely resolved local runtime and in the
+valid signed-in fallback fixture, but records nothing and shows no tracking
+warning: shared context/activity/journal gates require NAS eligibility. This is
+not an accepted recording exclusion. Proposed D18-LOCAL-01 in v4.11 permits
+recording/library use in the captured valid signed-in runtime, local or UNC,
+including valid local fallback; no NAS-to-local redirection or business/replay
+permission change. Approval and packaged RED/GREEN remain required. Existing
+360-check Reconcile recording/guide acceptance remains intact.
 
 Under v4.11 D18: `ADMIN_RECONCILE_OPEN` observes actual form presentation;
 `ADMIN_RECONCILE_INSPECT` observes Inspect and its existing narrative confirmation
