@@ -12,9 +12,10 @@ place. Discovery order, deduplication, the no-results message and saved authorit
 remain. Five compiles, Console118, smoke86, one reviewed capture and static limits
 pass. Chain acceptance remains blocked by native Excel failures: the traced run
 identifies the live-role processor call after projection deletion; another run's
-32/live48/Create15 passes coexist with a native crash. A narrower diagnostic stops
-at a compiled trace-anchor mismatch before business execution. Correct/protect
-that tooling before further localization; no native repair is claimed. The code
+32/live48/Create15 passes coexist with a native crash. The narrower trace matcher
+now has tooling RED7/4 -> GREEN11 and existing74 protection. Traced and read-only
+package/reference inspection controls each pass35; the uninstrumented counterpart
+crashes at the processor. Continue bounded localization; no native repair is claimed. The code
 directory-columns receipt records exact runs, restoration and next test.
 No new control ID or recording acceptance yet.
 

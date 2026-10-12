@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.546 -- View Warehouses D14 prerequisite; D18-LOCAL-01 pending;4be-A incomplete.
+**Version:** 1.547 -- Directory trace unblocked; native qualification and D18-LOCAL-01 pending;4be-A incomplete.
 
 View Warehouses (`btnAdminWarehouses`, Admin, ADMIN_MAINT): packaged directory
 refresh on console-03 loses unknown-column text and a local tail value (initial
@@ -11,7 +11,9 @@ annotation association. Unpromoted directory-01 passes31 focused checks,
 Console118, smoke86, five compiles and static limits. One reviewed generated
 capture shows retained local cells. Native chain failures prevent acceptance;
 tracing localizes one to the live-role processor call after projection deletion.
-The narrower trace currently fails installation, not business assertions.
+The narrower trace matcher is corrected with11 focused/74 existing tooling checks.
+Traced and read-only inspection controls each pass35; the uninstrumented control
+still crashes. This is diagnostic evidence, not a native repair.
 Clean chain qualification and recording remain pending; no native repair claimed.
 
 Verified eligible NAS D18 coverage: catalog36 `ADMIN_CONSOLE_OPEN`, Admin
