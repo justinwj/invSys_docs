@@ -1,6 +1,16 @@
 # invSys Form Controls v1
 
-**Version:** 1.559 -- Users context-entry correction GREEN493;4be-A incomplete.
+**Version:** 1.560 -- Users continuous recording and independent guide GREEN129;4be-A incomplete.
+
+Three actual Users Save/Deactivate/Delete sequences now prove exact publication
+and independently evaluated three-step SAVED guides. Nine fresh Auth results retain
+one save per command; a lost final observation leaves honest incomplete evidence.
+The guide never supplies missing success. Six reviewed captures show multiline
+instructions, provenance and saved successful/incomplete conclusions across How-To,
+Diagnostic and Compare. Five instrumented compiles, unchanged static metrics/caps,
+preservation and native audit pass. Packages match the qualified493/chain candidate;
+no product, wording or catalog change. See the code Users guide receipt. Native
+Users warnings/confirmation, existing clipping and other controls remain open.
 
 Context-entry RED254/3 isolates a missing fixed tracking notice for all three Users
 writes when sign-out occurs during optional observation. The nine context changes

@@ -2196,6 +2196,17 @@ retains prior checks and passes unassisted closure, preservation and native audi
 See the code Users context receipt; broader context/continuous recording and guide
 acceptance remain open.
 
+Subsequent test-only qualification,2026-10-12: GREEN129 proves three continuous
+Users sequences, exact publication and independently evaluated SAVED guides.
+Nine fresh Auth results confirm one persistence per command. A real final-outcome
+Open failure leaves business success and incomplete recording; evaluation cannot
+borrow the source run's conclusion. Six reviewed guide captures show multiline
+instructions, provenance and successful/incomplete conclusions in the three views.
+Five instrumented compiles, unchanged static metrics/caps, preservation and delayed
+native audit pass. Packages match the qualified493/chain candidate; no product or
+contract change. See the code Users guide receipt. Native warning/confirmation,
+existing clipping, other controls and further context/reentrancy coverage remain open.
+
 **Admin Console coverage (D18 discovered-control refinement):**
 Catalog36 adds `ADMIN_CONSOLE_OPEN`, caption **Admin Console**, Admin surface,
 Navigation class, `ADMIN_CONSOLE` owner and existing ADMIN_MAINT capability.

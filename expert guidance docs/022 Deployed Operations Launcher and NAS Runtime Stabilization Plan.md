@@ -4,8 +4,15 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current next action,2026-10-12:** protect continuous Users recording, exact
-publication and independent saved-guide conclusions through packaged handlers.
+**Current next action,2026-10-12:** protect Seed recording context/storage boundaries
+through the actual packaged callback, then exact publication and independent guides.
+Users continuous recording/publication/independent guide qualification passes
+GREEN129, with three sequences, nine fresh Auth results and successful/incomplete
+conclusions that cannot borrow source-run success. Six guide captures, five
+instrumented compiles, unchanged static metrics/caps, preservation and delayed
+native audit pass. This is test-only coverage; package hashes match the prior493
+and chain candidate. See the code Users guide receipt. Other Users controls,
+native/layout acceptance and further context/reentrancy coverage remain open.
 The context-entry correction is qualified: RED254/3 -> GREEN493 retains all420
 prior and257 RED checks. Nine context
 changes preserve refusal/attribution and now show the fixed notice; six storage
