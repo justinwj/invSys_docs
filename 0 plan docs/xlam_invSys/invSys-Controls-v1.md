@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.516 -- Admin Settings Close scoped GREEN70; RUN-SCALE-02 approved.
+**Version:** 1.517 -- RUN-SCALE-02 scoped GREEN64/162; Admin Close GREEN70.
 
 Unpromoted `validation-admin-close-02` implements Architecture D18 catalog32:
 btnClose/native window close record ADMIN_SETTINGS_CLOSE only for deliberate
@@ -19,17 +19,21 @@ navigation remain separate coverage; Scale proof below retains its candidate sco
 Approved RUN-SCALE-02 in Architecture v4.11 (user approval 2026-10-11): when worksheet loading returns False,
 Apply Scale must stop before further scaling/output preparation/refresh and say
 "Recipe could not be loaded. Scale was not applied." FAILED remains; owner effects
-are not rolled back. Implementation and focused RED/GREEN remain pending. The current
-captured status still claims the recipe loaded and prior quantities are scaled;
-visible acceptance of that failure remains open despite corrected recording.
+are not rolled back. Unpromoted `validation-run-scale-stop-01` implements the
+decision: actual-handler RED61/3 to GREEN64 and RED159/3 to GREEN162, with unchanged
+prior quantities/key/custom values and no subsequent scale/preparation/refresh.
+Both failure captures show the full approved message. Five cold/instrumented
+compiles, static ratchets and clean preserved closure pass. Enabled-Designs218
+and full-chain32/live48/warehouse15, smoke86 and six-page layout pass with zero delayed faults; earlier native
+failures remain unresolved. Human/comprehensive acceptance stays open.
 
-Current unpromoted `validation-run-scale-empty-recipe-01` protects custom columns,
+Preceding unpromoted `validation-run-scale-empty-recipe-01` protects custom columns,
 values and formulas when the selected worksheet recipe remains unavailable after
 refresh. Actual-handler RED54/7 to GREEN61 records FAILED and stops staging rebuild.
 Five cold/instrumented compiles, retained disabled160/smoke86, clean preserved
 closure and unchanged static ratchets pass. The reviewed image shows the existing
-misleading loaded status and subsequent scaling; correcting that behavior is now
-authorized by RUN-SCALE-02 above.
+misleading loaded status and subsequent scaling in that older candidate; the
+approved RUN-SCALE-02 correction and its scoped evidence are above.
 Successful worksheet reload, general D14 rebuild preservation, independent guidance
 and native chain acceptance remain open. Exact receipts: Production Run local
 results in code. No comprehensive Scale or4be-A acceptance.

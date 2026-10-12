@@ -1327,6 +1327,10 @@ loaded reusable runs and the enabled/unloaded refusal retain their contracts.
 Require actual-handler RED/GREEN for missing definitions and caught owner
 failures, unchanged prior quantities/custom fields, exact wording and observations.
 Approval authorizes implementation; acceptance still requires the stated evidence.
+Scoped packaged evidence on2026-10-11 is RED61/3 to GREEN64 for an unavailable
+definition, and RED159/3 to GREEN162 for a caught loader failure. Both preserve
+prior quantities/custom fields and show the approved message; wider acceptance
+remains recorded separately in Plan022 and the controls catalog.
 
 **Approved decision RUN-UI-01 (user approval 2026-10-11):** Packaged
 worksheet allocation tests show that List/Tree Apply can display "Acceptable
