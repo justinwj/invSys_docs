@@ -1,6 +1,17 @@
 # invSys Form Controls v1
 
-**Version:** 1.528 -- Remaining Admin entry map verified; identity/read prerequisites remain open.
+**Version:** 1.529 -- Shipment Reconcile identity RED; quantity clarification pending.
+
+`btnAdminShipmentReconcile` / `OpenShipmentReconcileTool`: packaged callback RED
+15 pass/3 fail on unchanged candidate02: missing selected System_Key, legacy Row
+payload and canonical inventory dirtied. The generated fixture, exact single-event
+delta, quantities, file bytes and custom column are preserved; five compiles and
+normal delayed closure pass. No native-dialog or Domain-application claim.
+v4.11 **D14-RECON-01 is PROPOSED, approval pending**: selected EventID/exact key,
+entity-only after-event balance, explicit negative correction with narrative,
+current attributes preserved and nonmutating inspection. No new tracking ID or
+runtime behavior is approved here. Code `plan022_slice4be_admin_reconcile_results.md`
+records the test and pending gates. 4be-A remains incomplete.
 
 Source/package audit2026-10-12 verifies14 Actions buttons in the current Admin
 Ribbon, with Settings retaining its scoped evidence below and13 other entry paths
@@ -8,8 +19,9 @@ mapped to existing owners. Three shared Session/target entries remain separately
 accounted for. No new ControlId, exclusion, outcome or behavior is approved by this
 audit. `plan022_slice4be_admin_remaining_coverage.md` in the code repository records
 the map, the reachable Shipment Reconcile ROW/SKU conflict with D14, and the Users
-and Roles Refresh path into Auth schema maintenance. Both need focused packaged
-runtime proof; neither is behavioral RED yet. Keep the complete4be-A scope open.
+and Roles Refresh path into Auth schema maintenance. Reconcile now has the focused
+RED above; Auth still requires its separate packaged read-preservation proof.
+Keep the complete4be-A scope open.
 
 On unchanged candidate02, continuous modal Settings recording/guide proof passes125:
 public Open, five native tab selections and Close produce independent seven-action

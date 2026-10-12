@@ -4,6 +4,15 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Shipment Reconcile prerequisite,2026-10-12:** actual packaged callback RED is
+15 pass/3 fail: selected System_Key absent, legacy Row queued, borrowed inventory
+dirtied. Generated two-entity history, exact single-event delta, unknown column,
+quantities/file bytes, five compiles and normal delayed closure are verified.
+No runtime code changed. v4.11 **D14-RECON-01 is proposed, approval pending** for
+the selected event/exact-entity quantity rule; implement only after approval and
+focused repeated/multi-entity tests. Queue proof is not Domain/native acceptance.
+Controls1.529 and code `plan022_slice4be_admin_reconcile_results.md` agree.
+
 **Remaining Admin entry audit,2026-10-12:** code
 `plan022_slice4be_admin_remaining_coverage.md` verifies14 packaged Actions IDs,
 maps the13 non-Settings macros to their owners and separately accounts for three
@@ -14,7 +23,8 @@ actual packaged System_Key correction test before its tracking implementation.
 Users and Roles Refresh also enters Auth schema maintenance when opening a closed
 workbook; require a separate D8-A read-preservation test. No runtime was run or
 changed for this audit, no behavioral RED is claimed, and no new contract/exclusion
-is approved. Controls1.528 retains the same status. Settings125/123/177 remains valid.
+is approved by that source audit. The newer focused RED above supersedes its
+no-runtime status for Reconcile only. Settings125/123/177 remains valid.
 
 **Continuous modal recording proof,2026-10-12:** unchanged candidate02 passes125,
 retaining43 shared checks. Actual Viewer recording/public Settings launcher, native

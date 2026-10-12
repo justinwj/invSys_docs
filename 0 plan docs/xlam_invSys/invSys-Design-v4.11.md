@@ -4995,6 +4995,30 @@ D14, not an approved compatibility exception. The source/package map is code
 behavioral RED before correction. Do not infer new quantity-correction semantics,
 remove the operator entry or weaken exact identity to make the test pass.
 
+**D14-RECON-01 — Shipment Reconcile quantity scope (PROPOSED; approval pending).**
+Select a negative SHIP history entry by its EventID and exact `System_Key` and
+show that key in the choice/confirmation. Compare that entity's current quantity
+with its history balance through the selected event's AppliedSeq, including all
+lines for that key in that event. Repeated shipments use the selected event;
+other keys, including the same SKU, never contribute. If current quantity is
+higher, preview and queue only `after-event quantity - current quantity`, with
+the selected event reference and required human narrative. Otherwise queue nothing.
+This is an explicit operator correction, not automatic rollback or proof that
+intervening activity was erroneous. Preserve the entity's current location,
+condition and custom attributes. Refuse missing/ambiguous identity or history;
+never infer a key from SKU/ROW. Inspection must not create, repair, save or dirty
+canonical inventory or discard borrowed-workbook edits. Keep existing capability
+checks and separate queue confirmation from Domain application. Before GREEN,
+cover repeated/multi-entity events and enforce the exact event/key association at
+the Domain boundary. No implementation of this proposal is approved yet.
+
+Focused packaged RED,2026-10-12:15 pass/3 fail through the actual callback with
+generated two-entity training inventory: missing selected key, legacy Row payload,
+and inventory dirtied. File bytes, quantities and unknown column are preserved;
+five compiles and normal delayed shutdown pass. This is queue-side evidence, not
+Domain application or native-dialog acceptance. Code receipt:
+`tests/integration/plan022_slice4be_admin_reconcile_results.md`.
+
 `EventID`, `RunId`, `DesignId`/`DesignVersion`, shipment IDs, and other
 specialized identifiers remain when they identify a different record or
 workflow concept. They do not replace the affected inventory entity's
