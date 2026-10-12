@@ -4995,7 +4995,7 @@ D14, not an approved compatibility exception. The source/package map is code
 behavioral RED before correction. Do not infer new quantity-correction semantics,
 remove the operator entry or weaken exact identity to make the test pass.
 
-**D14-RECON-01 — Shipment Reconcile quantity scope (PROPOSED; approval pending).**
+**D14-RECON-01 — Shipment Reconcile quantity scope (approved 2026-10-12).**
 Select a negative SHIP history entry by its EventID and exact `System_Key` and
 show that key in the choice/confirmation. Compare that entity's current quantity
 with its history balance through the selected event's AppliedSeq, including all
@@ -5010,7 +5010,8 @@ never infer a key from SKU/ROW. Inspection must not create, repair, save or dirt
 canonical inventory or discard borrowed-workbook edits. Keep existing capability
 checks and separate queue confirmation from Domain application. Before GREEN,
 cover repeated/multi-entity events and enforce the exact event/key association at
-the Domain boundary. No implementation of this proposal is approved yet.
+the Domain boundary. The user explicitly approved this contract on2026-10-12;
+implementation remains subject to focused D13 RED/GREEN and acceptance gates.
 
 Focused packaged RED,2026-10-12:15 pass/3 fail through the actual callback with
 generated two-entity training inventory: missing selected key, legacy Row payload,

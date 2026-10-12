@@ -8,10 +8,10 @@
 15 pass/3 fail: selected System_Key absent, legacy Row queued, borrowed inventory
 dirtied. Generated two-entity history, exact single-event delta, unknown column,
 quantities/file bytes, five compiles and normal delayed closure are verified.
-No runtime code changed. v4.11 **D14-RECON-01 is proposed, approval pending** for
-the selected event/exact-entity quantity rule; implement only after approval and
-focused repeated/multi-entity tests. Queue proof is not Domain/native acceptance.
-Controls1.529 and code `plan022_slice4be_admin_reconcile_results.md` agree.
+No runtime code changed in that RED checkpoint. The user **approved D14-RECON-01
+on2026-10-12** for the selected event/exact-entity quantity rule. Add focused
+repeated/multi-entity tests before implementation. Queue proof is not Domain/native acceptance.
+Controls1.530 and code `plan022_slice4be_admin_reconcile_results.md` agree.
 
 **Remaining Admin entry audit,2026-10-12:** code
 `plan022_slice4be_admin_remaining_coverage.md` verifies14 packaged Actions IDs,

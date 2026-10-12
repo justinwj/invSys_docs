@@ -1,16 +1,16 @@
 # invSys Form Controls v1
 
-**Version:** 1.529 -- Shipment Reconcile identity RED; quantity clarification pending.
+**Version:** 1.530 -- Shipment Reconcile identity RED; quantity contract approved.
 
 `btnAdminShipmentReconcile` / `OpenShipmentReconcileTool`: packaged callback RED
 15 pass/3 fail on unchanged candidate02: missing selected System_Key, legacy Row
 payload and canonical inventory dirtied. The generated fixture, exact single-event
 delta, quantities, file bytes and custom column are preserved; five compiles and
 normal delayed closure pass. No native-dialog or Domain-application claim.
-v4.11 **D14-RECON-01 is PROPOSED, approval pending**: selected EventID/exact key,
+v4.11 **D14-RECON-01 was approved by the user on2026-10-12**: selected EventID/exact key,
 entity-only after-event balance, explicit negative correction with narrative,
 current attributes preserved and nonmutating inspection. No new tracking ID or
-runtime behavior is approved here. Code `plan022_slice4be_admin_reconcile_results.md`
+completed implementation is claimed here. Code `plan022_slice4be_admin_reconcile_results.md`
 records the test and pending gates. 4be-A remains incomplete.
 
 Source/package audit2026-10-12 verifies14 Actions buttons in the current Admin
