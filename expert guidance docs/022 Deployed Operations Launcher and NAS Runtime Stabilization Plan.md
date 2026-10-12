@@ -4,6 +4,22 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Current D14 worksheet reload correction,2026-10-12:** unpromoted
+`validation-run-scale-success-02` preserves custom chooser/palette columns and
+output formulas during successful worksheet Apply Scale. Actual-handler RED66/3
+becomes GREEN69; extended GREEN86 protects repeated reload, inserted custom columns,
+normalized managed headers, exact input identity and non-compounding quantities.
+Five cold/instrumented compiles and static ratchets pass; mProduction shrinks20 lines,
+dynamic calls/duplicate candidates remain unchanged. Both success captures are
+reviewed; long recipe descriptions still clip. Enabled218/missing64/refusal162 retain
+prior order with preservation and clean delayed closure. The ordinary chain fails
+at Shipping Sent with COM0x800706BE/ntdll c0000028: chain5/1, live40/1, warehouse15/15.
+Recovery closure was assisted; no current full-chain acceptance. Independent smoke86
+and six-page layout pass with clean preserved closure and reviewed capture evidence.
+Receipts: `tests/integration/plan022_slice4be_production_run_local_results.md`.
+This enforces existing D14; general rebuild coverage, independent worksheet guides
+and comprehensive4be-A acceptance remain open.
+
 **Independent Close continuation:** unpromoted `validation-admin-close-02`
 implements D18 catalog32 under approved comprehensive recording/semantic
 inheritance, preserving the existing workflow. Actual-handler RED34/19 to GREEN53

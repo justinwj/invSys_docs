@@ -1332,6 +1332,16 @@ definition, and RED159/3 to GREEN162 for a caught loader failure. Both preserve
 prior quantities/custom fields and show the approved message; wider acceptance
 remains recorded separately in Plan022 and the controls catalog.
 
+**D14 worksheet reload verification,2026-10-12:** Successful worksheet Scale now
+has scoped actual-handler RED66/3 to GREEN69, extended to86 checks for repeated
+reload with custom columns between managed fields. The correction retains custom
+columns/values/formulas in chooser, palette and output staging and resolves managed
+fields by normalized name. It preserves the exact input key, prepares output without
+allocating a premature key, and does not compound the scale on repetition. This
+implements D14 without changing the successful-load contract. General rebuild
+coverage and independent worksheet guides remain separate acceptance requirements;
+Plan022 and the controls catalog record the current candidate and regression scope.
+
 **Approved decision RUN-UI-01 (user approval 2026-10-11):** Packaged
 worksheet allocation tests show that List/Tree Apply can display "Acceptable
 inventory allocation updated" when its required local table or QUANTITY column

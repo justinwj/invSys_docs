@@ -1,6 +1,20 @@
 # invSys Form Controls v1
 
-**Version:** 1.518 -- Admin Close independent guide proof123; RUN-SCALE-02 GREEN64/162.
+**Version:** 1.519 -- Successful worksheet Scale preserves custom staging fields.
+
+Current unpromoted `validation-run-scale-success-02` enforces existing D14 through
+the packaged Apply Scale handler: RED66/3 to GREEN69, extended GREEN86 for repeated
+reload with inserted custom columns. Chooser/palette values and formulas, output
+formulas and exact input identity survive; repeated scaling does not compound.
+Five cold/instrumented compiles, static ratchets and enabled218/missing64/refusal162
+pass with preservation and clean delayed closure. The ordinary chain fails at Shipping
+Sent with COM0x800706BE/ntdll c0000028 (chain5/1, live40/1, warehouse15/15); recovery
+closure was assisted and full-chain acceptance is blocked. Independent smoke86 and
+six-page layout pass with clean closure and reviewed capture evidence. Both success
+captures are reviewed; long recipe descriptions still clip. Current receipts are in the Production
+Run local results. General rebuild coverage, independent worksheet guides and
+human/comprehensive4be-A acceptance remain open. This changes no approved wording
+or workflow contract; earlier evidence below retains its candidate scope.
 
 Unpromoted `validation-admin-close-02` implements Architecture D18 catalog32:
 btnClose/native window close record ADMIN_SETTINGS_CLOSE only for deliberate
