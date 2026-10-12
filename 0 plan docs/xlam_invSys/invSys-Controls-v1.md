@@ -1,6 +1,18 @@
 # invSys Form Controls v1
 
-**Version:** 1.530 -- Shipment Reconcile identity RED; quantity contract approved.
+**Version:** 1.531 -- Users & Roles read separation; Reconcile contract approved.
+
+`frmCreateDeleteUser` Refresh/user selection now opens closed Auth read-only and
+validates without schema maintenance under approved D8-A. Missing/invalid Auth
+fails closed; borrowed edits and unknown columns remain untouched. Invalid schema
+shows “Auth workbook has missing required tables or columns.” Explicit Save,
+Deactivate and Delete retain their write path. Packaged RED103/8 -> GREEN111/111
+retains all82 prior Auth checks. Five cold/instrumented compiles, Operations cold
+start, preservation and delayed shutdown pass; static caps/metrics hold. Visible
+GREEN retains111; healthy/invalid Auth and Settings Save captures are reviewed.
+The new refusal is readable; existing long-path/account-copy clipping remains
+open. No new recording ID or write-authorization exception is
+introduced. Exact scope: code `plan022_slice4be_admin_auth_read_results.md`.
 
 `btnAdminShipmentReconcile` / `OpenShipmentReconcileTool`: packaged callback RED
 15 pass/3 fail on unchanged candidate02: missing selected System_Key, legacy Row
@@ -20,7 +32,7 @@ accounted for. No new ControlId, exclusion, outcome or behavior is approved by t
 audit. `plan022_slice4be_admin_remaining_coverage.md` in the code repository records
 the map, the reachable Shipment Reconcile ROW/SKU conflict with D14, and the Users
 and Roles Refresh path into Auth schema maintenance. Reconcile now has the focused
-RED above; Auth still requires its separate packaged read-preservation proof.
+RED above; Auth has the subsequent scoped read proof recorded at the top.
 Keep the complete4be-A scope open.
 
 On unchanged candidate02, continuous modal Settings recording/guide proof passes125:

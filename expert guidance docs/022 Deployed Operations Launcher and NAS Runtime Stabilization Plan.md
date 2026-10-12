@@ -4,6 +4,18 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Users & Roles read prerequisite, 2026-10-12:** approved D8-A correction on
+`validation-admin-auth-read-01`: RED 103/8 -> GREEN 111/111, retaining all 82
+previous Auth checks and explicit Save/Deactivate/Delete behavior. Only the
+Admin form changes; five cold/instrumented compiles, Operations cold start,
+preservation and clean delayed shutdown pass. Static caps and dynamic/duplicate
+metrics hold. Visible GREEN retains111 with three reviewed captures and readable
+refusal; existing clipping, write authorization and comprehensive Admin recording
+remain open. Controls1.531 and code
+`plan022_slice4be_admin_auth_read_results.md` record this scope. D14-RECON-01
+is approved; its repeated/multi-entity and Domain tests remain next after this
+read prerequisite.
+
 **Shipment Reconcile prerequisite,2026-10-12:** actual packaged callback RED is
 15 pass/3 fail: selected System_Key absent, legacy Row queued, borrowed inventory
 dirtied. Generated two-entity history, exact single-event delta, unknown column,

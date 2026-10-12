@@ -4791,6 +4791,16 @@ existing sign-in/capability/processor behavior. Shipping's stopped-owner probes
 alone cannot establish that broader Core acceptance. Approval authorizes test-first
 implementation; it does not turn the existing failures into passing evidence.
 
+Users & Roles read-path follow-up, 2026-10-12: D8-A also governs the form's
+ordinary Refresh and user-selection reads. Packaged RED (103 pass/8 expected
+fail) proves writable opening, dirtying and invalid-schema maintenance. The
+scoped correction passes 111 checks, retains the existing 82-check Auth suite
+and explicit Save/Deactivate/Delete behavior, and changes only the Admin form.
+This implements the approved separation; it does not settle the distinct write
+authorization review or establish action-recording acceptance. Visible GREEN
+retains 111 checks and shows the readable refusal; existing form clipping remains
+open. Code receipt: `tests/integration/plan022_slice4be_admin_auth_read_results.md`.
+
 ---
 ### D9 -- Operator Read Models and Refresh Contract (R1 Locked)
 **Decision:** Operator-facing inventory tables are read models refreshed from published or local warehouse snapshots. They are not authoritative write targets.
