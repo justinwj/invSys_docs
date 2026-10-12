@@ -1,6 +1,16 @@
 # invSys Form Controls v1
 
-**Version:** 1.520 -- Independent worksheet Scale recording and guide conclusions verified.
+**Version:** 1.521 -- Settings entry/navigation controls specified; packaged RED next.
+
+D18's catalog33 refinement names `ADMIN_SETTINGS_OPEN` and
+`ADMIN_SETTINGS_PAGE_GENERAL`, `ADMIN_SETTINGS_PAGE_EVENT_TRACKING`,
+`ADMIN_SETTINGS_PAGE_TRACKING`, `ADMIN_SETTINGS_PAGE_EVENT_DETAIL`,
+`ADMIN_SETTINGS_PAGE_ACTION_PATHS`. The public launcher and existing five tabs
+retain their UI/permission behavior; navigation defaults off outside eligible capture.
+Only actual visible opening/selection can supply OPENED/SELECTED, without a save or
+Domain-application claim. Initialization/programmatic navigation is excluded.
+Implementation and acceptance remain pending; current runtime is still catalog32/145.
+See Architecture v4.11 "Admin Settings entry/navigation refinement" and Plan022.
 
 On unchanged `validation-run-scale-success-02`, independent worksheet Scale guide
 proof passes197. Exact separate source/observed recordings, publication and Event Detail,

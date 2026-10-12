@@ -2708,6 +2708,56 @@ configuration schema, authority or permission change. Define and run the package
 geometry criterion on the current candidate before correcting the layout, then
 verify the same criterion and visible screenshots on the corrected candidate.
 
+**Admin Settings entry/navigation refinement (catalog33; implementation and acceptance pending):**
+Under approved D18 comprehensive recording and semantic inheritance, add these
+discovered controls without changing their existing UI, permissions or owners of
+settings data. Preserve catalogs1-32. All six have owner ADMIN_SETTINGS_UI, role
+Admin, class Navigation and capability ADMIN_MAINT (existing form eligibility).
+Follow navigation-off defaults, explicit per-control/per-user policy and active
+capture eligibility; older policies do not implicitly enable the new controls.
+
+| ControlId | Existing operator entry | Caption / surface |
+|---|---|---|
+| ADMIN_SETTINGS_OPEN | Packaged Settings launcher `modAdmin.Open_Settings` | Settings / Admin |
+| ADMIN_SETTINGS_PAGE_GENERAL | `frmAdminSettings.mpSettings`, General tab | General / Admin > Settings |
+| ADMIN_SETTINGS_PAGE_EVENT_TRACKING | `frmAdminSettings.mpSettings`, Event Tracking tab | Event Tracking / Admin > Settings |
+| ADMIN_SETTINGS_PAGE_TRACKING | `mpEventTracking`, Tracking tab | Tracking / Admin > Settings > Event Tracking |
+| ADMIN_SETTINGS_PAGE_EVENT_DETAIL | `mpEventTracking`, Event Detail tab | Event Detail / Admin > Settings > Event Tracking |
+| ADMIN_SETTINGS_PAGE_ACTION_PATHS | `mpEventTracking`, Action Paths tab | Action Paths / Admin > Settings > Event Tracking |
+
+Open records REQUESTED/Info/Unknown at deliberate public entry, then OPENED/Info/
+Unchanged only after that invocation visibly presents Settings in its captured
+context. Fixed wording: "Settings form opened. No settings save or Domain application is asserted."
+The existing eligibility/configuration refusal permits DENIED/Blocked/Unchanged or
+REJECTED/Warning/Unchanged as applicable; a caught opening failure permits FAILED/
+Error/Unknown. No hidden form, constructor, smoke test, focus regain or internal
+reopen creates an Open observation. Preserve the real modal launcher/default-instance
+Close/reopen behavior and operator surface preparation. Unchanged describes saved
+settings/Domain authority, not a claim that operator workbook setup did nothing.
+
+A deliberate mouse/keyboard change to a different tab records REQUESTED/Info/Unknown
+and SELECTED/Info/Unchanged after its destination is displayed. Fixed wording:
+"Settings page selected. No settings save or Domain application is asserted."
+Initialization, programmatic assignment, layout/refresh, focus movement, same-tab
+clicks and nested display work are excluded. Returning to Event Tracking records
+only that outer tab; its retained inner page is not a second user action.
+A failed selection observation permits FAILED/Error/Unknown, never assumed success.
+
+Use exact captured warehouse/session and current policy; never attribute an old form
+to a replacement context. Navigation remains local display work, including after
+permission/context loss; it grants no save/read authority and must not silently
+reload another warehouse. Optional logging failure cannot block or retry opening
+or navigation; retain a visible fixed tracking notice. EventCode is ControlId plus
+underscore/outcome, references are empty, and observations contain no entered values,
+paths, credentials or raw errors. Only OPENED for Open and SELECTED for these five
+tabs establish local CommandCompleted; SourceEventsApplied cannot conclude.
+
+Require packaged launcher and native mouse/keyboard RED/GREEN, constructor/programmatic
+exclusion, repeated activation, captured-context/permission/policy/storage cases,
+preserved authority/custom columns/older evidence, exact publication and independent
+guide conclusions before accepting this family. This refines approved D18; it does
+not introduce replay adapters or weaken D5/D8/D12/D14.
+
 **Admin Settings Close observation refinement (catalog32; acceptance pending):**
 Under approved D18 comprehensive recording and semantic inheritance, register
 `ADMIN_SETTINGS_CLOSE` for `frmAdminSettings.mBtnClose_Click` and explicit native

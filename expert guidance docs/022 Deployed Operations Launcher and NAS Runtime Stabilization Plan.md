@@ -4,6 +4,15 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Next entry/navigation family:** Architecture D18 names Settings Open and five
+tab destinations for catalog33 under approved comprehensive recording/semantic
+inheritance. Runtime remains catalog32/145 until packaged RED and implementation.
+Preserve the modal launcher, local navigation, captured context, navigation-off
+policy, and constructor/programmatic exclusions. OPENED/SELECTED prove presentation
+only. Require native input, policy/context failures, exact publication and independent
+guide evidence; no acceptance or replay adapter is implied. Governing section:
+"Admin Settings entry/navigation refinement" in v4.11; Controls1.521 is synchronized.
+
 **Current D14 worksheet reload correction,2026-10-12:** unpromoted
 `validation-run-scale-success-02` preserves custom chooser/palette columns and
 output formulas during successful worksheet Apply Scale. Actual-handler RED66/3
