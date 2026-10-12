@@ -4,6 +4,25 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Completed independent control:** Admin Console, under v4.11 D18's discovered-control
+refinement. Catalog36 `ADMIN_CONSOLE_OPEN` observes actual presentation only;
+REQUESTED/OPENED/FAILED retain Unknown effects and empty references. Protect the
+original workbook/read scope, existing permission/result behavior, unknown columns,
+policy/session/storage boundaries and independent guide conclusions. Run the
+packaged Ribbon/callback missing-record RED before changing Admin/Core. No new
+business operation, processing claim or local-recording decision.
+Focused55/9 absent-record RED and66/3 surface RED lead to69/69, then118/118.
+Console-03 passes fresh118, Verify130, Reconcile258, Settings202, smoke86 and
+chain32/live-role48/Create15, with five cold/instrumented compiles, preservation
+and clean delayed native audits. Guide188/six reviewed captures from console-02
+are reused with324 identical components and fresh recording proof; prior Verify202
+and Reconcile360 guide evidence remain separately scoped baselines. Static03 holds
+all28 caps, dynamic9/45 and194 duplicates after typed observation/catalog
+consolidation; no new exception. The code Console receipt records exact evidence,
+reuse, the pre-dispatch diagnostic and excluded fixture attempt. Candidate03 is
+unpromoted; local eligibility and remaining Admin entries keep4be-A open.
+Next independent entry: audit View Warehouses before its packaged recording RED.
+
 **Completed independent coverage:** v4.11 D18's Verify Add-ins Published refinement
 adds catalog35 `ADMIN_VERIFY_ADDINS` around the existing public callback. Require
 absent-record RED before implementation, then packaged successful/missing/zero-byte

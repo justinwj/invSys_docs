@@ -2084,6 +2084,40 @@ use, NAS behavior, sign-out/target-change refusal, policy suppression, storage
 failure and unchanged business results. Diagnostic evidence alone is not GREEN
 acceptance of the proposal. Plan022 and Controls1.543 track this pending decision.
 
+**Admin Console coverage (D18 discovered-control refinement):**
+Catalog36 adds `ADMIN_CONSOLE_OPEN`, caption **Admin Console**, Admin surface,
+Navigation class, `ADMIN_CONSOLE` owner and existing ADMIN_MAINT capability.
+Catalog1–35 definitions remain unchanged. The actual `modAdmin.Admin_Click`
+callback records REQUESTED then OPENED only when `OpenAdminConsole` returns True
+after its existing preparation, refresh and sheet activation; False or an error
+records FAILED. All three have Unknown data effect because console preparation
+changes local projections; REQUESTED/OPENED are Info, FAILED is Error. Only OPENED
+supports CommandCompleted. No processing, deployment or Domain application is
+asserted; all references are empty and SourceEventsApplied cannot conclude.
+
+Capture the original operator workbook and existing console read scope before
+optional observation. Preserve existing scan/aggregation semantics, custom columns,
+owning result/error behavior and Ribbon permission gates. Logging must not retarget,
+repeat or block the owner, or displace its selected surface. Session changes leave truthful original evidence and
+one tracking-unavailable notice. Do not log console values, account/warehouse
+payloads, paths or diagnostics. Only fixed action/outcome messages enter activity.
+Normal suppression preserves the original operation without a tracking warning.
+No user-side refresh command or console button is invented by this entry.
+
+D13 first exercises the actual packaged Ribbon/callback for missing records,
+successful presentation, a real opening failure, live authorization, policy
+suppression and workbook/authority preservation. Then protect context/storage
+failure boundaries and independent recording/publication/guide conclusions with
+visible evidence. This implements comprehensive D18 coverage under semantic
+inheritance; it changes no business permission or D18-LOCAL-01 decision.
+
+Verified2026-10-12: eligible NAS callback/boundary118 on console-03, with guide188
+and six reviewed captures reused from console-02 after compiled-component comparison.
+Fresh Verify130, Reconcile258, Settings202, smoke86 and chain32/live-role48/Create15,
+compiles, preservation, delayed native audits and static03 pass. The code receipt
+`plan022_slice4be_admin_console_results.md` states exact reuse limits. This closes
+this control's coverage, not D18-LOCAL-01 or4be-A.
+
 **Verify Add-ins Published coverage (D18 discovered-control refinement):**
 Catalog35 adds `ADMIN_VERIFY_ADDINS`, caption **Verify Add-ins Published**, Admin
 surface, Command class, `ADMIN_ADDINS_VERIFY` owner and existing ADMIN_MAINT

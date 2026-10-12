@@ -1,6 +1,25 @@
 # invSys Form Controls v1
 
-**Version:** 1.544 -- Verify Add-ins coverage refinement; D18-LOCAL-01 pending;4be-A incomplete.
+**Version:** 1.545 -- Admin Console coverage verified; D18-LOCAL-01 pending;4be-A incomplete.
+
+Verified eligible NAS D18 coverage: catalog36 `ADMIN_CONSOLE_OPEN`, Admin
+Console / Admin, Navigation, ADMIN_MAINT. Actual callback REQUESTED then OPENED
+only after the existing owner presents its console; otherwise FAILED. All effects
+Unknown, references empty; only OPENED supports CommandCompleted. Preserve the
+original workbook/read scope, existing result/permission rules and custom columns.
+Fixed activity text excludes console values/paths. Packaged Ribbon RED/GREEN,
+policy/session/storage boundaries and independent guide/visible proof apply.
+No D18-LOCAL-01 approval or full4be-A acceptance is implied.
+Focused55/9 RED leads to69/69 GREEN on unpromoted console-02, including the
+correction for optional recording displacing the console's selected surface.
+The original64 checks remain; reader/signed-out denial still prevents owner
+execution. Console-03 retains118/118 and reuses guide188/six reviewed captures
+from02 with324 identical compiled components and fresh recording/boundary proof.
+Fresh Verify130, Reconcile258, Settings202, smoke86 and chain32/live-role48/Create15,
+compiles, preservation and clean delayed native audits pass. Prior Verify202 and
+Reconcile360 guide proofs remain reused baselines, not full03 reruns. Static03
+holds28 caps, dynamic9/45 and194 duplicates after shared observation/catalog
+consolidation, without a new exception. The code Console receipt records scope.
 
 Accepted eligible NAS recording/guide coverage, within D18 semantic inheritance: catalog35
 `ADMIN_VERIFY_ADDINS` observes the existing Verify Add-ins Published callback.
