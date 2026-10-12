@@ -4,8 +4,16 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current next action,2026-10-12:** prove continuous Seed recording, exact publication
-and independently evaluated guides through packaged controls.
+**Current next action,2026-10-12:** profile one packaged Seed guide authoring/view
+boundary before optimizing its long delays; preserve current-policy/integrity checks.
+Seed guide GREEN283 retains 181 prior checks. Three recordings, exact publication
+and four independent evaluations distinguish CommandCompleted from exact published
+SourceEventsApplied. Interrupted capture cannot borrow published business success.
+Eight reviewed captures, five instrumented compiles, static/preservation/native
+audits pass; no product change. Both suites took about 49 minutes, so responsiveness
+remains unaccepted. See the code Seed guide receipt for the corrected hash-reader
+harness exception, exact qualification and limits. Remaining Demo/Users controls,
+native/context coverage, broader 4be-A and early B0 remain open.
 Seed boundary GREEN181 retains114 earlier checks: four real Open failures,
 entry/completion sign-out on no-op Seed and quiet reentrant recording pass.
 One owner call per callback and three fresh persisted entity/receipt reads prove

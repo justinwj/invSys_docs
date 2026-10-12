@@ -5659,6 +5659,17 @@ Inboxes and Close. Their form-level validation/cancellation and owner facts requ
 separate observation tests; registering Seed does not cover them or authorize
 automatic replay. Native chooser behavior is unchanged by this mapping.
 
+Test-only guide qualification, 2026-10-12: GREEN283 retains 181 prior Seed checks.
+Three actual recordings and exact publication support four independent evaluations
+against CommandCompleted and immutable SourceEventsApplied guide versions. Exact
+published terminal identity/lines prove the successful source conclusion; published
+business success cannot replace an interrupted recording's missing observation.
+Eight reviewed captures, five instrumented compiles, preservation, static and
+native audits pass. No runtime contract changes. Responsiveness remains open:
+roughly 49-minute suites and a 149-second dispatch gap require focused profiling.
+See `tests/integration/plan022_slice4be_admin_seed_guide_results.md` in code.
+Remaining Demo controls/native/context acceptance and broader 4be-A are not closed.
+
 Test-only boundary qualification,2026-10-12: GREEN181 retains114 prior Seed checks.
 Four real attempt/outcome Open failures preserve one successful owner call, one
 fixed notice and honest partial records. Entry/completion sign-out on no-op Seed
