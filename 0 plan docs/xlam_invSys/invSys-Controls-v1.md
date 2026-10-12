@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.541 -- Reconcile recording/guide330 GREEN;4be-A incomplete.
+**Version:** 1.542 -- Reconcile recording/guide360 GREEN;4be-A incomplete.
 
 Under v4.11 D18: `ADMIN_RECONCILE_OPEN` observes actual form presentation;
 `ADMIN_RECONCILE_INSPECT` observes Inspect and its existing narrative confirmation
@@ -13,13 +13,19 @@ checks, retaining203 prior checks and151 definitions. Global/action/user suppres
 exact references and business-context capture before optional logging pass.
 The unchanged candidate now passes258/258, retaining all248 checks. Actual store
 write failures preserve one command execution, one exact tracking warning,
-honest missing completion records and inventory. The final330/330 retains258
+honest missing completion records and inventory. The330/330 gate retains258
 and proves independent native recordings, exact publication, two-step versioned
 guide authoring and saved Concluded/Incomplete command conclusions. How-To,
 Diagnostic and Compare retain the same evidence; six reviewed captures show
 multiline instructions, provenance and conclusions. Source journals, activity,
 publication and inventory are preserved. No product behavior changed in this
-extension. SourceEventsApplied guide proof remains open.
+extension. The subsequent360/360 retains330: actual Edit guide/Expected conclusion
+controls append version2 requiring SourceEventsApplied. Independent evaluation
+saves Awaiting before exact owning application and Concluded after publication,
+with exact System_Key/source-line hash and duplicate protection. Original
+Submitted observations and the earlier saved result remain immutable. Two further
+reviewed captures show readable saved-result/source status; layouts and evidence
+preservation pass. This adds no Reconcile replay adapter or product contract.
 Local-target recording eligibility remains unresolved; no business permission or
 recording exclusion changes are accepted here.
 

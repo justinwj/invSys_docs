@@ -2044,13 +2044,20 @@ is captured before optional logging; reauthentication during logging refuses the
 correction. The same candidate subsequently passes258/258 with the exact248-check
 prefix: real activity-store write failures preserve one business execution,
 one fixed warning, truthful incomplete records and unchanged inventory.
-The final extension passes330/330 with the exact258 prefix: independent native
+The command-guide extension passes330/330 with the exact258 prefix: independent native
 recordings, exact publication, versioned guide authoring, Concluded versus
 Incomplete CommandCompleted evaluation and all three presentations pass. Six
 guide captures show multiline instructions, full provenance and saved conclusions.
-Original evidence and inventory remain unchanged. SourceEventsApplied guide
-proof and local-target recording eligibility remain open. Exact D13 evidence is
-in the code Reconcile receipt; this is not complete4be-A acceptance.
+Original evidence and inventory remain unchanged through that gate. The subsequent
+360/360 extension retains all330 checks and proves SourceEventsApplied through
+actual version2 guide editing and independent evaluation: Awaiting before exact
+owning application, Concluded after fresh publication. Exact System_Key/source-line
+hash, duplicate protection and other-entity/custom-value preservation pass.
+Original Submitted observations and the earlier Awaiting result remain immutable.
+Two additional reviewed captures show the saved source status/conclusion. This
+adds tests only, not a replay adapter or a new contract. Local-target recording
+eligibility remains open. Exact D13 evidence is in the code Reconcile receipt;
+this is not complete4be-A acceptance.
 
 - Maintain a versioned coverage catalog for every reachable Operations/Admin
   launcher, form command, deliberate page/selection action and result. Each

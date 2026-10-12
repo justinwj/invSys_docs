@@ -11,21 +11,25 @@ and capture-after-logging each have focused RED/GREEN evidence in the code recei
 Suppression preserves business execution; queued correction never claims Domain
 application. Same-candidate storage-failure coverage extends this to258/258,
 retaining the exact248 prefix: one command, one tracking warning and no invented
-completion. Final330/330 retains258 and proves independent native recordings,
+completion. The330/330 gate retains258 and proves independent native recordings,
 exact publication, guide authoring, Concluded/Incomplete command conclusions and
 How-To/Diagnostic/Compare views. Six captures are reviewed; original evidence and
-inventory are preserved. SourceEventsApplied guide proof remains open.
+inventory are preserved. The subsequent360/360 retains330 and proves explicit
+SourceEventsApplied guide editing: independent Awaiting before exact owning
+application, Concluded after fresh publication, exact key/source-line hash and
+duplicate protection. Original Submitted evidence and earlier saved results
+remain immutable; two further source-result captures are reviewed.
 Local-target recording eligibility remains unresolved; do not change Admin local
-business permissions or invent an exclusion. Controls1.541 records this partial
+business permissions or invent an exclusion. Controls1.542 records this partial
 scope;4be-A remains incomplete.
 
 Same-candidate gates: five cold/instrumented compiles,86 smoke,202 Settings and
 32 chain/48 live-role/15 Create Warehouse pass. All28 static caps and dynamic9/45
 hold; the code receipt records the one fixed-ID-list duplicate exception and an
 earlier unaccepted native Excel crash. The separate fresh chain closed normally
-with a clean delayed audit; no native-crash repair is claimed. The330 extension
+with a clean delayed audit; no native-crash repair is claimed. The360 extension
 changes tests only, reuses those package-identical regressions, and passes five
-instrumented compiles, normal closure, clean delayed audit and480 parsers.
+instrumented compiles, normal closure, clean delayed audit and481 parsers.
 
 **Reconcile native confirmation GREEN,2026-10-12:** the unchanged selection-02
 candidate passes203/203, retaining the191-check prefix. Native window-close,
