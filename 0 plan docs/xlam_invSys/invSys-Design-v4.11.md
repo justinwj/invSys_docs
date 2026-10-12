@@ -2786,8 +2786,17 @@ public callback and owner notices without presenting Settings. The latter two us
 one-shot faults in unsaved disposable collaborators, not a claimed disk outage.
 Exact REJECTED/FAILED pairs cannot conclude; signed-out entry produces no optional
 activity. Five compiles, authority/history preservation and clean delayed closure
-pass. Active capture, publication and independent guides remain open; no runtime
-or contract change.
+pass; no runtime or contract change.
+
+Continuous modal recording verification subsequently passes125 on the same candidate:
+actual Viewer recording captures public Open, five native tab selections and Close
+without reopening Settings. Independent source/observed runs and a sign-out-interrupted
+run publish exactly. Packaged author/evaluator controls bind the saved guide and fresh
+observed journal: seven matched actions conclude local commands; one matched/six missing
+remain Incomplete. Five compiles, all43 shared checks, six reviewed captures across
+the three views, preservation and clean delayed closure pass. Native receipts verify
+13 exact clicks/restorations and desktop matches. Broader coverage/layout/human gates
+remain open; this is existing-contract evidence, not runtime or replay expansion.
 
 **Admin Settings Close observation refinement (catalog32; acceptance pending):**
 Under approved D18 comprehensive recording and semantic inheritance, register

@@ -4,6 +4,21 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Continuous modal recording proof,2026-10-12:** unchanged candidate02 passes125,
+retaining43 shared checks. Actual Viewer recording/public Settings launcher, native
+tabs and Close produce independent seven-action source/observed runs; sign-out after
+Open leaves one action and incomplete evidence. Exact publication and packaged guide
+author/evaluator controls prove seven observed matches versus one match/six missing,
+reader-role limits and three presentations. Six captures are reviewed. Five compiles,
+preservation, normal delayed closure and13 qualified native clicks pass. Static caps
+and prior metrics hold; three schemas and469 scripts validate. Controls1.527 and code
+`plan022_slice4be_admin_entry_results.md` retain exact scope. No runtime or contract
+changed. Continue the remaining reachable-control audit and wider4be-A acceptance;
+legacy public functions alone do not prove operator reachability or exclusion.
+Shared-helper regressions retain Close guide123 and native tabs177 in exact prior
+order, with five compiles each, preservation and clean delayed closure. All60 native
+input operations verify exact targets/restoration and desktop matches.
+
 **Launcher refusal gate,2026-10-12:** unchanged candidate02 passes98, retaining76
 earlier checks. Signed-out entry, controlled configuration-read refusal and caught
 form-initialization failure exercise the real callback, visible owner notices,
@@ -11,9 +26,9 @@ non-concluding REJECTED/FAILED outcomes and preservation. One-shot faults affect
 unsaved disposable collaborators; no actual disk outage or runtime fix is claimed.
 Five compiles and clean delayed closure pass. All28 static caps/prior metrics hold;
 three schemas and468 scripts validate. Controls1.526 and code
-`plan022_slice4be_admin_entry_results.md` record this scoped result. Next: eligible
-active capture, exact publication and independent successful/interrupted guides,
-preserving one continuous modal Settings journey and all wider4be-A gates.
+`plan022_slice4be_admin_entry_results.md` record this scoped result. Recording125
+above supplies subsequent active capture, publication and independent-guide evidence
+while preserving one continuous modal Settings journey and all wider4be-A gates.
 
 **Boundary-gate follow-up,2026-10-12:** the complete native Settings tab gate passes177,
 retaining43 prior checks. Policy/context/permission/storage cases and repeated activation
