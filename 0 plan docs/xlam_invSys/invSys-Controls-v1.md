@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.551 -- Seed/Delete exact completion prerequisite;4be-A incomplete.
+**Version:** 1.552 -- Seed/Delete visible feedback and chain proof;4be-A incomplete.
 
 Seed Demo Inventory and Delete Demo Inventory: packaged RED27/2 proves false
 success when a one-event batch applies an earlier command instead. Under the
@@ -8,11 +8,15 @@ v4.11 D14/D18 refinement, applied-success feedback requires the exact saved Doma
 receipt. Otherwise show "Demo inventory event was queued; application was not
 confirmed." or "Delete event was queued; application was not confirmed." followed
 by the existing processor report. Keep the queued event, processing limits and
-no-op successes. No new control, tracking ID or recording acceptance. Native
-feedback, package qualification and comprehensive Seed recording remain required.
+no-op successes. No new control, tracking ID or recording acceptance.
 Focused GREEN35 now retains29 original checks plus six receipt protections on
-unpromoted seed-outcome-02; five cold compiles and smoke86 pass. Native feedback,
-expanded edge/regression cases and full qualification remain open. Core captures
+unpromoted seed-outcome-02; five cold compiles and smoke86 pass. The expanded
+native-feedback gate passes43, retaining35 and proving both complete result dialogs
+with reviewed captures and in-process font measurements. Selection/confirmation
+still use the automation seam; whole-form native interaction is not accepted.
+Ordinary full chain32/live-role48/Create Warehouse15 pass with unassisted closure,
+restoration and zero delayed Excel failures. Expanded edge/regression cases and
+comprehensive Seed recording remain open. Core captures
 the receipt at persistence before publication can dirty authority; the post-batch
 candidate01 approach was rejected. Exact scope: code Seed outcome receipt.
 
