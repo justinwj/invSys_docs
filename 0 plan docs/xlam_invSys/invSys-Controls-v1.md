@@ -1,6 +1,25 @@
 # invSys Form Controls v1
 
-**Version:** 1.555 -- Users authority qualified at GREEN259; recording/form acceptance open;4be-A incomplete.
+**Version:** 1.556 -- Users write recording qualified at GREEN353; guides/native acceptance open;4be-A incomplete.
+
+Under v4.11 D18, catalog38/160 adds ADMIN_USER_SAVE (Create / Update),
+ADMIN_USER_DEACTIVATE (Deactivate), ADMIN_USER_DELETE (Delete), all Admin > Users &
+Roles Commands owned by ADMIN_USERS_ROLES with ADMIN_MAINT authority. Actual form
+handlers record REQUESTED and owner outcome; only confirmed SAVED concludes the
+command. REJECTED/DENIED/FAILED and declined-confirmation CANCELLED do not. No
+account/credential payload or source-event reference. D8-USERS-01 and its259 GREEN
+checks are retained. Recording RED33/37 -> GREEN353 passes saved/refused/failed/
+cancelled outcomes, privacy, catalog compatibility and quiet global/action/user
+suppression. Five cold/instrumented compiles, four reviewed captures and restoration/
+native audits pass. Smoke86, Settings202, Seed114, Console118 and chain32/live-role48/
+Create15 retain prior checks, with unassisted closure and clean delayed audits.
+Context/storage/continuous recording, publication, independent guides and native
+acceptance remain open. The expected-conclusion editor must offer SAVED; protect
+its currently missing choice with actual-editor RED before correction. Existing
+Users form clipping remains open. See the code Users recording receipt.
+The optional notice is "Tracking unavailable: the Users & Roles action could not
+be fully recorded." Unexpected Admin wrapper errors say "Users & Roles could not
+finish. Inspect the current Auth state before retrying." Neither claims rollback.
 
 `ADMIN_DEMO_SEED` is implemented for catalog37/157 under v4.11 D18 semantic inheritance;
 recording RED37/6 -> focused GREEN114 retains the70 lifecycle checks. Existing Seed Demo Inventory runs built-in or

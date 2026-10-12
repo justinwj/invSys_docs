@@ -2118,6 +2118,47 @@ use, NAS behavior, sign-out/target-change refusal, policy suppression, storage
 failure and unchanged business results. Diagnostic evidence alone is not GREEN
 acceptance of the proposal. Plan022 and Controls1.543 track this pending decision.
 
+**Users & Roles writes (D18 discovered-control refinement; acceptance pending):**
+Catalog38 adds `ADMIN_USER_SAVE` (Create / Update), `ADMIN_USER_DEACTIVATE`
+(Deactivate), and `ADMIN_USER_DELETE` (Delete), Command class, Admin > Users &
+Roles surface, `ADMIN_USERS_ROLES` owner and existing ADMIN_MAINT capability.
+All prior157 definitions remain unchanged. This implements D18 coverage under
+semantic inheritance; approved D8-USERS-01 remains the write authority contract.
+
+Observe the actual form handlers using their original captured context and inputs.
+REQUESTED precedes validation/confirmation. Core supplies SAVED only after confirmed
+Auth persistence, REJECTED for pre-write validation refusal, DENIED for authority
+refusal, and FAILED for an execution/persistence error. The form supplies CANCELLED
+when Delete confirmation is declined. REQUESTED/SAVED/DENIED/FAILED have Unknown
+data effect; REJECTED/CANCELLED have Unchanged effect. Do not infer rollback or a
+data difference from a save. Only SAVED supports CommandCompleted. No source-event
+references or Domain application are asserted. Fixed messages disclose action and
+outcome only, never target-account IDs, credentials, scopes, role selections,
+paths, entered values or raw errors. The envelope retains its required actor ID.
+
+Optional recording must neither block nor repeat the write. Suppression is quiet;
+storage/context failures show one fixed tracking notice and honest incomplete
+evidence. Changed context never attributes a stale form action to a new actor or
+warehouse. Preserve reads, confirmation, owner feedback, schema/ownership rules
+and the unresolved D18-LOCAL-01 decision. D13 requires actual-handler absent-record
+RED, retained authority regressions, success/refusal/cancellation/failure cases,
+policy and storage/context boundaries, publication and independent guide evidence.
+Other Users & Roles controls and existing layout defects remain pending.
+
+Focused evidence,2026-10-12: missing-record RED33/37 -> GREEN353/353 on unpromoted
+users-recording-01, retaining all259 prior authority checks. Actual handlers cover
+confirmed saves, dirty-authority rejection, real BeforeSave cancellation, Reader
+denial, declined Delete and quiet global/action/user suppression. All157 prior
+definitions remain unchanged. Five cold/instrumented compiles, four reviewed
+captures, preservation and delayed native audits pass. Context/storage boundaries,
+publication, saved-guide conclusions and native acceptance remain open. SAVED
+must be selectable in the shared expected-conclusion editor; its missing choice
+requires actual-editor RED before correction. See the code Users recording receipt.
+Fresh smoke86, Settings202, Seed114, Console118 and chain32/live-role48/Create15
+retain their prior ordered checks, with normal closure/restoration and zero
+delayed native failures through20:00:09.5420332UTC. This qualifies the automated
+recording checkpoint, not comprehensive Users or4be-A acceptance.
+
 **Admin Console coverage (D18 discovered-control refinement):**
 Catalog36 adds `ADMIN_CONSOLE_OPEN`, caption **Admin Console**, Admin surface,
 Navigation class, `ADMIN_CONSOLE` owner and existing ADMIN_MAINT capability.

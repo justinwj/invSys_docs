@@ -4,14 +4,25 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current next action,2026-10-12:** begin Users & Roles recording under D18 through
-the qualified D8-USERS-01 owner commands. Actual-handler RED139/9 -> visible/data
+**Current next action,2026-10-12:** protect the shared expected-conclusion editor's
+missing Users SAVED and Seed APPLIED choices through
+its actual control handler. D18 catalog38/160 has focused RED33/37 -> GREEN353,
+retaining all259 prior authority checks and all157 catalog definitions. Core-owned
+SAVED/REJECTED/DENIED/FAILED and form-owned cancellation, privacy and quiet global/
+action/user suppression pass. Cold/instrumented compiles, four reviewed captures,
+preservation and delayed audits pass. Smoke86, Settings202, Seed114, Console118 and
+chain32/live-role48/Create15 retain their prior ordered checks, with unassisted
+closure and clean delayed audits through20:00:09.5420332UTC. Context/storage/continuous recording,
+publication, independent guide conclusions, other Users controls and layout remain
+open. See the code Users recording receipt; comprehensive4be-A is not accepted.
+
+**Qualified D8-USERS-01 prerequisite,2026-10-12:** actual-handler RED139/9 -> visible/data
 GREEN259 retains all earlier checks,
 including direct Core, ownership, confirmation/context loss, cancelled saves,
 custom fields and fresh saved new-user scope. Five compiles, smoke86, four reviewed
 captures, chain32/live-role48/Create15 and preservation/native audits pass, with
 unassisted chain closure. Existing form clipping and comprehensive form/recording
-acceptance remain open. No Users ControlId added yet. Catalog37/157
+acceptance remain open. This authority checkpoint added no ControlId. Catalog37/157
 `ADMIN_DEMO_SEED` has a qualified automated checkpoint:
 Console118, Settings202, smoke86 and chain32/live-role48/Create15 pass, with
 compile/static/preservation and clean delayed closure.
