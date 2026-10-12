@@ -1,6 +1,16 @@
 # invSys Form Controls v1
 
-**Version:** 1.525 -- Settings boundaries pass177 tabs/76 launcher; wider acceptance remains open.
+**Version:** 1.526 -- Settings boundaries pass177 tabs/98 launcher; wider acceptance remains open.
+
+Launcher98 retains all76 earlier checks and adds signed-out entry, controlled
+configuration refusal and caught form-opening failure. Actual owner notices appear
+without Settings presentation; exact REJECTED/FAILED pairs cannot conclude and
+signed-out entry creates no optional activity. Faults affect unsaved disposable
+collaborators only. Five compiles, preservation and clean delayed closure pass;
+the runtime contract and candidate are unchanged. Fresh maintenance evidence holds
+all28 caps and prior metrics; three schemas and468 scripts validate. Active capture,
+publication and independent guide proof remain open. Exact receipts: code
+`plan022_slice4be_admin_entry_results.md`.
 
 On unchanged `validation-admin-entry-02`, the expanded native tab gate passes177,
 retaining43 prior checks. Policies, context/permission loss, repeated activation,
@@ -15,8 +25,9 @@ Static ratchets hold and466 scripts parse. Exact receipts: code
 Extended launcher76 retains24 prior checks and passes recording exclusions,
 older-policy/storage notices and same-session permission denial. The public callback
 shows Settings only when eligible, preserves authority and records exact OPENED or
-DENIED facts; five compiles and clean delayed closure pass. Remaining refusal/failure
-contexts, active capture, publication and independent guides stay open.
+DENIED facts; five compiles and clean delayed closure pass. Launcher98 above closes
+the remaining entry refusal/failure cases; active capture, publication and independent
+guides stay open.
 Fresh maintenance evidence retains all28 caps and prior dynamic/duplicate counts;
 three schemas and467 scripts validate.
 

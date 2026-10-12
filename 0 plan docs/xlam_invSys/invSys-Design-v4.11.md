@@ -2780,8 +2780,14 @@ Extended launcher verification passes76 with all24 prior checks: default/disable
 user/control recording policies, older-policy/storage notices and same-session
 permission denial. Presentation, exact OPENED/DENIED conclusions, saved authority,
 five compiles and clean delayed closure pass through the real public callback.
-Configuration refusal, signed-out entry, caught opening failure, active capture,
-publication and independent guides remain open; no runtime/contract change.
+The subsequent launcher gate passes98, retaining all76 checks: signed-out entry,
+configuration-read refusal and caught form-initialization failure exercise the real
+public callback and owner notices without presenting Settings. The latter two use
+one-shot faults in unsaved disposable collaborators, not a claimed disk outage.
+Exact REJECTED/FAILED pairs cannot conclude; signed-out entry produces no optional
+activity. Five compiles, authority/history preservation and clean delayed closure
+pass. Active capture, publication and independent guides remain open; no runtime
+or contract change.
 
 **Admin Settings Close observation refinement (catalog32; acceptance pending):**
 Under approved D18 comprehensive recording and semantic inheritance, register

@@ -4,6 +4,17 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Launcher refusal gate,2026-10-12:** unchanged candidate02 passes98, retaining76
+earlier checks. Signed-out entry, controlled configuration-read refusal and caught
+form-initialization failure exercise the real callback, visible owner notices,
+non-concluding REJECTED/FAILED outcomes and preservation. One-shot faults affect
+unsaved disposable collaborators; no actual disk outage or runtime fix is claimed.
+Five compiles and clean delayed closure pass. All28 static caps/prior metrics hold;
+three schemas and468 scripts validate. Controls1.526 and code
+`plan022_slice4be_admin_entry_results.md` record this scoped result. Next: eligible
+active capture, exact publication and independent successful/interrupted guides,
+preserving one continuous modal Settings journey and all wider4be-A gates.
+
 **Boundary-gate follow-up,2026-10-12:** the complete native Settings tab gate passes177,
 retaining43 prior checks. Policy/context/permission/storage cases and repeated activation
 pass with five compiles, preserved authority and clean delayed closure. Same-helper
@@ -13,9 +24,9 @@ Earlier cursor prerequisites remain unexplained, not combined into GREEN. Runtim
 candidate pins are unchanged; static ratchets hold and466 scripts parse. See code
 `plan022_slice4be_admin_entry_results.md` and Controls1.525. Extended launcher76 retains
 24 prior checks and passes recording exclusions, older-policy/storage notices and
-same-session permission denial with preservation and clean delayed closure. Remaining
-launcher refusal/failure contexts, active capture, publication, independent guides
-and broader acceptance remain open.
+same-session permission denial with preservation and clean delayed closure. Launcher98
+above closes the remaining entry refusal/failure cases; active capture, publication,
+independent guides and broader acceptance remain open.
 The subsequent launcher checkpoint regenerates maintenance evidence: all28 caps
 and prior metrics hold; three schemas and467 scripts validate.
 
