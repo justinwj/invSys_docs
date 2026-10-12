@@ -20,6 +20,13 @@ Receipts: `tests/integration/plan022_slice4be_production_run_local_results.md`.
 This enforces existing D14; general rebuild coverage, independent worksheet guides
 and comprehensive4be-A acceptance remain open.
 
+**Native diagnostic follow-up,2026-10-12:** early observer attachment fails before
+Shipping at Config bootstrap. Attachment at the Sent boundary then retains31
+executed chain/live48/warehouse15 checks with clean shutdown; static is deliberately
+skipped. Neither result diagnoses or repairs the original fault. Keep the bounded
+observer for the next planned chain and resume independent worksheet Scale guides.
+Exact evidence: `tests/integration/plan022_slice4be_native_localization_results.md`.
+
 **Independent Close continuation:** unpromoted `validation-admin-close-02`
 implements D18 catalog32 under approved comprehensive recording/semantic
 inheritance, preserving the existing workflow. Actual-handler RED34/19 to GREEN53

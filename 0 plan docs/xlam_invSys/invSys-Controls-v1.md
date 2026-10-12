@@ -15,6 +15,9 @@ captures are reviewed; long recipe descriptions still clip. Current receipts are
 Run local results. General rebuild coverage, independent worksheet guides and
 human/comprehensive4be-A acceptance remain open. This changes no approved wording
 or workflow contract; earlier evidence below retains its candidate scope.
+Later observation attached at Shipping Sent retains31 executed chain/live48/warehouse15
+checks with clean shutdown but skips static; the fault does not reproduce. This
+diagnostic does not close the native blocker or change acceptance status.
 
 Unpromoted `validation-admin-close-02` implements Architecture D18 catalog32:
 btnClose/native window close record ADMIN_SETTINGS_CLOSE only for deliberate
