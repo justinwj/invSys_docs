@@ -5551,8 +5551,10 @@ and an earlier independently queued event. Candidate02 focused GREEN35 retains29
 original checks plus six receipt protections; five cold compiles and smoke86 pass.
 Native feedback43 retains35 and proves both complete result dialogs; chooser and
 confirmation still use the automation seam. Ordinary full chain32/live-role48/
-Create Warehouse15 pass with unassisted closure and restoration. Expanded receipt/
-workflow edges and comprehensive Seed recording remain open.
+Create Warehouse15 pass with unassisted closure and restoration. Expanded gate70
+retains35 and protects uploaded/no-op/cancellation paths, invalid receipts and
+read-only ownership. This qualifies the completion correction; comprehensive Seed
+recording and guides remain open.
 This is not recording or4be-A acceptance; see the code Seed outcome receipt.
 
 **Admin inventory worksheet workbench:**

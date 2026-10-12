@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.552 -- Seed/Delete visible feedback and chain proof;4be-A incomplete.
+**Version:** 1.553 -- Seed/Delete completion qualified; recording and4be-A incomplete.
 
 Seed Demo Inventory and Delete Demo Inventory: packaged RED27/2 proves false
 success when a one-event batch applies an earlier command instead. Under the
@@ -15,8 +15,10 @@ native-feedback gate passes43, retaining35 and proving both complete result dial
 with reviewed captures and in-process font measurements. Selection/confirmation
 still use the automation seam; whole-form native interaction is not accepted.
 Ordinary full chain32/live-role48/Create Warehouse15 pass with unassisted closure,
-restoration and zero delayed Excel failures. Expanded edge/regression cases and
-comprehensive Seed recording remain open. Core captures
+restoration and zero delayed Excel failures. Expanded gate70 retains35 and adds
+uploaded-data-set/idempotency/cancellation and receipt-schema/ownership protections.
+The completion correction is qualified; comprehensive Seed recording and guides
+remain open. Core captures
 the receipt at persistence before publication can dirty authority; the post-batch
 candidate01 approach was rejected. Exact scope: code Seed outcome receipt.
 

@@ -21,8 +21,12 @@ and in-process font measurements; chooser/confirmation input remains unproven.
 Ordinary full chain32/live-role48/Create Warehouse15 pass, preserving prior checks,
 with unassisted closure and restoration. Static feedback01 retains all28 caps,
 dynamic9/45 and194 duplicate groups; delayed native audits pass. Source harnesses
-import the two new helper modules. Expanded edge/regression cases and comprehensive
-Seed recording remain open; this is not closure of the prerequisite.
+import the two new helper modules. Expanded gate70 retains35 and proves uploaded
+Seed's exact pending/later-applied result, no-op/cancellation/data-set boundaries,
+invalid receipt refusal and read-only workbook ownership. Static workflow01 is
+unchanged;500 PowerShell files parse. The completion correction is qualified.
+Next: comprehensive Seed recording/publication and independent guide proof. Native
+chooser/confirmation interaction is not claimed by these callback-seam regressions.
 
 **Independent Users & Roles prerequisite,2026-10-12:** packaged diagnostic139
 retains111 checks and confirms nine persisted writes without live Admin authority
