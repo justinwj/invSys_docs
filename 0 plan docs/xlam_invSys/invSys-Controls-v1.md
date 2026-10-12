@@ -1,6 +1,16 @@
 # invSys Form Controls v1
 
-**Version:** 1.548 -- Source-loading station proposal and D18-LOCAL-01 pending;4be-A incomplete.
+**Version:** 1.549 -- Event Detail final-glyph correction; station/local proposals pending;4be-A incomplete.
+
+Event Detail's existing multiline value Labels now retain two points of height
+after text measurement, preventing final-glyph clipping observed at96DPI. No new
+control, recording ID, editable field or contract. Packaged RED89/1 -> GREEN90
+retains88 prior checks;14 principal captures and the restored diagnostic prove
+complete text and preservation. Unpromoted glyph-01 also passes Viewer98/three
+captures, smoke86, five cold compiles, static limits and delayed native audits.
+Only Operations/frmEventDetail changes against directory-01;329 other compiled
+components remain identical. The code glyph receipt records scope and exact runs.
+Full-chain qualification and broader4be-A acceptance remain open.
 
 Proposed D16-VBA-LOAD-01 requires explicit StationSetup consent for an account-wide
 Excel source-loading prerequisite, established with Office closed and checked by

@@ -4,6 +4,17 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Independent D18 rendering correction,2026-10-12:** refreshing Detail on the
+current dependency set exposed final-glyph clipping at96DPI despite88 passing
+geometry/content checks. Packaged pixel comparison with temporary label enlargement
+gives RED89/1 -> GREEN90 after a two-point height allowance; original88 retained.
+Unpromoted glyph-01 changes only Operations/frmEventDetail;329 compiled components
+remain identical to directory-01. Fourteen principal captures, Viewer98/three
+captures, smoke86, five cold compiles, static limits, preservation and delayed
+native audits pass. Code receipt: `plan022_slice4be_detail_glyph_results.md`.
+This implements existing complete-text requirements, with no new contract or ID.
+Full-chain qualification, the two proposals below and remaining recording stay open.
+
 **D16-VBA-LOAD-01 pending approval,2026-10-12:** v4.11 proposes a consented,
 account-scoped Excel source-loading prerequisite established by StationSetup
 before activation, verified by the updater, with exact failed-setup restoration.
