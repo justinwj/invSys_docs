@@ -1,6 +1,14 @@
 # invSys Form Controls v1
 
-**Version:** 1.556 -- Users write recording qualified at GREEN353; guides/native acceptance open;4be-A incomplete.
+**Version:** 1.557 -- Registered SAVED/APPLIED editor choices GREEN43;4be-A incomplete.
+
+The shared Expected conclusion editor must offer SAVED for all three Users writes
+and APPLIED for Seed, retaining other registered choices and excluding unrelated
+outcomes. Actual selection-handler RED35/4 -> GREEN43 retains the39 RED checks
+and selects all four outcomes. Reviewed Saved/Applied editor captures are readable.
+This follows v4.11 D18; selecting an expectation does not supply proof or change
+source-application rules. See the code expected-outcome choices receipt for package,
+static and regression qualification; independent Users/Seed guide proof remains open.
 
 Under v4.11 D18, catalog38/160 adds ADMIN_USER_SAVE (Create / Update),
 ADMIN_USER_DEACTIVATE (Deactivate), ADMIN_USER_DELETE (Delete), all Admin > Users &
@@ -14,8 +22,7 @@ suppression. Five cold/instrumented compiles, four reviewed captures and restora
 native audits pass. Smoke86, Settings202, Seed114, Console118 and chain32/live-role48/
 Create15 retain prior checks, with unassisted closure and clean delayed audits.
 Context/storage/continuous recording, publication, independent guides and native
-acceptance remain open. The expected-conclusion editor must offer SAVED; protect
-its currently missing choice with actual-editor RED before correction. Existing
+acceptance remain open. The expected-conclusion SAVED choice is covered above. Existing
 Users form clipping remains open. See the code Users recording receipt.
 The optional notice is "Tracking unavailable: the Users & Roles action could not
 be fully recorded." Unexpected Admin wrapper errors say "Users & Roles could not

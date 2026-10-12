@@ -4,9 +4,15 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current next action,2026-10-12:** protect the shared expected-conclusion editor's
-missing Users SAVED and Seed APPLIED choices through
-its actual control handler. D18 catalog38/160 has focused RED33/37 -> GREEN353,
+**Current next action,2026-10-12:** protect Users recording storage/context/continuous-recording boundaries
+before independent publication and saved-guide conclusions. Actual editor RED35/4
+-> GREEN43 offers/selects Users SAVED and Seed APPLIED, retaining39 RED checks;
+two reviewed editor captures are readable. Only Core/modExpectationDraft changes
+among335 compiled components; five cold compiles and Operations cold start pass.
+Static metrics/caps and three schemas pass; fresh chain32/live-role48/Create15
+retains prior check order, closes unassisted and passes preservation/native audits.
+See the code expected-outcome choices receipt for this qualified editor checkpoint.
+D18 catalog38/160 has focused RED33/37 -> GREEN353,
 retaining all259 prior authority checks and all157 catalog definitions. Core-owned
 SAVED/REJECTED/DENIED/FAILED and form-owned cancellation, privacy and quiet global/
 action/user suppression pass. Cold/instrumented compiles, four reviewed captures,

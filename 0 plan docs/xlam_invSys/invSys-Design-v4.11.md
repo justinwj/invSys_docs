@@ -2119,6 +2119,19 @@ failure and unchanged business results. Diagnostic evidence alone is not GREEN
 acceptance of the proposal. Plan022 and Controls1.543 track this pending decision.
 
 **Users & Roles writes (D18 discovered-control refinement; acceptance pending):**
+Shared expected-conclusion editor refinement: selecting a registered Users write
+control must offer SAVED; selecting ADMIN_DEMO_SEED must offer APPLIED alongside
+its other registered outcomes. Selecting an outcome does not fabricate evidence
+or change the existing CommandCompleted/SourceEventsApplied distinction. Retain
+existing choices and exclude outcomes not registered for the selected control.
+Protect these choices through the actual packaged selection handler before fixing
+the shared list. This clarifies existing D18 authoring, not a new replay contract.
+
+Focused editor evidence,2026-10-12: actual-handler RED35/4 -> GREEN43 retains
+all39 RED checks and selects the four outcomes. Saved/Applied captures are readable.
+This establishes shared choice availability, not independent Users/Seed guide
+conclusions; see the code expected-outcome choices receipt for qualification.
+
 Catalog38 adds `ADMIN_USER_SAVE` (Create / Update), `ADMIN_USER_DEACTIVATE`
 (Deactivate), and `ADMIN_USER_DELETE` (Delete), Command class, Admin > Users &
 Roles surface, `ADMIN_USERS_ROLES` owner and existing ADMIN_MAINT capability.
