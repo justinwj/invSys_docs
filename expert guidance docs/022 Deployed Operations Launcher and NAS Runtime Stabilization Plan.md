@@ -4,6 +4,13 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Reconcile native confirmation GREEN,2026-10-12:** the unchanged selection-02
+candidate passes203/203, retaining the191-check prefix. Native window-close,
+confirmation Cancel and typed narrative/Submit have exact queue/preservation
+proof and reviewed readable captures. Five instrumented compiles, normal closure
+and delayed native audit pass. Controls1.539 and the code Reconcile receipt record
+scope. Recording/publication/guide coverage remains next;4be-A is incomplete.
+
 **Reconcile selection GREEN,2026-10-12:** `validation-admin-reconcile-selection-02`
 passes191/191 after the native179/2 RED. The Admin form retains all20 full entries;
 native scroll/entry20/Inspect/Escape and minimum/grow/maximize/restore captures pass.

@@ -1,6 +1,15 @@
 # invSys Form Controls v1
 
-**Version:** 1.538 -- Reconcile selection/history191 GREEN;4be-A incomplete.
+**Version:** 1.539 -- Reconcile native confirmation203 GREEN;4be-A incomplete.
+
+The unchanged `validation-admin-reconcile-selection-02` now passes203/203,
+retaining all191 prior checks in order. Native window-close and confirmation
+Cancel queue nothing; typed narrative/Submit queues exactly one correction for
+the selected event/key. Full identities and quantity preview fit the confirmation;
+blank and typed foreground captures were reviewed. Inventory bytes, quantities,
+custom values and saved state remain unchanged by queuing. Five instrumented
+compiles, preserved normal closure and delayed native audit pass. This adds native
+acceptance coverage without changing controls, wording or the recording contract.
 
 `frmShipmentReconcileSelection` implements the approved presentation requirement:
 `txtHistory` is locked, wrapped and vertically scrollable, retaining full EventID/
@@ -10,8 +19,8 @@ Escape or window-close cancels. History expands with the resizable form; actions
 stay reachable. Native scroll to entry20, Tab/20/Enter Inspect, Escape cancellation
 and minimum/grow/maximize/restore geometry and six reviewed captures pass in
 `validation-admin-reconcile-selection-02`:191/191 with all181 prior checks retained.
-Default720x480; minimum540x360. Native confirmation and window-close coverage remain
-open. Five cold/instrumented compiles and86 smoke pass; static caps/dynamic counts
+Default720x480; minimum540x360. Native confirmation and window-close coverage is
+accepted above. Five cold/instrumented compiles and86 smoke pass; static caps/dynamic counts
 hold with a reviewed one-line anchor event-adapter duplicate exception. No
 quantity, authentication, confirmation or recording contract changes are implied.
 The same candidate retains32 full-chain/48 live-role/15 Create Warehouse checks,

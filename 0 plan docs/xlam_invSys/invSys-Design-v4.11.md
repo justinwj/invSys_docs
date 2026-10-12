@@ -5134,7 +5134,12 @@ inventory and minimum/grow/maximize/restore captures pass. The native harness
 requires a visible disposable operator workbook; hidden-host Excel crashes are
 not accepted evidence. Five cold/instrumented compiles and86 smoke pass; static
 caps/dynamic counts hold with one reviewed duplicate event-adapter exception.
-Native confirmation/window-close coverage and comprehensive recording remain open.
+Native confirmation/window-close coverage subsequently passes203/203 on the same
+candidate, retaining the191-check prefix. Actual native narrative/Submit queues
+one exact event/key correction; Cancel/window-close queue nothing. Readable full
+identity/quantity previews, inventory preservation and normal closure pass.
+This is added acceptance coverage, not a product/contract change or a new RED.
+Comprehensive recording remains open.
 Exact scope/receipts: code `plan022_slice4be_admin_reconcile_results.md`. No4be-A closure.
 The same candidate retains32 full-chain/48 live-role/15 Create Warehouse checks,
 normal preserved closure and a clean delayed native audit.
