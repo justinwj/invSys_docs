@@ -2776,6 +2776,13 @@ and cursor prerequisites remain separate failed attempts; the intermittent curso
 cause is unresolved. No runtime/contract change or package promotion; exact receipts
 and four reviewed captures are in the same results record. Broader gates remain open.
 
+Extended launcher verification passes76 with all24 prior checks: default/disabled/
+user/control recording policies, older-policy/storage notices and same-session
+permission denial. Presentation, exact OPENED/DENIED conclusions, saved authority,
+five compiles and clean delayed closure pass through the real public callback.
+Configuration refusal, signed-out entry, caught opening failure, active capture,
+publication and independent guides remain open; no runtime/contract change.
+
 **Admin Settings Close observation refinement (catalog32; acceptance pending):**
 Under approved D18 comprehensive recording and semantic inheritance, register
 `ADMIN_SETTINGS_CLOSE` for `frmAdminSettings.mBtnClose_Click` and explicit native

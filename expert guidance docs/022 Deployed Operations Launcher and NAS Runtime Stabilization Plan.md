@@ -11,8 +11,13 @@ facts verify60 exact cursor moves/restorations and desktop matches. Four capture
 reviewed; General long values remain clipped. Public launcher24 retains prior order.
 Earlier cursor prerequisites remain unexplained, not combined into GREEN. Runtime and
 candidate pins are unchanged; static ratchets hold and466 scripts parse. See code
-`plan022_slice4be_admin_entry_results.md` and Controls1.524. Active capture, public-launcher
-negative cases, publication, independent guides and broader acceptance remain open.
+`plan022_slice4be_admin_entry_results.md` and Controls1.525. Extended launcher76 retains
+24 prior checks and passes recording exclusions, older-policy/storage notices and
+same-session permission denial with preservation and clean delayed closure. Remaining
+launcher refusal/failure contexts, active capture, publication, independent guides
+and broader acceptance remain open.
+The subsequent launcher checkpoint regenerates maintenance evidence: all28 caps
+and prior metrics hold; three schemas and467 scripts validate.
 
 **Current entry/navigation family,2026-10-12:** unpromoted `validation-admin-entry-02`
 implements D18 catalog33/151 under approved comprehensive recording/semantic inheritance.
@@ -23,7 +28,7 @@ closure and static ratchets pass; dynamic9/45 and192 duplicate candidates are un
 modAdmin shrinks11 lines,465 scripts parse. Three default-size captures are reviewed.
 Public-launcher negative cases, active capture, exact publication, independent guides and
 broader acceptance remain open. See v4.11 "Admin Settings entry/navigation refinement",
-Controls1.524 and code `plan022_slice4be_admin_entry_results.md`; no replay adapter or
+Controls1.525 and code `plan022_slice4be_admin_entry_results.md`; no replay adapter or
 family closure is implied.
 Existing Close regression retains70 in exact prior order with five compiles,
 preservation and clean delayed closure. Its historical-policy fixture now removes
