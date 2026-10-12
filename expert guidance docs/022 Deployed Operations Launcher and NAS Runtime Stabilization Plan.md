@@ -4,6 +4,17 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Reconcile authority/permission follow-up, 2026-10-12:** unchanged candidate
+`validation-admin-reconcile-01` retains all55 original GREEN checks and passes
+closed read-only, missing/invalid authority, borrowed-edit, cancellation and reader
+denial probes. Expanded gate130 is128 pass/2 behavioral fail: a signed-out caller
+with a provisioned stale local user-ID hint queues a correction. D8-RECON-01 in
+v4.11 proposes a Core gate for the captured interactive session/user/target and
+ADMIN_MAINT, preserving permitted Admin local targets and headless processing.
+**Approval pending; do not implement or silently broaden NAS requirements.**
+Controls1.534 and the code Reconcile receipt record this scope. Native UI,
+mid-dialog binding changes, comprehensive recording and4be-A closure remain open.
+
 **Reconcile scoped GREEN, 2026-10-12:** approved D14-RECON-01 is implemented in
 `validation-admin-reconcile-01`: all 55 retained focused checks and 86 packaged
 smoke checks pass. Core leases the captured authority read-only, Domain owns

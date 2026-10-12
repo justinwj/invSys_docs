@@ -1,6 +1,22 @@
 # invSys Form Controls v1
 
-**Version:** 1.533 -- Approved Reconcile scoped GREEN.
+**Version:** 1.534 -- Reconcile authority proof and authentication proposal.
+
+Unchanged candidate `validation-admin-reconcile-01`: the expanded callback gate
+has128 pass/2 behavioral failures, retaining all55 original GREEN checks. Closed
+inventory reaches Domain read-only and closes without saving; missing inventory
+is not recreated, invalid schema/ambiguous identity is refused, borrowed unsaved
+edits and saved state are preserved, and cancellation/fractional selection do not
+queue. A reader without ADMIN_MAINT is refused. However, a signed-out caller with
+a provisioned stale user-ID hint queues an event. This is not an applied inventory
+change, and no native-input acceptance is claimed.
+
+**D8-RECON-01 is proposed, awaiting approval in v4.11:** Core validates the captured
+live invSys session/user, warehouse/station and ADMIN_MAINT before interactive
+Reconcile submission. No Windows/Office/local-hint authentication fallback; keep
+permitted Admin target modes and headless processor authorization. No runtime
+correction or new tracking ID is included in this checkpoint. Exact evidence:
+code `plan022_slice4be_admin_reconcile_results.md`.
 
 `btnAdminShipmentReconcile` / `OpenShipmentReconcileTool` now selects an exact
 event/System_Key, shows the key in selection and narrative confirmation, previews

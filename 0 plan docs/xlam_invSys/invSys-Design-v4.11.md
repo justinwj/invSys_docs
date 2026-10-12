@@ -5066,6 +5066,29 @@ unavailable/invalid authority or history. Core borrows an explicit workbook or
 leases only the existing captured target file read-only; it closes only its own
 lease without saving. No workbook is returned across this new boundary.
 
+**D8-RECON-01 — Interactive Shipment Reconcile authentication (proposed; approval required).**
+Packaged authority tests retain the original55 GREEN checks and prove closed
+read-only leases, missing/invalid authority, borrowed edits and reader denial.
+The final130-check run is128 pass/2 fail: after sign-out, restoring only a local
+user-ID hint naming a provisioned Admin allows the actual callback to queue an
+event. The callback uses `ResolveCurrentUserId` and `QueuePayloadEvent`; that
+headless-capable API checks provisioned capability without authenticating a live
+interactive actor. No inventory is applied by this test.
+
+D8 makes Core the authorization authority; D-NAS explicitly requires Operations
+sign-in while permitting Admin local targets. This decision makes the interactive
+Admin Reconcile rule explicit without extending Operations' NAS-only policy:
+before queuing, Core must validate the same signed-in invSys session/user captured
+when Reconcile opened, the captured warehouse/station, and ADMIN_MAINT. Sign-out,
+session/user/target change or missing capability refuses the submission with no
+queued event. Windows/Office identities and persisted user-ID hints cannot replace
+authentication. Existing permitted Admin target modes, read-only inspection,
+D14-RECON-01 quantity rules, required audit, and provisioned headless processor
+authorization remain unchanged. No implementation of this proposal is authorized
+until user approval is recorded here. Protect it through the actual packaged
+callback and Core gate, including signed-out stale identity and mid-dialog changes.
+Exact receipt: code `plan022_slice4be_admin_reconcile_results.md`.
+
 `EventID`, `RunId`, `DesignId`/`DesignVersion`, shipment IDs, and other
 specialized identifiers remain when they identify a different record or
 workflow concept. They do not replace the affected inventory entity's
