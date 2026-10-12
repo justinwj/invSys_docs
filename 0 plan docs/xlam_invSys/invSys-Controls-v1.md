@@ -1,14 +1,15 @@
 # invSys Form Controls v1
 
-**Version:** 1.523 -- Expanded Settings boundary tests await native-input qualification.
+**Version:** 1.524 -- Settings tab boundary gate passes177; wider acceptance remains open.
 
-The original launcher24/tab43 GREEN remains valid on unchanged
-`validation-admin-entry-02`. The expanded policy/context/storage gate is unaccepted:
-after a fixture correction, two runs stopped on cursor prerequisites. The latest
-shows SetCursorPos success with unexpected coordinates, without observed error5.
-Standalone cursor checks pass but cannot establish the failed helper's state.
-Same-helper diagnosis precedes another Excel retry. No runtime or contract change;
-static ratchets hold and466 scripts parse. Exact attempts: code
+On unchanged `validation-admin-entry-02`, the expanded native tab gate passes177,
+retaining43 prior checks. Policies, context/permission loss, repeated activation,
+older policy and storage notices pass with preserved authority and clean closure.
+All60 mouse moves/restorations and input-desktop matches are verified; no cursor
+mismatch/error5 recurs. Four captures are reviewed, including readable storage notice;
+General long values remain clipped. Public launcher24 retains prior order. Earlier
+cursor failures remain unexplained; no runtime/contract change or family closure.
+Static ratchets hold and466 scripts parse. Exact receipts: code
 `plan022_slice4be_admin_entry_results.md`. Family and4be-A acceptance remain open.
 
 D18's catalog33 refinement names `ADMIN_SETTINGS_OPEN` and
@@ -23,7 +24,7 @@ RED17/7 -> GREEN24 and native five-tab RED33/10 -> GREEN43. Five cold/instrument
 compiles, preservation and clean delayed closure pass. Three default-size captures
 show intact General, Event Detail and Action Paths with readable tabs. All28 size
 caps hold; dynamic9/45 and192 duplicate candidates are unchanged;465 scripts parse.
-Policy/context/permission/storage cases, publication, independent guides, broader
+Public-launcher negative cases, active capture, publication, independent guides, broader
 layout and human acceptance remain open. Exact receipts: code
 `plan022_slice4be_admin_entry_results.md`. This is agent evidence, not family closure.
 The existing Close regression retains70 in exact prior order, with five compiles,

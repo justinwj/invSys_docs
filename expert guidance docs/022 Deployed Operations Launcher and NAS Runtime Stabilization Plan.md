@@ -4,13 +4,15 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Boundary-gate follow-up,2026-10-12:** the expanded native Settings tests remain
-unaccepted after a fixture correction and two cursor prerequisites failed. At02:29:24Z,
-SetCursorPos succeeded but the read-back position was unexpected; no error5 is observed.
-Standalone movement passes, so capture the failing helper's own desktop/bounds/timing
-before another Excel retry. Runtime and candidate pins are unchanged; static ratchets
-hold and466 scripts parse. See code `plan022_slice4be_admin_entry_results.md` and
-Controls1.523. Do not combine partial attempts into GREEN or infer a product failure.
+**Boundary-gate follow-up,2026-10-12:** the complete native Settings tab gate passes177,
+retaining43 prior checks. Policy/context/permission/storage cases and repeated activation
+pass with five compiles, preserved authority and clean delayed closure. Same-helper
+facts verify60 exact cursor moves/restorations and desktop matches. Four captures are
+reviewed; General long values remain clipped. Public launcher24 retains prior order.
+Earlier cursor prerequisites remain unexplained, not combined into GREEN. Runtime and
+candidate pins are unchanged; static ratchets hold and466 scripts parse. See code
+`plan022_slice4be_admin_entry_results.md` and Controls1.524. Active capture, public-launcher
+negative cases, publication, independent guides and broader acceptance remain open.
 
 **Current entry/navigation family,2026-10-12:** unpromoted `validation-admin-entry-02`
 implements D18 catalog33/151 under approved comprehensive recording/semantic inheritance.
@@ -19,9 +21,9 @@ the modal launcher, programmatic/same-tab exclusions and saved authority/host st
 OPENED/SELECTED prove presentation only. Five cold/instrumented compiles, clean delayed
 closure and static ratchets pass; dynamic9/45 and192 duplicate candidates are unchanged,
 modAdmin shrinks11 lines,465 scripts parse. Three default-size captures are reviewed.
-Policy/context/permission/storage failures, exact publication, independent guides and
+Public-launcher negative cases, active capture, exact publication, independent guides and
 broader acceptance remain open. See v4.11 "Admin Settings entry/navigation refinement",
-Controls1.522 and code `plan022_slice4be_admin_entry_results.md`; no replay adapter or
+Controls1.524 and code `plan022_slice4be_admin_entry_results.md`; no replay adapter or
 family closure is implied.
 Existing Close regression retains70 in exact prior order with five compiles,
 preservation and clean delayed closure. Its historical-policy fixture now removes

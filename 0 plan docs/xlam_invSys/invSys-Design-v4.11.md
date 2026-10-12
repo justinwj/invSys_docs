@@ -2763,16 +2763,18 @@ public-launcher RED17/7 -> GREEN24 and native five-tab RED33/10 -> GREEN43.
 Both mouse and keyboard destinations, constructor/programmatic/same-tab exclusions,
 captured successful context and preservation pass. Five cold/instrumented compiles,
 static ratchets and normal delayed closure pass; three default-size captures are
-reviewed. Policy/context failures, publication, independent guides, broader layout
+reviewed. Public-launcher negative cases, active capture, publication, independent guides, broader layout
 and human acceptance remain open. Exact receipts: code
 `plan022_slice4be_admin_entry_results.md`. This is scoped evidence, not family closure.
 
-Boundary verification follow-up,2026-10-12: the expanded native policy/context/storage
-gate remains unaccepted. A corrected test fixture was followed by two cursor-input
-prerequisite failures; the latter distinguishes SetCursorPos success with unexpected
-coordinates from an API failure. Standalone cursor checks pass without error5,
-but do not establish the failed helper's thread state. No runtime/contract change,
-package promotion or new GREEN is claimed; exact attempts are in the same results record.
+Boundary verification follow-up,2026-10-12: the complete native tab gate passes177,
+retaining43 prior checks. Policies, context/permission loss, repeated activation,
+older policy and storage notice pass with preserved authority, five compiles and
+clean delayed closure. Same-helper facts verify60 exact cursor moves/restorations
+and desktop matches. Public launcher24 also retains prior order. Earlier fixture
+and cursor prerequisites remain separate failed attempts; the intermittent cursor
+cause is unresolved. No runtime/contract change or package promotion; exact receipts
+and four reviewed captures are in the same results record. Broader gates remain open.
 
 **Admin Settings Close observation refinement (catalog32; acceptance pending):**
 Under approved D18 comprehensive recording and semantic inheritance, register
