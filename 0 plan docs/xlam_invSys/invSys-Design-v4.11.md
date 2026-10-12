@@ -165,6 +165,40 @@ XLAM, is not an independent launcher, is not part of the five-package release,
 and has no access path to warehouse authority other than the explicit Addins
 feed supplied to the updater.
 
+**D16-VBA-LOAD-01 — source-loading station prerequisite (PROPOSED; requires approval):**
+
+Require `HKCU\Software\Microsoft\Office\16.0\Excel\Options\ForceVBALoadFromSource`
+as DWORD1 before Excel starts on a supported Windows R1 station. This explicitly
+adds an Excel loading prerequisite; it does not change any warehouse, role,
+recording, workbook-binding or business-result contract.
+
+- StationSetup must disclose that source loading affects all VBA workbooks in
+  that Windows account and may increase opening time, and obtain explicit consent.
+  After release/hash validation, with Office applications closed, establish DWORD1
+  before activating the release. An existing DWORD1 needs no rewrite. Decline,
+  access denial or a conflicting value type preserves the previous installation.
+- Preserve the prior value's absence/type/value when setup changes it. Failed
+  setup restores that state only if the value still matches the setup-owned write;
+  it must not overwrite a subsequent user change. No other Office option changes.
+  The automatic updater verifies this prerequisite before release activation and
+  does not silently install it. Package rollback retains the supported loading
+  prerequisite. Core/Domain and running workbooks never write this setting.
+- D13 must first expose the missing prerequisite through the actual station-setup/
+  update handlers, then prove consent/refusal, idempotence, Office-open deferral,
+  failed-setup restoration, concurrent-change preservation, unchanged registration
+  on refusal, and unchanged warehouse files. Re-run ordinary packaged, restart,
+  full-chain and visible operator gates in the resulting supported configuration;
+  no assertions or acceptance requirements are waived.
+
+Evidence motivating this proposal: on Excel16.0.20430.20146, ordinary loading
+fails in both directory-01 and the frozen console-03 predecessor. Temporary
+source loading passes a separate live48 and chain32/live48/Create15 with clean
+delayed audits, preserved packages and restored settings. Native cause remains
+unproven; diagnostic success is not approval or completed station implementation.
+Until approval and protecting implementation evidence, the existing contract
+remains operative and directory-01's ordinary-chain qualification stays open.
+Exact comparisons: code `tests/integration/plan022_slice4be_admin_directory_columns_results.md`.
+
 **Failure and rollback rule:** The updater fails closed. A missing/partial
 release, hash mismatch, cache-copy failure, registration failure, or Excel-open
 condition leaves the active known-good cached release and its registry startup

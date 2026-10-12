@@ -1,6 +1,14 @@
 # invSys Form Controls v1
 
-**Version:** 1.547 -- Directory trace unblocked; native qualification and D18-LOCAL-01 pending;4be-A incomplete.
+**Version:** 1.548 -- Source-loading station proposal and D18-LOCAL-01 pending;4be-A incomplete.
+
+Proposed D16-VBA-LOAD-01 requires explicit StationSetup consent for an account-wide
+Excel source-loading prerequisite, established with Office closed and checked by
+the updater. Refusal preserves the current installation; failed setup restores
+only its own option change. No implemented control, catalog ID or acceptance is
+claimed. Temporary source loading passes live48 and chain32/live48/Create15;
+ordinary frozen-predecessor loading still crashes. Approval, protecting station
+handler RED/GREEN and all normal qualification gates remain required.
 
 View Warehouses (`btnAdminWarehouses`, Admin, ADMIN_MAINT): packaged directory
 refresh on console-03 loses unknown-column text and a local tail value (initial

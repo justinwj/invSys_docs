@@ -4,6 +4,15 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**D16-VBA-LOAD-01 pending approval,2026-10-12:** v4.11 proposes a consented,
+account-scoped Excel source-loading prerequisite established by StationSetup
+before activation, verified by the updater, with exact failed-setup restoration.
+Ordinary loading also crashes on frozen console-03; temporary source loading
+passes live48 and chain32/live48/Create15 with clean audits. No cause is proved
+and no setting or acceptance exception is adopted. After approval, use D13 on the
+actual station handlers and re-run all normal gates in the supported configuration.
+Do not merely relabel the diagnostic run as release acceptance.
+
 **Active prerequisite: View Warehouses / D14.** Before recording this callback,
 protect unknown local cells during directory refresh. Actual packaged
 `btnAdminWarehouses` RED26/4 on console-03 leads to GREEN31 on unpromoted
@@ -15,7 +24,8 @@ identifies the live-role processor call after projection deletion; another run's
 32/live48/Create15 passes coexist with a native crash. The narrower trace matcher
 now has tooling RED7/4 -> GREEN11 and existing74 protection. Traced and read-only
 package/reference inspection controls each pass35; the uninstrumented counterpart
-crashes at the processor. Continue bounded localization; no native repair is claimed. The code
+crashes at the processor. Broader source-loading and predecessor comparisons above
+motivate the pending station proposal; no native repair is claimed. The code
 directory-columns receipt records exact runs, restoration and next test.
 No new control ID or recording acceptance yet.
 
