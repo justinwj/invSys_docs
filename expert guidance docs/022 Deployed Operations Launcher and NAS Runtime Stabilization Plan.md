@@ -4,14 +4,24 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current next action,2026-10-13 Pacific:** protect Create recording and guide
-conclusions through the actual callbacks/handlers. Approved **D8-CREATE-01** is
+**Current checkpoint,2026-10-13 Pacific:** Create recording and guide conclusions
+are scoped-qualified on unpromoted create-recording-02, catalog41/172. Focused381
+retains all110 owner checks; four independent recordings prove successful,
+incomplete and failed guide conclusions. Purpose/layout36,13 reviewed captures,
+Settings202, recording80, smoke86, chain32/live48/Create15 and compile/static/
+preservation gates pass with normal native closure. D18 and Controls1.574 agree;
+see code `plan022_slice4be_admin_create_recording_results.md` for exact evidence.
+Next: audit Setup Tester Station's actual callback/handlers under D8/D18 and
+establish packaged RED before implementation. Remaining Admin coverage, early B0
+and overall4be-A remain open; replay stays in4be-B.
+
+The preceding approved **D8-CREATE-01** owner increment is
 scoped-qualified: expanded RED63/23 and diagnostic-sink RED106/4 become focused
 GREEN110 on unpromoted create-authority-03; all45 original passes remain.
 Purpose/layout36, five reviewed captures, recording80, smoke86,
 chain32/live48/Create15 and compile/static/preservation gates pass with normal
-native closure. Catalog40/162 is unchanged;
-Create recording and4be-A acceptance remain open. See code
+native closure. That owner checkpoint retained catalog40/162; its recording
+follow-up is qualified above. See code
 `plan022_slice4be_admin_create_owner_results.md` for exact evidence and exclusions.
 
 Core checks the captured source Admin context before each creation/publication

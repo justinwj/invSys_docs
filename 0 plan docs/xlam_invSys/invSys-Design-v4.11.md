@@ -2295,6 +2295,66 @@ with reviewed native warnings, directory149, smoke86, chain32/live48/Create15,
 five cold compiles and static limits. The owner correction is scoped-qualified;
 catalog39/161 is unchanged at that owner checkpoint; recording is qualified below.
 
+**Create Warehouse recording (D18 discovered-control refinement,2026-10-13; scoped-qualified):**
+Catalog41 adds the following ten existing Admin controls under owner
+`ADMIN_WAREHOUSE_CREATE`, existing ADMIN_MAINT and surface **Admin > Create Warehouse**.
+Preserve catalogs1-40 and approved D8-CREATE-01. This names observations under
+approved semantic inheritance; it grants no new owner permission or replay adapter.
+
+| ControlId suffix after `ADMIN_CREATE_` | Caption / actual entry | Class | Result facts |
+|---|---|---|---|
+| OPEN | Create New Warehouse / Ribbon callback | Navigation | OPENED only after the form is visibly presented; FAILED on opening failure. |
+| SUBMIT | Create / Create branch | Command | CREATED_LOCAL when bootstrap succeeds without requested publication; CREATED_PUBLISHED when both succeed; CREATED_PUBLISH_FAILED or CREATED_PUBLISH_DENIED preserve successful creation with unsuccessful publication. |
+| RETRY_PUBLISH | Retry Publish / retry branch | Command | PUBLISHED on the existing publication owner's success. Never bootstrap. |
+| PUBLISH_EXISTING | Publish Existing Warehouse | Command | PUBLISHED using the selected runtime's saved identity; never bootstrap. |
+| OPEN_WORKBOOK | Open Workbook | Navigation | OPENED only for the exact captured generated Receiving workbook. |
+| BROWSE_HUB | Browse... | Command | STAGED after the returned folder is assigned; CANCELLED when the picker returns no selection. |
+| FIND_SHAREPOINT | Find... | Command | STAGED after detection/selection is assigned; UNAVAILABLE when neither returns a folder. |
+| PURPOSE | Warehouse purpose | Navigation | SELECTED for a deliberate changed choice, with no selected value. |
+| PUBLISH_OPTION | Publish initial artifacts to SharePoint | Command | STAGED for a deliberate changed option, with no Boolean value. |
+| CLOSE | Close / Cancel / window close | Navigation | CLOSED for one actual dismissal; proves no save or publication. |
+
+Each eligible deliberate handler entry records one REQUESTED/result pair. Validation
+or duplicate refusal records REJECTED; Core authorization refusal records DENIED;
+unconfirmed owner failure records FAILED. Core supplies fixed primitive outcome
+codes alongside existing Boolean/report results; do not parse displayed text.
+Create's partial outcomes distinguish an unconfirmed publication failure from a
+publication authorization refusal. No outcome claims rollback. Source references
+stay empty: these are owner command facts, not inventory event/application proof.
+DataEffect is Unknown except CANCELLED (Unchanged). REQUESTED and positive results
+are Info; REJECTED, DENIED and UNAVAILABLE are Warning; FAILED and the two partial
+publication outcomes are Error. Messages exclude entered values, paths, credentials,
+raw reports and destination identities; the envelope stays bound to the source.
+
+Only CREATED_LOCAL/CREATED_PUBLISHED, PUBLISHED, OPENED, STAGED, SELECTED and CLOSED
+support CommandCompleted for their respective controls. Expose the exact outcomes
+in the existing expectation editor. A guide requiring CREATED_PUBLISHED cannot
+borrow a prior success for a fresh partial or interrupted attempt. Preserve local
+creation truth, exact generated-workbook opening, source session and captured
+workbook. Reopening creates a new capture context; stale forms never rebind.
+
+Policy, per-user, storage, context and recording-lifecycle gates remain unchanged;
+optional tracking must not prevent ordinary authorized work or replace its result.
+Capture/restore the exact live surface around optional tracking and report at most
+one tracking-unavailable notice. Initialization, programmatic field updates, typing,
+validation labels, resizing and rendering are not separate user actions. Textboxes
+are unsaved inputs to the explicit commands, never keystroke observations. Picker
+dialogs remain operator-required for replay; recording them grants no replay support.
+
+D13 requires packaged callback/handler RED/GREEN, preservation of the110 owner
+checks, policy/user/context/storage boundaries, independent successful/partial/
+interrupted recordings and saved guide conclusions, visible evidence, compile,
+layout, static, live-role and full-chain gates. No comprehensive4be-A acceptance
+is implied by this refinement.
+
+Verified2026-10-13 on unpromoted create-recording-02: catalog41/172, focused381
+retaining all110 owner checks, four independent recordings and saved Concluded/
+Incomplete/Failed results. Purpose/layout36,13 reviewed captures, Settings202,
+recording80, smoke86, chain32/live48/Create15 and compile/static/preservation gates
+pass. See code `plan022_slice4be_admin_create_recording_results.md` for REDs,
+exact evidence and exclusions. Overall4be-A and native picker/replay acceptance
+remain open.
+
 **Add Warehouse Root recording (D18 discovered-control refinement; scoped-qualified):**
 Catalog40 adds `ADMIN_WAREHOUSE_ROOT_ADD`, caption **Add Warehouse Root**, Admin
 surface, Command class, owner `ADMIN_WAREHOUSE_ROOT_PREFERENCE`, existing

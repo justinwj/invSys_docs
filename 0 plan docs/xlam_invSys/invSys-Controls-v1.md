@@ -1,6 +1,20 @@
 # invSys Form Controls v1
 
-**Version:** 1.573 -- Create authorization and reopened publication scoped-qualified.
+**Version:** 1.574 -- Create recording and guide conclusions scoped-qualified.
+
+D18 catalog41 specifies ten `ADMIN_CREATE_` observations: OPEN, SUBMIT,
+RETRY_PUBLISH, PUBLISH_EXISTING, OPEN_WORKBOOK, BROWSE_HUB, FIND_SHAREPOINT,
+PURPOSE, PUBLISH_OPTION and CLOSE. They cover the existing callback and form
+handlers without entered values, paths or destination identities. Initialization,
+programmatic changes, typing and window mechanics are excluded. Picker dialogs
+remain operator-required for replay. Unpromoted create-recording-02 has catalog41/172,
+preserving all162 prior definitions. Focused381 retains all110 owner checks;
+four independent recordings save truthful Concluded/Incomplete/Failed results.
+Purpose/layout36,13 reviewed captures, Settings202, recording80, smoke86,
+chain32/live48/Create15 and compile/static/preservation gates pass with normal
+native closure. Overall4be-A remains open. See code
+`plan022_slice4be_admin_create_recording_results.md` for exact evidence and exclusions.
+See v4.11 **Create Warehouse recording** for exact owner facts and outcome meanings.
 
 **Create New Warehouse:** approved **D8-CREATE-01** is scoped-qualified on unpromoted
 create-authority-03. Expanded RED63/23 and diagnostic-sink RED106/4 become focused
@@ -16,9 +30,9 @@ runtime's saved identity under the new session. It never bootstraps or rewrites
 local Config/Auth/inventory. Missing/invalid runtime refuses; ordinary Create still
 rejects duplicates. Local creation and publication remain separate results.
 Typed calls and fixed safe diagnostics preserve the approved redaction contract.
-Controls1.572 was the approved contract checkpoint; this version records the
-implemented control and layout. Catalog40/162 is unchanged: Create recording,
-guide conclusions and4be-A acceptance remain open. See code
+Controls1.572 was the approved contract checkpoint;1.573 recorded the owner
+implementation and layout at catalog40/162. Version1.574 adds the qualified
+recording coverage above. See code
 `plan022_slice4be_admin_create_owner_results.md`.
 
 D18 discovered-control refinement specifies catalog40 `ADMIN_WAREHOUSE_ROOT_ADD`
@@ -34,7 +48,7 @@ normal Viewer closure retains VIEWER_CLOSED. Four root outcome choices and separ
 Concluded/Incomplete/Failed guide results pass, with11 reviewed captures.
 Directory219, Settings202, recording80, smoke86, chain32/live48/Create15 and
 compile/static/preservation gates pass.4be-A remains incomplete; Create New
-Warehouse's owner authorization finding above precedes its observations. See code
+Warehouse's subsequent owner and recording qualification is recorded above. See code
 `plan022_slice4be_admin_root_recording_results.md`.
 
 Approved D18-ROOT-01 (2026-10-13): **Add Warehouse Root** must confirm local preference
