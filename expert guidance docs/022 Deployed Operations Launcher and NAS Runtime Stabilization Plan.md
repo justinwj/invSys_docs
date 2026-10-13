@@ -4,8 +4,12 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current next action,2026-10-12:** profile one packaged Seed guide authoring/view
-boundary before optimizing its long delays; preserve current-policy/integrity checks.
+**Current next action,2026-10-12 Pacific:** optimize the measured policy projection
+delay without weakening current-policy/integrity checks. Actual Create Guide takes
+118.234s, including 104.982s in 16 Core policy projections. Focused responsiveness
+RED202/1 retains all181 prior checks; the sole failure is the five-second fixture
+budget. No runtime fix yet. See `plan022_slice4be_seed_guide_timing_results.md` in
+the code repository. D18-LOCAL-01 is approved below; its implementation remains open.
 Seed guide GREEN283 retains 181 prior checks. Three recordings, exact publication
 and four independent evaluations distinguish CommandCompleted from exact published
 SourceEventsApplied. Interrupted capture cannot borrow published business success.
@@ -170,7 +174,8 @@ file checks, one invocation, original-workbook/folder/custom-value preservation,
 and context boundaries, and guide conclusions limited to present/nonempty files.
 The shared Expected conclusion picker must offer VERIFIED for this control.
 No hash/deployment/Domain success claim or new business permission. D18-LOCAL-01
-remains separately pending; this control can progress in an eligible NAS context.
+implementation remains separately pending after approval; this control's evidence
+covers an eligible NAS context.
 Recording/guide202/202, exact130 prefix, plus the separate expectation-picker23/23
 and six reviewed captures are verified on verify-03. That candidate retains
 Reconcile360, Settings202, smoke86 and chain32/live-role48/Create15. Compiles,
@@ -179,15 +184,16 @@ NAS recording/guide coverage for the callback. Local eligibility and remaining
 Admin entries keep4be-A open; next independent audit is Admin Console's actual
 callback, as mapped in the code remaining-coverage receipt.
 
-**Local recording decision pending,2026-10-12:** D18-LOCAL-01 in v4.11 proposes
-recording/library eligibility for any valid captured signed-in warehouse runtime,
-local or UNC, including a valid local fallback context. It never redirects an
-unavailable NAS library or changes business/replay target permissions. Do not
-implement before approval. The199-check diagnostic preserves172 existing checks:
+**Local recording decision approved,2026-10-12 Pacific:** the user approved
+D18-LOCAL-01 in v4.11: recording/library eligibility for any valid captured signed-in
+warehouse's own existing runtime, local or UNC, including a valid local fallback
+context. It never redirects an unavailable NAS library or changes business/replay
+target permissions. Implement shared eligibility consistently after focused
+packaged behavioral RED. The199-check diagnostic preserves172 existing checks:
 enabled local policy and successful Reconcile queuing coexist with no recording
 context, no activity/journal access and no warning. Five instrumented compiles,
 normal restoration and clean delayed native audit pass. This proves the gap,
-not acceptance of the proposed policy. Controls1.543 and the code Reconcile
+not implementation acceptance. Controls1.563 and the code Reconcile
 receipt record scope;360 recording/guide GREEN remains the accepted baseline.
 
 **Reconcile recording checkpoint,2026-10-12:** under v4.11 D18, catalog34 adds

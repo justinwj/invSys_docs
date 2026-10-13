@@ -1,6 +1,18 @@
 # invSys Form Controls v1
 
-**Version:** 1.562 -- Seed independent guides GREEN283; responsiveness/4be-A incomplete.
+**Version:** 1.563 -- D18-LOCAL-01 approved; guide responsiveness RED; 4be-A incomplete.
+
+User approval,2026-10-12 Pacific: D18-LOCAL-01 permits recording/library use in
+the captured signed-in warehouse's own existing RuntimeRoot, local or UNC,
+including a valid local fallback context. Preserve permissions, recording policy,
+integrity and session binding; never redirect failed NAS storage to another local
+root. Business/replay eligibility remains unchanged. Shared implementation and
+packaged RED/GREEN remain outstanding; no new control or catalog entry.
+
+Focused Create Guide profiling retains181 prior checks:202PASS/1FAIL at118.234s
+against a five-second engineering fixture budget. Sixteen policy projections
+consume104.982s. No runtime optimization or responsiveness acceptance yet; see the
+code `plan022_slice4be_seed_guide_timing_results.md` receipt.
 
 Three Seed recordings and exact publication now support four independent guide
 evaluations. CommandCompleted makes no Domain claim; an immutable SourceEventsApplied
@@ -9,7 +21,7 @@ observations remain Incomplete even when business success is published. GREEN283
 retains 181 prior checks. Eight reviewed captures show readable multiline guidance,
 provenance and saved conclusions; compile/static/preservation/native gates pass.
 No product, wording or catalog change. About 49-minute suites and a 149-second
-dispatch gap leave responsiveness open; focused profiling is next. See the code
+dispatch gap leave responsiveness open; focused profiling is recorded above. See the code
 Seed guide receipt. Native notices/chooser and remaining Demo/context controls stay open.
 
 Seed boundary GREEN181 retains114 earlier checks. Four real attempt/outcome Open
@@ -128,7 +140,8 @@ label, including "The invSys session or warehouse changed. Reopen Users & Roles.
 and "Users & Roles could not persist the command. Inspect the current Auth state before retrying."
 Existing captions, read/provisioning behavior
 and separate processor authorization remain. No new ControlId.
-D16-VBA-LOAD-01 and D18-LOCAL-01 also remain proposed/unapproved.
+D16-VBA-LOAD-01 remains proposed/unapproved. D18-LOCAL-01 is approved above;
+implementation and acceptance remain pending.
 
 Event Detail's existing multiline value Labels now retain two points of height
 after text measurement, preventing final-glyph clipping observed at96DPI. No new
@@ -169,7 +182,7 @@ Unknown, references empty; only OPENED supports CommandCompleted. Preserve the
 original workbook/read scope, existing result/permission rules and custom columns.
 Fixed activity text excludes console values/paths. Packaged Ribbon RED/GREEN,
 policy/session/storage boundaries and independent guide/visible proof apply.
-No D18-LOCAL-01 approval or full4be-A acceptance is implied.
+This console evidence does not implement D18-LOCAL-01 or complete4be-A acceptance.
 Focused55/9 RED leads to69/69 GREEN on unpromoted console-02, including the
 correction for optional recording displacing the console's selected surface.
 The original64 checks remain; reader/signed-out denial still prevents owner
@@ -202,10 +215,10 @@ Local diagnostic199/199 retains172 identity/authority checks. With policy enable
 actual Reconcile queues once in a genuinely resolved local runtime and in the
 valid signed-in fallback fixture, but records nothing and shows no tracking
 warning: shared context/activity/journal gates require NAS eligibility. This is
-not an accepted recording exclusion. Proposed D18-LOCAL-01 in v4.11 permits
+not an accepted recording exclusion. Approved D18-LOCAL-01 in v4.11 permits
 recording/library use in the captured valid signed-in runtime, local or UNC,
 including valid local fallback; no NAS-to-local redirection or business/replay
-permission change. Approval and packaged RED/GREEN remain required. Existing
+permission change. Shared implementation and packaged RED/GREEN remain required. Existing
 360-check Reconcile recording/guide acceptance remains intact.
 
 Under v4.11 D18: `ADMIN_RECONCILE_OPEN` observes actual form presentation;
