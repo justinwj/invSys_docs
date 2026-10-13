@@ -1,6 +1,19 @@
 # invSys Form Controls v1
 
-**Version:** 1.565 -- local recording and regressions qualified; 4be-A incomplete.
+**Version:** 1.567 -- View Warehouses recording and guide proof qualified.
+
+D18 discovered-control refinement specifies `ADMIN_DIRECTORY_OPEN` for the
+existing **View Warehouses** button: REQUESTED, owner-confirmed OPENED or FAILED,
+Unknown effects and no source references. Only OPENED supports CommandCompleted.
+Preserve original workbook/read scope, optional root prompt, custom columns and
+existing feedback. Focused RED79/9 qualifies the missing observations. Unpromoted
+directory-recording-01 has catalog39/161, focused101, boundary149 and independent
+guide219, five cold compiles, static limits and seven reviewed captures. Settings202
+and smoke86 retain prior checks, as do chain32/live-role48/Create15 and Console188
+with six reviewed captures. Preservation and clean native audits pass. This is
+scoped control acceptance;4be-A remains incomplete. Next audit Add Warehouse Root.
+See code
+`plan022_slice4be_admin_directory_recording_results.md`.
 
 D18-LOCAL-01 focused RED210/24 becomes GREEN285 on local-recording-02. All234
 focused and195 compatible historical checks remain, with48 added policy/context/

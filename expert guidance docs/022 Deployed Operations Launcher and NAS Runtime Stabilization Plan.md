@@ -4,11 +4,18 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current next action,2026-10-12 Pacific:** extend the packaged View Warehouses
-callback test with recording RED, preserving the original workbook and existing
-open-Config/scan-root read scope. Its inherited D14 preservation gate is requalified
-31/31 on the current candidate, with five compiles, a reviewed capture and clean
-preserved native closure. Recording definition/implementation remains unstarted.
+**Current next action,2026-10-12 Pacific:** audit Add Warehouse Root, specify its
+compatible D18 outcomes, then run its protecting packaged RED. D18's qualified
+`ADMIN_DIRECTORY_OPEN` retains the original workbook, open-Config/scan-root scope
+and inherited D14 preservation checks.
+Focused RED79/9 becomes GREEN101 then boundary149 on unpromoted
+directory-recording-01, catalog39/161. Independent guide219 retains all149 and proves
+successful/incomplete conclusions from separate recordings. Five cold compiles,
+static limits, seven reviewed captures, Settings202, smoke86, chain32/live-role48/
+Create15 and Console188/six captures pass with clean preserved native closure.
+This completes the scoped View Warehouses increment;4be-A remains open.
+Preserve optional root prompting, original read scope and existing
+result/error behavior. See code `plan022_slice4be_admin_directory_recording_results.md`.
 Approved D18-LOCAL-01 is qualified on unpromoted local-recording-02.
 Focused RED210/24 becomes GREEN285,
 retaining234 focused and195 compatible historical checks, with48 added policy/

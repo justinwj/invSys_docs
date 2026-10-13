@@ -2259,6 +2259,46 @@ compiles, preservation, delayed native audits and static03 pass. The code receip
 `plan022_slice4be_admin_console_results.md` states exact reuse limits. This closes
 this control's coverage, not D18-LOCAL-01 or4be-A.
 
+**View Warehouses coverage (D18 discovered-control refinement; scoped-qualified):**
+Catalog39 adds `ADMIN_DIRECTORY_OPEN`, caption **View Warehouses**, Admin surface,
+Navigation class, `ADMIN_WAREHOUSE_DIRECTORY` owner and existing ADMIN_MAINT
+capability. Preserve catalog1-38. The actual `btnAdminWarehouses` callback records
+REQUESTED before invoking its existing directory owner, then OPENED only when
+that owner returns True after refresh and activation; False or an error records
+FAILED. These observations remain subject to D18 policy/context/storage gates.
+Effects remain Unknown,
+references empty; REQUESTED/OPENED are Info and FAILED is Error. Only OPENED can
+satisfy CommandCompleted. This proves presentation, not warehouse creation,
+target selection, complete discovery, processing or Domain application.
+
+Preserve the original workbook and existing open-Config/scan-root read scope
+before optional observation; preserve the optional root prompt and any explicit
+root it adds. Logging must not expand discovery by opening configuration books,
+retarget the callback, repeat the owner, displace its selected surface, or change
+the existing result/error. Preserve D14 local columns. Fixed observation messages
+exclude paths, directory values, credentials and raw diagnostics. Suppression
+must not warn; context/storage failures leave truthful evidence and at most one
+tracking-unavailable notice without replacing the business result.
+
+D13 requires actual packaged dispatch RED/GREEN, owner failure, policy/user/role
+boundaries, read-scope preservation, then independent recording/publication/guide
+conclusions and visible evidence. The separate Add Warehouse Root control is not
+covered by this entry. This specifies a discovered control under approved D18
+semantic inheritance; it changes no permission, authority or replay eligibility.
+
+Focused packaged RED79/9 on local-recording-02 qualifies the absent definition/
+observations while retaining the directory preservation checks. Candidate
+directory-recording-01 implements catalog39 and captured read scope; focused101
+and expanded149 pass, retaining prior checks. Independent guide219 preserves all149
+and proves successful/incomplete saved conclusions from separate recordings.
+Five cold compiles, static limits, seven reviewed captures, Settings202 and smoke86
+pass, followed by chain32/live-role48/Create15 and Console188/six reviewed captures.
+All preserve prior checks, packages/settings and normal closure with clean native
+audits. This qualifies the scoped control on an unpromoted candidate.
+See code `plan022_slice4be_admin_directory_recording_results.md` for scope and
+excluded capture/fixture attempts. Preparation/root prompting retains its original
+order before the observed directory owner; this is not complete Admin coverage.
+
 **Verify Add-ins Published coverage (D18 discovered-control refinement):**
 Catalog35 adds `ADMIN_VERIFY_ADDINS`, caption **Verify Add-ins Published**, Admin
 surface, Command class, `ADMIN_ADDINS_VERIFY` owner and existing ADMIN_MAINT
