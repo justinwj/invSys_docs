@@ -1,6 +1,18 @@
 # invSys Form Controls v1
 
-**Version:** 1.564 -- guarded guide display GREEN203; 4be-A incomplete.
+**Version:** 1.565 -- local recording and regressions qualified; 4be-A incomplete.
+
+D18-LOCAL-01 focused RED210/24 becomes GREEN285 on local-recording-02. All234
+focused and195 compatible historical checks remain, with48 added policy/context/
+storage checks. Three reviewed saved-guide captures preserve incomplete provenance
+and exact Submitted references. Three Core eligibility predicates plus scoped
+headless completion authorization/context revalidation change; no new ControlId,
+caption, schema or business/replay permission. NAS/native360, Settings202,
+per-user104, smoke86 and chain32/live-role48/Create15 pass on the same unpromoted
+candidate, with five cold compiles, static checks, preservation and clean native audits.
+See code `plan022_slice4be_local_recording_results.md` for exact scope and exclusions.
+The receipt preserves the intermediate completion/capture failures. Recording-
+policy editing retains its separate NAS gate; local enforcement is covered.
 
 Create Guide RED118.234s becomes GREEN4.186s on unpromoted policy-projection-02;
 all203 checks pass within the unchanged five-second fixture target. D18's ReadEditor
@@ -20,12 +32,12 @@ User approval,2026-10-12 Pacific: D18-LOCAL-01 permits recording/library use in
 the captured signed-in warehouse's own existing RuntimeRoot, local or UNC,
 including a valid local fallback context. Preserve permissions, recording policy,
 integrity and session binding; never redirect failed NAS storage to another local
-root. Business/replay eligibility remains unchanged. Shared implementation and
-packaged RED/GREEN remain outstanding; no new control or catalog entry.
+root. Business/replay eligibility remains unchanged. The focused implementation
+and broader regression status are recorded above; no new control or catalog entry.
 
-Focused Create Guide profiling retains181 prior checks:202PASS/1FAIL at118.234s
+Earlier Create Guide profiling retained181 prior checks:202PASS/1FAIL at118.234s
 against a five-second engineering fixture budget. Sixteen policy projections
-consume104.982s. No runtime optimization or responsiveness acceptance yet; see the
+consume104.982s. The qualified responsiveness correction above supersedes this RED; see the
 code `plan022_slice4be_seed_guide_timing_results.md` receipt.
 
 Three Seed recordings and exact publication now support four independent guide

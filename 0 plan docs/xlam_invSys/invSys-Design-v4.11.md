@@ -2090,10 +2090,10 @@ hash, duplicate protection and other-entity/custom-value preservation pass.
 Original Submitted observations and the earlier Awaiting result remain immutable.
 Two additional reviewed captures show the saved source status/conclusion. This
 adds tests only, not a replay adapter or a new contract. Local-target recording
-implementation remains open. Exact D13 evidence is in the code Reconcile receipt;
+qualification is tracked by D18-LOCAL-01 below. Exact D13 evidence is in the code Reconcile receipt;
 this is not complete4be-A acceptance.
 
-**D18-LOCAL-01 — local recording eligibility (APPROVED by user, 2026-10-12 Pacific; implementation pending):**
+**D18-LOCAL-01 — local recording eligibility (APPROVED by user, 2026-10-12 Pacific; local increment qualified):**
 The199-check packaged diagnostic confirms that Reconcile queues in a genuinely
 resolved WH_SOURCE_LOCAL context and in the valid signed-in fallback fixture,
 while enabled policy remains readable but recording context/activity/journal
@@ -2117,7 +2117,24 @@ journal creation through packaged handlers, then prove local recording/library
 use, NAS behavior, sign-out/target-change refusal, policy suppression, storage
 failure and unchanged business results. Diagnostic evidence alone is not GREEN
 acceptance of the implementation. Plan022 and Controls1.563 track this approved
-decision; packaged RED/GREEN and regression qualification remain outstanding.
+decision. Focused packaged RED210/24 becomes GREEN285, retaining234 focused and195
+compatible historical assertions; four old local-absence expectations are
+superseded by this approval. Forty-eight boundary checks and three reviewed saved-
+guide captures pass. NAS/native360, Settings202, per-user104, smoke86 and
+chain32/live-role48/Create15 pass on the same unpromoted candidate, with five cold
+compiles, static checks, preservation and clean native audits. This qualifies the
+local increment, not comprehensive4be-A acceptance; see the code
+`plan022_slice4be_local_recording_results.md`. No business/replay gate is changed.
+
+Implementation clarification within this approved decision: recording completion
+checks the captured actor's capability through headless Auth for the exact current
+warehouse/station. It must not substitute the NAS-only role-UI reachability check
+for that authority check. The original session/context must still match after
+authorization; retain the registered capability and existing Production Admin
+alternative. Business callbacks and replay keep their independent eligibility.
+The initial completion/capture failures and their corrections remain traceable in
+the code receipt. Recording-policy editing retains its independent NAS gate; local
+enforcement tests configure policy in a permitted context before resolving locally.
 
 **Users & Roles writes (D18 discovered-control refinement; acceptance pending):**
 Shared expected-conclusion editor refinement: selecting a registered Users write

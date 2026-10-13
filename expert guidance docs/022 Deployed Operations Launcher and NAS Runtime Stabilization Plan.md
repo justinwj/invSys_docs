@@ -4,10 +4,23 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current next action,2026-10-12 Pacific:** implement approved D18-LOCAL-01
-through packaged-handler RED/GREEN. Local recording/library eligibility remains
-unimplemented; business/replay gates stay
-independent. See `plan022_slice4be_seed_guide_timing_results.md` in the code repo.
+**Current next action,2026-10-12 Pacific:** reconcile remaining4be-A control coverage
+against the current specification and select the next packaged-handler proof.
+Approved D18-LOCAL-01 is qualified on unpromoted local-recording-02.
+Focused RED210/24 becomes GREEN285,
+retaining234 focused and195 compatible historical checks, with48 added policy/
+context/storage checks and three reviewed saved-guide captures. Business/replay
+gates remain independent. See code
+`plan022_slice4be_local_recording_results.md`; excluded fixture attempts are scoped
+there. The preceding responsiveness increment is recorded in
+`plan022_slice4be_seed_guide_timing_results.md`.
+
+The initial candidate's missing CONFIRMED observations and capture failures are
+corrected by scoped headless Auth/context revalidation and the capture helper's
+owner-order preservation. Policy editing keeps its independent NAS gate. Five
+cold compiles and static checks pass. NAS/native360, Settings202, per-user104,
+smoke86 and chain32/live-role48/Create15 retain their prior checks with preservation
+and clean native audits. Comprehensive4be-A acceptance remains open.
 
 Create Guide RED202/1 at118.234s becomes GREEN203 at4.186s on unpromoted
 policy-projection-02, retaining the same five-second fixture budget and prior181
