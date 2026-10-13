@@ -4,12 +4,19 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current next action,2026-10-13 Pacific:** define and protect Add Warehouse Root
-recording under D18 semantic inheritance. Approved D18-ROOT-01 owner correction
-is scoped-qualified: RED96/15 -> GREEN120, reviewed native warnings, directory149,
-smoke86, chain32/live48/Create15, five cold compiles/static limits and clean
-preserved native closure on root-feedback-01. Catalog39/161 is unchanged.
-No root recording definition is implemented. See code
+**Current next action,2026-10-13 Pacific:** audit Create New Warehouse through its
+actual callback/form handlers and protect existing owner outcomes before adding
+observations; distinguish local bootstrap from initial publication.
+
+Add Warehouse Root is scoped-qualified under D18 and approved D18-ROOT-01:
+owner RED96/15 -> GREEN120; recording/fault/guide REDs -> focused370 on unpromoted
+root-recording-04, catalog40/162. Only REMEMBERED_REFRESHED concludes
+CommandCompleted; original workbook/discovery, suppression and truthful partial
+outcomes are preserved. Independent Concluded/Incomplete/Failed guide results,
+11 reviewed captures, Directory219, Settings202, recording80, smoke86,
+chain32/live48/Create15 and compile/static/preservation gates pass. No root replay
+or comprehensive4be-A acceptance is claimed. See code
+`plan022_slice4be_admin_root_recording_results.md` and
 `plan022_slice4be_admin_root_write_results.md` for exact proof and reuse limits.
 D18's qualified
 `ADMIN_DIRECTORY_OPEN` retains the original workbook, open-Config/scan-root scope

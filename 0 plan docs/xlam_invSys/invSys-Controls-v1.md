@@ -1,6 +1,22 @@
 # invSys Form Controls v1
 
-**Version:** 1.569 -- Add Warehouse Root feedback correction qualified.
+**Version:** 1.570 -- Add Warehouse Root recording scoped-qualified.
+
+D18 discovered-control refinement specifies catalog40 `ADMIN_WAREHOUSE_ROOT_ADD`
+for **Add Warehouse Root**. Record REQUESTED, CANCELLED, the four confirmed or
+unconfirmed persistence/successful or failed refresh combinations, or unexpected
+FAILED. Only REMEMBERED_REFRESHED concludes CommandCompleted. Preserve the
+qualified owner behavior and original workbook/discovery; apply recording policy,
+per-user and captured-context gates, with no path payloads or replay capability.
+Recording RED168/29, setup RED200/3, active-capture RED207/2 and guide-form RED279/1
+lead to focused370 on unpromoted root-recording-04. Failed optional setup preserves
+owner work and closes only its captured recording as Incomplete/TRACKING_UNAVAILABLE;
+normal Viewer closure retains VIEWER_CLOSED. Four root outcome choices and separate
+Concluded/Incomplete/Failed guide results pass, with11 reviewed captures.
+Directory219, Settings202, recording80, smoke86, chain32/live48/Create15 and
+compile/static/preservation gates pass.4be-A remains incomplete; next audit Create
+New Warehouse before adding observations. See code
+`plan022_slice4be_admin_root_recording_results.md`.
 
 Approved D18-ROOT-01 (2026-10-13): **Add Warehouse Root** must confirm local preference
 persistence before claiming remembered; otherwise combine an explicit warning
@@ -10,7 +26,7 @@ current false success after a refused write; five compiles, all30 prior checks,
 preservation and clean native closure pass. Expanded RED96/15 -> GREEN120 qualifies
 the owner correction on root-feedback-01: native warnings, directory149, smoke86,
 chain32/live48/Create15, compiles/static limits and clean preserved closure pass.
-Catalog39/161 is unchanged; root recording/guide acceptance remains open.
+Catalog39/161 is unchanged at that owner checkpoint; recording is qualified above.
 See code `plan022_slice4be_admin_root_write_results.md`.
 
 D18 discovered-control refinement specifies `ADMIN_DIRECTORY_OPEN` for the
@@ -22,8 +38,8 @@ directory-recording-01 has catalog39/161, focused101, boundary149 and independen
 guide219, five cold compiles, static limits and seven reviewed captures. Settings202
 and smoke86 retain prior checks, as do chain32/live-role48/Create15 and Console188
 with six reviewed captures. Preservation and clean native audits pass. This is
-scoped control acceptance;4be-A remains incomplete. The root-feedback decision
-above now precedes further recording for Add Warehouse Root.
+scoped control acceptance;4be-A remains incomplete. Directory/guide219 is also
+fresh on the qualified root-recording-04 candidate above.
 See code
 `plan022_slice4be_admin_directory_recording_results.md`.
 

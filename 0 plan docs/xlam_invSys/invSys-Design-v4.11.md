@@ -2293,7 +2293,51 @@ See code `plan022_slice4be_admin_root_write_results.md` for exact diagnostic evi
 Verified2026-10-13: expanded RED96/15 -> GREEN120 on unpromoted root-feedback-01,
 with reviewed native warnings, directory149, smoke86, chain32/live48/Create15,
 five cold compiles and static limits. The owner correction is scoped-qualified;
-catalog39/161 is unchanged and Add Warehouse Root recording remains open.
+catalog39/161 is unchanged at that owner checkpoint; recording is qualified below.
+
+**Add Warehouse Root recording (D18 discovered-control refinement; scoped-qualified):**
+Catalog40 adds `ADMIN_WAREHOUSE_ROOT_ADD`, caption **Add Warehouse Root**, Admin
+surface, Command class, owner `ADMIN_WAREHOUSE_ROOT_PREFERENCE`, existing
+ADMIN_MAINT capability. Preserve catalog1-39 and approved D18-ROOT-01 behavior.
+At the actual callback, record REQUESTED before the existing prompt/owner work;
+blank/Cancel records CANCELLED without preference write or directory refresh.
+Use the owner's confirmed-persistence Boolean and directory-open Boolean for
+REMEMBERED_REFRESHED, REMEMBERED_REFRESH_FAILED, UNCONFIRMED_REFRESHED or
+UNCONFIRMED_REFRESH_FAILED. An unexpected owner error records FAILED and retains
+the existing error behavior. Never infer persistence from a returned Sub or UI text.
+
+Only REMEMBERED_REFRESHED supports CommandCompleted. These records assert no
+warehouse creation, target selection or Domain application.
+Expose all four persistence/refresh outcomes in the guide expectation editor;
+an independently observed unconfirmed result must not conclude a guide requiring
+REMEMBERED_REFRESHED. An interrupted capture remains Incomplete.
+Source references remain empty; effects are Unknown except CANCELLED (Unchanged). REQUESTED,
+CANCELLED and REMEMBERED_REFRESHED are Info; unconfirmed persistence with successful
+refresh is Warning; failed refresh or unexpected failure is Error. Record fixed
+facts only, never entered paths, stored root lists, diagnostics or credentials.
+
+Optional recording retains the original workbook, discovery scope, preference
+normalization/order/limit, single owner invocation and D18-ROOT-01 feedback.
+Discovery includes the owner's actual post-write remembered roots, while optional
+recording must not add newly opened Config workbooks or change ambient warehouse
+roots. D18 policy, per-user suppression, captured session/warehouse and storage
+gates apply; tracking failure adds at most the existing optional tracking notice.
+If optional discovery capture fails before observation starts, preserve owner work
+and close any active recording for the captured context as Incomplete /
+TRACKING_UNAVAILABLE; never fabricate the missing action or close another context.
+No new permission, fallback storage, source reference or replay adapter is granted.
+
+Protect the actual packaged callback with focused RED/GREEN, the existing owner
+gate, policy/context/storage boundaries, independent recording/publication/guide
+conclusion proof and visible evidence. This is semantic inheritance of approved
+D18 and D18-ROOT-01, not a new owner contract or4be-A acceptance.
+
+Scoped evidence: focused370 on unpromoted `validation-root-recording-04`, with
+independent Concluded/Incomplete/Failed guide results and11 reviewed captures.
+Directory219, Settings202, recording80, smoke86, chain32/live48/Create15 and
+compile/static/preservation gates pass. See code
+`plan022_slice4be_admin_root_recording_results.md` for REDs, exclusions and reuse
+limits. Comprehensive Admin coverage and remaining4be-A acceptance stay open.
 
 **View Warehouses coverage (D18 discovered-control refinement; scoped-qualified):**
 Catalog39 adds `ADMIN_DIRECTORY_OPEN`, caption **View Warehouses**, Admin surface,
