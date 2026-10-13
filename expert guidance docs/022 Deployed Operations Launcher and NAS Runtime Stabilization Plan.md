@@ -4,8 +4,11 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current next action,2026-10-12 Pacific:** reconcile remaining4be-A control coverage
-against the current specification and select the next packaged-handler proof.
+**Current next action,2026-10-12 Pacific:** extend the packaged View Warehouses
+callback test with recording RED, preserving the original workbook and existing
+open-Config/scan-root read scope. Its inherited D14 preservation gate is requalified
+31/31 on the current candidate, with five compiles, a reviewed capture and clean
+preserved native closure. Recording definition/implementation remains unstarted.
 Approved D18-LOCAL-01 is qualified on unpromoted local-recording-02.
 Focused RED210/24 becomes GREEN285,
 retaining234 focused and195 compatible historical checks, with48 added policy/

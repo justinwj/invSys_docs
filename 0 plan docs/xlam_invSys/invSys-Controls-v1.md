@@ -14,6 +14,11 @@ See code `plan022_slice4be_local_recording_results.md` for exact scope and exclu
 The receipt preserves the intermediate completion/capture failures. Recording-
 policy editing retains its separate NAS gate; local enforcement is covered.
 
+View Warehouses preservation31 is requalified on that candidate, with five
+compiles, preserved settings/packages, clean native closure and a reviewed local-
+column capture. Recording/native Ribbon coverage remains open; see code
+`plan022_slice4be_admin_directory_columns_results.md`.
+
 Create Guide RED118.234s becomes GREEN4.186s on unpromoted policy-projection-02;
 all203 checks pass within the unchanged five-second fixture target. D18's ReadEditor
 projection supplies one complete guarded synchronous refresh; later selection,
