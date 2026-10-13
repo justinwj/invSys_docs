@@ -4,9 +4,15 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current next action,2026-10-13 Pacific:** audit Create New Warehouse through its
-actual callback/form handlers and protect existing owner outcomes before adding
-observations; distinguish local bootstrap from initial publication.
+**Current next action,2026-10-13 Pacific:** obtain approval for normative
+**D8-CREATE-01**, then expand its packaged RED before implementing the interactive
+Core authorization boundary. Create New Warehouse owner diagnostic45/2 proves
+creation and a completion claim after sign-out from an already-open form.
+Local creation, purpose, duplicate/invalid/cancel refusal, exact Receiving opening,
+publication failure and retry are protected separately. Production code and
+catalog40/162 are unchanged; recording and4be-A acceptance remain open. See code
+`plan022_slice4be_admin_create_owner_results.md`. D8-A's separate authorized
+headless provisioning path must remain intact; no Plan-only permission change.
 
 Add Warehouse Root is scoped-qualified under D18 and approved D18-ROOT-01:
 owner RED96/15 -> GREEN120; recording/fault/guide REDs -> focused370 on unpromoted

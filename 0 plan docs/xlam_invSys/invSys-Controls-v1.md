@@ -1,6 +1,16 @@
 # invSys Form Controls v1
 
-**Version:** 1.570 -- Add Warehouse Root recording scoped-qualified.
+**Version:** 1.571 -- Create New Warehouse owner diagnostic; approval pending.
+
+**Create New Warehouse:** actual Ribbon/form-handler diagnostic45/2 confirms
+that Create still provisions and claims completion after sign-out from the open
+form. Architecture **D8-CREATE-01 is proposed, not approved**: Core would recheck
+the captured live Admin context before local creation and publication/retry,
+preserving separate authorized headless provisioning and truthful partial results.
+Local-only creation, Operational/Training purpose, duplicate/invalid/cancel
+refusal, exact generated Receiving opening and publication/retry checks pass.
+No implementation, new recording ID, visible acceptance or4be-A completion is
+claimed. See code `plan022_slice4be_admin_create_owner_results.md`.
 
 D18 discovered-control refinement specifies catalog40 `ADMIN_WAREHOUSE_ROOT_ADD`
 for **Add Warehouse Root**. Record REQUESTED, CANCELLED, the four confirmed or
@@ -14,8 +24,8 @@ owner work and closes only its captured recording as Incomplete/TRACKING_UNAVAIL
 normal Viewer closure retains VIEWER_CLOSED. Four root outcome choices and separate
 Concluded/Incomplete/Failed guide results pass, with11 reviewed captures.
 Directory219, Settings202, recording80, smoke86, chain32/live48/Create15 and
-compile/static/preservation gates pass.4be-A remains incomplete; next audit Create
-New Warehouse before adding observations. See code
+compile/static/preservation gates pass.4be-A remains incomplete; Create New
+Warehouse's owner authorization finding above precedes its observations. See code
 `plan022_slice4be_admin_root_recording_results.md`.
 
 Approved D18-ROOT-01 (2026-10-13): **Add Warehouse Root** must confirm local preference

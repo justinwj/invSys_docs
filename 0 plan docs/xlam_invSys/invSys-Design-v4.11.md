@@ -5272,6 +5272,43 @@ audits pass. The chain closes without intervention. No Users recording ID or4be-
 acceptance is introduced; the code Auth-write receipt records the exact scope.
 
 ---
+### D8-CREATE-01 — Create New Warehouse interactive authority (PROPOSED; approval required)
+
+Packaged diagnostic,2026-10-13: the real Admin Ribbon opens Create Warehouse
+under a signed-in Admin. After sign-out, its actual Create handler still saves
+a new runtime and reports completion (45 PASS/2 expected FAIL). Local creation,
+Operational/Training purpose, duplicate/invalid/cancel refusal, exact generated
+Receiving opening, initial publication and publication retry retain their checks.
+See code `tests/integration/plan022_slice4be_admin_create_owner_results.md`.
+
+The station-setup contract already requires a signed-in invSys administrator
+with ADMIN_MAINT for Create New Warehouse. D8-A preserves explicit provisioning;
+D8-USERS-01 settles Users writes only. The following captured-form/write-boundary
+resolution requires approval before implementation; it is not a Plan-only change:
+
+- Headless Core commands authorize interactive local creation and each initial
+  publication/retry against the live invSys session/user generation, source
+  warehouse/station and ADMIN_MAINT captured when the Create form opened.
+  Sign-out, session/user/target change or lost capability refuses the next write.
+  Reopen under the intended authorized context; never silently rebind the form.
+- New warehouse fields select a creation destination, not an existing authority
+  to impersonate. Preserve Operational/Training choice, Windows write permission,
+  duplicate refusal, separate authorized headless bootstrap/station setup and
+  captured generated Receiving workbook behavior. No existing Auth store is
+  required at the new destination before explicit provisioning.
+- Local bootstrap and publication are separate confirmed results. A failed or
+  denied publish never undoes or hides successful local creation; retry never
+  bootstraps again. Refusal claims no unproved rollback of earlier effects.
+- Admin retains form validation and presentation; Core owns the authorization
+  immediately before each mutation. No credential, entered path or field value
+  enters action recording. D18 observations remain a subsequent coverage step.
+
+D13 first protects stale-form creation and publication/retry through packaged
+handlers and the direct Core command, then authorized behavior, lost rights,
+changed context, partial completion and unchanged headless provisioning. This
+proposal grants no implementation or acceptance approval;4be-A remains incomplete.
+
+---
 ### D9 -- Operator Read Models and Refresh Contract (R1 Locked)
 **Decision:** Operator-facing inventory tables are read models refreshed from published or local warehouse snapshots. They are not authoritative write targets.
 
