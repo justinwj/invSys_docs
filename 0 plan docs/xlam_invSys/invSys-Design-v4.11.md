@@ -5287,10 +5287,13 @@ D8-USERS-01 settles Users writes only. The following captured-form/write-boundar
 resolution requires approval before implementation; it is not a Plan-only change:
 
 - Headless Core commands authorize interactive local creation and each initial
-  publication/retry against the live invSys session/user generation, source
-  warehouse/station and ADMIN_MAINT captured when the Create form opened.
-  Sign-out, session/user/target change or lost capability refuses the next write.
-  Reopen under the intended authorized context; never silently rebind the form.
+  publication/retry against the live invSys session/user generation and source
+  warehouse/station captured when the Create form opened. Check ADMIN_MAINT
+  against that **captured source warehouse**, never against the creation
+  destination, which has no Auth store yet. Run the check **after any confirmation,
+  immediately before mutation**. Sign-out, session/user/target change or lost
+  capability refuses the next write. No Windows/Office identity or local user-ID
+  hint substitutes for the invSys session. Never silently rebind a stale form.
 - New warehouse fields select a creation destination, not an existing authority
   to impersonate. Preserve Operational/Training choice, Windows write permission,
   duplicate refusal, separate authorized headless bootstrap/station setup and
@@ -5299,14 +5302,36 @@ resolution requires approval before implementation; it is not a Plan-only change
 - Local bootstrap and publication are separate confirmed results. A failed or
   denied publish never undoes or hides successful local creation; retry never
   bootstraps again. Refusal claims no unproved rollback of earlier effects.
-- Admin retains form validation and presentation; Core owns the authorization
-  immediately before each mutation. No credential, entered path or field value
-  enters action recording. D18 observations remain a subsequent coverage step.
+- Reopening under a newly authorized session exposes an explicit **Publish
+  Existing Warehouse** action in the Create Warehouse form. The operator selects
+  the existing local runtime and publication destination. Core resolves and
+  validates that runtime and its saved warehouse identity read-only, binds the
+  publish-only request to that exact runtime, and authorizes against the newly
+  captured source context using the same rules above. Publish uses the saved
+  warehouse identity, not new-warehouse entry fields or the discarded form's
+  `mLocalBootstrapComplete`. Missing/invalid runtime refuses publication without
+  creation or repair. This path publishes the existing initial artifacts only;
+  it never re-bootstraps or rewrites local Config/Auth/inventory. Ordinary Create
+  still rejects duplicates and never switches implicitly to publication.
+- Admin retains form validation and presentation; Core owns authorization.
+  Use direct typed calls within a project and declared primitive/serialized
+  result envelopes at cross-XLAM boundaries. No credentials, entered paths or
+  field values enter action recordings, activity, or logs, including diagnostics
+  from downstream provisioning/publication helpers. Use fixed safe outcomes;
+  do not forward raw error/report text into those channels. D18 observations
+  remain a subsequent coverage step.
 
 D13 first protects stale-form creation and publication/retry through packaged
-handlers and the direct Core command, then authorized behavior, lost rights,
-changed context, partial completion and unchanged headless provisioning. This
-proposal grants no implementation or acceptance approval;4be-A remains incomplete.
+handlers and direct Core commands. Retain the existing45 passing checks; add
+RED for successful publish-only recovery after closing/reopening under a new
+authorized session, duplicate Create refusal, missing/invalid existing runtime,
+source-vs-destination authorization, lost rights/context (including after any
+confirmation), no identity substitution, partial-result preservation and redaction
+across recording/activity/logs. Verify zero bootstrap calls and unchanged local
+Config/Auth/inventory during reopened publication; preserve authorized headless
+provisioning. The current diagnostic proves sign-out before Create only; it does
+not establish these additional gates. This revised proposal remains pending
+approval and grants no implementation or acceptance approval;4be-A is incomplete.
 
 ---
 ### D9 -- Operator Read Models and Refresh Contract (R1 Locked)

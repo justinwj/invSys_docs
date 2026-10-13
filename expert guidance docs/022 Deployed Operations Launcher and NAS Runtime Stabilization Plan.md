@@ -14,6 +14,18 @@ catalog40/162 are unchanged; recording and4be-A acceptance remain open. See code
 `plan022_slice4be_admin_create_owner_results.md`. D8-A's separate authorized
 headless provisioning path must remain intact; no Plan-only permission change.
 
+Review refinement (still proposed): explicit **Publish Existing Warehouse** in a
+reopened Create form validates/binds an existing runtime read-only and publishes
+without bootstrap or rewriting local Config/Auth/inventory. New-session
+ADMIN_MAINT is checked against the captured **source** warehouse after any
+confirmation, immediately before mutation; no Windows/Office identity substitute.
+Use typed calls/primitive envelopes and redact recording, activity and all logs,
+including downstream helpers. Preserve duplicate Create refusal. Expand D13 for
+reopened recovery, source/destination distinction, stale/post-confirmation context,
+missing/invalid runtime and redaction before implementation. The existing owner
+test already signs out before Create; reuse Users `SignedOut` and Close `SignedOut`
+wiring when adding the wider state matrix. Existing45/2 is not expanded coverage.
+
 Add Warehouse Root is scoped-qualified under D18 and approved D18-ROOT-01:
 owner RED96/15 -> GREEN120; recording/fault/guide REDs -> focused370 on unpromoted
 root-recording-04, catalog40/162. Only REMEMBERED_REFRESHED concludes

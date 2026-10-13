@@ -1,12 +1,22 @@
 # invSys Form Controls v1
 
-**Version:** 1.571 -- Create New Warehouse owner diagnostic; approval pending.
+**Version:** 1.572 -- Create authorization/reopened publication proposal tightened.
 
 **Create New Warehouse:** actual Ribbon/form-handler diagnostic45/2 confirms
 that Create still provisions and claims completion after sign-out from the open
 form. Architecture **D8-CREATE-01 is proposed, not approved**: Core would recheck
 the captured live Admin context before local creation and publication/retry,
 preserving separate authorized headless provisioning and truthful partial results.
+The revised proposal explicitly checks ADMIN_MAINT against the captured **source**
+warehouse after any confirmation, immediately before mutation, with no Windows/
+Office identity substitute. A reopened form provides **Publish Existing Warehouse**:
+select and validate/bind an existing runtime under the new session, then publish
+only, without bootstrap or rewriting local Config/Auth/inventory. Missing/invalid
+runtime refuses; ordinary Create still rejects duplicates. Typed calls/primitive
+envelopes and exclusion of credentials, entered paths and field values from
+recording, activity and all logs (including downstream diagnostics) are required.
+This new action and its reopened recovery/authorization/redaction tests are pending
+approval and implementation; existing45/2 does not cover them.
 Local-only creation, Operational/Training purpose, duplicate/invalid/cancel
 refusal, exact generated Receiving opening and publication/retry checks pass.
 No implementation, new recording ID, visible acceptance or4be-A completion is
