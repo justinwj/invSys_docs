@@ -5272,7 +5272,10 @@ audits pass. The chain closes without intervention. No Users recording ID or4be-
 acceptance is introduced; the code Auth-write receipt records the exact scope.
 
 ---
-### D8-CREATE-01 — Create New Warehouse interactive authority (PROPOSED; approval required)
+### D8-CREATE-01 — Create New Warehouse interactive authority (APPROVED,2026-10-13)
+
+The user approved the revised contract below on2026-10-13, including reopened
+publication, source authorization, post-confirmation checks and redaction.
 
 Packaged diagnostic,2026-10-13: the real Admin Ribbon opens Create Warehouse
 under a signed-in Admin. After sign-out, its actual Create handler still saves
@@ -5284,7 +5287,7 @@ See code `tests/integration/plan022_slice4be_admin_create_owner_results.md`.
 The station-setup contract already requires a signed-in invSys administrator
 with ADMIN_MAINT for Create New Warehouse. D8-A preserves explicit provisioning;
 D8-USERS-01 settles Users writes only. The following captured-form/write-boundary
-resolution requires approval before implementation; it is not a Plan-only change:
+resolution is now approved for D13 implementation:
 
 - Headless Core commands authorize interactive local creation and each initial
   publication/retry against the live invSys session/user generation and source
@@ -5330,8 +5333,8 @@ confirmation), no identity substitution, partial-result preservation and redacti
 across recording/activity/logs. Verify zero bootstrap calls and unchanged local
 Config/Auth/inventory during reopened publication; preserve authorized headless
 provisioning. The current diagnostic proves sign-out before Create only; it does
-not establish these additional gates. This revised proposal remains pending
-approval and grants no implementation or acceptance approval;4be-A is incomplete.
+not establish these additional gates. Approval authorizes test-first implementation,
+not acceptance;4be-A is incomplete.
 
 ---
 ### D9 -- Operator Read Models and Refresh Contract (R1 Locked)

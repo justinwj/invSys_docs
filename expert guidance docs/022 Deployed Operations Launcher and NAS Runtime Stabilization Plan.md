@@ -4,8 +4,8 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current next action,2026-10-13 Pacific:** obtain approval for normative
-**D8-CREATE-01**, then expand its packaged RED before implementing the interactive
+**Current next action,2026-10-13 Pacific:** **D8-CREATE-01 is approved**; expand
+its packaged RED before implementing the interactive
 Core authorization boundary. Create New Warehouse owner diagnostic45/2 proves
 creation and a completion claim after sign-out from an already-open form.
 Local creation, purpose, duplicate/invalid/cancel refusal, exact Receiving opening,
@@ -14,7 +14,7 @@ catalog40/162 are unchanged; recording and4be-A acceptance remain open. See code
 `plan022_slice4be_admin_create_owner_results.md`. D8-A's separate authorized
 headless provisioning path must remain intact; no Plan-only permission change.
 
-Review refinement (still proposed): explicit **Publish Existing Warehouse** in a
+Approved review refinement: explicit **Publish Existing Warehouse** in a
 reopened Create form validates/binds an existing runtime read-only and publishes
 without bootstrap or rewriting local Config/Auth/inventory. New-session
 ADMIN_MAINT is checked against the captured **source** warehouse after any
