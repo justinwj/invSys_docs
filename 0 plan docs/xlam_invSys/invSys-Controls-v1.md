@@ -1,6 +1,20 @@
 # invSys Form Controls v1
 
-**Version:** 1.563 -- D18-LOCAL-01 approved; guide responsiveness RED; 4be-A incomplete.
+**Version:** 1.564 -- guarded guide display GREEN203; 4be-A incomplete.
+
+Create Guide RED118.234s becomes GREEN4.186s on unpromoted policy-projection-02;
+all203 checks pass within the unchanged five-second fixture target. D18's ReadEditor
+projection supplies one complete guarded synchronous refresh; later selection,
+editing, expectation and save actions still revalidate. OpenDraft owns entry
+authorization. No caption, layout, ControlId or persisted format changes.
+Settings202 and GuideDraft76 retain prior checks. Four-size geometry passes;
+four reviewed captures show the required content, while the larger image has a
+taskbar overlay. Fresh Seed283 retains the exact prior order, three recordings,
+four independent conclusions and eight unobscured reviewed captures. Chain32,
+live-role48 and Create Warehouse15 retain prior checks with clean delayed closure.
+Per-user104 and smoke86 retain prior checks, preservation and clean delayed closure.
+This bounded responsiveness increment is qualified. Exact scoped
+evidence: code `plan022_slice4be_seed_guide_timing_results.md`.
 
 User approval,2026-10-12 Pacific: D18-LOCAL-01 permits recording/library use in
 the captured signed-in warehouse's own existing RuntimeRoot, local or UNC,

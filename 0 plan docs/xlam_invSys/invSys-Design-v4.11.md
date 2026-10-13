@@ -3908,7 +3908,15 @@ becomes the identity. Context invalidation clears retained source evidence.
 
 Core validates the captured source, current visibility, maintenance capability
 and draft binding through primitive/serialized boundaries; Operations owns the
-form. Draft entry, editing, reordering and Cancel do not publish a guide, append
+form. A single guarded `ReadEditor` call may return the complete display for one
+synchronous refresh as primitive strings: step rows/selected StepId, source,
+evidence, authored name/tags/instructions/selected-step instruction, expectation
+summary and notice. It delegates to the existing guarded draft read, holds no
+cross-action authorization cache and changes no source evidence. Later operator
+actions retain their own guards. Opening uses the owning OpenDraft guard; a
+duplicate CanCreate preflight is not authority. This is a D18 implementation
+refinement of the existing boundary, not weaker authorization or a new user action.
+Draft entry, editing, reordering and Cancel do not publish a guide, append
 an evaluation, record user activity, change preference/policy or rewrite source
 files. Authored text cannot become observed evidence. These discovered controls
 implement the already approved How-To authoring contract under semantic inheritance;

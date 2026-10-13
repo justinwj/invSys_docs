@@ -4,18 +4,27 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current next action,2026-10-12 Pacific:** optimize the measured policy projection
-delay without weakening current-policy/integrity checks. Actual Create Guide takes
-118.234s, including 104.982s in 16 Core policy projections. Focused responsiveness
-RED202/1 retains all181 prior checks; the sole failure is the five-second fixture
-budget. No runtime fix yet. See `plan022_slice4be_seed_guide_timing_results.md` in
-the code repository. D18-LOCAL-01 is approved below; its implementation remains open.
-Seed guide GREEN283 retains 181 prior checks. Three recordings, exact publication
+**Current next action,2026-10-12 Pacific:** implement approved D18-LOCAL-01
+through packaged-handler RED/GREEN. Local recording/library eligibility remains
+unimplemented; business/replay gates stay
+independent. See `plan022_slice4be_seed_guide_timing_results.md` in the code repo.
+
+Create Guide RED202/1 at118.234s becomes GREEN203 at4.186s on unpromoted
+policy-projection-02, retaining the same five-second fixture budget and prior181
+checks. The fresh per-call table snapshot plus D18's guarded ReadEditor/OpenDraft
+path retain later action guards. Settings202, GuideDraft76, Seed283, per-user104,
+smoke86, chain32, live-role48 and Create Warehouse15 retain prior checks. Five cold
+compiles, static caps, preservation and delayed native audits pass. Eight Seed
+captures are readable. The timing receipt scopes the larger guide-draft capture's
+taskbar overlay. This responsiveness increment is qualified; comprehensive4be-A
+acceptance remains open.
+Prior Seed guide GREEN283 retained181 checks. Three recordings, exact publication
 and four independent evaluations distinguish CommandCompleted from exact published
 SourceEventsApplied. Interrupted capture cannot borrow published business success.
 Eight reviewed captures, five instrumented compiles, static/preservation/native
-audits pass; no product change. Both suites took about 49 minutes, so responsiveness
-remains unaccepted. See the code Seed guide receipt for the corrected hash-reader
+audits passed without product changes. Those suites took about49 minutes; the
+current timing correction above supersedes that responsiveness checkpoint for its
+specified fixture. See the code Seed guide receipt for the corrected hash-reader
 harness exception, exact qualification and limits. Remaining Demo/Users controls,
 native/context coverage, broader 4be-A and early B0 remain open.
 Seed boundary GREEN181 retains114 earlier checks: four real Open failures,
