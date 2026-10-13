@@ -4,27 +4,24 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current next action,2026-10-13 Pacific:** **D8-CREATE-01 is approved**; expand
-its packaged RED before implementing the interactive
-Core authorization boundary. Create New Warehouse owner diagnostic45/2 proves
-creation and a completion claim after sign-out from an already-open form.
-Local creation, purpose, duplicate/invalid/cancel refusal, exact Receiving opening,
-publication failure and retry are protected separately. Production code and
-catalog40/162 are unchanged; recording and4be-A acceptance remain open. See code
-`plan022_slice4be_admin_create_owner_results.md`. D8-A's separate authorized
-headless provisioning path must remain intact; no Plan-only permission change.
+**Current next action,2026-10-13 Pacific:** protect Create recording and guide
+conclusions through the actual callbacks/handlers. Approved **D8-CREATE-01** is
+scoped-qualified: expanded RED63/23 and diagnostic-sink RED106/4 become focused
+GREEN110 on unpromoted create-authority-03; all45 original passes remain.
+Purpose/layout36, five reviewed captures, recording80, smoke86,
+chain32/live48/Create15 and compile/static/preservation gates pass with normal
+native closure. Catalog40/162 is unchanged;
+Create recording and4be-A acceptance remain open. See code
+`plan022_slice4be_admin_create_owner_results.md` for exact evidence and exclusions.
 
-Approved review refinement: explicit **Publish Existing Warehouse** in a
-reopened Create form validates/binds an existing runtime read-only and publishes
-without bootstrap or rewriting local Config/Auth/inventory. New-session
-ADMIN_MAINT is checked against the captured **source** warehouse after any
-confirmation, immediately before mutation; no Windows/Office identity substitute.
-Use typed calls/primitive envelopes and redact recording, activity and all logs,
-including downstream helpers. Preserve duplicate Create refusal. Expand D13 for
-reopened recovery, source/destination distinction, stale/post-confirmation context,
-missing/invalid runtime and redaction before implementation. The existing owner
-test already signs out before Create; reuse Users `SignedOut` and Close `SignedOut`
-wiring when adding the wider state matrix. Existing45/2 is not expanded coverage.
+Core checks the captured source Admin context before each creation/publication
+write. Reopened **Publish Existing Warehouse** uses saved identity without bootstrap
+or local Config/Auth/inventory rewrites. Stale context, saved revocation, identity
+hints and missing/invalid runtime refuse. Fixed diagnostics exclude entered values.
+Inventory/processor path resolution uses the explicit transaction root first,
+preserving the source session; separate headless fixtures bind their generated
+runtime before follow-up Seed. No authorization guard or inventory assertion is
+relaxed. Controls1.573 records implementation of the1.572 approved refinement.
 
 Add Warehouse Root is scoped-qualified under D18 and approved D18-ROOT-01:
 owner RED96/15 -> GREEN120; recording/fault/guide REDs -> focused370 on unpromoted

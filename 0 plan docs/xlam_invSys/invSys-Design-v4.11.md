@@ -5332,9 +5332,13 @@ source-vs-destination authorization, lost rights/context (including after any
 confirmation), no identity substitution, partial-result preservation and redaction
 across recording/activity/logs. Verify zero bootstrap calls and unchanged local
 Config/Auth/inventory during reopened publication; preserve authorized headless
-provisioning. The current diagnostic proves sign-out before Create only; it does
-not establish these additional gates. Approval authorizes test-first implementation,
-not acceptance;4be-A is incomplete.
+provisioning. The initial45/2 diagnostic proved sign-out before Create only.
+Implementation evidence records expanded RED63/23 and diagnostic-sink RED106/4
+-> focused GREEN110 on create-authority-03. Purpose/layout36, five reviewed captures,
+recording80, smoke86, chain32/live48/Create15 and compile/static/preservation gates
+pass with normal native closure. See `plan022_slice4be_admin_create_owner_results.md`
+for exact scope and exclusions. This qualifies D8-CREATE-01, not4be-A acceptance;
+Create recording and guide conclusions remain the next coverage step.
 
 ---
 ### D9 -- Operator Read Models and Refresh Contract (R1 Locked)

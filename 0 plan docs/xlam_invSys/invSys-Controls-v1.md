@@ -1,26 +1,25 @@
 # invSys Form Controls v1
 
-**Version:** 1.572 -- Create authorization/reopened publication contract approved.
+**Version:** 1.573 -- Create authorization and reopened publication scoped-qualified.
 
-**Create New Warehouse:** actual Ribbon/form-handler diagnostic45/2 confirms
-that Create still provisions and claims completion after sign-out from the open
-form. Architecture **D8-CREATE-01 is approved,2026-10-13**: Core must recheck
-the captured live Admin context before local creation and publication/retry,
-preserving separate authorized headless provisioning and truthful partial results.
-The approved contract explicitly checks ADMIN_MAINT against the captured **source**
-warehouse after any confirmation, immediately before mutation, with no Windows/
-Office identity substitute. A reopened form provides **Publish Existing Warehouse**:
-select and validate/bind an existing runtime under the new session, then publish
-only, without bootstrap or rewriting local Config/Auth/inventory. Missing/invalid
-runtime refuses; ordinary Create still rejects duplicates. Typed calls/primitive
-envelopes and exclusion of credentials, entered paths and field values from
-recording, activity and all logs (including downstream diagnostics) are required.
-This new action and its reopened recovery/authorization/redaction tests are
-authorized for implementation; existing45/2 does not cover them.
-Local-only creation, Operational/Training purpose, duplicate/invalid/cancel
-refusal, exact generated Receiving opening and publication/retry checks pass.
-No implementation, new recording ID, visible acceptance or4be-A completion is
-claimed. See code `plan022_slice4be_admin_create_owner_results.md`.
+**Create New Warehouse:** approved **D8-CREATE-01** is scoped-qualified on unpromoted
+create-authority-03. Expanded RED63/23 and diagnostic-sink RED106/4 become focused
+GREEN110; all45 original passes remain. Purpose/layout36, five reviewed captures,
+recording80, smoke86, chain32/live48/Create15 and compile/static/preservation gates
+pass with normal native closure. Core checks ADMIN_MAINT against the
+captured live **source** session/warehouse/station before creation and each publish.
+It rejects stale context, lost rights and identity hints. Bootstrap preserves the
+source session; headless follow-up work binds its own generated runtime explicitly.
+
+A reopened form exposes **Publish Existing Warehouse**, using the selected
+runtime's saved identity under the new session. It never bootstraps or rewrites
+local Config/Auth/inventory. Missing/invalid runtime refuses; ordinary Create still
+rejects duplicates. Local creation and publication remain separate results.
+Typed calls and fixed safe diagnostics preserve the approved redaction contract.
+Controls1.572 was the approved contract checkpoint; this version records the
+implemented control and layout. Catalog40/162 is unchanged: Create recording,
+guide conclusions and4be-A acceptance remain open. See code
+`plan022_slice4be_admin_create_owner_results.md`.
 
 D18 discovered-control refinement specifies catalog40 `ADMIN_WAREHOUSE_ROOT_ADD`
 for **Add Warehouse Root**. Record REQUESTED, CANCELLED, the four confirmed or
@@ -7598,6 +7597,15 @@ Runtime-added controls:
 | `btnHubPathHelperRuntime` | **Browse...** | Browses for the NAS hub/runtime folder. |
 | `btnSharePointHelperRuntime` | **Find...** | Detects or browses for the locally synced SharePoint root. |
 | `btnOpenReceivingRuntime` | **Open Workbook** | Opens the generated station-local Receiving workbook after successful creation. |
+| `cboWarehousePurpose` | **Operational** / **Training** | Closed choice for a new warehouse; existing-runtime publication uses saved identity. |
+| `btnPublishExisting` | **Publish Existing Warehouse** | Publishes an existing selected runtime under the newly captured source Admin session, without creating it again. |
+
+The publish-only action ignores the new-warehouse identity fields. A denied retry
+retains the confirmed local creation and instructs the operator to reopen Create
+Warehouse. Successful reopened publication shows **Initial publication complete.**
+The186-point footer button is anchored left/bottom; Create/Retry/Close and Cancel
+remain separated at minimum and expanded sizes. Programmatic handler/layout and
+visible capture proof is recorded above; native folder-helper acceptance remains open.
 
 ### 4.6 `frmReAuthGate` — Re-Authenticate
 
