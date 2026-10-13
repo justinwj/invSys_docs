@@ -1,14 +1,17 @@
 # invSys Form Controls v1
 
-**Version:** 1.568 -- Add Warehouse Root feedback decision pending.
+**Version:** 1.569 -- Add Warehouse Root feedback correction qualified.
 
-Proposed D18-ROOT-01: **Add Warehouse Root** must confirm local preference
+Approved D18-ROOT-01 (2026-10-13): **Add Warehouse Root** must confirm local preference
 persistence before claiming remembered; otherwise combine an explicit warning
 with the existing directory-refresh result. Blank cancellation, root ordering,
 permissions and authority stay unchanged. Actual-callback RED53/1 proves the
 current false success after a refused write; five compiles, all30 prior checks,
-preservation and clean native closure pass. Approval is pending; runtime and
-catalog39/161 remain unchanged. See code `plan022_slice4be_admin_root_write_results.md`.
+preservation and clean native closure pass. Expanded RED96/15 -> GREEN120 qualifies
+the owner correction on root-feedback-01: native warnings, directory149, smoke86,
+chain32/live48/Create15, compiles/static limits and clean preserved closure pass.
+Catalog39/161 is unchanged; root recording/guide acceptance remains open.
+See code `plan022_slice4be_admin_root_write_results.md`.
 
 D18 discovered-control refinement specifies `ADMIN_DIRECTORY_OPEN` for the
 existing **View Warehouses** button: REQUESTED, owner-confirmed OPENED or FAILED,

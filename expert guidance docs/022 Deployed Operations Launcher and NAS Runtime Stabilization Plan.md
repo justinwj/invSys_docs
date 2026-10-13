@@ -4,12 +4,13 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current next action,2026-10-12 Pacific:** approval decision for proposed
-D18-ROOT-01, then extend its packaged test before correcting root-persistence
-feedback. The actual Add Warehouse Root callback reports remembered after an
-injected write refusal: RED53/1, all30 prior checks preserved, five compiles,
-preservation/normal closure and clean native audit. No runtime change or recording
-definition is implemented. See code `plan022_slice4be_admin_root_write_results.md`.
+**Current next action,2026-10-13 Pacific:** define and protect Add Warehouse Root
+recording under D18 semantic inheritance. Approved D18-ROOT-01 owner correction
+is scoped-qualified: RED96/15 -> GREEN120, reviewed native warnings, directory149,
+smoke86, chain32/live48/Create15, five cold compiles/static limits and clean
+preserved native closure on root-feedback-01. Catalog39/161 is unchanged.
+No root recording definition is implemented. See code
+`plan022_slice4be_admin_root_write_results.md` for exact proof and reuse limits.
 D18's qualified
 `ADMIN_DIRECTORY_OPEN` retains the original workbook, open-Config/scan-root scope
 and inherited D14 preservation checks.

@@ -2259,13 +2259,13 @@ compiles, preservation, delayed native audits and static03 pass. The code receip
 `plan022_slice4be_admin_console_results.md` states exact reuse limits. This closes
 this control's coverage, not D18-LOCAL-01 or4be-A.
 
-**D18-ROOT-01 -- Add Warehouse Root persistence feedback (PROPOSED; requires approval):**
+**D18-ROOT-01 -- Add Warehouse Root persistence feedback (APPROVED 2026-10-13):**
 The packaged `btnAdminWarehouseRoot` diagnostic proves that a refused local
 preference write is suppressed by `RememberWarehouseScanRoot`, after which the
 callback can say "Warehouse root remembered and directory refreshed." RED53/1
 retains all30 preceding preservation checks; no observation is implemented yet.
 
-Proposed owner rule: report the root as remembered only after the current-profile
+Approved owner rule: report the root as remembered only after the current-profile
 preference write returns without error and readback exactly matches the intended
 stored root list. Write error, read error or mismatch means unconfirmed persistence,
 without claiming that no partial change occurred or that anything was rolled back.
@@ -2282,13 +2282,18 @@ captured workbook/custom columns, permissions and the original owner sequence;
 optional future recording must not expand discovery or redirect the operation.
 The local Admin preference remains separate from canonical Config and Domain data.
 
-After approval, extend the packaged test before implementation to protect write
+Extend the packaged test before implementation to protect write
 refusal, failed/mismatched readback, successful persistence, cancellation and
 directory failure after either persistence result. Observation must use these
 owner facts; it cannot infer success from a returned Sub or displayed text.
-This proposal changes failure feedback and makes persistence confirmation explicit;
-it is not approval to implement, a new catalog definition or4be-A acceptance.
+This approved decision changes failure feedback and makes persistence confirmation
+explicit; it does not add a catalog definition or establish4be-A acceptance.
 See code `plan022_slice4be_admin_root_write_results.md` for exact diagnostic evidence.
+
+Verified2026-10-13: expanded RED96/15 -> GREEN120 on unpromoted root-feedback-01,
+with reviewed native warnings, directory149, smoke86, chain32/live48/Create15,
+five cold compiles and static limits. The owner correction is scoped-qualified;
+catalog39/161 is unchanged and Add Warehouse Root recording remains open.
 
 **View Warehouses coverage (D18 discovered-control refinement; scoped-qualified):**
 Catalog39 adds `ADMIN_DIRECTORY_OPEN`, caption **View Warehouses**, Admin surface,
