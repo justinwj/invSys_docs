@@ -15,7 +15,8 @@ package rebuild or deployment. Excel closed normally; close it before future bui
 Own diagnostic/docs changes are committed/pushed at close. Preserve unrelated
 code AGENTS.md, docs modified067, deleted old024 and untracked023/024REPORT/025;
 their hashes match the preceding checkpoint. Runtime evidence remains ignored.
-Goal API is active, not completed/paused. Stop here for D8-AGG-01 approval.
+Goal API is blocked awaiting D8-AGG-01 approval after the same blocker persisted
+for three consecutive turns. Last verified2026-10-13 Pacific;4be-A is not complete.
 
 ## 3. Decisions and constraints
 
