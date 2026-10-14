@@ -268,6 +268,13 @@ each reach Core aggregation. No persisted unauthorized output is proved: the
 callback reaches SaveAs then fails with Excel1004. A direct Core comparison using
 a normalized output path succeeds with exact selected entities/quantities and
 unchanged sources. See code `plan022_slice4be_admin_aggregation_results.md`.
+This is one normalized-path direct Core verification, not a full source/output
+matrix or packaged-action success. The doubled-interior-separator SaveAs hypothesis
+is unproved until a path-only packaged comparison isolates it.
+
+**Proposal tightened2026-10-14 Pacific; approval remains pending.** Source and
+trusted-feed validation now share the authority recheck boundaries below; output
+failure/retry state and the required packaged path comparison are explicit.
 
 **Proposed contract:**
 
@@ -284,19 +291,56 @@ unchanged sources. See code `plan022_slice4be_admin_aggregation_results.md`.
   provisioned-user check or local user-ID hint cannot substitute for live sign-in.
   Ordinary checks do not repair or save Config/Auth; unrelated dirty authority refuses.
 - Core derives the output from the captured trusted source's existing configured
-  feed, using a valid joined path. Changed output configuration requires reopening;
+  feed, using a valid joined path. Capture the trusted Config identity, relevant
+  output-feed settings and exact normalized destination at form opening. At every
+  authority recheck boundary above, read that same trusted source's current saved
+  feed configuration without repair/save and compare it with the captured binding.
+  A feed change between capture and mutation, including during source inspection
+  or a yield, refuses the current attempt and requires reopening; do not follow the
+  changed feed or rely only on an entry-time check. Dirty or unreadable trusted
+  configuration refuses too. Changed output configuration requires reopening;
   a selected snapshot, typed path or active workbook cannot redirect the feed.
   Refuse a destination open in Excel (including unsaved edits), a read-only output,
   or a destination overlapping source authority/snapshots before mutation. Never
   close/save a borrowed workbook or replace another target to make the command work.
-  Existing output bytes remain unchanged on preflight/authority/source refusal.
+  Refusal before promotion leaves existing output bytes unchanged; after a write
+  attempt, report only verified effects under the failure/retry rule below.
 - Retain D17 source discovery/selection and read-only snapshot rules, exact
   WarehouseId/System_Key identity, rejection rules and advisory-only meaning.
-  Revalidate the selected sources before writing; an invalid selected set must not
-  become a successful partial aggregate. No source runtime is created or changed.
+  Revalidate the entire selected set at the same moments and on the same triggers
+  as authority: before work, immediately after source inspection, immediately on
+  return from every confirmation, connection/picker/result dialog, event-pumping
+  or external wait, and immediately before any output mutation. After a yield,
+  this joint recheck precedes further command work or the next write phase.
+  Check D17 identity, published-path binding, freshness, readability, schema and
+  duplicate/rejection rules; compare the source hashes/fingerprints with the exact
+  snapshots used to build the candidate. A changed or invalid selected source
+  refuses the attempt; refresh/reselection and a new authorized attempt are required.
+  No source is silently omitted and no partial source set reports success.
+  No source runtime is created or changed.
   Admin feedback/audit stays with the original operator workbook and preserves
-  unknown columns. Only successful persistence reports completion; a later failure
-  reports the known outcome without claiming unproved rollback.
+  unknown columns.
+- Core builds the complete selected-set result in command-owned staging and checks
+  the joint authority/source/feed boundaries before promotion to the captured feed.
+  Never promote a partial-source or incompletely written candidate. Authority,
+  source or feed refusal before promotion leaves the existing feed bytes unchanged;
+  if a write phase yields, refusal on return prevents further writes or promotion.
+  Only independently verified complete persistence reports completion. If a write
+  or promotion fails, or its effects cannot be confirmed, report failure or an
+  indeterminate/incomplete outcome with only the verified persistence facts; never
+  claim rollback, unchanged output or success from a returned call alone.
+  Retain surviving command-owned staging and a durable Core-owned retry record
+  until the output's actual state is verified and the attempt is explicitly resolved.
+  Persist pending state before the first feed mutation; an unresolved pending
+  attempt after interruption/restart is indeterminate until independently verified.
+  The record binds the captured destination, selected-source fingerprints, phase
+  and confirmed/unknown persistence state; it contains no credentials or operational
+  row values and is internal ownership/retry evidence, not activity, an export or
+  an authorization grant. Preserve the actual feed bytes when their state is
+  uncertain; never delete or overwrite them merely to manufacture a clean retry.
+  Retry requires a newly captured authorized context and complete source/feed/output
+  revalidation. No stale candidate is automatically promoted. Later context/source
+  changes do not erase already verified persistence or establish a rollback.
 - Use direct typed calls within each project and declared primitive/serialized
   cross-XLAM envelopes. Status, activity and logs use fixed outcomes/counts, excluding
   credentials, entered values, paths and raw error reports. The source-selection UI
@@ -304,11 +348,33 @@ unchanged sources. See code `plan022_slice4be_admin_aggregation_results.md`.
   headless aggregation authorization remains separate. No recording ID, Training
   designation or replay eligibility is added by this decision.
 
-Approval authorizes D13 implementation, not acceptance. Extend the actual packaged
-Ribbon/form test and direct Core denial tests before source edits: authorized exact
-output, switched/closed original workbook, stale session/hints, saved rights loss,
-post-yield changes, changed Config, borrowed/dirty/read-only output and source
-rejection/non-mutation. Require focused RED/GREEN, packaged compile/layout, relevant
+Approval authorizes D13 implementation, not acceptance. Extend and run the actual
+packaged Ribbon/form RED and direct Core denial tests before product source edits:
+authorized exact output, switched/closed original workbook, stale session/hints,
+saved rights loss, source changes and trusted-feed changes during inspection and
+at every reachable yield/write boundary, changed/dirty/unreadable Config,
+borrowed/dirty/read-only output, and source rejection/non-mutation. Protect
+pre-promotion refusal without feed mutation; injected staging/promotion failures
+and interrupted/reopened attempts must distinguish verified
+preservation, confirmed complete persistence and unknown/partial effects, retain
+retry evidence and refuse stale or unverified retry. Identify absent yield sites
+as inapplicable, not covered.
+
+The focused RED must also include a path-only packaged comparison through the same
+public Ribbon/form handler on the unchanged baseline. Keep the source set, captured
+feed, authority, workbook and package fixed; change only joined-path normalization
+in a disposable test copy and compare the dispatched path, failing phase and actual
+persistence. Test drive and UNC feeds, retaining the UNC prefix while normalizing
+interior/trailing separators; neither variant may redirect the captured destination.
+The contract assertion is the exact canonical destination and complete selected-set
+output with unchanged sources. Baseline failure of that assertion is meaningful
+RED; the normalized comparison establishes causality only if it isolates and removes
+the packaged failure. If it does not, leave the hypothesis unresolved and investigate
+the actual failing boundary. Direct Core success is supplemental and never replaces
+this comparison or packaged GREEN. Missing fixtures, compile or harness failures
+are not behavioral RED.
+
+Require focused GREEN, packaged compile/layout, relevant
 regressions/full chain/live roles, static limits, normal closure and visible evidence.
 The current diagnostic proves only the narrower failures stated above. D17 two-PC/
 two-NAS UAT and4be-A early B0 remain separate open gates. Until explicit approval,

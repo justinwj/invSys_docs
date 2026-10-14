@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.581 -- Aggregation authority proposal pending; Tester remains qualified.
+**Version:** 1.582 -- Aggregation proposal tightened; approval pending; Tester remains qualified.
 
 **D8-AGG-01 proposed2026-10-13 Pacific:** Aggregate Global Snapshot would retain
 the original workbook/live source session through its form, with headless Core
@@ -15,6 +15,22 @@ stale-authority dispatch, while SaveAs1004 prevents callback output. A normalize
 direct Core control succeeds; no unauthorized persisted output is claimed.
 Code `plan022_slice4be_admin_aggregation_results.md` records evidence and limits.
 Catalog42/179 is unchanged; no Aggregation recording ID or replay adapter is added.
+
+**D8-AGG-01 tightening,2026-10-14 Pacific — still proposed:** selected-source and
+trusted saved-feed validation use the same authority boundaries: before work,
+after inspection, immediately after each named reachable yield and before output
+mutation. Source fingerprints must still match the candidate's inputs; changed
+sources refuse the attempt, while changed trusted feed configuration requires
+reopening. A complete result is staged under Core ownership before promotion.
+Pre-promotion refusal preserves feed bytes; failed/indeterminate persistence retains
+staging and durable internal retry evidence until verified resolution, with fixed
+feedback and no unproved rollback/completion claim. Retry requires fresh context
+and full revalidation. Protect these boundaries with expanded packaged/direct-Core
+RED after approval. The path-only baseline comparison must use the actual packaged
+handler, canonical drive/UNC destinations and otherwise identical inputs; the one
+direct Core success is supplemental, not causality or packaged-action proof.
+See the complete v4.11 proposal; no control behavior, approval, acceptance or new
+runtime test result is claimed by this documentation revision.
 
 **Version1.580 checkpoint — Tester recording and guide conclusions scoped-qualified.**
 

@@ -11,12 +11,32 @@ with Excel1004; normalized-path direct Core comparison succeeds. No unauthorized
 persisted output is claimed. Proposed **D8-AGG-01** in v4.11 binds the interactive
 command to the original workbook/live source session, moves its authority check
 to Core and defines captured-feed/borrowed-output ownership and fixed feedback.
-**Approval pending; no product implementation.** Controls1.581 and code
+**Approval pending; no product implementation.** Controls1.582 and code
 `plan022_slice4be_admin_aggregation_results.md` record the same scope. Catalog42/179,
 qualified Tester evidence, D17 source/advisory rules and D18-REPLAY-01/B0 remain
 unchanged. After approval, extend packaged/direct-Core RED before implementation;
 recording is a subsequent D18 step. This proposal does not redefine scheduled
 headless authorization or grant broader replay eligibility.
+
+**Proposal tightening,2026-10-14 Pacific:** v4.11 D8-AGG-01 now requires joint
+authority/selected-source/trusted-feed revalidation before work, after source
+inspection, immediately after every named reachable yield and before output
+mutation. Changed source fingerprints refuse the attempt; a changed saved trusted
+feed requires reopening, rather than following new configuration mid-run. The
+proposed owner builds a complete candidate in Core-owned staging. Pre-promotion
+refusal preserves feed bytes; failed/indeterminate persistence retains staging and
+durable internal retry evidence without an unproved rollback or success claim.
+Retry requires fresh captured authority and complete revalidation.
+
+After approval, expand the packaged/direct-Core RED for each of those boundaries,
+including source/feed changes, staging/promotion failure, retained retry state and
+stale retry refusal. Include the required path-only comparison through the actual
+packaged Ribbon/form handler on the unchanged baseline, holding every other input
+fixed in disposable copies; protect canonical drive/UNC paths without redirecting
+the captured feed. One normalized-path direct Core verification is supplemental;
+it neither proves the SaveAs hypothesis nor replaces packaged RED/GREEN. Mark
+absent yields inapplicable. This tightening changes proposal documentation only;
+approval, product implementation and new runtime evidence remain pending.
 
 **Current checkpoint,2026-10-13 Pacific:** Tester recording and guide conclusions
 are scoped-qualified on unpromoted tester-recording-02, catalog42/179. RED20/46
