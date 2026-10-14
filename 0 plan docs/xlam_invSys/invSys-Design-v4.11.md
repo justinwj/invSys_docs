@@ -254,12 +254,16 @@ RED for current-server discovery, additional-server discovery, selection
 validation, duplicate/source rejection, read-only aggregation, and source
 authority non-mutation.
 
-### D8-AGG-01 — Interactive Aggregation authority and output ownership (PROPOSED; requires approval)
+### D8-AGG-01 — Interactive Aggregation authority and output ownership (APPROVED,2026-10-14)
 
 Proposed2026-10-13 Pacific, within4be-A's remaining Admin coverage. D17 defines
 the advisory source set but does not settle live authorization at the later write,
 stale-form binding or borrowed output ownership. D8's processor rules and the
-approved Users/Create/Tester decisions do not implicitly authorize this change.
+approved Users/Create/Tester decisions did not implicitly authorize this change.
+The user explicitly approved the tightened D8-AGG-01 contract on2026-10-14
+Pacific, clearing Handoff180's approval blocker and authorizing D13 implementation
+toward complete4be-A. This approves all four tightenings below, not implementation
+acceptance or package promotion. Do not request this approval again.
 
 The packaged diagnostic on tester-recording-02 has65 PASS/7 FAIL: switching the
 active workbook redirects the owner and changes the unrelated workbook; a saved
@@ -272,11 +276,21 @@ This is one normalized-path direct Core verification, not a full source/output
 matrix or packaged-action success. The doubled-interior-separator SaveAs hypothesis
 is unproved until a path-only packaged comparison isolates it.
 
-**Proposal tightened2026-10-14 Pacific; approval remains pending.** Source and
+**Tightened and approved2026-10-14 Pacific.** Source and
 trusted-feed validation now share the authority recheck boundaries below; output
 failure/retry state and the required packaged path comparison are explicit.
 
-**Proposed contract:**
+Local entry evidence on unchanged product source,2026-10-14 Pacific: the complete
+path-only packaged drive/UNC comparison gives74 PASS/10 FAIL, retaining65/7.
+Normalization alone fixes the drive fixture's SaveAs failure; both UNC variants
+persist, but original dispatch is noncanonical. Expanded post-inspection,
+borrowed-output and failure/retry boundaries give88 PASS/35 FAIL without a harness
+exception, with preserved pins/settings, normal closure and delayed zero native
+events. This is protecting RED only; remaining refusal/phase/retry coverage and
+implementation are pending. The code Aggregation receipt records exact scope;
+the single earlier direct Core verification remains historical supplemental evidence.
+
+**Approved contract:**
 
 - Admin captures the original operator workbook and Core's live invSys user/session
   generation, warehouse/station and trusted source Config/output scope on opening
@@ -377,8 +391,9 @@ are not behavioral RED.
 Require focused GREEN, packaged compile/layout, relevant
 regressions/full chain/live roles, static limits, normal closure and visible evidence.
 The current diagnostic proves only the narrower failures stated above. D17 two-PC/
-two-NAS UAT and4be-A early B0 remain separate open gates. Until explicit approval,
-the preceding normative contract remains operative; do not implement this proposal.
+two-NAS UAT and4be-A early B0 remain separate open gates. Approval authorizes
+implementation within this contract; focused RED/GREEN and all applicable gates
+remain required before acceptance.
 
 ### D18 -- Shared Events and How-To/Diagnostic Action Paths (R1 Locked)
 

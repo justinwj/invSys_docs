@@ -1,22 +1,36 @@
 # invSys Form Controls v1
 
-**Version:** 1.582 -- Aggregation proposal tightened; approval pending; Tester remains qualified.
+**Version:** 1.584 -- Approved Aggregation contract has local entry RED; implementation pending; Tester remains qualified.
 
-**D8-AGG-01 proposed2026-10-13 Pacific:** Aggregate Global Snapshot would retain
+**Local Aggregation RED,2026-10-14 Pacific:** the unchanged product baseline
+retains the preceding65/7 matrix and adds actual-handler drive/UNC path comparisons
+for74 PASS/10 FAIL; expanded post-inspection, borrowed-output and write/retry
+boundaries give88 PASS/35 FAIL without a harness exception. Normalized drive
+dispatch fixes its SaveAs failure; original UNC dispatch persists but is
+noncanonical. Source comparison/closure/pin evidence is scoped in the code receipt.
+Remaining refusal and retry cases continue; no changed control behavior, new
+recording ID, package promotion or4be-A acceptance is claimed. D8-AGG-01 is approved.
+Broader refusal coverage subsequently gives104 PASS/46 FAIL, with no harness
+exception and clean preserved closure. It adds saved revocation, dirty/unreadable
+authority, read-only output and closed-original-workbook boundaries. A test-order
+decoy preparation issue is explicitly recorded; the next run restores an independent
+decoy and adds same-form retry/redaction checks. No pending run is claimed verified.
+
+**D8-AGG-01 approved2026-10-14 Pacific:** Aggregate Global Snapshot must retain
 the original workbook/live source session through its form, with headless Core
 rechecking source ADMIN_MAINT before output mutation and after yields. The trusted
 captured Config selects the output feed; stale contexts, changed output Config and
 borrowed/read-only/conflicting output refuse. Source selection remains session-only
 and advisory under D17. Fixed feedback/logging excludes entered values and paths;
 the source UI retains required descriptors/rejection reasons. See v4.11 D8-AGG-01
-for the complete proposal. **Approval pending; no changed product behavior or
+for the complete contract. **Approved; no changed product behavior or
 acceptance.** Packaged diagnostic65 PASS/7 FAIL proves workbook redirection and
 stale-authority dispatch, while SaveAs1004 prevents callback output. A normalized
 direct Core control succeeds; no unauthorized persisted output is claimed.
 Code `plan022_slice4be_admin_aggregation_results.md` records evidence and limits.
 Catalog42/179 is unchanged; no Aggregation recording ID or replay adapter is added.
 
-**D8-AGG-01 tightening,2026-10-14 Pacific — still proposed:** selected-source and
+**D8-AGG-01 tightening,approved2026-10-14 Pacific:** selected-source and
 trusted saved-feed validation use the same authority boundaries: before work,
 after inspection, immediately after each named reachable yield and before output
 mutation. Source fingerprints must still match the candidate's inputs; changed
@@ -26,11 +40,12 @@ Pre-promotion refusal preserves feed bytes; failed/indeterminate persistence ret
 staging and durable internal retry evidence until verified resolution, with fixed
 feedback and no unproved rollback/completion claim. Retry requires fresh context
 and full revalidation. Protect these boundaries with expanded packaged/direct-Core
-RED after approval. The path-only baseline comparison must use the actual packaged
+RED before implementation. The path-only baseline comparison must use the actual packaged
 handler, canonical drive/UNC destinations and otherwise identical inputs; the one
 direct Core success is supplemental, not causality or packaged-action proof.
-See the complete v4.11 proposal; no control behavior, approval, acceptance or new
-runtime test result is claimed by this documentation revision.
+See the complete v4.11 contract. The user approved all four tightenings and cleared
+Handoff180's blocker; no control behavior, acceptance or new runtime test result is
+claimed by this approval record. Do not request the same approval again.
 
 **Version1.580 checkpoint — Tester recording and guide conclusions scoped-qualified.**
 

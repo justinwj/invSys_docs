@@ -4,21 +4,39 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Local D8-AGG-01 entry RED,2026-10-14 Pacific:** unchanged product source
+`ff5db426` is rebuilt only into unpromoted `validation-aggregation-baseline-01`.
+The complete packaged path comparison retains65/7 and adds12 checks for74 PASS/
+10 FAIL. Normalization alone fixes the drive fixture's SaveAs1004; both UNC variants
+persist, but only normalized dispatch is canonical. Expanded post-inspection,
+borrowed-output and write/retry boundaries give88 PASS/35 FAIL without a harness
+exception. Package/tooling/settings pins, normal closure and delayed zero native
+events pass. This is RED, not product implementation/acceptance. Saved revocation,
+dirty/unreadable authority, read-only output, closed workbook and remaining phase/
+retry checks continue before product edits. Exact scope and baseline-adapter limits
+are in code `plan022_slice4be_admin_aggregation_results.md`. Approval stands.
+The subsequent broader refusal gate gives104 PASS/46 FAIL without a harness
+exception and adds saved revocation, dirty/unreadable authority, read-only output
+and closed-workbook evidence. Pins/settings/normal closure and delayed zero native
+events pass. Its earlier closed-workbook case prepares the decoy before the old
+switch regression; the next run uses a fresh decoy and adds retry/redaction checks.
+Do not treat an uncompleted next run as verified or these REDs as implementation.
+
 **Aggregation prerequisite,2026-10-13 Pacific:** packaged diagnostic65 PASS/7 FAIL
 on unchanged tester-recording-02 exposes active-workbook redirection and three
 stale-authority paths reaching Core. Authorized callback output fails at SaveAs
 with Excel1004; normalized-path direct Core comparison succeeds. No unauthorized
-persisted output is claimed. Proposed **D8-AGG-01** in v4.11 binds the interactive
+persisted output is claimed. Approved **D8-AGG-01** in v4.11 binds the interactive
 command to the original workbook/live source session, moves its authority check
 to Core and defines captured-feed/borrowed-output ownership and fixed feedback.
-**Approval pending; no product implementation.** Controls1.582 and code
+**Approved2026-10-14 Pacific; product implementation pending.** Controls1.584 and code
 `plan022_slice4be_admin_aggregation_results.md` record the same scope. Catalog42/179,
 qualified Tester evidence, D17 source/advisory rules and D18-REPLAY-01/B0 remain
-unchanged. After approval, extend packaged/direct-Core RED before implementation;
+unchanged. Extend packaged/direct-Core RED before implementation;
 recording is a subsequent D18 step. This proposal does not redefine scheduled
 headless authorization or grant broader replay eligibility.
 
-**Proposal tightening,2026-10-14 Pacific:** v4.11 D8-AGG-01 now requires joint
+**Approved tightening,2026-10-14 Pacific:** v4.11 D8-AGG-01 now requires joint
 authority/selected-source/trusted-feed revalidation before work, after source
 inspection, immediately after every named reachable yield and before output
 mutation. Changed source fingerprints refuse the attempt; a changed saved trusted
@@ -28,15 +46,18 @@ refusal preserves feed bytes; failed/indeterminate persistence retains staging a
 durable internal retry evidence without an unproved rollback or success claim.
 Retry requires fresh captured authority and complete revalidation.
 
-After approval, expand the packaged/direct-Core RED for each of those boundaries,
+Expand the packaged/direct-Core RED for each of those boundaries,
 including source/feed changes, staging/promotion failure, retained retry state and
 stale retry refusal. Include the required path-only comparison through the actual
 packaged Ribbon/form handler on the unchanged baseline, holding every other input
 fixed in disposable copies; protect canonical drive/UNC paths without redirecting
 the captured feed. One normalized-path direct Core verification is supplemental;
 it neither proves the SaveAs hypothesis nor replaces packaged RED/GREEN. Mark
-absent yields inapplicable. This tightening changes proposal documentation only;
-approval, product implementation and new runtime evidence remain pending.
+absent yields inapplicable. The user approved all four tightenings and cleared
+Handoff180's approval blocker. Approval recording changes documentation only;
+product implementation and new runtime evidence remain pending. Continue toward
+complete4be-A; exit the prompt for desktop error5, lockscreen, mouse lock or a
+new proposal requiring approval. Do not request D8-AGG-01 approval again.
 
 **Current checkpoint,2026-10-13 Pacific:** Tester recording and guide conclusions
 are scoped-qualified on unpromoted tester-recording-02, catalog42/179. RED20/46
