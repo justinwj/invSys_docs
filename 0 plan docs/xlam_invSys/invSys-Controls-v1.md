@@ -1,6 +1,19 @@
 # invSys Form Controls v1
 
-**Version:** 1.584 -- Approved Aggregation contract has local entry RED; implementation pending; Tester remains qualified.
+**Version:** 1.585 -- Aggregation testing paused on the user's desktop-lock condition; approval stands; implementation pending.
+
+**Session stop,2026-10-14 at14:32:12 Pacific:** the owned monitor reports one
+desktop lock condition, zero error5/mouse-lock observations and stops. The macro
+guard halts the focused write gate with19 PASS/11 FAIL including that stop;
+this is partial evidence, not completed RED or changed control acceptance.
+Completed104/46 remains the latest full Aggregation gate. Entered-path feedback
+and same-form retry gaps have reached protecting assertions; post-save, pre-save,
+source schema/duplicate, unknown-column and overlap probes are added, with later
+cases and restarted retry still unverified. Package/tooling pins and settings are
+preserved, Excel closes normally, and delayed native events are zero through
+21:32:41.5673421Z. Goal is paused under the user's stop instruction;4be-A remains
+incomplete and product VBA is unchanged. D8-AGG-01 remains approved. Handoff181
+is the continuation pointer; no new approval, catalog entry or package promotion.
 
 **Local Aggregation RED,2026-10-14 Pacific:** the unchanged product baseline
 retains the preceding65/7 matrix and adds actual-handler drive/UNC path comparisons

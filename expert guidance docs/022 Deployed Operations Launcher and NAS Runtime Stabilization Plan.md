@@ -4,6 +4,18 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Paused2026-10-14 at14:32:12 Pacific under the user's desktop-lock stop rule.**
+The owned monitor records one lock condition, zero error5/mouse-lock observations
+and stops; the packaged macro guard dispatches no further work. The latest focused
+write run is19 PASS/11 FAIL including this stop, so it remains partial evidence.
+The preceding completed104/46 RED is retained. Added probes protect post-save
+failure, pre-save source/feed/sign-out changes, malformed/duplicate sources,
+unknown output columns and overlaps; later cases and restarted retry remain
+unverified. Settings/package/tooling preservation, normal Excel closure and zero
+delayed native events pass through21:32:41.5673421Z. Product VBA is unchanged;
+D8-AGG-01 stays approved and4be-A stays incomplete. Controls1.585 and Handoff181
+record this session boundary; reverify desktop input before resuming automation.
+
 **Local D8-AGG-01 entry RED,2026-10-14 Pacific:** unchanged product source
 `ff5db426` is rebuilt only into unpromoted `validation-aggregation-baseline-01`.
 The complete packaged path comparison retains65/7 and adds12 checks for74 PASS/
