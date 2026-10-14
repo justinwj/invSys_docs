@@ -1,14 +1,14 @@
 # invSys Form Controls v1
 
-**Version:** 1.576 -- Tester Setup proposal tightened; approval pending.
+**Version:** 1.577 -- Tester Setup contract approved; implementation pending.
 
-**D8-TESTER-01 proposed:** Setup and Delete Generated would use headless Core
+**D8-TESTER-01 approved2026-10-13 Pacific:** Setup and Delete Generated will use headless Core
 commands bound to the live source Admin session, including a check after cleanup
-confirmation. Setup would create/resume only a verified disposable environment;
-cleanup would require a generated-ownership receipt instead of a name heuristic,
+confirmation. Setup will create/resume only a verified disposable environment;
+cleanup will require a generated-ownership receipt instead of a name heuristic,
 preserve unknown files, refuse open/foreign artifacts and support reopened partial
-cleanup under a fresh authorized session. Unmarked existing runtimes would refuse
-automatic adoption. Fixed outcomes would exclude entered values from activity/logs.
+cleanup under a fresh authorized session. Unmarked existing runtimes must refuse
+automatic adoption. Fixed outcomes exclude entered values from activity/logs.
 Receipt provenance explicitly binds the provisioning Core user/session generation;
 reopened or different-Admin access needs fresh authorization through the recorded
 source warehouse. Confirmation, folder/container resolution, prompts/popups,
@@ -19,7 +19,7 @@ destinations. Container-combination, nested and stale-path results receive the s
 fixed-outcome/redaction treatment. No new dialog or combination action is introduced.
 The packaged cleanup diagnostic gives25 PASS/4 expected FAIL after source-authority
 changes; Setup remains source-audited only. See v4.11 D8-TESTER-01 and code
-`plan022_slice4be_admin_tester_owner_results.md`. **Not approved or implemented.**
+`plan022_slice4be_admin_tester_owner_results.md`. **Approved, not yet implemented or accepted.**
 Catalog41/172 and the qualified Create checkpoint below remain unchanged.
 
 **Version1.574 checkpoint — Create recording and guide conclusions scoped-qualified.**

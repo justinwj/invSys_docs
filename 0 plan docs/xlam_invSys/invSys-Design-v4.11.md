@@ -5401,7 +5401,11 @@ for exact scope and exclusions. This qualifies D8-CREATE-01, not4be-A acceptance
 its subsequent recording/guide qualification is recorded under D18 Create Warehouse recording.
 
 ---
-### D8-TESTER-01 — Tester Setup authority and disposable ownership (PROPOSED; approval required)
+### D8-TESTER-01 — Tester Setup authority and disposable ownership (APPROVED,2026-10-13)
+
+The user explicitly approved this contract on2026-10-13 Pacific, including all
+six tightened identity, yield, outcome, open-file, conflict and phase requirements.
+Approval authorizes D13 implementation, not acceptance; do not request it again.
 
 Packaged diagnostic,2026-10-13 Pacific:25 PASS/4 expected FAIL on unchanged
 create-recording-02. The actual Delete Generated handler deletes a disposable
@@ -5411,7 +5415,7 @@ not checked. Source audit also finds Setup provisioning/seeding an entered exist
 runtime without a captured-source write boundary; Setup is not yet runtime-proven.
 See code `plan022_slice4be_admin_tester_owner_results.md` for scope and exclusions.
 D8-A preserves station provisioning; D8-CREATE-01 does not settle these separate
-interactive writes or cleanup eligibility. Proposed resolution:
+interactive writes or cleanup eligibility. Approved resolution:
 
 - Headless Core commands own interactive Setup and Delete Generated. Capture the
   live source invSys session/user generation, warehouse/station and workbook at
@@ -5481,7 +5485,8 @@ Map actual reachable yield sites to tests; identify absent sites as inapplicable
 not covered. A changed verification scope must preserve the receipt and avoid success.
 Retain authorized provisioning, Cancel and independent owner-result evidence;
 require focused GREEN and applicable regression gates before D18 recording coverage.
-No product change, new control ID or4be-A acceptance is authorized by this proposal.
+Implementation is authorized within this contract. No new recording control ID or
+4be-A acceptance is implied; D18-REPLAY-01 and early B0 boundaries remain unchanged.
 
 ---
 ### D9 -- Operator Read Models and Refresh Contract (R1 Locked)

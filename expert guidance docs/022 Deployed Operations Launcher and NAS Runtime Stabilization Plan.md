@@ -11,19 +11,19 @@ incomplete and failed guide conclusions. Purpose/layout36,13 reviewed captures,
 Settings202, recording80, smoke86, chain32/live48/Create15 and compile/static/
 preservation gates pass with normal native closure. D18 and Controls1.574 agree;
 see code `plan022_slice4be_admin_create_recording_results.md` for exact evidence.
-**Next requires approval:** proposed **D8-TESTER-01** resolves Tester Setup's live
+**Approved2026-10-13 Pacific:** **D8-TESTER-01** resolves Tester Setup's live
 Core authority and disposable ownership. Actual Delete Generated diagnostic25/4
 proves deletion after four source-authority changes; recognized names alone also
 allow deletion. Setup's existing-runtime write path is source-audited only.
 See code `plan022_slice4be_admin_tester_owner_results.md`. No product change or
-recording ID is introduced. After approval, expand packaged RED for Setup/ownership,
-then implement and qualify before its D18 observations. The revised proposal binds
+recording ID is introduced. Next, expand packaged RED for Setup/ownership,
+then implement and qualify before its D18 observations. The approved contract binds
 immutable receipt provenance to the provisioning Core user/session generation;
 reopened or different-Admin access requires fresh recorded-source authorization.
 Named dialog/event/wait yields and rename/seed/post-cleanup phases require rechecks.
 Setup also refuses externally open Config/containers and unmarked conflicting or published
 destinations; container/nested/stale-path results use fixed redacted outcomes.
-These six tightenings remain pending approval, not implementation or acceptance.
+The user approved all six tightenings; implementation and acceptance remain pending.
 Remaining Admin coverage, early B0 and overall4be-A remain open; broader replay
 stays in4be-B.
 
