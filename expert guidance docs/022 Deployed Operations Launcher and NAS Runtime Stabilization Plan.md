@@ -4,7 +4,13 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current checkpoint,2026-10-13 Pacific:** Create recording and guide conclusions
+**Current checkpoint,2026-10-13 Pacific:** approved D8-TESTER-01 is scoped-qualified
+on unpromoted tester-owner-08: focused164, Create381, Settings202, recording80,
+smoke86, chain32/live48/Create15, compile/layout/static and preservation/native gates.
+Catalog41/172 is unchanged; no Tester recording ID or replay eligibility is added.
+See Controls1.578 and code `plan022_slice4be_admin_tester_owner_results.md`.
+
+**Preceding recording checkpoint:** Create recording and guide conclusions
 are scoped-qualified on unpromoted create-recording-02, catalog41/172. Focused381
 retains all110 owner checks; four independent recordings prove successful,
 incomplete and failed guide conclusions. Purpose/layout36,13 reviewed captures,
@@ -14,16 +20,20 @@ see code `plan022_slice4be_admin_create_recording_results.md` for exact evidence
 **Approved2026-10-13 Pacific:** **D8-TESTER-01** resolves Tester Setup's live
 Core authority and disposable ownership. Actual Delete Generated diagnostic25/4
 proves deletion after four source-authority changes; recognized names alone also
-allow deletion. Setup's existing-runtime write path is source-audited only.
-See code `plan022_slice4be_admin_tester_owner_results.md`. No product change or
-recording ID is introduced. Next, expand packaged RED for Setup/ownership,
-then implement and qualify before its D18 observations. The approved contract binds
+allow deletion. Expanded Setup/ownership RED33/30 became an initial scoped GREEN67.
+The Core owner, receipts and form binding are implemented in an unpromoted candidate;
+subsequent redaction, write-root, layout and saved-heading REDs became GREEN164.
+Candidate tester-owner-08 restores headless normalized-field returns and preserves
+all five passing baseline headless checks. One legacy offline-publication test fails
+unchanged on both packages; it remains an open legacy discrepancy, not a new regression.
+See code `plan022_slice4be_admin_tester_owner_results.md`. No recording ID is introduced.
+Next, audit the Tester recording/guide contract before its D18 observations. The approved contract binds
 immutable receipt provenance to the provisioning Core user/session generation;
 reopened or different-Admin access requires fresh recorded-source authorization.
 Named dialog/event/wait yields and rename/seed/post-cleanup phases require rechecks.
 Setup also refuses externally open Config/containers and unmarked conflicting or published
 destinations; container/nested/stale-path results use fixed redacted outcomes.
-The user approved all six tightenings; implementation and acceptance remain pending.
+The user approved all six tightenings; the interactive owner is now scoped-qualified.
 Remaining Admin coverage, early B0 and overall4be-A remain open; broader replay
 stays in4be-B.
 

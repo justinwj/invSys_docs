@@ -5407,12 +5407,19 @@ The user explicitly approved this contract on2026-10-13 Pacific, including all
 six tightened identity, yield, outcome, open-file, conflict and phase requirements.
 Approval authorizes D13 implementation, not acceptance; do not request it again.
 
+The interactive owner is scoped-qualified on unpromoted tester-owner-08;
+Controls1.578 and Plan022 track its evidence and the unchanged legacy headless
+offline-publication discrepancy. Full4be-A/Release1 acceptance remains open.
+The code receipt `plan022_slice4be_admin_tester_owner_results.md` holds the focused
+RED/GREEN evidence. No Tester recording ID or replay eligibility is added here.
+
 Packaged diagnostic,2026-10-13 Pacific:25 PASS/4 expected FAIL on unchanged
 create-recording-02. The actual Delete Generated handler deletes a disposable
 canary after sign-out, loss of Admin rights, switching warehouses and sign-out
 during confirmation. A recognized filename is sufficient; generated ownership is
-not checked. Source audit also finds Setup provisioning/seeding an entered existing
-runtime without a captured-source write boundary; Setup is not yet runtime-proven.
+not checked. At that pre-change checkpoint, source audit found Setup provisioning/
+seeding an entered existing runtime without a captured-source write boundary;
+Setup was not yet runtime-proven.
 See code `plan022_slice4be_admin_tester_owner_results.md` for scope and exclusions.
 D8-A preserves station provisioning; D8-CREATE-01 does not settle these separate
 interactive writes or cleanup eligibility. Approved resolution:

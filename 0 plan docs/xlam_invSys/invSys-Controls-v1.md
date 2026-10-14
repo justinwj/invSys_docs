@@ -1,11 +1,11 @@
 # invSys Form Controls v1
 
-**Version:** 1.577 -- Tester Setup contract approved; implementation pending.
+**Version:** 1.578 -- Tester Setup owner scoped-qualified; recording remains open.
 
-**D8-TESTER-01 approved2026-10-13 Pacific:** Setup and Delete Generated will use headless Core
+**D8-TESTER-01 approved2026-10-13 Pacific:** Setup and Delete Generated use headless Core
 commands bound to the live source Admin session, including a check after cleanup
-confirmation. Setup will create/resume only a verified disposable environment;
-cleanup will require a generated-ownership receipt instead of a name heuristic,
+confirmation. Setup creates/resumes only a verified disposable environment;
+cleanup requires a generated-ownership receipt instead of a name heuristic,
 preserve unknown files, refuse open/foreign artifacts and support reopened partial
 cleanup under a fresh authorized session. Unmarked existing runtimes must refuse
 automatic adoption. Fixed outcomes exclude entered values from activity/logs.
@@ -17,9 +17,19 @@ Rename, seed, post-cleanup verification and receipt finalization are included.
 Setup refuses externally open Config/containers and unmarked conflicting/already-published
 destinations. Container-combination, nested and stale-path results receive the same
 fixed-outcome/redaction treatment. No new dialog or combination action is introduced.
-The packaged cleanup diagnostic gives25 PASS/4 expected FAIL after source-authority
-changes; Setup remains source-audited only. See v4.11 D8-TESTER-01 and code
-`plan022_slice4be_admin_tester_owner_results.md`. **Approved, not yet implemented or accepted.**
+The approved owner is now implemented in a candidate: the form retains its captured
+workbook/session; Core owns reservation, provisioning and cleanup. Feedback is fixed,
+the default Find button fits, and both Close controls remain usable after success.
+Expanded packaged RED33/30 became an initial scoped GREEN67 and then combined
+GREEN164 after ownership, redaction, layout and saved-heading fixes. Candidate08
+also preserves normalized headless return values and all five passing baseline
+headless checks; one legacy offline-publication expectation fails unchanged on
+both packages. Candidate08 passes focused164, Create381, Settings202, recording80,
+smoke86, chain32/live48/Create15, five cold compiles/Operations cold start, two reviewed
+layout captures and static ratchets, with preserved pins/settings and clean native closure.
+See v4.11 D8-TESTER-01 and code
+`plan022_slice4be_admin_tester_owner_results.md`. **Scoped qualification, not full
+Release1 acceptance or package promotion.**
 Catalog41/172 and the qualified Create checkpoint below remain unchanged.
 
 **Version1.574 checkpoint — Create recording and guide conclusions scoped-qualified.**
@@ -7716,7 +7726,16 @@ This is an Admin-only isolated test-environment provisioner, not the normal
 station identity mechanism and not merely a diagnostics runner. It is retained
 because it creates and cleans up disposable warehouse/operator fixtures used by
 packaged regression tests. The form reuses the Create Warehouse designer blob. It hides all designer
-controls first, then selectively reuses fields and adds new prompt/actions.
+controls first, then selectively reuses fields and adds new prompt/actions. Its
+saved and runtime captions both read **Test Environment Setup**.
+
+Under approved D8-TESTER-01, the form retains its original source workbook/session.
+Headless Core owns Setup and Delete, source Admin checks and the versioned ownership
+receipt. Reopened or different-Admin access requires fresh authority through the
+receipt's source warehouse. Unmarked/nonempty/conflicting destinations and borrowed
+open workbooks refuse; unknown files survive cleanup. Failed partial cleanup retains
+ownership for retry. Default and enlarged layouts keep Find and both Close buttons
+accessible after success. Implementation qualification is tracked at the top of this catalog.
 
 Visible input mapping:
 
@@ -7727,18 +7746,18 @@ Visible input mapping:
 | `lblConfirmPinPrompt` | `txtConfirmPinRuntime` | Confirms the PIN; masked. |
 | `lblWarehousePrompt` | `txtWarehouseId` | Tester warehouse identifier. |
 | `lblStationPrompt` | `txtStationId` | Test station identifier; ordinary workflows use the Windows computer name. |
-| `lblPathLocalPrompt` | `txtPathLocal` | NAS warehouse hub path. |
-| `lblSharePointPrompt` | `txtPathSharePoint` | Locally synced SharePoint root. |
+| `lblPathLocalPrompt` | `txtPathLocal` | Exact empty or receipt-owned disposable runtime root. |
+| `lblSharePointPrompt` | `txtPathSharePoint` | Optional empty or receipt-owned publication root. |
 
 Other visible controls:
 
 | Control | Displayed text | Purpose |
 |---|---|---|
 | `lblAdminUserError`, `lblWarehouseNameError`, `lblConfirmPinErrorRuntime`, `lblWarehouseIdError`, `lblStationIdError`, `lblPathLocalError`, `lblPathSharePointError` | Inline errors | Report validation errors for the mapped fields. |
-| `lblSummary` | Status label | Shows setup/delete/open progress and final report. |
+| `lblSummary` | Status label | Fixed setup/delete/open outcomes; entered values and raw nested reports are excluded. |
 | `btnHubPathHelperRuntime` | **Find...** | Browses for the NAS hub. |
 | `btnSharePointHelperRuntime` | **Find...** | Detects or browses for the SharePoint root. |
-| `btnDeleteGeneratedRuntime` | **Delete Generated** | Deletes only guarded tester-generated artifacts. |
+| `btnDeleteGeneratedRuntime` | **Delete Generated** | Requires confirmation, fresh captured-source authority and a matching receipt; deletes only allowlisted owned artifacts. |
 | `btnOpenReceivingRuntime` | **Open Workbook** | Appears after success and opens the generated Receiving workbook. |
 | `btnOK` | **Setup** or **Close** | Runs setup, then becomes Close. |
 | `btnCancel` | **Close** | Closes the form. |
