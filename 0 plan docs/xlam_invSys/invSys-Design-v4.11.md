@@ -2295,6 +2295,63 @@ with reviewed native warnings, directory149, smoke86, chain32/live48/Create15,
 five cold compiles and static limits. The owner correction is scoped-qualified;
 catalog39/161 is unchanged at that owner checkpoint; recording is qualified below.
 
+**Tester recording (D18 discovered-control refinement,2026-10-13; scoped-qualified):**
+Catalog42 adds seven existing Admin controls under owner `ADMIN_TESTER_SETUP`,
+ADMIN_MAINT and surface **Admin > Test Environment Setup**; preserve catalogs1-41.
+This implements comprehensive D18 observations after qualified D8-TESTER-01,
+without changing owner authority, receipt ownership, Training purpose or replay.
+
+| ControlId suffix after `ADMIN_TESTER_` | Caption / entry | Class | Positive result |
+|---|---|---|---|
+| OPEN | Test Environment Setup / existing Ribbon callback | Navigation | OPENED after visible presentation. |
+| SETUP | Setup / Setup branch | Command | COMPLETED only when the Core Setup owner returns success. |
+| DELETE | Delete Generated | Command | COMPLETED only after Core confirms cleanup and receipt finalization. |
+| OPEN_WORKBOOK | Open Workbook | Navigation | OPENED for the captured generated Receiving workbook. |
+| BROWSE_HUB | Find warehouse folder / existing hub helper | Command | STAGED after assignment of a selected folder. |
+| FIND_SHAREPOINT | Find publication folder / existing SharePoint helper | Command | STAGED after detection/selection is assigned. |
+| CLOSE | Close / either Close button / window close | Navigation | CLOSED once for an actual dismissal. |
+
+Record one REQUESTED/result pair for each eligible deliberate action. Preserve
+Core's fixed COMPLETED/REJECTED/DENIED/FAILED result codes; form validation is
+REJECTED, declined cleanup or empty hub selection is CANCELLED, and absent
+publication-folder detection/selection is UNAVAILABLE. Opening errors are FAILED.
+Do not infer results from displayed text or repeat owners for evidence. DENIED or
+FAILED can follow partial work; neither claims rollback or an untouched destination.
+Only the table's positive results satisfy CommandCompleted for their own control;
+offer those outcomes in the existing expectation editor. All source references
+are empty: Setup completion is no proof of inventory application or replay fitness.
+DataEffect is Unknown except CANCELLED (Unchanged). REQUESTED/positive/CANCELLED
+are Info, REJECTED/DENIED/UNAVAILABLE Warning, and FAILED Error.
+
+Capture the original source workbook/session before optional recording. Retain
+that context throughout the form; reopening captures anew, stale forms never
+rebind. Source policy/user/storage/lifecycle gates remain independent of the
+destination being provisioned or deleted. Preserve owner results, exact generated
+workbook opening and the live surface around optional tracking; tracking loss
+must not block ordinary authorized work and gives at most the existing notice.
+Events/logs exclude credentials, entered paths/values, destination identities,
+receipt contents and raw downstream reports. Typing, initialization, programmatic
+defaults/assignments, progress labels, resize and rendering are not separate actions.
+External folder dialogs remain operator-required; these observations add no replay
+adapter or authorization. Retain D8-TESTER-01's separate headless fixture path.
+
+D13: exercise actual packaged callback/handlers for absent-observation RED, then
+GREEN including the existing164 owner checks, policy/user/context/storage gates,
+owner-result/redaction preservation, independent recordings and saved successful,
+failed and incomplete guide conclusions, visible comparison and applicable
+compile/layout/static/live-role/full-chain checks. This is semantic inheritance
+under approved D18; overall4be-A and early B0 remain open.
+
+Packaged RED20/46 on tester-owner-08 becomes GREEN92, then expanded GREEN299 on
+unpromoted tester-recording-01, retaining164 owner checks. Candidate02's fresh299
+checks pass independent successful/incomplete/failed guide conclusions and visible
+comparison, with clean preserved native closure. Compiled-component comparison and
+fresh layout checks qualify reuse of the unchanged owner evidence. Candidate02
+also passes Create381, Settings202, recording80, smoke86, chain32/live48/Create15,
+cold compile/Operations startup and static limits, with preserved native closure.
+Code `plan022_slice4be_admin_tester_recording_results.md` records exact scope and
+visual limitations. Overall4be-A and early B0 remain open; no package promotion.
+
 **Create Warehouse recording (D18 discovered-control refinement,2026-10-13; scoped-qualified):**
 Catalog41 adds the following ten existing Admin controls under owner
 `ADMIN_WAREHOUSE_CREATE`, existing ADMIN_MAINT and surface **Admin > Create Warehouse**.

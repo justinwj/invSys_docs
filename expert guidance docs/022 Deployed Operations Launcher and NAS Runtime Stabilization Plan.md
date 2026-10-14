@@ -4,7 +4,15 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current checkpoint,2026-10-13 Pacific:** approved D8-TESTER-01 is scoped-qualified
+**Current checkpoint,2026-10-13 Pacific:** Tester recording and guide conclusions
+are scoped-qualified on unpromoted tester-recording-02, catalog42/179. RED20/46
+becomes initial92, expanded299 retaining164 owner checks, and fresh guide299 with
+ten reviewed captures. Create381, Settings202, recording80, smoke86,
+chain32/live48/Create15 and compile/layout/static/preservation/native gates pass.
+See Controls1.580 and code `plan022_slice4be_admin_tester_recording_results.md`.
+Remaining Admin coverage and early B0 keep4be-A open; no package promotion.
+
+**Preceding owner checkpoint:** approved D8-TESTER-01 is scoped-qualified
 on unpromoted tester-owner-08: focused164, Create381, Settings202, recording80,
 smoke86, chain32/live48/Create15, compile/layout/static and preservation/native gates.
 Catalog41/172 is unchanged; no Tester recording ID or replay eligibility is added.
@@ -27,7 +35,10 @@ Candidate tester-owner-08 restores headless normalized-field returns and preserv
 all five passing baseline headless checks. One legacy offline-publication test fails
 unchanged on both packages; it remains an open legacy discrepancy, not a new regression.
 See code `plan022_slice4be_admin_tester_owner_results.md`. No recording ID is introduced.
-Next, audit the Tester recording/guide contract before its D18 observations. The approved contract binds
+The qualified recording follow-up above adds seven D18 observations while retaining
+catalog41/172 and all164 owner checks. It changes no authority, Training purpose
+or replay eligibility; see v4.11 **Tester recording** and Controls1.580.
+The approved owner contract binds
 immutable receipt provenance to the provisioning Core user/session generation;
 reopened or different-Admin access requires fresh recorded-source authorization.
 Named dialog/event/wait yields and rename/seed/post-cleanup phases require rechecks.

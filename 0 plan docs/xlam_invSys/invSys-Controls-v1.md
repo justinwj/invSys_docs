@@ -1,6 +1,23 @@
 # invSys Form Controls v1
 
-**Version:** 1.578 -- Tester Setup owner scoped-qualified; recording remains open.
+**Version:** 1.580 -- Tester recording and guide conclusions scoped-qualified.
+
+D18's discovered-control refinement specifies catalog42 with seven
+`ADMIN_TESTER_` controls: OPEN, SETUP, DELETE, OPEN_WORKBOOK, BROWSE_HUB,
+FIND_SHAREPOINT and CLOSE. Existing callback/form handlers supply fixed paired
+observations without entered values, paths, credentials or destination identities.
+Setup/Delete COMPLETED requires the corresponding Core owner's positive result;
+only OPENED, COMPLETED, STAGED and CLOSED conclude their respective commands.
+Typing/defaults/rendering remain excluded. See v4.11 **Tester recording** for exact
+failure/cancellation, source binding, policy, redaction and D13 gates. Catalog42/179
+has RED20/46 -> GREEN92 -> expanded GREEN299 on unpromoted tester-recording-01,
+retaining164 owner checks. Candidate02 adds fresh299 recording/guide checks and ten
+reviewed captures. Create381, Settings202, recording80, smoke86, chain32/live48/Create15,
+cold compile/Operations startup and static limits pass, with preserved native closure.
+Compiled comparison and fresh layout/recording checks qualify reuse of unchanged
+owner evidence. See code `plan022_slice4be_admin_tester_recording_results.md` for
+exact gates and visual limitations. Overall4be-A and early B0 remain open.
+No new Training designation, replay adapter or owner permission is introduced.
 
 **D8-TESTER-01 approved2026-10-13 Pacific:** Setup and Delete Generated use headless Core
 commands bound to the live source Admin session, including a check after cleanup
@@ -7736,6 +7753,13 @@ receipt's source warehouse. Unmarked/nonempty/conflicting destinations and borro
 open workbooks refuse; unknown files survive cleanup. Failed partial cleanup retains
 ownership for retry. Default and enlarged layouts keep Find and both Close buttons
 accessible after success. Implementation qualification is tracked at the top of this catalog.
+
+D18 catalog42 records the Ribbon opening and these deliberate handlers under
+`ADMIN_TESTER_`: OPEN, SETUP, DELETE, OPEN_WORKBOOK, BROWSE_HUB, FIND_SHAREPOINT,
+and CLOSE. Both buttons labeled Close and window close produce one dismissal
+observation. Entry values, typing, defaults and layout events are excluded.
+Setup/Delete completion comes from Core; guide conclusions retain the original
+source context and never imply inventory application or replay eligibility.
 
 Visible input mapping:
 
