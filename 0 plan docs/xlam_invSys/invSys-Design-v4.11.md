@@ -5415,20 +5415,44 @@ interactive writes or cleanup eligibility. Proposed resolution:
 
 - Headless Core commands own interactive Setup and Delete Generated. Capture the
   live source invSys session/user generation, warehouse/station and workbook at
-  form opening. Recheck source ADMIN_MAINT after confirmation, before each write
-  phase and after yields. Lost rights/context refuses subsequent writes. No
+  form opening. Recheck source ADMIN_MAINT, exact target scope and ownership (or
+  empty-destination eligibility before reservation) before each write phase and
+  after yields: this includes Setup reservation, provisioning,
+  rename, seed and publication, and cleanup deletion, post-cleanup verification
+  and receipt finalization. Verification is read-only; lost authority/scope refuses
+  further work and prevents a cleanup-success claim or receipt removal. No
   Windows/Office identity, entered destination or local user hint substitutes;
   stale forms never rebind. Admin retains input, confirmation and presentation;
   use typed calls and primitive/serialized cross-package envelopes.
+- A yield is any return from cleanup confirmation, folder/container selection or
+  resolve-container dialogs, other modal/modeless prompts or popups, DoEvents/event
+  pumping, or an asynchronous/external wait that permits user/session/target changes.
+  Recheck immediately on return, before further work, even if the selection is
+  unchanged. This defines coverage for reachable sites; it adds no new dialog or
+  container-combination feature.
 - Setup creates an isolated disposable environment in an empty destination or
-  resumes only an environment verifiably owned by this provisioner. Before any
+  resumes only an environment with verified Core provisioning ownership. Before any
   artifact write, Core durably reserves that destination with a versioned ownership
   receipt bound to its exact root, warehouse/station and allowlisted local/published
-  artifacts. Preserve partial ownership as work progresses. Never adopt or repair
-  an unmarked existing runtime, overwrite foreign files, or infer ownership from
-  a TEST/TESTER name. Existing authorized headless fixture provisioning remains a
-  separate explicit path; it grants no interactive authority. This receipt does
+  artifacts, plus the provisioning Core session's source warehouse, user identity
+  and user/session generation. This immutable creator provenance is not form
+  ownership or a reusable authorization grant. Reopen/resume/delete requires fresh
+  Core authorization against the receipt's recorded source warehouse using the
+  current captured session/station, whose source warehouse must match the receipt.
+  A different Admin must pass that source authority; destination Admin rights or
+  possession of the receipt cannot substitute.
+  Preserve partial ownership as work progresses. Without a valid matching receipt,
+  Setup refuses conflicting, nonempty or already-published destinations outright;
+  it never adopts/repairs an unmarked runtime or overwrites foreign files. A
+  TEST/TESTER name proves no ownership. Existing authorized headless fixture
+  provisioning remains a separate explicit path; it grants no interactive authority. This receipt does
   not designate D18 Training purpose or qualify a runtime for replay.
+- Before reservation/resume or writing, Setup refuses a destination whose Config,
+  resolved workbook/container, or any workbook it would write is already open in
+  Excel outside the current Core command, whether clean or dirty. It never takes
+  ownership of, closes or saves a borrowed workbook. Workbooks created/opened by
+  this authorized command retain their explicit owner lifecycle. Recheck after
+  each yield; nested/resolved destinations inherit this guard.
 - Delete requires the matching receipt, exact validated targets and explicit
   confirmation. This replaces name-based cleanup eligibility. Reopened forms may
   clean a prior complete or partial generated environment under a newly captured
@@ -5439,15 +5463,22 @@ interactive writes or cleanup eligibility. Proposed resolution:
   sufficient ownership state for an honest retry after partial failure; remove the
   receipt only after confirmed cleanup. Never claim rollback or full success for
   unconfirmed effects. Legacy unmarked environments are not automatically adopted.
-- Setup/deletion results and optional later D18 observations use fixed outcomes.
+- Setup/deletion, container-resolution/combination, nested-container and stale-path
+  ambiguity results, including refusal and partial results, use fixed outcomes.
+  Container resolution grants no adoption or overwrite authority; unresolved scope
+  refuses the operation. Apply the same treatment to optional later D18 observations.
+  Form feedback uses fixed messages too; never forward raw nested/downstream reports.
   Credentials, entered paths/field values and raw downstream reports are excluded
   from activity and logs. Ordinary read/inspection performs no provisioning, repair
   or save. Preserve accepted Create/Seed/Receiving workflows and captured sources.
 
 Approval authorizes D13 implementation, not acceptance. Expand packaged RED for
-Setup, direct Core refusal, source-vs-destination authority, post-confirmation and
-mid-operation context loss, empty/owned/foreign targets, partial/reopened cleanup,
-open/dirty files, exact containment, unknown-file preservation and logging redaction.
+Setup, direct Core refusal, creator-generation binding and different-Admin source
+authorization, every reachable yield/phase above, empty/owned/foreign/already-published
+targets, partial/reopened cleanup, Setup/Delete open/dirty-file refusal, exact
+containment, unknown-file preservation and fixed/redacted container/path results.
+Map actual reachable yield sites to tests; identify absent sites as inapplicable,
+not covered. A changed verification scope must preserve the receipt and avoid success.
 Retain authorized provisioning, Cancel and independent owner-result evidence;
 require focused GREEN and applicable regression gates before D18 recording coverage.
 No product change, new control ID or4be-A acceptance is authorized by this proposal.

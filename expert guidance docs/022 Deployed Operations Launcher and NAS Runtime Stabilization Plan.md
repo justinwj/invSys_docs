@@ -17,8 +17,15 @@ proves deletion after four source-authority changes; recognized names alone also
 allow deletion. Setup's existing-runtime write path is source-audited only.
 See code `plan022_slice4be_admin_tester_owner_results.md`. No product change or
 recording ID is introduced. After approval, expand packaged RED for Setup/ownership,
-then implement and qualify before its D18 observations. Remaining Admin coverage, early B0
-and overall4be-A remain open; broader replay stays in4be-B.
+then implement and qualify before its D18 observations. The revised proposal binds
+immutable receipt provenance to the provisioning Core user/session generation;
+reopened or different-Admin access requires fresh recorded-source authorization.
+Named dialog/event/wait yields and rename/seed/post-cleanup phases require rechecks.
+Setup also refuses externally open Config/containers and unmarked conflicting or published
+destinations; container/nested/stale-path results use fixed redacted outcomes.
+These six tightenings remain pending approval, not implementation or acceptance.
+Remaining Admin coverage, early B0 and overall4be-A remain open; broader replay
+stays in4be-B.
 
 The preceding approved **D8-CREATE-01** owner increment is
 scoped-qualified: expanded RED63/23 and diagnostic-sink RED106/4 become focused

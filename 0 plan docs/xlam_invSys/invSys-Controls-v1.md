@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.575 -- Tester Setup authority/ownership proposal pending approval.
+**Version:** 1.576 -- Tester Setup proposal tightened; approval pending.
 
 **D8-TESTER-01 proposed:** Setup and Delete Generated would use headless Core
 commands bound to the live source Admin session, including a check after cleanup
@@ -9,6 +9,14 @@ cleanup would require a generated-ownership receipt instead of a name heuristic,
 preserve unknown files, refuse open/foreign artifacts and support reopened partial
 cleanup under a fresh authorized session. Unmarked existing runtimes would refuse
 automatic adoption. Fixed outcomes would exclude entered values from activity/logs.
+Receipt provenance explicitly binds the provisioning Core user/session generation;
+reopened or different-Admin access needs fresh authorization through the recorded
+source warehouse. Confirmation, folder/container resolution, prompts/popups,
+event-pumping and asynchronous/external waits are yield points requiring rechecks.
+Rename, seed, post-cleanup verification and receipt finalization are included.
+Setup refuses externally open Config/containers and unmarked conflicting/already-published
+destinations. Container-combination, nested and stale-path results receive the same
+fixed-outcome/redaction treatment. No new dialog or combination action is introduced.
 The packaged cleanup diagnostic gives25 PASS/4 expected FAIL after source-authority
 changes; Setup remains source-audited only. See v4.11 D8-TESTER-01 and code
 `plan022_slice4be_admin_tester_owner_results.md`. **Not approved or implemented.**

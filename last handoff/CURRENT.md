@@ -1,1 +1,1 @@
-`176 Tester Cleanup Authority Proposal Pending.md`
+`177 Tester Proposal Tightened Awaiting Approval.md`
