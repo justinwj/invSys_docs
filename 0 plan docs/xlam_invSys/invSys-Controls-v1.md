@@ -1,6 +1,28 @@
 # invSys Form Controls v1
 
-**Version:** 1.585 -- Aggregation testing paused on the user's desktop-lock condition; approval stands; implementation pending.
+**Version:** 1.587 -- Aggregation restart/completion protecting RED complete; approved implementation in progress, GREEN pending.
+
+**Current Aggregation state,2026-10-14 Pacific:** actual disposable XLAM restart
+RED completes10 PASS/4 FAIL; manual-entry/incomplete-persistence RED completes
+10 PASS/6 FAIL. Source preservation, five compiles, settings/pins, owned cleanup,
+normal closure and zero delayed Excel events pass. The approved implementation
+now captures the original workbook/live Core context, stages output with joint
+checks and retains durable retry evidence. Candidate compile/control defects are
+being corrected; this is source work in progress, with no accepted product behavior,
+package promotion, catalog increment, recording ID or4be-A completion. Run identities
+and evidence limits are in the code Aggregation receipt. Earlier pending statements
+below are historical checkpoints. D8-AGG-01 remains approved.
+
+**Resumed later2026-10-14 Pacific:** current native input/movement/restoration
+checks pass and Windows reports an enabled nonsecure screensaver. The old guard
+established inactive input, not a confirmed cause; OLED causality is unverified.
+Protection settings are unchanged. Focused actual-handler write RED completes
+36 PASS/36 FAIL without a harness exception, with five compiles, preserved
+settings/package/tooling pins, normal closure and zero delayed native events through
+21:51:27.4179880Z. Malformed/duplicate sources, unknown output-column loss and
+destination overlaps now reach protecting assertions. Restart/reopened retry is
+next before product implementation. D8-AGG-01 remains approved; catalog42/179 and
+product controls are unchanged. The following stop checkpoint is historical.
 
 **Session stop,2026-10-14 at14:32:12 Pacific:** the owned monitor reports one
 desktop lock condition, zero error5/mouse-lock observations and stops. The macro

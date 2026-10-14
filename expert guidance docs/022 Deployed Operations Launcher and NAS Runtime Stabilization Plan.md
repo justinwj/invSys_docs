@@ -4,6 +4,29 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Approved Aggregation implementation entry,2026-10-14 Pacific:** resumed baseline
+restart RED completes10 PASS/4 FAIL after actual disposable XLAM unload/reload;
+completion/manual-entry RED completes10 PASS/6 FAIL, proving signed-out saved-hint
+dispatch and falsely claimed/overwritten incomplete persisted output. Five compiles,
+source preservation, settings/pins, owned cleanup and normal closure pass; delayed
+Excel events are zero through22:13:13.0906848Z and22:29:05.5021909Z. These complete
+the protecting entry gates, not acceptance. The approved Core-owned interactive
+implementation is now in source and unpromoted. Candidate compile/control failures
+are being corrected; no GREEN, new recording ID or4be-A completion is claimed.
+See the code Aggregation receipt for run identities and limits. Earlier pending and
+pause statements below describe their checkpoints, not a renewed approval blocker.
+
+**Resumed by the user later2026-10-14 Pacific:** the laptop has required OLED
+protection; current settings enable a nonsecure screensaver. Fresh active-input,
+bounded movement/restoration and zero-error5 checks pass. Prior inactive input did
+not establish a Windows lock or OLED causality. Protection settings are unchanged;
+monitoring adds fixed desktop/screensaver classifications and retains stop guards.
+Actual-handler focused write RED completes36 PASS/36 FAIL with no harness exception,
+five compiles, preserved settings/pins, normal closure and zero delayed native
+events through21:51:27.4179880Z. Duplicate/schema/custom-column/overlap cases now
+reach behavioral assertions. Restarted retry remains next before product edits;
+D8-AGG-01 is approved and4be-A remains incomplete. The pause below is historical.
+
 **Paused2026-10-14 at14:32:12 Pacific under the user's desktop-lock stop rule.**
 The owned monitor records one lock condition, zero error5/mouse-lock observations
 and stops; the packaged macro guard dispatches no further work. The latest focused
