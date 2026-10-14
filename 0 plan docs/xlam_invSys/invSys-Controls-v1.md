@@ -1,6 +1,22 @@
 # invSys Form Controls v1
 
-**Version:** 1.580 -- Tester recording and guide conclusions scoped-qualified.
+**Version:** 1.581 -- Aggregation authority proposal pending; Tester remains qualified.
+
+**D8-AGG-01 proposed2026-10-13 Pacific:** Aggregate Global Snapshot would retain
+the original workbook/live source session through its form, with headless Core
+rechecking source ADMIN_MAINT before output mutation and after yields. The trusted
+captured Config selects the output feed; stale contexts, changed output Config and
+borrowed/read-only/conflicting output refuse. Source selection remains session-only
+and advisory under D17. Fixed feedback/logging excludes entered values and paths;
+the source UI retains required descriptors/rejection reasons. See v4.11 D8-AGG-01
+for the complete proposal. **Approval pending; no changed product behavior or
+acceptance.** Packaged diagnostic65 PASS/7 FAIL proves workbook redirection and
+stale-authority dispatch, while SaveAs1004 prevents callback output. A normalized
+direct Core control succeeds; no unauthorized persisted output is claimed.
+Code `plan022_slice4be_admin_aggregation_results.md` records evidence and limits.
+Catalog42/179 is unchanged; no Aggregation recording ID or replay adapter is added.
+
+**Version1.580 checkpoint — Tester recording and guide conclusions scoped-qualified.**
 
 D18's discovered-control refinement specifies catalog42 with seven
 `ADMIN_TESTER_` controls: OPEN, SETUP, DELETE, OPEN_WORKBOOK, BROWSE_HUB,

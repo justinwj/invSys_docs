@@ -254,6 +254,66 @@ RED for current-server discovery, additional-server discovery, selection
 validation, duplicate/source rejection, read-only aggregation, and source
 authority non-mutation.
 
+### D8-AGG-01 — Interactive Aggregation authority and output ownership (PROPOSED; requires approval)
+
+Proposed2026-10-13 Pacific, within4be-A's remaining Admin coverage. D17 defines
+the advisory source set but does not settle live authorization at the later write,
+stale-form binding or borrowed output ownership. D8's processor rules and the
+approved Users/Create/Tester decisions do not implicitly authorize this change.
+
+The packaged diagnostic on tester-recording-02 has65 PASS/7 FAIL: switching the
+active workbook redirects the owner and changes the unrelated workbook; a saved
+user-ID hint after sign-out, another warehouse's Admin and a replacement session
+each reach Core aggregation. No persisted unauthorized output is proved: the
+callback reaches SaveAs then fails with Excel1004. A direct Core comparison using
+a normalized output path succeeds with exact selected entities/quantities and
+unchanged sources. See code `plan022_slice4be_admin_aggregation_results.md`.
+
+**Proposed contract:**
+
+- Admin captures the original operator workbook and Core's live invSys user/session
+  generation, warehouse/station and trusted source Config/output scope on opening
+  the form. Aggregate uses that context; changing the active workbook never rebinds
+  it. A closed original workbook or changed session/target requires reopening.
+- A headless Core command owns interactive aggregation. It rechecks ADMIN_MAINT
+  against the captured source warehouse, not the selected remote snapshot warehouses,
+  before work and immediately before output mutation. Recheck after source inspection
+  and any confirmation, connection/picker/result dialog, event-pumping or external
+  wait that returns to the command. Sign-out, changed user/session/warehouse/station,
+  lost rights or missing/invalid authority refuses. A Windows/Office identity,
+  provisioned-user check or local user-ID hint cannot substitute for live sign-in.
+  Ordinary checks do not repair or save Config/Auth; unrelated dirty authority refuses.
+- Core derives the output from the captured trusted source's existing configured
+  feed, using a valid joined path. Changed output configuration requires reopening;
+  a selected snapshot, typed path or active workbook cannot redirect the feed.
+  Refuse a destination open in Excel (including unsaved edits), a read-only output,
+  or a destination overlapping source authority/snapshots before mutation. Never
+  close/save a borrowed workbook or replace another target to make the command work.
+  Existing output bytes remain unchanged on preflight/authority/source refusal.
+- Retain D17 source discovery/selection and read-only snapshot rules, exact
+  WarehouseId/System_Key identity, rejection rules and advisory-only meaning.
+  Revalidate the selected sources before writing; an invalid selected set must not
+  become a successful partial aggregate. No source runtime is created or changed.
+  Admin feedback/audit stays with the original operator workbook and preserves
+  unknown columns. Only successful persistence reports completion; a later failure
+  reports the known outcome without claiming unproved rollback.
+- Use direct typed calls within each project and declared primitive/serialized
+  cross-XLAM envelopes. Status, activity and logs use fixed outcomes/counts, excluding
+  credentials, entered values, paths and raw error reports. The source-selection UI
+  retains its D17 source descriptors and fixed rejection reasons. Existing scheduled
+  headless aggregation authorization remains separate. No recording ID, Training
+  designation or replay eligibility is added by this decision.
+
+Approval authorizes D13 implementation, not acceptance. Extend the actual packaged
+Ribbon/form test and direct Core denial tests before source edits: authorized exact
+output, switched/closed original workbook, stale session/hints, saved rights loss,
+post-yield changes, changed Config, borrowed/dirty/read-only output and source
+rejection/non-mutation. Require focused RED/GREEN, packaged compile/layout, relevant
+regressions/full chain/live roles, static limits, normal closure and visible evidence.
+The current diagnostic proves only the narrower failures stated above. D17 two-PC/
+two-NAS UAT and4be-A early B0 remain separate open gates. Until explicit approval,
+the preceding normative contract remains operative; do not implement this proposal.
+
 ### D18 -- Shared Events and How-To/Diagnostic Action Paths (R1 Locked)
 
 **D18-REPLAY-01 -- Approved R1 delivery and execution contract**

@@ -4,6 +4,20 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Aggregation prerequisite,2026-10-13 Pacific:** packaged diagnostic65 PASS/7 FAIL
+on unchanged tester-recording-02 exposes active-workbook redirection and three
+stale-authority paths reaching Core. Authorized callback output fails at SaveAs
+with Excel1004; normalized-path direct Core comparison succeeds. No unauthorized
+persisted output is claimed. Proposed **D8-AGG-01** in v4.11 binds the interactive
+command to the original workbook/live source session, moves its authority check
+to Core and defines captured-feed/borrowed-output ownership and fixed feedback.
+**Approval pending; no product implementation.** Controls1.581 and code
+`plan022_slice4be_admin_aggregation_results.md` record the same scope. Catalog42/179,
+qualified Tester evidence, D17 source/advisory rules and D18-REPLAY-01/B0 remain
+unchanged. After approval, extend packaged/direct-Core RED before implementation;
+recording is a subsequent D18 step. This proposal does not redefine scheduled
+headless authorization or grant broader replay eligibility.
+
 **Current checkpoint,2026-10-13 Pacific:** Tester recording and guide conclusions
 are scoped-qualified on unpromoted tester-recording-02, catalog42/179. RED20/46
 becomes initial92, expanded299 retaining164 owner checks, and fresh guide299 with
