@@ -5398,7 +5398,59 @@ Implementation evidence records expanded RED63/23 and diagnostic-sink RED106/4
 recording80, smoke86, chain32/live48/Create15 and compile/static/preservation gates
 pass with normal native closure. See `plan022_slice4be_admin_create_owner_results.md`
 for exact scope and exclusions. This qualifies D8-CREATE-01, not4be-A acceptance;
-Create recording and guide conclusions remain the next coverage step.
+its subsequent recording/guide qualification is recorded under D18 Create Warehouse recording.
+
+---
+### D8-TESTER-01 — Tester Setup authority and disposable ownership (PROPOSED; approval required)
+
+Packaged diagnostic,2026-10-13 Pacific:25 PASS/4 expected FAIL on unchanged
+create-recording-02. The actual Delete Generated handler deletes a disposable
+canary after sign-out, loss of Admin rights, switching warehouses and sign-out
+during confirmation. A recognized filename is sufficient; generated ownership is
+not checked. Source audit also finds Setup provisioning/seeding an entered existing
+runtime without a captured-source write boundary; Setup is not yet runtime-proven.
+See code `plan022_slice4be_admin_tester_owner_results.md` for scope and exclusions.
+D8-A preserves station provisioning; D8-CREATE-01 does not settle these separate
+interactive writes or cleanup eligibility. Proposed resolution:
+
+- Headless Core commands own interactive Setup and Delete Generated. Capture the
+  live source invSys session/user generation, warehouse/station and workbook at
+  form opening. Recheck source ADMIN_MAINT after confirmation, before each write
+  phase and after yields. Lost rights/context refuses subsequent writes. No
+  Windows/Office identity, entered destination or local user hint substitutes;
+  stale forms never rebind. Admin retains input, confirmation and presentation;
+  use typed calls and primitive/serialized cross-package envelopes.
+- Setup creates an isolated disposable environment in an empty destination or
+  resumes only an environment verifiably owned by this provisioner. Before any
+  artifact write, Core durably reserves that destination with a versioned ownership
+  receipt bound to its exact root, warehouse/station and allowlisted local/published
+  artifacts. Preserve partial ownership as work progresses. Never adopt or repair
+  an unmarked existing runtime, overwrite foreign files, or infer ownership from
+  a TEST/TESTER name. Existing authorized headless fixture provisioning remains a
+  separate explicit path; it grants no interactive authority. This receipt does
+  not designate D18 Training purpose or qualify a runtime for replay.
+- Delete requires the matching receipt, exact validated targets and explicit
+  confirmation. This replaces name-based cleanup eligibility. Reopened forms may
+  clean a prior complete or partial generated environment under a newly captured
+  authorized source session. Refuse missing/invalid/ambiguous ownership, paths
+  escaping the captured roots, and any candidate artifact open in Excel; do not
+  close/save borrowed workbooks. Delete only owned allowlisted artifacts and empty
+  owned directories, preserving unknown files and unrelated columns/data. Keep
+  sufficient ownership state for an honest retry after partial failure; remove the
+  receipt only after confirmed cleanup. Never claim rollback or full success for
+  unconfirmed effects. Legacy unmarked environments are not automatically adopted.
+- Setup/deletion results and optional later D18 observations use fixed outcomes.
+  Credentials, entered paths/field values and raw downstream reports are excluded
+  from activity and logs. Ordinary read/inspection performs no provisioning, repair
+  or save. Preserve accepted Create/Seed/Receiving workflows and captured sources.
+
+Approval authorizes D13 implementation, not acceptance. Expand packaged RED for
+Setup, direct Core refusal, source-vs-destination authority, post-confirmation and
+mid-operation context loss, empty/owned/foreign targets, partial/reopened cleanup,
+open/dirty files, exact containment, unknown-file preservation and logging redaction.
+Retain authorized provisioning, Cancel and independent owner-result evidence;
+require focused GREEN and applicable regression gates before D18 recording coverage.
+No product change, new control ID or4be-A acceptance is authorized by this proposal.
 
 ---
 ### D9 -- Operator Read Models and Refresh Contract (R1 Locked)
