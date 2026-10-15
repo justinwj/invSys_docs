@@ -1,6 +1,17 @@
 # invSys Form Controls v1
 
-**Version:** 1.617 -- Aggregation recording RED52/52; catalog43 implementation awaits GREEN.
+**Version:** 1.618 -- Catalog43 recording GREEN interrupted by actual error5; duplicate ratchet remains open.
+
+**Current stop,2026-10-15 Pacific:** recording candidate01/source857d250a ends
+71 PASS/1 stop-related harness failure after actual error5 at19:24:50.1946379Z
+(12:24:50 Pacific). All71 retain the exact RED prefix. Five compiles, pins/settings/
+cleanup and clean native/owned closure pass through19:25:18.2119683Z; Excel is closed.
+This is not GREEN104 or catalog43 acceptance. Build closure also passes through
+19:21:21.2063645Z. Source-only static9/45 calls and size caps hold, but duplicates
+increase194->195 (`modAggregationActivityCodes.ControlIds` / Tester ControlIds);
+full maintenance generation is incomplete. No exception, bypass or further runtime
+dispatch occurs. Recording/guides/regressions/static and4be-A/B0 remain open.
+Handoff185 records the unchanged-candidate rerun after user resume.
 
 **Aggregation recording contract,2026-10-15 Pacific:** actual Ribbon/form RED
 on unchanged owner-09 completes52 PASS/52 expected FAIL, with authorized exact

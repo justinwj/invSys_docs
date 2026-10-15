@@ -4,6 +4,18 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Current error5 stop,2026-10-15 Pacific:** catalog43 recording candidate01,
+source857d250a, ends71 PASS/1 desktop-stop harness failure at19:24:50.1946379Z
+(12:24:50 Pacific). All71 retain the exact RED prefix; whole GREEN104 and the
+new candidate's successful persisted aggregate are unqualified. Five compiles,
+settings/pins/cleanup and clean native/owned closure pass through19:25:18.2119683Z,
+with Excel closed; build closure passes through19:21:21.2063645Z. No bypass or new
+runtime dispatch follows. Source-only static reports keep9/45 dynamic calls and
+size caps, but add one normalized ControlIds duplicate (194->195); no exception
+is accepted, and complete maintenance generation remains pending. Owner-09's447
+checks keep their source45336d88 scope. Recording/guides, relevant regressions,
+static and4be-A/B0 remain open. Handoff185 gives the unchanged-candidate rerun.
+
 **Aggregation D18 recording entry,2026-10-15 Pacific:** test3af831b1 on unchanged
 owner-09 gives52 PASS/52 expected FAIL over104 checks. Actual callback/form output
 is independently exact; missing definitions/activity are meaningful RED. Global/
