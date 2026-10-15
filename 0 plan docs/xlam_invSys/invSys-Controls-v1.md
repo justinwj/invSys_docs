@@ -1,6 +1,18 @@
 # invSys Form Controls v1
 
-**Version:** 1.625 -- Aggregation independent guide135 and cold/source gates pass; regressions remain.
+**Version:** 1.626 -- Aggregation four regression groups qualify; remaining groups resume after error5.
+
+**Current Aggregation regression checkpoint,2026-10-15 Pacific:** recording02/
+source1c9bff87 qualifies path88/Ownership60/Completion60/Restart14 (199 distinct),
+with identical five-package/all484 tooling pins and preserved normal closure through
+21:31:00.3298002Z. NamedReturns94 stops40/1 on actual error5 at21:37:15.1398023Z;
+its40 passing checks retain the earlier57-check prefix. Clean preserved closure
+passes through21:37:43.2865463Z. No whole GREEN or product RED is claimed. The user
+resumes; passive inspection is clear at21:39:25.8217256Z and pins match. Fresh
+unchanged NamedReturns100/FeedReopen101 run without repeating completed groups.
+Catalog43/186, wording and authority are unchanged. Current B0/shared regressions,
+Release1 fixture conformance and remaining coverage keep4be-A open. Exact evidence
+is in the code Aggregation receipt; no security change or new approval is implied.
 
 **Current Aggregation guide acceptance,2026-10-15 Pacific:** unchanged recording02/
 source1c9bff87 passes135 unique checks with eight reviewed captures. Independent

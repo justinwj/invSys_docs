@@ -4,6 +4,18 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Current Aggregation regression checkpoint,2026-10-15 Pacific:** unchanged
+recording02/source1c9bff87 qualifies path88/Ownership60/Completion60/Restart14,
+199 distinct checks on identical five-package/all484 tooling pins, with normal
+preserved closure through21:31:00.3298002Z. NamedReturns94 stops40/1 on actual
+error5 at21:37:15.1398023Z (14:37:15 Pacific); exact passing prefix retained,
+clean preserved closure through21:37:43.2865463Z. This is partial stop evidence,
+not behavioral RED or complete GREEN. The user resumes; passive inspection is
+clear at21:39:25.8217256Z and frozen pins match. Fresh unchanged NamedReturns100/
+FeedReopen101 run in batch102, retaining the completed groups. No bypass, security
+change or new approval. Current B0/shared regressions, Release1 fixture conformance
+and remaining control coverage keep4be-A open; exact provenance is in the code receipt.
+
 **Current Aggregation guide/cold qualification,2026-10-15 Pacific:** unchanged
 recording02/source1c9bff87 passes independent guide135, with eight reviewed captures.
 Actual independent recordings and saved guide conclusions distinguish successful,
