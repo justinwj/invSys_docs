@@ -4,6 +4,27 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Return-check source correction,2026-10-15 Pacific; runtime GREEN pending:** after
+the50/7 protecting RED, the existing Admin form always rechecks connection returns,
+captures selected paths before dialogs, rechecks confirmation and validates the
+original set at result return. Failed-result feedback preserves verified persistence
+facts while requiring reopening. Core confirmed review distinguishes busy/context
+refusal from cancellation. Only these two product components change; build/test a
+new unpromoted candidate with Excel closed. Approval, catalog42/179, separate
+headless authorization and incomplete4be-A/B0 status remain unchanged.
+
+**Actual named-return RED,2026-10-15 Pacific:** unchanged owner-07 completes50
+PASS/7 expected FAIL with five compiles, all real return-fault preconditions and
+no harness exception. Failed connection, confirmed/cancelled review and failed
+result returns miss reopening feedback; confirmed review falsely reports cancellation
+through the handler and direct Core. Clearing selection at a completed result also
+makes its return check miss a changed source from the set used for saved output.
+Known complete persistence, preserved feed/receipts/sources, fresh review, pins/
+settings/cleanup and normal native/owned closure pass through16:34:05.8110120Z.
+This establishes the previously static hypotheses and a captured-selection gap
+within approved D8. Correct the two existing product components test-first, then
+prove GREEN and the remaining joint-check variants/phases;4be-A/B0 stay open.
+
 **Retained Aggregation matrix qualified,2026-10-15 Pacific:** owner-07 Ownership60
 and authority/path88 pass with preserved pins/settings/cleanup, normal owned and
 Excel closure, and delayed zero native events through16:24:56.4940782Z. Exact

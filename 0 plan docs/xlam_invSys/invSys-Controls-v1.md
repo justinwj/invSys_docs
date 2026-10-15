@@ -1,6 +1,28 @@
 # invSys Form Controls v1
 
-**Version:** 1.599 -- Retained Aggregation matrix218 qualifies all215 earlier assertions; full D8/4be-A acceptance remains open.
+**Version:** 1.601 -- Return-check source correction follows RED50/7; isolated candidate GREEN pending.
+
+**Implemented wording/workflow, runtime acceptance pending,2026-10-15 Pacific:**
+connection failure and success now both reach the joint post-return check. Aggregate
+retains its original selected paths through confirmations/results; either review
+answer rechecks before further work. Changed context shows the fixed reopening
+requirement. A failed result retains the owner's verified persistence report and
+adds reopening when necessary; complete saved output remains acknowledged. Confirmed
+Core review distinguishes busy/context refusal from genuine cancellation. The50/7
+RED protects this two-component correction; build/compile/focused GREEN and remaining
+variants/phases/regressions are pending. Catalog42/179 and permissions are unchanged.
+
+**Current return-boundary RED,2026-10-15 Pacific:** owner-07 completes50 PASS/7
+expected FAIL through actual form handlers, with no harness exception. Failed
+connection, confirmed/cancelled review and failed-result returns omit required
+reopening feedback; confirmed review falsely reports cancellation, including through
+direct Core. Clearing selection during a completed result makes the return check
+miss a changed source from the original set. Known complete output remains verified;
+refused feed writes, exact retry receipts and source bytes are preserved. Compiles,
+pins/settings/cleanup and clean native/owned closure pass through16:34:05.8110120Z.
+The existing approved D8 contract governs correction; no new permission, recording
+ID, replay adapter or architecture decision is added. GREEN, remaining variants/
+phases, recording/guidance and comprehensive4be-A/B0 remain open.
 
 **Current retained-matrix acceptance,2026-10-15 Pacific:** frozen owner-07 passes
 Ownership60 and authority/path88 with preserved settings/pins/cleanup, normal owned
