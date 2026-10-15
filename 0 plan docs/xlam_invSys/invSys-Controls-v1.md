@@ -1,13 +1,20 @@
 # invSys Form Controls v1
 
-**Version:** 1.609 -- Core capture correction follows feed-reopen RED21/8; owner-09 GREEN pending.
+**Version:** 1.611 -- Owner-09 GREEN29, cold compile and static gates pass; full matrices and4be-A acceptance remain open.
 
-**Implemented workflow, runtime acceptance pending,2026-10-15 Pacific:** an
+**Focused workflow acceptance,2026-10-15 Pacific:** owner-09 source45336d88 passes
+29/29 with exact RED21/8 name/order retention and all481 tooling pins unchanged.
+Old captures remain refused after setting restoration in the same session; fresh
+captures persist exact selected output. Compiles, preservation, settings/pins/cleanup
+and normal native/owned closure pass through17:39:54.1534626Z. Static05 also passes
+all caps/duplicate/dynamic-call ratchets. An
 observed untrusted feed now consumes that Core aggregation capture. Restoring saved
 settings keeps the old form refused; reopening creates current authorized context.
 Only `modAggregationAuthority.Check` changes after21/8 RED. Global sessions, shared
 store, receipt ownership, source inventory and separate headless authorization stay
-unchanged. Fresh owner-09 compile/focused GREEN and relevant gates remain required;
+unchanged. Cold-start Operations/five compiles and clean preserved closure pass through
+17:41:36.1395087Z; compiled comparison changes only Core Authority among358 components.
+Current full matrices and relevant regressions remain required;
 earlier owner-08 qualification retains its scope. Catalog42/179 is unchanged.
 
 **Current reopened-feed RED,2026-10-15 Pacific:** both actual connection-return

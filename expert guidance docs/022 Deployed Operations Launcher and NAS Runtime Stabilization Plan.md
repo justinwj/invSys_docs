@@ -4,12 +4,21 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Core capture source correction,2026-10-15 Pacific; GREEN pending:** following
-the21/8 protecting RED, only `modAggregationAuthority.Check` now consumes an existing
+**Observed-feed reopening GREEN29,2026-10-15 Pacific:** source45336d88 in unpromoted
+owner-09 passes29/29, retaining every RED21/8 name/order and all481 tooling pins.
+Both old captures remain refused after restored settings in the same session;
+fresh captures persist exact output. Compiles, source/output preservation, pins/
+settings/cleanup and normal native/owned closure pass through17:39:54.1534626Z.
+Static05 retains365/6553,194 duplicates,9/45 dynamic calls and size caps, with only
+the intended Authority component changed from12b39790. Following protecting RED,
+`modAggregationAuthority.Check` now consumes an existing
 capture when the saved feed is untrusted. Restoring Config cannot revive it; reopen
 for fresh authorized capture. Global sessions, source inventory, receipt ownership,
-shared store and headless authorization are unchanged. Build/test fresh owner-09
-with Excel closed; earlier owner-08 gates retain their scopes. This implements the
+shared store and headless authorization are unchanged. Cold-start Operations and five
+compiles pass with clean preserved closure through17:41:36.1395087Z. Compiled comparison
+of358 components changes only Core Authority from08, preserving string-literal checks.
+Current-candidate full matrices and relevant regressions remain required; earlier owner-08 gates retain
+their scopes. This implements the
 already approved reopening rule and requires no new proposal.
 
 **Observed-feed reopening RED,2026-10-15 Pacific:** unchanged owner-08 completes21
