@@ -1,6 +1,31 @@
 # invSys Form Controls v1
 
-**Version:** 1.616 -- Owner-09 qualifies all ten joint-revalidation matrices; D18 recording RED begins.
+**Version:** 1.617 -- Aggregation recording RED52/52; catalog43 implementation awaits GREEN.
+
+**Aggregation recording contract,2026-10-15 Pacific:** actual Ribbon/form RED
+on unchanged owner-09 completes52 PASS/52 expected FAIL, with authorized exact
+persisted output and all preservation/compile/native closure gates passing through
+19:15:22.0736922Z. Catalog43/186 is implemented but unqualified: source-bound
+redacted pairs use the existing observer, programmatic loading/smoke stays excluded,
+and optional recording cannot block authorized aggregation. Complete/stopped and
+indeterminate persistence remain explicit; no rollback or inventory application is
+inferred. Form geometry and button captions are unchanged. Pending controls:
+
+| ControlId suffix (`ADMIN_AGGREGATION_`) | Actual control/action | Positive owner fact |
+| --- | --- | --- |
+| OPEN | `btnAdminHqAggregator` / actual callback presentation | OPENED |
+| REFRESH | `btnDiscover` | DISCOVERED; review READY/rejected sources |
+| ADD_SERVER | `btnAddServer` | STAGED; connection entry focused |
+| CONNECT | `btnConnect` | CONNECTED; Windows result only, operator-required for R1 replay |
+| SELECT_SOURCE | deliberate `lstSources` click | SELECTED; session-only selection |
+| AGGREGATE | `btnAggregate` | COMPLETED; explicit owner-confirmed saved advisory output |
+| CLOSE | Close button or window close | CLOSED |
+
+AGGREGATE also supports REJECTED/DENIED/FAILED/CANCELLED/INDETERMINATE/
+COMPLETED_STOPPED without a positive completion conclusion. User feedback retains
+known persistence and reopening; connection failure uses fixed wording and clears
+transient credentials. Prior catalog42/179 definitions remain supported. GREEN,
+guides, relevant regression/static and4be-A/B0 acceptance remain required.
 
 **Current matrix qualification,2026-10-15 Pacific:** all ten owner-09 return/phase
 groups pass with447 distinct assertions on identical packages/all481 tooling pins.

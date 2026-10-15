@@ -4,6 +4,17 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Aggregation D18 recording entry,2026-10-15 Pacific:** test3af831b1 on unchanged
+owner-09 gives52 PASS/52 expected FAIL over104 checks. Actual callback/form output
+is independently exact; missing definitions/activity are meaningful RED. Global/
+control/user suppression, source preservation, five compiles,483 tooling/package
+pins and clean native/owned closure pass through19:15:22.0736922Z. Optional-store
+adapters are unreached because activity is absent; no fault-handling causality is
+claimed. Catalog43 adds seven source-bound redacted observations with explicit
+owner outcomes, programmatic loading exclusions and joint checks after optional
+notices. Runtime GREEN, guidance, relevant regressions/static and4be-A/B0 remain
+required. This follows approved D18 and adds no replay authority or deployment.
+
 **Current owner-09 matrix qualification,2026-10-15 Pacific:** all ten named
 return/phase groups pass, retaining447 distinct assertions on identical packages/
 all481 tooling pins. Both connections45 each, confirmed review72, cancelled review62,
