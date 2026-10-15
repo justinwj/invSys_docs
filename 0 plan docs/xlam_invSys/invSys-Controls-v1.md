@@ -1,6 +1,17 @@
 # invSys Form Controls v1
 
-**Version:** 1.633 -- Current shared Settings202, Receiving121 and Tester127 qualified.
+**Version:** 1.634 -- Shared recording80, Settings202, Receiving121 and Tester127 qualified.
+
+**Current shared lifecycle regression,2026-10-15 Pacific:** source1c9bff87/
+recording02 passes80/80 with two original-size reviewed captures. Package/all484
+tooling/settings/fixture preservation and normal owned closure pass through
+23:44:34.0908423Z, with zero delayed Excel failures or desktop stops. Initial99's
+option refusal is before Excel, not product RED; fresh112 explicitly supplies the
+already implied published-read flag. Tester127/Settings202/Receiving121 stand.
+The Add/Edit Inventory Ribbon/modal diagnostic is prepared against unchanged
+product source; its ROW/context source findings are not native persistence proof.
+No new recording ID, product correction, architecture approval or deployment.
+Release1 fixture conformance and remaining coverage keep4be-A open.
 
 **Current Settings regression,2026-10-15 Pacific:** unchanged recording02/source
 1c9bff87 passes202/202 with ten captures reviewed at original size, including
