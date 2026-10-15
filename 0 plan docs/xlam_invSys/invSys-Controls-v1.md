@@ -1,6 +1,17 @@
 # invSys Form Controls v1
 
-**Version:** 1.631 -- Current Tester guidance127 qualified; B0 cleanup proof prepared.
+**Version:** 1.632 -- Current Receiving packaged121 and Tester guidance127 qualified.
+
+**Current Receiving technical gate,2026-10-15 Pacific:** unchanged recording02/
+source1c9bff87 trial108 passes121/121, retaining all prior behavior-check names/order.
+All15 published captures are reviewed at original size. The owning parent removes
+its exact fixture after unforced worker/Excel exit; settings/package/template/all484
+tooling preservation, original taskbar restoration and original owned closure
+receipts pass. Zero delayed Excel failures qualify through23:15:41.5845891Z, with
+no desktop stop. Older107 remains121/1. This qualifies the current packaged/early-B0
+technical gate; comprehensive B0/4be-A and human acceptance remain open. Tester127
+stands, Settings is running and lifecycle is prepared. Release1 fixture conformance
+and uncovered controls remain required; exact evidence is in the code receipts.
 
 **Current Tester regression,2026-10-15 Pacific:** unchanged recording02/source
 1c9bff87 passes127/127 with eight reviewed captures. Independent completed,
