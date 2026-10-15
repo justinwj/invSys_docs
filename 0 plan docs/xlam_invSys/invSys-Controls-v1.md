@@ -1,6 +1,15 @@
 # invSys Form Controls v1
 
-**Version:** 1.595 -- Owner-07 Tester guide127 GREEN; composite444 retained checks qualify its regression; remaining4be-A gates stay open.
+**Version:** 1.596 -- Owner-07 retry restart14 GREEN; Tester444 qualified; full boundary/path and remaining4be-A gates stay open.
+
+**Current retry acceptance,2026-10-14 Pacific:** owner-07 passes14/14 after actual
+disposable add-in unload/reload. Durable pending evidence survives fresh Core state;
+reopened form auto-promotion refuses, feed/source bytes remain preserved and native
+closure/preservation pass through2026-10-15T04:31:27.6552742Z. This is add-in restart,
+not machine/Excel-crash proof. All19 broader boundary cases retain their assertions
+and default order under grouped selection; full composite name-level retention is
+pending. Catalog42/179, product source, GREEN60/static03 and qualified Tester444
+remain unchanged. Aggregation recording/guidance and4be-A/B0 remain open.
 
 **Current scoped acceptance,2026-10-14 Pacific:** focused Tester guide127/127
 passes on owner-07, with eight readable reviewed captures and clean preserved

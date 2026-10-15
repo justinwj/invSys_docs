@@ -4,6 +4,16 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Aggregation retry restart GREEN,2026-10-14 Pacific:** owner-07 passes14/14 after
+actual disposable five-add-in unload/reload. Pending evidence survives fresh Core
+state; the reopened form cannot auto-promote an unresolved attempt, and feed/source
+bytes remain preserved. Five compiles, settings/pins/owned cleanup, normal Excel/
+wrapper closure and zero delayed native events pass through04:31:27.6552742Z.
+This proves add-in restart only. Broader boundary/path verification runs through
+unchanged assertions grouped as Inspection5/Write8/Ownership6 plus authority/path;
+all19 default cases retain exact order. Full name-level retention is required before
+broad GREEN. Product source, GREEN60/static03 and qualified Tester444 stand.
+
 **Current scoped GREEN,2026-10-14 Pacific:** focused owner-07 Tester guide127/127
 passes with eight reviewed captures. Five compiles, settings/package/tooling pins,
 owned cleanup, normal Excel and owned wrapper closure pass; delayed native events
