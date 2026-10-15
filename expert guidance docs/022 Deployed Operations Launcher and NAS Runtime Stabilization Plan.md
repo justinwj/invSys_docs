@@ -5,10 +5,10 @@
 ## Slice 4be -- recording/guidance and replay/proof
 
 **Current owner-09 matrix checkpoint,2026-10-15 Pacific:** both full connection
-returns pass45/45, confirmed review72/72, cancelled review62/62 and failed result57/57,
-with257 distinct assertions on
+returns pass45/45, confirmed review72/72, cancelled review62/62, failed result57/57
+and completed result37/37, with288 distinct assertions on
 identical packages/all481 tooling pins. Compiles, source preservation, settings/
-cleanup and clean native/owned closure pass through18:26:15.9872053Z. The sequential
+cleanup and clean native/owned closure pass through18:33:49.1540868Z. The sequential
 controller's first provenance-parser stop preserves a passing trial; corrected
 orchestration resumes only unrun groups. This is not behavioral RED or a desktop
 stop. Remaining full result/phase variants, relevant regressions and
