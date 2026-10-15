@@ -1,6 +1,27 @@
 # invSys Form Controls v1
 
-**Version:** 1.622 -- Candidate02 static ratchets qualify; full recording/guides and broader gates remain open.
+**Version:** 1.624 -- Recording125/static stand; corrected independent guide stops on actual error5.
+
+**Current stop,2026-10-15 Pacific:** corrected guide trial87 on recording02/
+source1c9bff87 ends7 PASS/1 desktop-stop harness failure after actual error5 at
+20:23:20.1669715Z (13:23:20 Pacific). Only compiles, fixture and actual Start pass;
+no guide/output/conclusion or images qualify. Pins/settings/owned cleanup and
+normal native/owned closure pass through20:24:09.5596802Z; Excel is closed. No
+bypass or new runtime dispatch follows. Qualified recording104/outcome27 retain125
+distinct checks; full static194 duplicates/9/45 calls and caps stand. Cold/source
+comparison, current relevant regressions/guidance/control coverage and4be-A/B0
+remain open. Handoff186 records the unchanged-candidate guide continuation.
+
+**Final-candidate recording qualification,2026-10-15 Pacific:** recording02/
+source1c9bff87 passes104/104, retaining every RED assertion/order. Exact same-package/
+484-tooling retention with outcome27 proves125 distinct checks. All controls,
+redaction/context, exact persisted output, suppression/store faults and preserved
+normal native/owned closure pass through20:15:46.4874456Z. Guide7/1 is an explicit
+short-path reader harness failure, with clean closure through20:18:13.7730381Z;
+no product RED or guide GREEN. Test549c1d79 fixes the full-path read and adapts the
+new optional notice in non-recording regressions, preserving product/assertions.
+Corrected independent guidance, cold/source comparison, relevant regressions and
+4be-A/B0 remain open. No desktop stop or promotion.
 
 **Static qualification,2026-10-15 Pacific:** complete maintenance generation and
 ratchet verification pass for source1c9bff87:366 components/6559 procedures/142380

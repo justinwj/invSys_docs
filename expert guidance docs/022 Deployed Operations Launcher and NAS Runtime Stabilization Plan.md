@@ -4,6 +4,27 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Current error5 stop,2026-10-15 Pacific:** corrected independent guide trial87
+on recording02/source1c9bff87 ends7 PASS/1 desktop-stop harness failure at
+20:23:20.1669715Z (13:23:20 Pacific). Compiles/fixture/actual Start pass; complete
+guide, saved output/conclusions and images remain unqualified. Settings/pins/
+cleanup and normal native/owned closure pass through20:24:09.5596802Z; Excel is
+closed. No bypass or further runtime dispatch. Qualified recording104/outcome27
+retain125 distinct checks and full static ratchets stand (194 duplicates,9/45
+calls/caps). Cold/source comparison, current relevant regressions, complete
+guidance/control coverage and4be-A/B0 remain open; Handoff186 gives continuation.
+
+**Aggregation final recording qualification,2026-10-15 Pacific:** candidate02/
+source1c9bff87 passes104/104, preserving all original RED names/order. Identical
+packages/all484 tooling with outcome27 retain125 distinct passing checks. Actual
+controls, exact output, source preservation, suppression/store faults and clean
+preserved native/owned closure pass through20:15:46.4874456Z. First guide7/1 is a
+FileInfo short-path harness failure after actual Start, with clean closure through
+20:18:13.7730381Z; no behavioral RED or guide acceptance. Test549c1d79 corrects its
+FullName/LiteralPath read and adapts optional notices only for non-recording
+regressions. No product/assertion change. Fresh guide trial87 runs; cold/source
+comparison, relevant regressions, independent guidance and4be-A/B0 remain open.
+
 **Aggregation static qualification,2026-10-15 Pacific:** full source1c9bff87
 maintenance generation and reproducible ratchets pass:366/6559/142380,194 duplicate
 groups,9/45 dynamic calls, no old oversized growth and new maxima213/83 against
