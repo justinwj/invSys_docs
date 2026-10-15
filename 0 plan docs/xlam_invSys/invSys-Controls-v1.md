@@ -1,8 +1,25 @@
 # invSys Form Controls v1
 
-**Version:** 1.593 -- Actual desktop error5 stop; Tester continuation251/1 is incomplete; owner-07 GREEN60 retained.
+**Version:** 1.595 -- Owner-07 Tester guide127 GREEN; composite444 retained checks qualify its regression; remaining4be-A gates stay open.
 
-**Current stop,2026-10-14 19:58:24 Pacific:** the passive monitor observes actual
+**Current scoped acceptance,2026-10-14 Pacific:** focused Tester guide127/127
+passes on owner-07, with eight readable reviewed captures and clean preserved
+native closure through2026-10-15T04:25:31.7165189Z. Retention proves444 distinct
+owner/recording/guide checks on identical five-package hashes, including all88
+earlier passing guide checks. Both interrupted runs keep their original partial
+status. This qualifies the shared-store Tester regression. Catalog42/179 and
+product source are unchanged; Aggregation GREEN60/static03 stand. Broader owner-07
+boundary/path/retry/regression gates, Aggregation recording/guidance and4be-A/B0
+remain open. No package promotion or replay eligibility is claimed.
+
+**Continuation,2026-10-14 21:04 Pacific:** passive desktop access succeeds
+with no screensaver or Excel process. Existing GuideOnly verification runs on
+unchanged owner-07, retaining earlier passing owner/recording boundaries as scoped
+evidence. The selector changes test scope only, not a product control contract;
+no new acceptance result is claimed yet. Actual error5, lockscreen and mouse-lock
+stop guards remain; no security/OLED setting was changed.
+
+**Previous stop,2026-10-14 19:58:24 Pacific:** the passive monitor observes actual
 Win32 error5 after informational inactive input, with Other desktop and screensaver
 running. Tester continuation ends251 PASS/1 stop-related harness failure. All four
 recordings/publication and successful guide views pass; interrupted/unconfirmed

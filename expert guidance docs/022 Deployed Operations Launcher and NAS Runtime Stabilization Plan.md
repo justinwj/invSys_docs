@@ -4,7 +4,26 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current error5 stop,2026-10-14 19:58:24 Pacific:** inactive input was informational,
+**Current scoped GREEN,2026-10-14 Pacific:** focused owner-07 Tester guide127/127
+passes with eight reviewed captures. Five compiles, settings/package/tooling pins,
+owned cleanup, normal Excel and owned wrapper closure pass; delayed native events
+are zero through2026-10-15T04:25:31.7165189Z. Reproducible retention proves444
+distinct owner/recording/guide checks on identical five-package hashes, with all88
+earlier passing guide checks retained. Earlier355/1 and251/1 runs remain partial.
+This qualifies the shared-store Tester regression, not Aggregation or4be-A.
+Source remains unchanged; Aggregation GREEN60/static03 stand. Broader boundary/
+path, actual retry restart, relevant regressions, Aggregation recording/guidance
+and4be-A/B0 remain open. See the exact Tester receipt and ignored retention proof.
+
+**Continuation,2026-10-14 21:04 Pacific:** under the resumed goal, a single
+passive check finds Default desktop, available input, no running screensaver,
+no native error and no Excel process. No protection setting changes. The focused
+Tester GuideOnly selector runs existing fresh-recording, publication and guide
+assertions on frozen owner-07; prior passing owner/recording boundaries retain
+their scope. This is a harness selection change, not a product contract or new
+acceptance claim. Actual error5, lockscreen and mouse-lock stop guards remain.
+
+**Previous error5 stop,2026-10-14 19:58:24 Pacific:** inactive input was informational,
 but the passive monitor then observed actual Win32 error5 at
 2026-10-15T02:58:24.8356015Z, with Other desktop and running screensaver. The Tester
 recording/guide continuation ends251 PASS/1 stop-related harness failure. Four
