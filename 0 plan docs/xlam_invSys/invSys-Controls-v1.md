@@ -1,6 +1,15 @@
 # invSys Form Controls v1
 
-**Version:** 1.606 -- Both full connection-return matrices GREEN45; review/result/phase variants and4be-A acceptance remain open.
+**Version:** 1.607 -- Full confirmed-review GREEN72; restored-feed follow-up and remaining variants/4be-A acceptance stay open.
+
+**Current confirmed-review qualification,2026-10-15 Pacific:** owner-08 passes72/72
+for changed/missing source, changed feed, sign-out and saved-rights loss at the actual
+confirmation return. Handler/direct Core require reopening without false cancellation;
+feed bytes/exact retry receipts survive, with no writer and successful fresh review.
+Compiles, preservation and clean native/owned closure pass through17:19:41.4146381Z.
+Three full groups retain150 distinct checks on identical packages/tooling. Restored-
+feed capture follow-up, cancelled-review/result/phase variants and broader4be-A/B0
+remain open. Catalog42/179 and source12b39790 are unchanged.
 
 **Current connection qualification,2026-10-15 Pacific:** owner-08 passes45/45 each
 for actual failed/successful connection returns. Ordinary controls stay usable;
