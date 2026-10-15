@@ -1,13 +1,14 @@
 # invSys Form Controls v1
 
-**Version:** 1.612 -- Owner-09 full connection45/45 and confirmed-review72 qualify; remaining matrices/4be-A stay open.
+**Version:** 1.614 -- Owner-09 failed-result57 joins current full matrices; completed-result/phase gates stay open.
 
 **Current matrix qualification,2026-10-15 Pacific:** owner-09 full failed/successful
-connection returns each pass45/45 and confirmed review72/72. Same-package/tooling
-retention proves150 distinct checks; compiles, source preservation, settings/pins/
-cleanup and clean native/owned closure pass through18:09:51.1457436Z. Corrected
+connection returns each pass45/45, confirmed review72/72, cancelled review62/62 and
+failed result57/57. Same-package/tooling retention proves257 distinct checks;
+compiles, source preservation, settings/pins/cleanup and clean native/owned closure
+pass through18:26:15.9872053Z. Corrected
 sequence orchestration preserves its earlier passing trial and runs only remaining
-groups. Full cancelled-review/result/phase variants and broader4be-A/B0 remain
+groups. Full result/phase variants and broader4be-A/B0 remain
 required. Catalog42/179 and source45336d88 are unchanged.
 
 **Focused workflow acceptance,2026-10-15 Pacific:** owner-09 source45336d88 passes
