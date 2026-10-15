@@ -1,13 +1,22 @@
 # invSys Form Controls v1
 
-**Version:** 1.591 -- Owner-07 GREEN60 retained; Tester355/1 stopped for inactive input; broader gates and recording/guidance pending.
+**Version:** 1.592 -- Inactive-input continuation authorized; owner-07 GREEN60 retained; remaining gates pending.
 
-**User-required stop,2026-10-14 18:50:59 Pacific:** inactive input is observed
+**Execution-policy clarification,2026-10-14 Pacific:** the user permits work to
+continue while input is inactive or the screensaver runs, if it still functions.
+Actual error5 and mouse lock require stopping without bypassing security; OLED
+protection remains unchanged. The prior inactive-input stop was the agent's
+conservative interpretation, not an explicit user instruction or proof of Windows
+lock. The isolated Tester recording/guide continuation uses unchanged owner-07.
+This corrects the session policy record and changes no product control contract;
+D13 RED does not apply. No new acceptance result is claimed by the clarification.
+
+**Historical stop,2026-10-14 18:50:59 Pacific:** inactive input is observed
 with Other desktop and screensaver running, zero error5/mouse-lock counts. This is
 not proof of Windows lock or exact cause. Owner-07 GREEN60 and static ratchets stand;
 Tester355 PASS/1 stop-related harness failure retains a passing164 owner prefix
 but does not complete its recording/guide tail. Cleanup/preservation and delayed
-native audit pass. No more automation until the user resumes. No new catalog ID,
+native audit pass. The user has now resumed under the conditions above. No new catalog ID,
 package promotion, D8-AGG-01 completion or4be-A acceptance is claimed. Handoff182
 contains exact remaining actions; approval of D8-AGG-01 is unchanged.
 

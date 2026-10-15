@@ -4,15 +4,25 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Stopped by the user's input-desktop rule,2026-10-14 18:50:59 Pacific:** the
+**Resumed with clarified stop conditions,2026-10-14 Pacific:** the user permits
+continued work while input is inactive or the screensaver runs if the work still
+functions. Stop for actual error5 or mouse lock; do not bypass security or change
+OLED protection. Inactivity alone does not establish a Windows lock. The earlier
+stop was the agent's conservative interpretation, not an explicit inactive-input
+stop instruction. The isolated Tester recording/guide continuation runs against
+unchanged owner-07, with inactivity recorded separately. No new architecture
+approval or product contract change is implied; D13 does not apply to this policy
+record correction. All remaining acceptance gates stay open until verified.
+
+**Historical inactive-input stop,2026-10-14 18:50:59 Pacific:** the
 passive monitor records inactive input, Other desktop and running screensaver,
 zero error5/mouse-lock/other failures. Windows lock and exact causality are not
 established. Owner-07 integrity/completion GREEN60 and static ratchets stand.
 Tester regression355 PASS/1 stop-related harness failure is incomplete; its164
 owner prefix passes, interrupted recording/guide tail remains open. Pins/settings/
 owned cleanup, normal Excel closure and zero delayed events pass through
-2026-10-15T01:51:41.4885938Z. No more automation, build or deployment starts;
-resume only on the user's direction after input revalidation. D8-AGG-01 approval
+2026-10-15T01:51:41.4885938Z. Automation was paused until the user resumed under
+the clarified conditions above. D8-AGG-01 approval
 stands; no new approval is needed for that contract. Handoff182 records continuation.
 
 **Current scoped GREEN,2026-10-14 Pacific:** owner-07 passes60/60 actual-handler
