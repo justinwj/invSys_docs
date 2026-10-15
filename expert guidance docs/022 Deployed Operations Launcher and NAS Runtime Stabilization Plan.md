@@ -4,6 +4,18 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Current Aggregation guide/cold qualification,2026-10-15 Pacific:** unchanged
+recording02/source1c9bff87 passes independent guide135, with eight reviewed captures.
+Actual independent recordings and saved guide conclusions distinguish successful,
+Incomplete and Failed outcomes; reader authoring refuses and all three views
+preserve evidence. Pins/settings/cleanup and normal native/owned closure pass
+through20:51:56.8313608Z. All five projects cold-compile;359 components preserve all
+prior358 with exactly seven intended source additions/changes, clean closure through
+20:53:08.0573248Z. Exact provenance is in the code Aggregation receipt. Current six-
+group D8 regressions run next; shared-store/Release1 regressions, remaining control
+coverage and current Receiving B0 keep4be-A open. Earlier stop records retain their
+scope. No product/assertion change, new approval or current/NAS promotion occurs.
+
 **Current Release1 regression fixture limitation,2026-10-15 Pacific:** source
 inspection finds that `validate_phase6_live_role_workflows.ps1.New-InventoryWorkbook`
 writes synthetic canonical create/applied rows with fixed SKU-indexed SYS-LIVE keys;

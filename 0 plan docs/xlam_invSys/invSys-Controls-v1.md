@@ -1,6 +1,19 @@
 # invSys Form Controls v1
 
-**Version:** 1.624 -- Recording125/static stand; corrected independent guide stops on actual error5.
+**Version:** 1.625 -- Aggregation independent guide135 and cold/source gates pass; regressions remain.
+
+**Current Aggregation guide acceptance,2026-10-15 Pacific:** unchanged recording02/
+source1c9bff87 passes135 unique checks with eight reviewed captures. Independent
+successful actions match both authored steps; interrupted recording stays Incomplete
+and a refused second action stays Failed/unmatched. Source success is not borrowed.
+Reader authoring refuses. Diagnostic, How-To and Compare both preserve the same
+evidence and show readable instructions/results. Exact saved output and unchanged
+sources pass. Pins/settings/cleanup and normal native/owned closure qualify through
+20:51:56.8313608Z. Cold Operations start/all five compiles and exact seven-component
+source delta pass through20:53:08.0573248Z. Catalog43/186 and authority are unchanged.
+The code Aggregation receipt names exact controller/worker evidence. Six-group
+current D8 regressions are running; shared-store/Release1, remaining coverage and
+current Receiving B0 keep4be-A open. Earlier stopped trials retain their limits.
 
 **Current stop,2026-10-15 Pacific:** corrected guide trial87 on recording02/
 source1c9bff87 ends7 PASS/1 desktop-stop harness failure after actual error5 at
