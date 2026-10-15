@@ -1,6 +1,27 @@
 # invSys Form Controls v1
 
-**Version:** 1.587 -- Aggregation restart/completion protecting RED complete; approved implementation in progress, GREEN pending.
+**Version:** 1.589 -- Aggregation integrity RED45/14; candidate07 fixes await GREEN; recording/guidance pending.
+
+**Current checkpoint,2026-10-14 Pacific:** the213/2 broader owner-06 gate has clean
+preserved closure; exact-instance follow-up resolves its two closed-workbook
+assertions without product entry-binding changes. Integrity/completion RED45/14
+adds multi-source exactness and confirms eight integrity/feedback gaps documented
+in the code receipt. Candidate07 fixes them and preserves194 duplicate groups,
+9/45 dynamic calls and size limits at the pre-integrity source checkpoint; final
+static and runtime verification remain required. No catalog increment or recording
+ID is added. Existing76/76 authority acceptance remains scoped to owner-06;
+full owner, recording/guidance and4be-A acceptance remain open.
+
+**Scoped authority acceptance,2026-10-14 Pacific:** actual Aggregation Ribbon/form
+passes76/76 on unpromoted owner-06. Normal Admin and switched active workbook save
+exact selected output through the captured original workbook. Stale sign-out/hint,
+Reader, other-warehouse Admin and replacement sessions refuse before the writer;
+sources and unrelated workbook are preserved. Five compiles, settings/pins/owned
+cleanup, normal closure and zero delayed Excel errors pass. Broader phase/source/
+feed/output/retry/path GREEN and recording/guidance remain open; catalog42/179 is
+unchanged. Retry review requires a fresh capture and explicit confirmation; unknown
+output retains bytes and evidence. Those retry behaviors are implemented in the
+candidate and still require their focused GREEN. See the code Aggregation receipt.
 
 **Current Aggregation state,2026-10-14 Pacific:** actual disposable XLAM restart
 RED completes10 PASS/4 FAIL; manual-entry/incomplete-persistence RED completes

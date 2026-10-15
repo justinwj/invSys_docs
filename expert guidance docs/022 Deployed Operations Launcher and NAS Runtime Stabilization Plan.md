@@ -4,6 +4,29 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Aggregation integrity follow-up,2026-10-14 Pacific:** owner-06's broader gate
+finishes213 PASS/2 FAIL, with clean preserved closure; exact-instance follow-up
+resolves its two closed-workbook failures as a default-instance probe artifact.
+The focused integrity/completion gate completes45 PASS/14 FAIL without a harness
+exception. Multi-source exactness and mixed changed-source refusal pass, as do
+manual saved-hint denial and retained/unknown output review. New REDs protect
+orphan rows, numeric-text SKU, external holders, indeterminate overlap, relative
+formulas, saved metadata/provenance and truthful pre-staging refusal. Their fixes
+and the metric-preserving private-store refactor are building in candidate07;
+GREEN, recording/guidance and overall4be-A remain open. Pins/settings/owned cleanup,
+normal closure and zero delayed events pass through2026-10-15T00:53:08.9628746Z.
+See the exact code receipt; there is no new approval or package promotion.
+
+**Scoped Aggregation authority GREEN,2026-10-14 Pacific:** unpromoted owner-06
+passes76/76 actual Ribbon/form checks, including exact persisted output for normal
+Admin and switched active workbook; original binding and source/unrelated workbook
+preservation; pre-writer refusal of sign-out, saved hint, Reader, another warehouse's
+Admin and replacement session; and read-only exact binary hashing. Five compiles,
+pins/settings/owned cleanup and normal closure pass; delayed Excel events are zero
+through23:38:22.7700976Z. The full source/feed/output/failure/path matrix is running.
+Restart/completion GREEN, recording/guidance and overall4be-A remain open. This is
+scoped entry evidence, not D8-AGG-01 completion or package promotion.
+
 **Approved Aggregation implementation entry,2026-10-14 Pacific:** resumed baseline
 restart RED completes10 PASS/4 FAIL after actual disposable XLAM unload/reload;
 completion/manual-entry RED completes10 PASS/6 FAIL, proving signed-out saved-hint
