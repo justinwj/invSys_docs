@@ -1,6 +1,27 @@
 # invSys Form Controls v1
 
-**Version:** 1.626 -- Aggregation four regression groups qualify; remaining groups resume after error5.
+**Version:** 1.628 -- Aggregation273 stands; current Receiving B0 continues after capture-harness refusal.
+
+**Current Receiving B0 checkpoint,2026-10-15 Pacific:** recording02/source1c9bff87
+trial96 ends44 PASS/2 harness exceptions: obscured native capture and child cleanup.
+No product assertion fails. Normal preserved closure passes through21:58:55.9692400Z
+without a desktop stop; five residual startup-probe copies are verified and removed
+after process exit. Failure-only metadata now preserves refusal, single attempt,
+no image and caption redaction in five isolated checks; native capture code and
+product remain unchanged. Full trial103 continues with every check/guard. Current
+B0/4be-A acceptance remains open; the code Receiving receipt gives exact evidence.
+
+**Current six-group Aggregation qualification,2026-10-15 Pacific:** fresh unchanged
+NamedReturns57/FeedReopen29 join path88/Ownership60/Completion60/Restart14, proving
+273 distinct checks with identical five-package/all484 tooling pins. The57 retains
+interrupted94's40 passing checks;94 remains40/1 stop evidence. Normal preserved
+closure and zero delayed native events pass through21:55:07.4471793Z, without a new
+desktop stop. Recording125, independent guide135/eight reviewed captures and cold/
+static gates stand on source1c9bff87. Source/feed restoration requires reopening;
+result returns preserve truthful known-output/receipt state. Catalog43/186 and
+authority are unchanged. Current Receiving B0 is running on byte-identical pinned
+copies/template. Shared regressions, Release1 fixture conformance and remaining
+coverage keep4be-A open; exact provenance is in the code Aggregation receipt.
 
 **Current Aggregation regression checkpoint,2026-10-15 Pacific:** recording02/
 source1c9bff87 qualifies path88/Ownership60/Completion60/Restart14 (199 distinct),

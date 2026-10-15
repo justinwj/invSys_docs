@@ -4,6 +4,28 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Current Receiving B0 harness checkpoint,2026-10-15 Pacific:** recording02/source
+1c9bff87 trial96 ends44 PASS/2 harness exceptions, with no failed product assertion.
+Native capture refuses obscured content after maximized state/control-fit checks;
+the child cleanup leaves five startup-probe copies, removed only after process
+exit and exact disposable-content verification. Preserved normal native/owned
+closure passes through21:58:55.9692400Z; no desktop stop. Read-only failure metadata
+now retains existing IDs/classes/geometry, preserving refusal/no-image/no-retry
+behavior. Five isolated redaction/honesty checks and unchanged native-code proof
+pass. Full unchanged-product trial103 continues with all checks/guards; no product
+RED or current B0 acceptance is claimed. Exact evidence is in the Receiving receipt.
+
+**Current six-group Aggregation qualification,2026-10-15 Pacific:** fresh unchanged
+NamedReturns57/FeedReopen29 join path88/Ownership60/Completion60/Restart14, proving
+273 distinct checks with identical five-package/all484 tooling pins. The57 retains
+every passing interrupted94 check;94 remains40/1 stop evidence. Normal preserved
+closure and zero delayed native events pass through21:55:07.4471793Z, without a new
+desktop stop. Recording125, independent guide135/eight reviewed captures and cold/
+static gates stand on source1c9bff87. Current Receiving B0 runs with byte-identical
+pinned candidate copies/template. Shared regressions, Release1 fixture conformance
+and remaining control coverage keep4be-A open. The code receipt names the exact
+composite verifier; no product change, new approval or current/NAS promotion occurs.
+
 **Current Aggregation regression checkpoint,2026-10-15 Pacific:** unchanged
 recording02/source1c9bff87 qualifies path88/Ownership60/Completion60/Restart14,
 199 distinct checks on identical five-package/all484 tooling pins, with normal
