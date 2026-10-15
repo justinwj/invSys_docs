@@ -1,6 +1,24 @@
 # invSys Form Controls v1
 
-**Version:** 1.607 -- Full confirmed-review GREEN72; restored-feed follow-up and remaining variants/4be-A acceptance stay open.
+**Version:** 1.609 -- Core capture correction follows feed-reopen RED21/8; owner-09 GREEN pending.
+
+**Implemented workflow, runtime acceptance pending,2026-10-15 Pacific:** an
+observed untrusted feed now consumes that Core aggregation capture. Restoring saved
+settings keeps the old form refused; reopening creates current authorized context.
+Only `modAggregationAuthority.Check` changes after21/8 RED. Global sessions, shared
+store, receipt ownership, source inventory and separate headless authorization stay
+unchanged. Fresh owner-09 compile/focused GREEN and relevant gates remain required;
+earlier owner-08 qualification retains its scope. Catalog42/179 is unchanged.
+
+**Current reopened-feed RED,2026-10-15 Pacific:** both actual connection-return
+branches first require reopening after a feed change, but restoring saved Config
+bytes in the same session revives the old capture. Owner-08 gives21 PASS/8 expected
+FAIL: old-capture writer refusal, no completion, preserved feed and reopening fail
+per branch. Fresh-capture exact-output controls and all compiles/preservation/native
+closure pass through17:26:55.9302623Z. The existing approved requirement mandates a
+fresh capture after the observed change; Core correction/GREEN are pending. This is
+not a new authority grant or proposal. Earlier owner-08 gates keep their exact scope;
+Catalog42/179 and incomplete4be-A/B0 remain unchanged.
 
 **Current confirmed-review qualification,2026-10-15 Pacific:** owner-08 passes72/72
 for changed/missing source, changed feed, sign-out and saved-rights loss at the actual

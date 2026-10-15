@@ -4,6 +4,25 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Core capture source correction,2026-10-15 Pacific; GREEN pending:** following
+the21/8 protecting RED, only `modAggregationAuthority.Check` now consumes an existing
+capture when the saved feed is untrusted. Restoring Config cannot revive it; reopen
+for fresh authorized capture. Global sessions, source inventory, receipt ownership,
+shared store and headless authorization are unchanged. Build/test fresh owner-09
+with Excel closed; earlier owner-08 gates retain their scopes. This implements the
+already approved reopening rule and requires no new proposal.
+
+**Observed-feed reopening RED,2026-10-15 Pacific:** unchanged owner-08 completes21
+PASS/8 expected FAIL through both actual connection-return branches. After observing
+a changed trusted feed, restoring only Config bytes in the same live session revives
+the old form capture: it writes, reports completion, changes feed bytes and drops
+reopening feedback. Fresh-capture controls persist the exact selected set. All
+preconditions/compiles, source preservation, settings/pins/cleanup and normal native/
+owned closure pass through17:26:55.9302623Z; no harness exception. This violates the
+already approved requirement to reopen after a changed trusted feed. Make Core keep
+that observed-untrusted capture refused, then prove GREEN on a new candidate. No
+new proposal, permission, headless contract or source inventory behavior is added.
+
 **Full confirmed-review GREEN72,2026-10-15 Pacific:** owner-08 passes72/72 for all
 five source/feed/authority faults at the real confirmation return. Handler/direct
 Core feedback requires reopening without false cancellation, no writer runs, exact
