@@ -4,6 +4,17 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Current shared Tester guide regression,2026-10-15 Pacific:** recording02/source
+1c9bff87 passes127/127 with eight reviewed captures, verified five-package/all484
+tooling pins, preserved settings/fixtures and normal native/owned closure through
+22:57:36.4777226Z. No desktop stop or Excel failure event. The launcher observation
+ends143 while its separately launched runner finishes with original orchestration
+exit codes0; the native gate is complete. B0's saved-copy fixture now supports
+parent-owned cleanup after worker/Excel exit, retaining existing guarded path
+validation. Four refusal checks pass; the complete121 rerun is prepared. No product
+contract change or new approval. Settings/lifecycle, Release1 fixture conformance
+and remaining coverage keep4be-A open; code receipts give exact provenance.
+
 **Current Receiving behavior result,2026-10-15 Pacific:** trial107 on unchanged
 recording02/source1c9bff87 completes121 passing checks and one child-cleanup
 harness failure, with15 directly reviewed images and unchanged package/template/

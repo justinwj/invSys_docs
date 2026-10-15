@@ -1,6 +1,16 @@
 # invSys Form Controls v1
 
-**Version:** 1.630 -- Current B0 behavior121 passes; cleanup qualification remains open.
+**Version:** 1.631 -- Current Tester guidance127 qualified; B0 cleanup proof prepared.
+
+**Current Tester regression,2026-10-15 Pacific:** unchanged recording02/source
+1c9bff87 passes127/127 with eight reviewed captures. Independent completed,
+interrupted and unconfirmed conclusions remain honest across all three views.
+Package/all484 tooling pins, settings and owned cleanup pass; normal closure and
+zero delayed Excel failures qualify through22:57:36.4777226Z. No desktop stop.
+The separately launched runner completes with original orchestration exit codes0
+despite launcher observation143. B0 parent-owned cleanup has four passing entry
+refusal guards; full121 rerun is prepared, not qualified. No product behavior,
+catalog or authorization change. Current B0/4be-A remain open; see code receipts.
 
 **Current B0 result,2026-10-15 Pacific:** unchanged recording02/source1c9bff87
 trial107 completes121 passing checks and one disposable-cleanup harness failure.
