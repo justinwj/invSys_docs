@@ -4,6 +4,16 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**D13 phase proof returns to RED,2026-10-15 Pacific:** the equivalent isolated seam
+on disposable owner-08 copies gives24 PASS/8 expected FAIL, with all compile/seam/
+fault preconditions and no harness exception. Removing repeated freshness checks
+allows signed-out pre/post-save feed mutation and removes retry evidence at all
+three save/promotion returns. After-promotion complete output remains independently
+verified and acknowledged; Boolean refusal does not prove preserved feed/receipts.
+Pins/settings/cleanup and normal native/owned closure pass through16:56:25.0524654Z.
+This is a RED-only test seam, not a real owner-08 defect or product change. Restore
+the real checks for GREEN, then cover full joint-check variants and remaining gates.
+
 **Owner-08 supporting gates,2026-10-15 Pacific:** cold-start Operations references
 and five project compiles pass, with358 source-hash component records and clean
 preserved native/owned closure through16:49:11.1102615Z. Static04 retains365

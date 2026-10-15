@@ -1,6 +1,15 @@
 # invSys Form Controls v1
 
-**Version:** 1.603 -- Return GREEN57 plus owner-08 cold compile/static gates; full variants and4be-A acceptance remain open.
+**Version:** 1.604 -- D13 equivalent phase RED24/8 protects actual feed/retry effects; restored GREEN and full variants pending.
+
+**Phase verification,2026-10-15 Pacific:** D13's equivalent isolated missing-check
+seam gives24 PASS/8 expected FAIL through actual handlers in disposable owner-08
+copies. Before/after-save feed preservation and retry retention/binding at all
+three phases fail as expected; after-promotion exact persistence and truthful known
+effects pass. All prerequisites, compiles, preservation and clean native/owned
+closure pass through16:56:25.0524654Z. Product source12b39790 remains unchanged.
+The seam is RED-only and rejected in GREEN mode. Restored phase GREEN/full variants
+remain required; focused57, cold/static gates and incomplete4be-A/B0 keep their scope.
 
 **Supporting qualification,2026-10-15 Pacific:** owner-08 cold-start Operations
 dependency resolution and five project compiles pass, with358 source-hash component
