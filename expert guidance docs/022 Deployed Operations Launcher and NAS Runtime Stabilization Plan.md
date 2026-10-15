@@ -4,15 +4,18 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current owner-09 matrix checkpoint,2026-10-15 Pacific:** both full connection
-returns pass45/45, confirmed review72/72, cancelled review62/62, failed result57/57
-and completed result37/37, with288 distinct assertions on
-identical packages/all481 tooling pins. Compiles, source preservation, settings/
-cleanup and clean native/owned closure pass through18:33:49.1540868Z. The sequential
-controller's first provenance-parser stop preserves a passing trial; corrected
-orchestration resumes only unrun groups. This is not behavioral RED or a desktop
-stop. Remaining full result/phase variants, relevant regressions and
-recording/guidance/4be-A/B0 remain open. Source45336d88 stays frozen.
+**Current owner-09 matrix qualification,2026-10-15 Pacific:** all ten named
+return/phase groups pass, retaining447 distinct assertions on identical packages/
+all481 tooling pins. Both connections45 each, confirmed review72, cancelled review62,
+failed result57, both completed-result variants37 each, before/after save47 each
+and after promotion52 are qualified. Every group covers all five source/feed/
+authority faults. Compiles, source preservation, settings/cleanup, normal owned/
+Excel closure and zero delayed native events pass through19:04:46.7368156Z; no
+desktop stop. Known completed output remains acknowledged after promotion while
+further success refuses and retry evidence remains until explicit review. Source
+45336d88 stays frozen. Relevant regressions, recording/guidance and4be-A/B0 remain
+open. The earlier sequential provenance-parser stop was orchestration failure;
+its passing trial was independently qualified and only unrun groups resumed.
 
 **Observed-feed reopening GREEN29,2026-10-15 Pacific:** source45336d88 in unpromoted
 owner-09 passes29/29, retaining every RED21/8 name/order and all481 tooling pins.
