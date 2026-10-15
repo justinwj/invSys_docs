@@ -2477,8 +2477,10 @@ scheduled/headless aggregation retains its separate authorization.
 D13: actual callback/form absent-observation RED52/52 becomes scoped GREEN104 on
 recording01, with exact persisted output, source preservation, policy suppression
 and optional-store faults. A focused actual failed-connection/post-save-audit
-RED25/2 protects message honesty; its correction, final-candidate GREEN, independent
-guides, relevant regressions and full static ratchets remain pending. Earlier
+RED25/2 becomes focused GREEN27 on recording02, retaining all assertions/order and
+484 tooling pins. Complete source maintenance/static ratchets pass without an
+exception (194 duplicates,9/45 dynamic calls and size caps). Final-candidate full
+recording, independent guides and relevant regressions remain pending. Earlier
 owner-09 joint matrices447 retain source45336d88 scope. Overall4be-A/B0 stays open.
 
 **Tester recording (D18 discovered-control refinement,2026-10-13; scoped-qualified):**

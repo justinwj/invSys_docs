@@ -4,6 +4,24 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Aggregation static qualification,2026-10-15 Pacific:** full source1c9bff87
+maintenance generation and reproducible ratchets pass:366/6559/142380,194 duplicate
+groups,9/45 dynamic calls, no old oversized growth and new maxima213/83 against
+1000/200 caps. The enumeration consolidation removes one procedure, three lines
+and the new duplicate. No exception. Final104/guide sequence is running; cold/
+source comparison, relevant regressions and4be-A/B0 remain open. Static evidence
+qualifies source maintenance only, not runtime or deployment.
+
+**Aggregation outcome GREEN27,2026-10-15 Pacific:** source1c9bff87/recording02
+passes unchanged27/27 with both failures cleared, exact RED order and484 tooling
+pins retained. Real failed connection and post-save audit failure records no longer
+claim nonexistent retained attempts; independent owner/output/receipt/UI facts pass.
+Five compiles, preservation and clean native/owned closure pass through19:59:19.4545410Z;
+build closure passes through19:53:38.6669835Z. No desktop stop or promotion.
+Final-candidate104 and independent guides now run serially. Source-only metrics
+return duplicates to194 and retain9/45 calls; complete generation/ratchet verification
+and current relevant regressions/4be-A/B0 remain required.
+
 **Aggregation message-honesty correction,2026-10-15 Pacific:** test69d47521 on
 unchanged recording01 gives25 PASS/2 expected FAIL. Both actual record messages
 claim a retained attempt without one: failed connection has no writer/output/

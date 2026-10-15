@@ -1,6 +1,24 @@
 # invSys Form Controls v1
 
-**Version:** 1.620 -- Outcome-honesty RED25/2 qualifies; two-message/catalog consolidation awaits GREEN.
+**Version:** 1.622 -- Candidate02 static ratchets qualify; full recording/guides and broader gates remain open.
+
+**Static qualification,2026-10-15 Pacific:** complete maintenance generation and
+ratchet verification pass for source1c9bff87:366 components/6559 procedures/142380
+lines,194 duplicate groups and9/45 dynamic calls; no old oversized growth and new
+maxima213/83 within1000/200 caps. One redundant wrapper/procedure and three lines
+are removed; no exception is needed. Source-only evidence is distinct from the
+running final104/guide tests. Cold/source comparison, current relevant regressions
+and4be-A/B0 remain required.
+
+**Outcome wording GREEN,2026-10-15 Pacific:** candidate02/source1c9bff87 passes
+27/27, clearing both message failures with exact RED names/order and484 tooling
+pins unchanged. Actual connection/audit outcomes preserve independently verified
+output/receipt facts without an unproved retained-attempt claim. Five compiles,
+source preservation, pins/settings/cleanup and normal native/owned closure pass
+through19:59:19.4545410Z; build closure passes through19:53:38.6669835Z. No desktop
+stop. Catalog43/186, positive outcomes and authority are unchanged. Candidate02's
+full104 and independent guide tests now run serially; full static generation and
+relevant regressions/4be-A/B0 remain open.
 
 **Outcome wording correction,2026-10-15 Pacific:** actual-handler RED25/2 has
 only two failed claims: failed connection and post-save audit failure refer to a
