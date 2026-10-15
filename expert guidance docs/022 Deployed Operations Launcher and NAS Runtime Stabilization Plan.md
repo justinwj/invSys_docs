@@ -4,6 +4,15 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Current owner-09 matrix checkpoint,2026-10-15 Pacific:** both full connection
+returns pass45/45 and confirmed review72/72, with150 distinct assertions on
+identical packages/all481 tooling pins. Compiles, source preservation, settings/
+cleanup and clean native/owned closure pass through18:09:51.1457436Z. The sequential
+controller's first provenance-parser stop preserves a passing trial; corrected
+orchestration resumes only unrun groups. This is not behavioral RED or a desktop
+stop. Remaining full review/result/phase variants, relevant regressions and
+recording/guidance/4be-A/B0 remain open. Source45336d88 stays frozen.
+
 **Observed-feed reopening GREEN29,2026-10-15 Pacific:** source45336d88 in unpromoted
 owner-09 passes29/29, retaining every RED21/8 name/order and all481 tooling pins.
 Both old captures remain refused after restored settings in the same session;

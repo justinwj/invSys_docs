@@ -1,6 +1,14 @@
 # invSys Form Controls v1
 
-**Version:** 1.611 -- Owner-09 GREEN29, cold compile and static gates pass; full matrices and4be-A acceptance remain open.
+**Version:** 1.612 -- Owner-09 full connection45/45 and confirmed-review72 qualify; remaining matrices/4be-A stay open.
+
+**Current matrix qualification,2026-10-15 Pacific:** owner-09 full failed/successful
+connection returns each pass45/45 and confirmed review72/72. Same-package/tooling
+retention proves150 distinct checks; compiles, source preservation, settings/pins/
+cleanup and clean native/owned closure pass through18:09:51.1457436Z. Corrected
+sequence orchestration preserves its earlier passing trial and runs only remaining
+groups. Full cancelled-review/result/phase variants and broader4be-A/B0 remain
+required. Catalog42/179 and source45336d88 are unchanged.
 
 **Focused workflow acceptance,2026-10-15 Pacific:** owner-09 source45336d88 passes
 29/29 with exact RED21/8 name/order retention and all481 tooling pins unchanged.
