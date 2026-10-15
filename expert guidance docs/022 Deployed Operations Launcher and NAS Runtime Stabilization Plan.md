@@ -4,6 +4,15 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Connection-return matrices GREEN,2026-10-15 Pacific:** owner-08 passes45/45 each
+for actual failed/successful return branches: ordinary control plus changed/missing
+source, changed feed, sign-out and saved-rights revocation. All fault prerequisites,
+immediate reopening, pre-writer refusal, feed/source preservation and fixed redacted
+feedback pass. Five compiles, pins/settings/cleanup and normal native/owned closure
+pass through17:10:53.3785318Z. External connection results are adapted in disposable
+copies; the real form/Core guards run. Full review/result/phase variants, relevant
+regressions, recording/guidance and4be-A/B0 remain open. Product source12b39790 is unchanged.
+
 **Restored phase GREEN32,2026-10-15 Pacific:** real owner-08 checks pass32/32,
 retaining all29 equivalent-RED business assertions in order and clearing all eight
 failures, with three explicit successful fresh reviews. Identical five-package

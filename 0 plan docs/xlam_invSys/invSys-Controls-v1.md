@@ -1,6 +1,15 @@
 # invSys Form Controls v1
 
-**Version:** 1.605 -- Restored phase GREEN32 retains equivalent RED business checks; full variants and4be-A acceptance remain open.
+**Version:** 1.606 -- Both full connection-return matrices GREEN45; review/result/phase variants and4be-A acceptance remain open.
+
+**Current connection qualification,2026-10-15 Pacific:** owner-08 passes45/45 each
+for actual failed/successful connection returns. Ordinary controls stay usable;
+changed/missing sources, changed feed, sign-out and saved-rights loss all require
+reopening before further work, with no writer/redirection and preserved feed/source
+bytes. Compiles, settings/pins/cleanup and clean native/owned closure pass through
+17:10:53.3785318Z. Windows connection results are deterministic test adapters, with
+real form/Core guards. Full review/result/phase variants and broader4be-A/B0 remain
+required. Catalog42/179, source12b39790 and permissions are unchanged.
 
 **Current phase qualification,2026-10-15 Pacific:** real owner-08 checks pass32/32,
 retaining all29 equivalent-RED business assertions in order, clearing eight failures
