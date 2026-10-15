@@ -1,8 +1,17 @@
 # invSys Form Controls v1
 
-**Version:** 1.597 -- Actual error5 interrupts write group56/1; Tester444, retry14 and inspection42 stand; remaining gates stay open.
+**Version:** 1.598 -- Resumed unknown-column write tail GREEN16; complete D8/4be-A acceptance remains open.
 
-**Current stop,2026-10-14 21:50:25 Pacific:** actual error5 stops the monitor;
+**Current verified increment,2026-10-15 Pacific:** owner-07's existing unknown-
+column action and final Write-group preservation assertion pass in a focused16/16
+run. Five compiles, settings/package/tooling pins, owned cleanup and normal Excel/
+controller/monitor closure pass; delayed Excel events are zero through16:08:15.3132193Z.
+The selector changes test scope only. The interrupted56/1 remains partial; composite
+retention, remaining ownership/authority/path and additional yield/phase tests stay
+open. Catalog42/179 and product source/static03 are unchanged. No promotion, replay
+eligibility, security setting change or comprehensive4be-A/B0 acceptance is claimed.
+
+**Previous stop,2026-10-14 21:50:25 Pacific:** actual error5 stops the monitor;
 write-group56 PASS/1 stop-related harness failure remains incomplete. Seven cases
 pass; unknown-column and final whole-group preservation assertions are absent.
 Pins/settings/owned cleanup, normal Excel/wrapper closure and delayed zero native

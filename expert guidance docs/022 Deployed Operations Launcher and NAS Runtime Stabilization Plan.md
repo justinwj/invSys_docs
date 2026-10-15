@@ -4,7 +4,17 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Current error5 stop,2026-10-14 21:50:25 Pacific:** actual error5 occurs at
+**Resumed write tail GREEN,2026-10-15 Pacific:** owner-07 passes16/16 through the
+actual unknown-column action and final Write-group source preservation assertion.
+Five compiles, settings/package/tooling pins, owned cleanup and normal Excel/
+controller/monitor closure pass; delayed Excel events are zero through16:08:15.3132193Z.
+The case selector changes only test selection; D13 does not require manufactured
+behavioral RED for it. The prior56/1 stays partial until explicit same-package,
+assertion-name retention qualifies its passing cases with this tail. Remaining
+Ownership/authority-path, closed-yield/phase tests, recording/guidance and4be-A/B0
+remain open. Product source/static03, approval and security stop rules stand.
+
+**Previous error5 stop,2026-10-14 21:50:25 Pacific:** actual error5 occurs at
 2026-10-15T04:50:25.8234260Z with inactive input, Other desktop and screensaver
 running. Write-group56 PASS/1 stop-related harness failure is incomplete: seven
 cases pass; unknown-column and final whole-group preservation assertions are absent.
