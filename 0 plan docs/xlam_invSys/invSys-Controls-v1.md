@@ -1,6 +1,16 @@
 # invSys Form Controls v1
 
-**Version:** 1.598 -- Resumed unknown-column write tail GREEN16; complete D8/4be-A acceptance remains open.
+**Version:** 1.599 -- Retained Aggregation matrix218 qualifies all215 earlier assertions; full D8/4be-A acceptance remains open.
+
+**Current retained-matrix acceptance,2026-10-15 Pacific:** frozen owner-07 passes
+Ownership60 and authority/path88 with preserved settings/pins/cleanup, normal owned
+and Excel closure and delayed zero native events through16:24:56.4940782Z.
+Reproducible same-package retention proves218 distinct passing checks covering
+all215 prior names. The interrupted56/1 remains partial; this is a qualified
+composite of passing assertions, not a single whole-run GREEN. Closed-yield/phase
+verification, relevant regressions, Aggregation recording/guidance and4be-A/B0
+remain required. Catalog42/179, product source38dea294 and static03 are unchanged;
+no package promotion, replay eligibility or security setting change is claimed.
 
 **Current verified increment,2026-10-15 Pacific:** owner-07's existing unknown-
 column action and final Write-group preservation assertion pass in a focused16/16

@@ -4,6 +4,18 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Retained Aggregation matrix qualified,2026-10-15 Pacific:** owner-07 Ownership60
+and authority/path88 pass with preserved pins/settings/cleanup, normal owned and
+Excel closure, and delayed zero native events through16:24:56.4940782Z. Exact
+retention proves218 distinct passing assertions on identical five-package hashes,
+covering all215 earlier matrix names. The interrupted56/1 stays partial; its passing
+portion and fresh tail are explicitly composed, with duplicates counted once.
+This qualifies retained assertions, not one whole-run GREEN or full D8 acceptance.
+Additional actual-yield/phase tests, applicable regressions, recording/guidance and
+comprehensive4be-A/B0 remain open. Product source38dea294/static03 are unchanged;
+no package promotion or security setting change. Exact receipts and reproducible
+ignored proof are in code `plan022_slice4be_admin_aggregation_results.md`.
+
 **Resumed write tail GREEN,2026-10-15 Pacific:** owner-07 passes16/16 through the
 actual unknown-column action and final Write-group source preservation assertion.
 Five compiles, settings/package/tooling pins, owned cleanup and normal Excel/
