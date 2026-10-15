@@ -1,6 +1,29 @@
 # invSys Form Controls v1
 
-**Version:** 1.628 -- Aggregation273 stands; current Receiving B0 continues after capture-harness refusal.
+**Version:** 1.630 -- Current B0 behavior121 passes; cleanup qualification remains open.
+
+**Current B0 result,2026-10-15 Pacific:** unchanged recording02/source1c9bff87
+trial107 completes121 passing checks and one disposable-cleanup harness failure.
+All15 published images are reviewed, including original-size native states,
+applied-source proof and honest stopped-run failure. No product assertion fails.
+Packages/template/all484 tooling pins and settings are preserved. Delayed worker/
+Excel exit is unforced; native audit through22:39:30.7159407Z finds zero failure
+events. Outer observation143 lacks its original orchestration receipt; recovered
+monitor closure and original-taskbar restoration are recorded separately. Proposed
+worker termination was rejected by automatic review and never executed; natural
+exit removes that need. No approval is pending. Child-cleanup failure remains in
+the result; parent-owned post-worker cleanup is required for full qualification.
+Current B0 and comprehensive4be-A remain open; see the code Receiving receipt.
+
+**Current B0 tooling checkpoint,2026-10-15 Pacific:** diagnostics103/104 end44/2
+and41/2, with harness exceptions only, preserved normal closure and restored
+taskbar preference. Dedicated blank-fixture RED->GREEN retains all six cases,
+preserves exact window size/topmost state and continues to refuse covered images.
+B0-only test placement now moves an owned restored fixture inside its existing
+work area; native maximize, required sizes, product callbacks and capture guards
+are unchanged. Full107 runs with all assertions and original taskbar restoration
+required. No product RED or current B0/4be-A acceptance is claimed. Exact scoped
+evidence is in the code Receiving receipt; Aggregation273 and prior gates stand.
 
 **Current Receiving B0 checkpoint,2026-10-15 Pacific:** recording02/source1c9bff87
 trial96 ends44 PASS/2 harness exceptions: obscured native capture and child cleanup.

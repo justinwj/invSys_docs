@@ -4,6 +4,29 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Current Receiving behavior result,2026-10-15 Pacific:** trial107 on unchanged
+recording02/source1c9bff87 completes121 passing checks and one child-cleanup
+harness failure, with15 directly reviewed images and unchanged package/template/
+all484 tooling pins. No product assertion fails. Worker/Excel/controller eventually
+exit unforced; settings preservation and zero delayed native failures qualify
+through22:39:30.7159407Z. Outer observation143 lacks original orchestration closure;
+recovered monitor closure and original-taskbar restoration are separate receipts.
+Automatic review rejects proposed worker termination, which is never executed
+and is unnecessary after natural exit. No new approval is pending. Preserve the
+cleanup failure and require parent-owned post-worker cleanup for full B0 proof.
+Shared regressions, Release1 fixture conformance and remaining control coverage
+still keep4be-A open. Exact provenance is in the code Receiving receipt.
+
+**Current B0 capture-fixture correction,2026-10-15 Pacific:** diagnostic103 retains
+44/2 harness-only failure and identifies taskbar overlap; temporary taskbar
+comparison104 retains41/2 because the larger test fixture keeps an out-of-work-area
+position. Both close normally with preserved inputs, no desktop stop and original
+taskbar-state restoration. Dedicated blank-fixture tooling RED->GREEN retains all
+six cases, size/topmost state and covered-window refusal. Only B0 test-window
+positioning changes; no product package, size requirement, action or capture guard
+changes. Full trial107 now runs with original taskbar restoration required. The
+Receiving receipt gives exact proof; current B0/4be-A acceptance remains open.
+
 **Current Receiving B0 harness checkpoint,2026-10-15 Pacific:** recording02/source
 1c9bff87 trial96 ends44 PASS/2 harness exceptions, with no failed product assertion.
 Native capture refuses obscured content after maximized state/control-fit checks;
