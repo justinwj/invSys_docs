@@ -4,6 +4,18 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Current Release1 regression fixture limitation,2026-10-15 Pacific:** source
+inspection finds that `validate_phase6_live_role_workflows.ps1.New-InventoryWorkbook`
+writes synthetic canonical create/applied rows with fixed SKU-indexed SYS-LIVE keys;
+the ordered full-chain copy retains that prefix. Its separate Admin-generated
+entry gate does not validate those seed rows. Before current release-regression
+qualification, use generated runtimes and owning creation/processing results,
+preserving exact generated keys and all existing workflow assertions/counts.
+Historical live48/chain evidence keeps its original scope. This follows current
+D14/AGENTS fixture rules and adds no architecture or product behavior; no new RED
+or runtime result is claimed. The code remaining-Admin coverage audit records
+the concrete source finding. The active Aggregation guide/regression work continues.
+
 **Current error5 stop,2026-10-15 Pacific:** corrected independent guide trial87
 on recording02/source1c9bff87 ends7 PASS/1 desktop-stop harness failure at
 20:23:20.1669715Z (13:23:20 Pacific). Compiles/fixture/actual Start pass; complete
