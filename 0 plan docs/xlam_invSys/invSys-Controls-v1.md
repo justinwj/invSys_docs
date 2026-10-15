@@ -1,6 +1,15 @@
 # invSys Form Controls v1
 
-**Version:** 1.604 -- D13 equivalent phase RED24/8 protects actual feed/retry effects; restored GREEN and full variants pending.
+**Version:** 1.605 -- Restored phase GREEN32 retains equivalent RED business checks; full variants and4be-A acceptance remain open.
+
+**Current phase qualification,2026-10-15 Pacific:** real owner-08 checks pass32/32,
+retaining all29 equivalent-RED business assertions in order, clearing eight failures
+and adding three fresh-review checks. Identical packages/all480 tooling pins,
+compiles, source preservation and clean native/owned closure pass. Pre/post-save
+sign-out preserves feed bytes and bound retry evidence. Post-promotion complete
+output stays verified/acknowledged and retry evidence survives until fresh review.
+Three RED-only seam assertions remain identified separately. Full joint-check
+variants, relevant regressions, recording/guidance and4be-A/B0 remain open.
 
 **Phase verification,2026-10-15 Pacific:** D13's equivalent isolated missing-check
 seam gives24 PASS/8 expected FAIL through actual handlers in disposable owner-08

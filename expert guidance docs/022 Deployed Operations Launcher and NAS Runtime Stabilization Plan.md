@@ -4,6 +4,17 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Restored phase GREEN32,2026-10-15 Pacific:** real owner-08 checks pass32/32,
+retaining all29 equivalent-RED business assertions in order and clearing all eight
+failures, with three explicit successful fresh reviews. Identical five-package
+hashes/all480 tooling pins, five compiles, source preservation, settings/cleanup and
+normal native/owned closure pass. Sign-out before/after save preserves feed bytes
+and bound retry evidence; after promotion, complete saved output stays independently
+verified and acknowledged while retry evidence remains until fresh review. The
+three RED-only seam assertions are explicitly excluded from business retention.
+Full source/feed/authority variants and broader4be-A/B0 gates remain open; source12b39790
+is unchanged. Exact reproducible proof is in the code Aggregation receipt.
+
 **D13 phase proof returns to RED,2026-10-15 Pacific:** the equivalent isolated seam
 on disposable owner-08 copies gives24 PASS/8 expected FAIL, with all compile/seam/
 fault preconditions and no harness exception. Removing repeated freshness checks
