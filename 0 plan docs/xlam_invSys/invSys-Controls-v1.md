@@ -1,6 +1,17 @@
 # invSys Form Controls v1
 
-**Version:** 1.596 -- Owner-07 retry restart14 GREEN; Tester444 qualified; full boundary/path and remaining4be-A gates stay open.
+**Version:** 1.597 -- Actual error5 interrupts write group56/1; Tester444, retry14 and inspection42 stand; remaining gates stay open.
+
+**Current stop,2026-10-14 21:50:25 Pacific:** actual error5 stops the monitor;
+write-group56 PASS/1 stop-related harness failure remains incomplete. Seven cases
+pass; unknown-column and final whole-group preservation assertions are absent.
+Pins/settings/owned cleanup, normal Excel/wrapper closure and delayed zero native
+events pass through2026-10-15T04:52:29.5788230Z. No bypass or OLED setting change.
+This continuation qualifies Tester444, retry restart14 and inspection42, retaining
+integrity60/static03. Full retained-matrix proof, extra actual-yield/phase-return
+tests, Aggregation observations/guidance and comprehensive4be-A/B0 stay open.
+Handoff184 records continuation after user resume. Catalog42/179 and source remain
+unchanged; no package promotion, new replay eligibility or new approval is claimed.
 
 **Current retry acceptance,2026-10-14 Pacific:** owner-07 passes14/14 after actual
 disposable add-in unload/reload. Durable pending evidence survives fresh Core state;

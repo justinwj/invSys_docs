@@ -4,6 +4,19 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Current error5 stop,2026-10-14 21:50:25 Pacific:** actual error5 occurs at
+2026-10-15T04:50:25.8234260Z with inactive input, Other desktop and screensaver
+running. Write-group56 PASS/1 stop-related harness failure is incomplete: seven
+cases pass; unknown-column and final whole-group preservation assertions are absent.
+No further test is dispatched after safe return. Settings/package/tooling pins,
+owned cleanup, normal Excel/wrapper closure and zero delayed Excel events pass
+through04:52:29.5788230Z; CIM confirms no Excel process. No security/OLED setting
+change or bypass was attempted. This continuation qualifies Tester444, actual
+add-in retry restart14 and inspection42, retaining integrity60/static03. Ownership/
+authority-path, full retention and the extra yield/phase matrix below remain open,
+then Aggregation recording/guidance and comprehensive4be-A/B0. Handoff184 contains
+resumption; D8-AGG-01 approval stands and no new approval is pending.
+
 **Aggregation retry restart GREEN,2026-10-14 Pacific:** owner-07 passes14/14 after
 actual disposable five-add-in unload/reload. Pending evidence survives fresh Core
 state; the reopened form cannot auto-promote an unresolved attempt, and feed/source
@@ -13,6 +26,17 @@ This proves add-in restart only. Broader boundary/path verification runs through
 unchanged assertions grouped as Inspection5/Write8/Ownership6 plus authority/path;
 all19 default cases retain exact order. Full name-level retention is required before
 broad GREEN. Product source, GREEN60/static03 and qualified Tester444 stand.
+
+**Remaining D8 verification audit:** after the retained matrix, add actual-form
+connection/confirmation/result-return source/feed/authority faults and the missing
+post-save/post-promotion variants. The current helpers cover inspection/pre-save,
+write failure and partial output, not that whole closed-yield/phase matrix. A
+failed-connection early return before its joint check is a static hypothesis only;
+establish behavioral RED through the real handler before any source correction.
+Likewise protect confirmed review followed by invalid context against a false
+cancellation message from `ResolveRetry`; this remains an unproved hypothesis.
+Identify absent Core DoEvents/picker sites explicitly. This stays within approved
+D8-AGG-01/D13; retained-matrix GREEN alone cannot close that contract or4be-A.
 
 **Current scoped GREEN,2026-10-14 Pacific:** focused owner-07 Tester guide127/127
 passes with eight reviewed captures. Five compiles, settings/package/tooling pins,
