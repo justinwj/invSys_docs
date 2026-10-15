@@ -4,6 +4,27 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Stopped by the user's input-desktop rule,2026-10-14 18:50:59 Pacific:** the
+passive monitor records inactive input, Other desktop and running screensaver,
+zero error5/mouse-lock/other failures. Windows lock and exact causality are not
+established. Owner-07 integrity/completion GREEN60 and static ratchets stand.
+Tester regression355 PASS/1 stop-related harness failure is incomplete; its164
+owner prefix passes, interrupted recording/guide tail remains open. Pins/settings/
+owned cleanup, normal Excel closure and zero delayed events pass through
+2026-10-15T01:51:41.4885938Z. No more automation, build or deployment starts;
+resume only on the user's direction after input revalidation. D8-AGG-01 approval
+stands; no new approval is needed for that contract. Handoff182 records continuation.
+
+**Current scoped GREEN,2026-10-14 Pacific:** owner-07 passes60/60 actual-handler
+integrity/manual/completion checks after45/14 RED. Multi-source exactness, malformed
+row refusal, exact text/formulas, output availability/overlap, saved metadata and
+unknown-output review all pass. Five compiles, source/pin/settings/owned cleanup,
+normal closure and zero delayed events pass through2026-10-15T01:20:25.5372399Z.
+Static03 holds194 duplicate groups,9/45 dynamic calls and all size caps. Tester
+regression runs for the shared private store. Candidate07 broader boundary/path,
+restart and relevant regression gates plus recording/guidance remain open. Code
+38dea294/docs d807736 are pushed; there is no promotion or4be-A completion.
+
 **Aggregation integrity follow-up,2026-10-14 Pacific:** owner-06's broader gate
 finishes213 PASS/2 FAIL, with clean preserved closure; exact-instance follow-up
 resolves its two closed-workbook failures as a default-instance probe artifact.

@@ -1,6 +1,24 @@
 # invSys Form Controls v1
 
-**Version:** 1.589 -- Aggregation integrity RED45/14; candidate07 fixes await GREEN; recording/guidance pending.
+**Version:** 1.591 -- Owner-07 GREEN60 retained; Tester355/1 stopped for inactive input; broader gates and recording/guidance pending.
+
+**User-required stop,2026-10-14 18:50:59 Pacific:** inactive input is observed
+with Other desktop and screensaver running, zero error5/mouse-lock counts. This is
+not proof of Windows lock or exact cause. Owner-07 GREEN60 and static ratchets stand;
+Tester355 PASS/1 stop-related harness failure retains a passing164 owner prefix
+but does not complete its recording/guide tail. Cleanup/preservation and delayed
+native audit pass. No more automation until the user resumes. No new catalog ID,
+package promotion, D8-AGG-01 completion or4be-A acceptance is claimed. Handoff182
+contains exact remaining actions; approval of D8-AGG-01 is unchanged.
+
+**Latest scoped acceptance,2026-10-14 Pacific:** actual-form integrity/manual/
+completion60/60 passes on owner-07 after45/14 RED, with clean preserved native
+closure. Exact source sets/text/formulas, whole-set refusal, output availability/
+overlap, saved metadata/provenance and retained unknown-output review are verified.
+Static03 holds194 duplicate groups,9/45 dynamic calls and size caps. Tester
+regression is running; candidate07 broader boundary/path/restart, remaining
+regressions and Aggregation recording/guidance remain open. No catalog increment,
+new recording ID, package promotion or4be-A completion is claimed.
 
 **Current checkpoint,2026-10-14 Pacific:** the213/2 broader owner-06 gate has clean
 preserved closure; exact-instance follow-up resolves its two closed-workbook
