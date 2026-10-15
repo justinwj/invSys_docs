@@ -4,13 +4,27 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Current error5 stop,2026-10-14 19:58:24 Pacific:** inactive input was informational,
+but the passive monitor then observed actual Win32 error5 at
+2026-10-15T02:58:24.8356015Z, with Other desktop and running screensaver. The Tester
+recording/guide continuation ends251 PASS/1 stop-related harness failure. Four
+independent recordings/publication and successful guide views pass; interrupted/
+unconfirmed view tails remain incomplete. Five compiles, settings/package/tooling
+pins, owned cleanup, normal Excel closure and zero delayed native events pass
+through02:59:32.8303505Z. No matching test processes remain. No security bypass,
+desktop rebind or OLED setting change was attempted. Stop per the user's actual
+error5 rule; inactive input alone is still permitted when work functions. Handoff183
+and the Tester receipt record the precise limits, including unproved normal outer
+wrapper closure. Owner-07 GREEN60/static03 and D8-AGG-01 approval stand; broader
+candidate07 gates, Aggregation recording/guidance and4be-A/B0 remain incomplete.
+
 **Resumed with clarified stop conditions,2026-10-14 Pacific:** the user permits
 continued work while input is inactive or the screensaver runs if the work still
 functions. Stop for actual error5 or mouse lock; do not bypass security or change
 OLED protection. Inactivity alone does not establish a Windows lock. The earlier
 stop was the agent's conservative interpretation, not an explicit inactive-input
-stop instruction. The isolated Tester recording/guide continuation runs against
-unchanged owner-07, with inactivity recorded separately. No new architecture
+stop instruction. The isolated continuation used unchanged owner-07, with inactivity
+recorded separately, and subsequently stopped on actual error5. No new architecture
 approval or product contract change is implied; D13 does not apply to this policy
 record correction. All remaining acceptance gates stay open until verified.
 

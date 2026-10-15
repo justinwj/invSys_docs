@@ -1,13 +1,24 @@
 # invSys Form Controls v1
 
-**Version:** 1.592 -- Inactive-input continuation authorized; owner-07 GREEN60 retained; remaining gates pending.
+**Version:** 1.593 -- Actual desktop error5 stop; Tester continuation251/1 is incomplete; owner-07 GREEN60 retained.
+
+**Current stop,2026-10-14 19:58:24 Pacific:** the passive monitor observes actual
+Win32 error5 after informational inactive input, with Other desktop and screensaver
+running. Tester continuation ends251 PASS/1 stop-related harness failure. All four
+recordings/publication and successful guide views pass; interrupted/unconfirmed
+view tails remain open. Settings/pins/owned cleanup, normal Excel closure and zero
+delayed native events pass through2026-10-15T02:59:32.8303505Z; no matching test
+process remains. No bypass or OLED setting change was attempted. Stop under the
+user's actual error5 rule; inactive input alone remains permitted. Handoff183 and
+the Tester receipt record exact scope. Catalog42/179, owner-07 GREEN60/static03,
+D8-AGG-01 approval and incomplete4be-A status remain unchanged.
 
 **Execution-policy clarification,2026-10-14 Pacific:** the user permits work to
 continue while input is inactive or the screensaver runs, if it still functions.
 Actual error5 and mouse lock require stopping without bypassing security; OLED
 protection remains unchanged. The prior inactive-input stop was the agent's
 conservative interpretation, not an explicit user instruction or proof of Windows
-lock. The isolated Tester recording/guide continuation uses unchanged owner-07.
+lock. The isolated continuation used unchanged owner-07 and stopped on actual error5.
 This corrects the session policy record and changes no product control contract;
 D13 RED does not apply. No new acceptance result is claimed by the clarification.
 
@@ -25,7 +36,7 @@ completion60/60 passes on owner-07 after45/14 RED, with clean preserved native
 closure. Exact source sets/text/formulas, whole-set refusal, output availability/
 overlap, saved metadata/provenance and retained unknown-output review are verified.
 Static03 holds194 duplicate groups,9/45 dynamic calls and size caps. Tester
-regression is running; candidate07 broader boundary/path/restart, remaining
+regression is incomplete; candidate07 broader boundary/path/restart, remaining
 regressions and Aggregation recording/guidance remain open. No catalog increment,
 new recording ID, package promotion or4be-A completion is claimed.
 
