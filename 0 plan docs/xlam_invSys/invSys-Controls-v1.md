@@ -1,6 +1,25 @@
 # invSys Form Controls v1
 
-**Version:** 1.618 -- Catalog43 recording GREEN interrupted by actual error5; duplicate ratchet remains open.
+**Version:** 1.620 -- Outcome-honesty RED25/2 qualifies; two-message/catalog consolidation awaits GREEN.
+
+**Outcome wording correction,2026-10-15 Pacific:** actual-handler RED25/2 has
+only two failed claims: failed connection and post-save audit failure refer to a
+retained attempt where independent receipt checks find none. Exact saved output,
+owner truth, context/redaction/conclusion, compiles and preserved normal closure
+pass through19:51:00.1405429Z. Source1c9bff87 removes those message claims and the
+redundant seven-ID wrapper; catalog43/186 and positive outcomes are unchanged.
+Candidate02 build, unchanged27/104 GREEN, full static and relevant regressions/
+guidance remain pending. No output/authority/receipt or replay behavior changes.
+
+**Recording qualification,2026-10-15 Pacific:** unchanged candidate01/source857d250a
+passes104/104, retaining all RED names/order, clearing52 failures and all483 tooling
+pins. Seven actual controls record redacted source-bound pairs with no loading noise;
+exact persisted output/source preservation, tracking suppression and reached store
+faults pass. Five compiles, settings/pins/cleanup and normal native/owned closure
+pass through19:46:00.2957033Z without a desktop stop. Earlier71/1 retains its partial
+status. Focused failed-connection/post-save-audit message honesty is now under RED
+verification; static duplicate closure, independent guides/relevant regressions and
+4be-A/B0 remain open. Catalog43/186 has scoped recording qualification only.
 
 **Current stop,2026-10-15 Pacific:** recording candidate01/source857d250a ends
 71 PASS/1 stop-related harness failure after actual error5 at19:24:50.1946379Z

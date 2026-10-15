@@ -2436,6 +2436,51 @@ with reviewed native warnings, directory149, smoke86, chain32/live48/Create15,
 five cold compiles and static limits. The owner correction is scoped-qualified;
 catalog39/161 is unchanged at that owner checkpoint; recording is qualified below.
 
+**Aggregation recording (D18 discovered-control refinement,2026-10-15; acceptance pending):**
+
+Catalog43 adds seven existing controls under owner `ADMIN_HQ_AGGREGATION`,
+ADMIN_MAINT and surface **Admin > Aggregation**, preserving catalogs1-42.
+This inherits approved D18 observations and D8-AGG-01 ownership; it grants no
+Training purpose, replay adapter, Windows access or additional warehouse authority.
+
+| ControlId suffix after `ADMIN_AGGREGATION_` | Existing entry | Class | Positive owner fact |
+|---|---|---|---|
+| OPEN | Aggregate Global Snapshot callback / visible form | Navigation | OPENED |
+| REFRESH | Refresh Connected | Command | DISCOVERED; discovery returned, not complete warehouse coverage. |
+| ADD_SERVER | Add Server | Navigation | STAGED; connection entry focused, no connection asserted. |
+| CONNECT | Connect + Discover | Command | CONNECTED; the Windows connection returned success. |
+| SELECT_SOURCE | Deliberate source-list click | Navigation | SELECTED; session-only choice, not aggregation. |
+| AGGREGATE | Aggregate Selected Sources | Command | COMPLETED only after the owning command confirms complete advisory output. |
+| CLOSE | Close button or window close | Navigation | CLOSED once for actual dismissal. |
+
+Record an eligible deliberate action's correlated REQUESTED/result pair using
+the captured source workbook/session. Preserve policy/user/storage/context gates,
+the live form surface and ordinary authorized work. Initialization, programmatic
+load/smoke, source-list population, typing, rendering and progress are not separate
+actions. Optional notices are yields: jointly recheck the original source,
+trusted feed and captured selected paths before further owner work.
+
+Only the table's positive facts satisfy CommandCompleted for their own control.
+AGGREGATE also supports REJECTED, DENIED, FAILED, CANCELLED, INDETERMINATE and
+COMPLETED_STOPPED. A stopped complete output stays acknowledged; incomplete or
+unknown persistence stays nonpositive. Describe only confirmed output/receipt
+facts: neither failed connection nor a later workbook-audit failure establishes
+that a retry receipt exists. Preserve known Core results without inferring rollback
+or inventing artifacts. Offer the supported outcomes in the expectation editor.
+All source references are empty and DataEffect is Unknown; advisory aggregation
+never establishes canonical inventory application. REQUESTED/positive/CANCELLED
+are Info; REJECTED/DENIED/INDETERMINATE/COMPLETED_STOPPED Warning; FAILED Error.
+Logs exclude credentials, entered roots/paths/values, row values, receipt contents
+and raw reports. Windows connection remains operator-required for R1 replay;
+scheduled/headless aggregation retains its separate authorization.
+
+D13: actual callback/form absent-observation RED52/52 becomes scoped GREEN104 on
+recording01, with exact persisted output, source preservation, policy suppression
+and optional-store faults. A focused actual failed-connection/post-save-audit
+RED25/2 protects message honesty; its correction, final-candidate GREEN, independent
+guides, relevant regressions and full static ratchets remain pending. Earlier
+owner-09 joint matrices447 retain source45336d88 scope. Overall4be-A/B0 stays open.
+
 **Tester recording (D18 discovered-control refinement,2026-10-13; scoped-qualified):**
 Catalog42 adds seven existing Admin controls under owner `ADMIN_TESTER_SETUP`,
 ADMIN_MAINT and surface **Admin > Test Environment Setup**; preserve catalogs1-41.

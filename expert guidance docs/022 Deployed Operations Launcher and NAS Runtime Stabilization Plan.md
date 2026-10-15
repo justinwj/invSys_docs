@@ -4,6 +4,26 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Aggregation message-honesty correction,2026-10-15 Pacific:** test69d47521 on
+unchanged recording01 gives25 PASS/2 expected FAIL. Both actual record messages
+claim a retained attempt without one: failed connection has no writer/output/
+receipt; completed Core output followed by injected audit failure has an already-
+resolved receipt. All independent owner/output/context/preservation/compile/native
+checks pass through19:51:00.1405429Z. Source1c9bff87 corrects the two messages and
+consolidates the sole-caller ID list into the existing catalog method. Unchanged
+IDs/order/positive semantics remain catalog43/186. Candidate02 and27/104 GREEN,
+static, guides/relevant regressions and4be-A/B0 remain pending; no promotion.
+
+**Aggregation recording GREEN104,2026-10-15 Pacific:** unchanged source857d250a/
+recording01 passes104/104, preserving all RED assertion names/order and483 tooling
+pins, clearing52 failures. Actual controls, redaction/context, exact persisted
+output, source preservation, suppression and reached optional-store faults pass.
+Five compiles and clean preserved native/owned closure pass through19:46:00.2957033Z;
+no desktop stop. Earlier71/1 remains partial. A focused outcome-message follow-up
+now tests failed connection and post-save audit failure against actual output/
+receipt facts before wording correction. Static duplicate cleanup, independent
+guidance, current relevant regressions and4be-A/B0 remain open; no deployment.
+
 **Current error5 stop,2026-10-15 Pacific:** catalog43 recording candidate01,
 source857d250a, ends71 PASS/1 desktop-stop harness failure at19:24:50.1946379Z
 (12:24:50 Pacific). All71 retain the exact RED prefix; whole GREEN104 and the
