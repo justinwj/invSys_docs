@@ -1,6 +1,17 @@
 # invSys Form Controls v1
 
-**Version:** 1.632 -- Current Receiving packaged121 and Tester guidance127 qualified.
+**Version:** 1.633 -- Current shared Settings202, Receiving121 and Tester127 qualified.
+
+**Current Settings regression,2026-10-15 Pacific:** unchanged recording02/source
+1c9bff87 passes202/202 with ten captures reviewed at original size, including
+Operations maximize/restore. The test retains41/172 and42/179 and adds the approved
+43/186 catalog expectation. Earlier27/2 catalog mismatch and190/1 obscured capture
+remain partial; their assertion prefixes are retained. All five packages/all484
+tooling, settings/fixture cleanup, original taskbar restoration and normal owned
+closure pass through23:34:52.4228054Z, with zero delayed Excel failures or desktop
+stops. No product, callback or capture-guard change. Receiving121/Tester127 stand;
+recording lifecycle is running. Release1 fixture conformance and uncovered controls
+keep4be-A open. Code receipts provide exact scoped evidence.
 
 **Current Receiving technical gate,2026-10-15 Pacific:** unchanged recording02/
 source1c9bff87 trial108 passes121/121, retaining all prior behavior-check names/order.

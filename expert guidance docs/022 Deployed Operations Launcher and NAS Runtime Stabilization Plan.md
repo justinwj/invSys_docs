@@ -4,6 +4,18 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Current shared Settings regression qualified,2026-10-15 Pacific:** source
+1c9bff87/recording02 passes202/202 with ten original-size reviewed captures and
+exact retention of the earlier catalog/capture-attempt assertion prefixes. The
+test adds exact43/186 alongside retained41/172 and42/179; product/capture guards
+remain unchanged. Packages/all484 tooling, settings/fixture cleanup, original
+taskbar state and normal owned closure pass through23:34:52.4228054Z, with zero
+delayed Excel failures or desktop stops. Earlier98/109 keep their partial scopes.
+Receiving121 and Tester127 stand; recording lifecycle is running. Next uncovered
+entry audit is Add/Edit Inventory; Release1 fixture conformance and remaining
+coverage still keep4be-A open. Code receipts give exact evidence; no deployment
+or new approval occurs.
+
 **Current Receiving packaged gate qualified,2026-10-15 Pacific:** recording02/
 source1c9bff87 trial108 passes121/121 with every earlier behavior-check name/order
 retained and15 captures reviewed at original size. Parent-owned fixture removal,
