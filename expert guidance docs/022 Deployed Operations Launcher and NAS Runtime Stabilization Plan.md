@@ -4,13 +4,25 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
-**Return-check source correction,2026-10-15 Pacific; runtime GREEN pending:** after
-the50/7 protecting RED, the existing Admin form always rechecks connection returns,
+**Owner-08 supporting gates,2026-10-15 Pacific:** cold-start Operations references
+and five project compiles pass, with358 source-hash component records and clean
+preserved native/owned closure through16:49:11.1102615Z. Static04 retains365
+components/6553 procedures,194 duplicates and9/45 dynamic calls;142189 lines,
+new-module/procedure maxima213/83 and no oversized growth satisfy all ratchets.
+Only the intended two product components differ from38dea294. Remaining full
+joint-check variants, D13 phase proof, regressions and4be-A/B0 remain open.
+
+**Focused return GREEN57,2026-10-15 Pacific:** source12b39790 in fresh unpromoted
+owner-08 passes57/57, retaining every RED50/7 assertion in exact order with identical
+tooling pins. Five compiles, source/authority/snapshot preservation, settings/pins/
+owned cleanup, normal Excel/wrapper closure and delayed zero native events pass
+through16:47:06.1086058Z. After the protecting RED, the existing Admin form now always rechecks connection returns,
 captures selected paths before dialogs, rechecks confirmation and validates the
 original set at result return. Failed-result feedback preserves verified persistence
 facts while requiring reopening. Core confirmed review distinguishes busy/context
-refusal from cancellation. Only these two product components change; build/test a
-new unpromoted candidate with Excel closed. Approval, catalog42/179, separate
+refusal from cancellation. Only these two product components change. Full joint-check
+variants/phases and relevant regressions remain required;07's retained218 does not
+automatically qualify08. Approval, catalog42/179, separate
 headless authorization and incomplete4be-A/B0 status remain unchanged.
 
 **Actual named-return RED,2026-10-15 Pacific:** unchanged owner-07 completes50

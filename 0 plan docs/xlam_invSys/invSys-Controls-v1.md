@@ -1,18 +1,30 @@
 # invSys Form Controls v1
 
-**Version:** 1.601 -- Return-check source correction follows RED50/7; isolated candidate GREEN pending.
+**Version:** 1.603 -- Return GREEN57 plus owner-08 cold compile/static gates; full variants and4be-A acceptance remain open.
 
-**Implemented wording/workflow, runtime acceptance pending,2026-10-15 Pacific:**
+**Supporting qualification,2026-10-15 Pacific:** owner-08 cold-start Operations
+dependency resolution and five project compiles pass, with358 source-hash component
+records and clean preserved closure through16:49:11.1102615Z. Static04 preserves
+duplicate/dynamic-call metrics, size caps and existing oversized modules; only the
+two intended product components differ from38dea294. Full return/phase variants,
+relevant regressions and recording/guidance remain required. Catalog42/179 is unchanged.
+
+**Focused wording/workflow acceptance,2026-10-15 Pacific:** source12b39790 in
+unpromoted owner-08 passes57/57, retaining all RED50/7 assertion names/order and
+identical tooling pins. Five compiles, source preservation, settings/pins/cleanup,
+normal owned/Excel closure and delayed zero native events pass through16:47:06.1086058Z.
 connection failure and success now both reach the joint post-return check. Aggregate
 retains its original selected paths through confirmations/results; either review
 answer rechecks before further work. Changed context shows the fixed reopening
 requirement. A failed result retains the owner's verified persistence report and
 adds reopening when necessary; complete saved output remains acknowledged. Confirmed
 Core review distinguishes busy/context refusal from genuine cancellation. The50/7
-RED protects this two-component correction; build/compile/focused GREEN and remaining
-variants/phases/regressions are pending. Catalog42/179 and permissions are unchanged.
+RED protects this two-component correction. Full variants/phases and
+relevant regressions remain pending;07's retained218 does not
+automatically qualify08. Catalog42/179 and permissions are unchanged. No comprehensive
+D8/4be-A/B0 acceptance or package promotion is claimed.
 
-**Current return-boundary RED,2026-10-15 Pacific:** owner-07 completes50 PASS/7
+**Protecting return-boundary RED,2026-10-15 Pacific:** owner-07 completes50 PASS/7
 expected FAIL through actual form handlers, with no harness exception. Failed
 connection, confirmed/cancelled review and failed-result returns omit required
 reopening feedback; confirmed review falsely reports cancellation, including through
