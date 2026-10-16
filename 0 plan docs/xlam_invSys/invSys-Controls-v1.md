@@ -1,6 +1,15 @@
 # invSys Form Controls v1
 
-**Version:** 1.642 -- Captured-authority comparison229/28; remaining Inventory gates open.
+**Version:** 1.643 -- Reserved managed fields RED28/5 to GREEN33; Inventory remains incomplete.
+
+**Managed-field guard GREEN,2026-10-15 Pacific:** actual modal Additional Field
+and worksheet Upload tests move28 PASS/5 FAIL on08d0e3f1 to33/33 on73e883b0,
+unchanged test9367159b and identical assertion names/order. System_Key/Condition
+cannot enter through custom fields; ordinary custom fields remain accepted.
+Five packages/all486 tooling/settings/fixtures and normal owned/native closure
+qualify through2026-10-16T06:00:02.9654160Z, without desktop stops/Excel failures.
+No control ID, catalog or promotion change. Remaining Inventory gates and unresolved
+Config diagnosis stay open; exact Edit quantity correction is prepared, not GREEN.
 
 **Inventory authority comparison,2026-10-15 Pacific:** source/test08d0e3f1 records
 229 PASS/28 FAIL over257 checks,42 actual handler/yield cases and no harness

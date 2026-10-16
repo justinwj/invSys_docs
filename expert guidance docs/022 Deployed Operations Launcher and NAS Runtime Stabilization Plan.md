@@ -4,6 +4,14 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Inventory managed-field GREEN,2026-10-15 Pacific:** actual modal Additional
+Field/worksheet Upload tests move RED28/5 on08d0e3f1 to GREEN33/33 on73e883b0,
+unchanged test9367159b and exact assertion identities/order. Build125 and preserved
+five packages/all486 tooling/settings/fixtures plus normal owned/native closure
+qualify through2026-10-16T06:00:02.9654160Z. No promotion or full acceptance. Next
+increment addresses exact Edit quantity RED120 using a Core exact-entity command;
+remaining revalidation/catalog ownership/ROW/retry and Config diagnosis stay open.
+
 **Inventory authority increment qualified,2026-10-15 Pacific:** source/test08d0e3f1
 completes229 PASS/28 FAIL over257 checks, retaining251 prior names/order and42
 actual handler/yield cases without a harness exception. Tested stale authority,
