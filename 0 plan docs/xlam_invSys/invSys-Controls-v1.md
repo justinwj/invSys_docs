@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.636 -- D8-INV-01 tightened; approval pending.
+**Version:** 1.637 -- Tightened D8-INV-01 approved; test-first implementation authorized.
 
 **Current Add/Edit Inventory checkpoint,2026-10-15 Pacific:** unchanged recording02/
 source1c9bff87 trial115 completes35 PASS/10 FAIL, retaining all45 assertion names/
@@ -13,22 +13,23 @@ unresolved. Five packages/all485 tooling/settings/fixture preservation and norma
 owned/native closure qualify through2026-10-16T00:02:59.4379339Z, without an Excel
 failure or desktop stop. Exact evidence: code Inventory entry receipt.
 
-Normative **D8-INV-01 is proposed, approval pending**. Product controls/wording,
-catalog43/186 and packages are unchanged. The pending contract captures the source
+Normative **D8-INV-01 is approved,2026-10-15 Pacific**, including the three
+tightenings in docs98f63d7. Product controls/wording, catalog43/186 and packages
+are unchanged at approval. The approved contract captures the source
 operator before inspection, requires Core live-session/source authorization and
 joint input checks after every declared yield and before writes, removes ROW under
 D14 and preserves honest partial results/retry. Existing catalog selection,
 zero/non-counted creation, exact-key retirement and worksheet staging semantics
 remain. D13 explicitly protects zero-quantity creation through modal Add and
-worksheet ADD; this proposal authorizes no change to D14's locked quantity wording.
+worksheet ADD; this decision authorizes no change to D14's locked quantity wording.
 Modal catalog/source/selection and affected-entity replacement after a yield must
 refuse without silently using the replacement, including Add before entity creation.
 The Inventory receipt's written `Config diagnosis` section is a required D13
 deliverable tied to each RED's exact product/test commits and controller/worker IDs;
 it records cause or unresolved status, evidence and next diagnostic. Focused GREEN
 cannot silently close the unresolved finding. No new ControlId, replay adapter,
-historical import or full form acceptance. Expanded Edit/Delete/worksheet D13 RED follows
-approval before implementation. Tester127/Settings202/recording80/Receiving121
+historical import or full form acceptance. Expanded Edit/Delete/worksheet D13 RED
+is required before implementation. Tester127/Settings202/recording80/Receiving121
 stand; Release1 fixture conformance and remaining controls keep4be-A open. Earlier
 dated checkpoints below retain their scopes.
 
@@ -8078,10 +8079,10 @@ workflow. It does not make a worksheet row the durable identity.
 **Acceptance limitation,2026-10-15 Pacific:** trial115's actual Add modal action
 proves persisted signed-out creation and legacy ROW payload/display; one wrong
 captured host is also observed. Other-warehouse denial passes. Config-byte change
-remains unresolved. D8-INV-01 is proposed, approval pending; no product correction
+remains unresolved. D8-INV-01 is now approved for D13 implementation; no product correction
 or full Add/Edit/Delete/worksheet acceptance is claimed. The table below describes
 the maintained control contract; the code Inventory entry receipt gives exact RED.
-The revised proposal requires modal replacement refusal and zero-quantity Add
+The approved decision requires modal replacement refusal and zero-quantity Add
 tests plus the source/commit-bound Config diagnosis artifact; none is inferred
 as already covered by the45-check diagnostic.
 

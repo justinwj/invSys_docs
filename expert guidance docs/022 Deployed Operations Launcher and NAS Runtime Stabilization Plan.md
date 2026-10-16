@@ -15,20 +15,21 @@ unresolved cause. Five packages/all485 tooling/settings/fixture preservation and
 normal owned/native closure qualify through2026-10-16T00:02:59.4379339Z, with zero
 Excel failures or desktop stops. Code Inventory receipt records exact evidence.
 
-Normative **D8-INV-01 is PROPOSED, approval pending**, within the existing4be-A
+Normative **D8-INV-01 is APPROVED,2026-10-15 Pacific**, within the existing4be-A
 slice. It defines a separate Core-owned interactive Add/Edit/Delete and worksheet
 command boundary, captured source/session checks at every listed yield and before
 mutation, D14 identity, exact entity/source/table revalidation and honest partial
 retry. It preserves separate headless authorization and existing catalog/SKU
 selection; no new quantity allocation, conversion, receipt store, historical import
 or bulk delete is implied. The revised D13 list explicitly protects zero-quantity
-creation through modal Add and worksheet ADD; this proposal authorizes no edit to
+creation through modal Add and worksheet ADD; this decision authorizes no edit to
 D14's locked quantity wording. Modal catalog/source/selection or affected-entity
 replacement after a yield must refuse without silently binding a replacement,
-including the Add path before its new entity exists. Product
-implementation is withheld pending this decision, as requested by the user.
+including the Add path before its new entity exists. The user explicitly approved
+the tightened docs98f63d7 contract; D13 test-first implementation is now authorized,
+not acceptance or deployment.
 
-After approval: expand actual-action D13 RED across Edit/Delete, worksheet Create/
+Next: expand actual-action D13 RED across Edit/Delete, worksheet Create/
 Upload, live session/source changes and reachable yield/write phases. Require the
 Inventory receipt's written `Config diagnosis` artifact tied to each RED's exact
 product/test commits and controller/worker IDs, with proven cause or explicit

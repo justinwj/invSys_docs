@@ -5742,12 +5742,14 @@ Implementation is authorized within this contract. No new recording control ID o
 4be-A acceptance is implied; D18-REPLAY-01 and early B0 boundaries remain unchanged.
 
 ---
-### D8-INV-01 — Add/Edit Inventory interactive authority and System_Key identity (PROPOSED; approval pending)
+### D8-INV-01 — Add/Edit Inventory interactive authority and System_Key identity (APPROVED,2026-10-15)
 
-Proposed2026-10-15 Pacific within Plan0224be-A. **This section is not operative
-until explicit approval.** D8-AGG-01 approval does not approve this distinct
-interactive Inventory command boundary. D14 already prohibits runtime/display/
-payload `ROW`; retaining it is not an option proposed here.
+The user explicitly approved the tightened proposal in docs98f63d7 on2026-10-15
+Pacific, within Plan0224be-A. **This decision is operative and authorizes D13
+test-first implementation, not acceptance.** Approval includes modal replacement
+refusal, zero-quantity protecting tests without editing D14, and the required
+cohort-bound Config diagnosis artifact. D14 already prohibits runtime/display/
+payload `ROW`; retaining it is not an approved compatibility option.
 
 **Observed problem and limits:** on unchanged source1c9bff87, the actual
 `btnAdminAddInventoryItem` -> `RibbonOnActionAdmin` -> `Add_InventoryItem` ->
@@ -5756,15 +5758,15 @@ exception. Two authorized controls and the signed-out action each persist one
 new exact entity at the submitted quantity, independently cold-read without a
 diagnostic save. Two create payloads contain `ROW`; all five forms display it.
 The other-warehouse Admin case does not mutate inventory. A replacement-session
-case captures another workbook and persists a create; a rule expiring that
-session is proposed below, not assumed to be an existing approved test oracle.
+case captures another workbook and persists a create; the rule expiring that
+session is now approved below, but was not assumed by the earlier diagnostic.
 Auth bytes remain unchanged; Config bytes change from the first authorized
 control onward, with cause and semantic significance unresolved. These45 checks
 are an Add-entry diagnostic, not an Edit/Delete/worksheet matrix or proof of
 unrelated worksheet mutation. Exact evidence and provenance are in code
 `tests/integration/plan022_slice4be_admin_inventory_entry_results.md`.
 
-**Proposed contract:**
+**Approved contract:**
 
 1. **Captured interactive command.** Admin captures the original saved operator
    workbook before Config/Auth/catalog/source inspection can activate another
@@ -5819,7 +5821,7 @@ unrelated worksheet mutation. Exact evidence and provenance are in code
    No new entity-allocation, conversion, catalog or bulk-delete policy is approved:
    an ambiguous quantity target refuses rather than inventing allocation. Keep
    greenfield Admin-created inventory; no migration or ROW-to-key mapping.
-   The D13 assertions below protect existing zero-quantity creation. This proposal
+   The D13 assertions below protect existing zero-quantity creation. This decision
    authorizes no edit to D14's locked quantity wording.
 5. **Worksheet ownership and joint preflight.** Create/Upload operate only on the
    captured saved operator workbook and exact selected invSys staging table.
@@ -5844,9 +5846,9 @@ unrelated worksheet mutation. Exact evidence and provenance are in code
    duplicate a create or adjustment. A batch count alone is not saved application
    proof. Cancellation, queue success, exact saved application and publication
    remain distinct outcomes. No new general receipt store or cross-package object
-   contract is implicitly authorized by this proposal.
+   contract is implicitly authorized by this decision.
 
-**D13 acceptance required after approval:** retain the45 diagnostic check
+**D13 implementation and acceptance gates:** retain the45 diagnostic check
 identities and expand RED before product edits through actual Ribbon/modal OK,
 Edit/Delete and worksheet Create/Upload handlers, plus direct Core refusal tests.
 Cover signed-out stale hints, other-warehouse Admin, replacement session, role/
