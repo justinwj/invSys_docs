@@ -1,6 +1,14 @@
 # invSys Form Controls v1
 
-**Version:** 1.654 -- Exact Edit GREEN23/catalog GREEN27; full comparison and broader integration open.
+**Version:** 1.655 -- Edit GREEN23/catalog GREEN27; full comparison incomplete and owned Excel cleanup blocked.
+
+**Full comparison163 incomplete,2026-10-16 Pacific:** source3d66ac92 observes
+257/3 over260 emitted checks including one harness exception. The first managed
+field handler is unreached; its setup/entry cause is unresolved, not product RED.
+Known Config byte failure remains. Headless owned Excel cleanup is blocked; no
+force termination, final preservation/audit or full300 qualification is claimed.
+No new Excel cohort/build until cleanup. Existing23/27 source GREEN scopes stand;
+no control ID or comprehensive acceptance change.
 
 **Regression checkpoint,2026-10-16 Pacific:** source3d66ac92 qualifies catalog
 GREEN16227/27 with preserved normal native closure through19:35:28.8443616Z.

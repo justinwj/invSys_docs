@@ -4,6 +4,16 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Full comparison163 incomplete; cleanup blocked,2026-10-16 Pacific:** source
+3d66ac92/testb7be62d7 observes257/3 over260 checks including a harness exception,
+not completion of the300-check suite. Known Config byte failure remains; the
+first managed-field handler is unreached and its precondition cause is unresolved.
+The test-owned headless Excel process cannot be reached by normal COM/window
+close. No forced termination; the controller retains restoration state. Settings/
+fixture cleanup, final pins and native audit are pending. Keep tooling/packages
+frozen and launch no new Excel cohort until resolved. Qualified23/23 Edit and
+27/27 catalog source scopes stand; no build/deploy or comprehensive acceptance.
+
 **Catalog regression and final-source maintenance,2026-10-16 Pacific:** source
 3d66ac92 retains catalog GREEN16227/27 with clean preserved native closure through
 19:35:28.8443616Z. All six maintenance reports are complete, three schemas validate,
