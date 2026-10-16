@@ -4,6 +4,19 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Inventory comparison135 qualified,2026-10-15 Pacific:** productb936503e/
+testad7b7056 records272 PASS/28 FAIL over300 unique checks, retaining the exact257
+prefix without a harness exception. Managed fields, exact quantity and bounded
+retry pass; seven ROW,20 changed-input and unresolved Config checks fail. Preserved
+five packages/all486 tooling/settings/fixtures and normal unforced native/owned
+closure qualify through2026-10-16T06:43:57.8070488Z. Static370/6568/142598 retains
+194 duplicates/9 literal/45 unresolved calls and all size limits. Config changes
+are observed during save calls and identified as core.xml/workbook.bin; semantic
+significance remains unresolved in the required artifact. ROW source68949ab0 is
+prepared with updated callers, awaiting build and focused packaged proof. No
+promotion or full acceptance; remaining revalidation/coordination/retry and broader
+4be-A/Release1 gates stay open.
+
 **Inventory exact quantity/retry GREEN,2026-10-15 Pacific:** focused actual Edit
 target RED11/1 becomes12/12 on306fa2da. Queued-event failure/retry establishes17/3;
 the expanded unrelated pending-event control establishes17/5 over22 checks. On

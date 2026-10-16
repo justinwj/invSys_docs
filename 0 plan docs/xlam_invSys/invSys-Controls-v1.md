@@ -1,6 +1,17 @@
 # invSys Form Controls v1
 
-**Version:** 1.644 -- Exact Edit quantity GREEN12 and bounded retry GREEN22; Inventory incomplete.
+**Version:** 1.645 -- Inventory comparison272/28 qualified; ROW cleanup awaits packaged proof.
+
+**Inventory full comparison135,2026-10-15 Pacific:** productb936503e/testad7b7056
+records272 PASS/28 FAIL over300 checks, exact257-name/order prefix and no harness
+exception. Field/quantity/bounded-retry protections pass; seven ROW and20 changed-
+input checks plus unresolved Config preservation fail. Preserved five packages/
+all486 tooling/settings/fixtures and normal unforced native/owned closure qualify
+through2026-10-16T06:43:57.8070488Z. Static370/6568/142598 retains194/9/45 and all
+size limits. Config changes are located during three save-helper calls per writing
+control and affect standard core.xml/workbook.bin parts; semantic significance
+remains unresolved. Source68949ab0 removes ROW from form/display/payload/signatures;
+its packaged identity proof is pending. No promotion, new control ID or acceptance.
 
 **Inventory quantity and bounded-retry checkpoints,2026-10-15 Pacific:** actual
 Edit/reason target test moves11/1 to12/12 on306fa2da. A confirmed queued-event fault
@@ -8152,15 +8163,14 @@ separate reachability review before removal.
 This form edits inventory item metadata and queues the supported add/edit
 workflow. It does not make a worksheet row the durable identity.
 
-**Acceptance limitation,2026-10-15 Pacific:** trial115's actual Add modal action
-proves persisted signed-out creation and legacy ROW payload/display; one wrong
-captured host is also observed. Other-warehouse denial passes. Config-byte change
-remains unresolved. D8-INV-01 is now approved for D13 implementation; no product correction
-or full Add/Edit/Delete/worksheet acceptance is claimed. The table below describes
-the maintained control contract; the code Inventory entry receipt gives exact RED.
-The approved decision requires modal replacement refusal and zero-quantity Add
-tests plus the source/commit-bound Config diagnosis artifact; none is inferred
-as already covered by the45-check diagnostic.
+**Acceptance limitation,2026-10-15 Pacific:** D8-INV-01 implementation has scoped
+authority, managed-field, exact-quantity and bounded-retry qualifications. Full
+comparison135 is272/28, with remaining ROW, changed-input and Config failures.
+Source68949ab0 removes ROW wording/payload/signatures but has not yet been built
+or packaged-tested. Complete Add/Edit/Delete/worksheet acceptance remains open.
+The table describes the maintained contract; the code Inventory receipt records
+exact cohorts and the required unresolved Config diagnosis. Both authorized
+zero-quantity paths are protected; replacement/remaining phase gates stay open.
 
 | Control | Type / displayed text | Purpose |
 |---|---|---|
@@ -8184,14 +8194,14 @@ as already covered by the45-check diagnostic.
 | `txtEditReason` | Text box — Why the edit? * | Requires an audit reason in edit mode. |
 | `txtCustomName` | Text box — Additional field | Names a proposed custom field. |
 | `txtCustomValue` | Text box — Value | Supplies the proposed custom-field value. |
-| `btnAddField` | Button — **Add** | Adds the name/value pair to the pending custom-field list. |
+| `btnAddField` | Button — **Add** | Adds an ordinary custom name/value pair; rejects managed identity, Condition and other reserved names. |
 | `lstCustomFields` | List box | Displays pending custom fields. |
 | `btnRemoveField` | Button — **Remove** | Removes the selected pending custom field. |
 | `btnOK` | Button — **Add Item** or edit action | Validates and submits the current mode. |
 | `btnCancel` | Button — **Cancel** | Closes without submitting. |
 | `lblTitle` | Label | Shows the current add/edit title. |
 | `lblContext` | Label | Explains that invSys generates the internal item code. |
-| `lblGenerated` | Label | Shows generated identifier/result context. |
+| `lblGenerated` | Label | Shows internal Item Code and warehouse/station context. ROW is removed in source68949ab0; packaged verification is pending. Physical identity remains the owning generated System_Key. |
 | `lblStatus` | Label | Displays validation and completion status. |
 | `lblEditItem`, `lblItemName`, `lblUom`, `lblQty`, `lblLocation`, `lblCategory`, `lblDescription`, `lblVendorName`, `lblVendorCode`, `lblExternalCode`, `lblImagePath`, `lblEditReason`, `lblCustomName`, `lblCustomValue` | Field labels | Identify the controls listed above. |
 
