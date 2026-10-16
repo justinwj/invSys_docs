@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.635 -- Inventory packaged RED qualified; D8-INV-01 approval pending.
+**Version:** 1.636 -- D8-INV-01 tightened; approval pending.
 
 **Current Add/Edit Inventory checkpoint,2026-10-15 Pacific:** unchanged recording02/
 source1c9bff87 trial115 completes35 PASS/10 FAIL, retaining all45 assertion names/
@@ -19,9 +19,15 @@ operator before inspection, requires Core live-session/source authorization and
 joint input checks after every declared yield and before writes, removes ROW under
 D14 and preserves honest partial results/retry. Existing catalog selection,
 zero/non-counted creation, exact-key retirement and worksheet staging semantics
-remain; the earlier positive-only worksheet phrase requires alignment with D14's
-later explicit zero-or-greater rule. No new ControlId, replay adapter, historical
-import or full form acceptance. Expanded Edit/Delete/worksheet D13 RED follows
+remain. D13 explicitly protects zero-quantity creation through modal Add and
+worksheet ADD; this proposal authorizes no change to D14's locked quantity wording.
+Modal catalog/source/selection and affected-entity replacement after a yield must
+refuse without silently using the replacement, including Add before entity creation.
+The Inventory receipt's written `Config diagnosis` section is a required D13
+deliverable tied to each RED's exact product/test commits and controller/worker IDs;
+it records cause or unresolved status, evidence and next diagnostic. Focused GREEN
+cannot silently close the unresolved finding. No new ControlId, replay adapter,
+historical import or full form acceptance. Expanded Edit/Delete/worksheet D13 RED follows
 approval before implementation. Tester127/Settings202/recording80/Receiving121
 stand; Release1 fixture conformance and remaining controls keep4be-A open. Earlier
 dated checkpoints below retain their scopes.
@@ -8075,6 +8081,9 @@ captured host is also observed. Other-warehouse denial passes. Config-byte chang
 remains unresolved. D8-INV-01 is proposed, approval pending; no product correction
 or full Add/Edit/Delete/worksheet acceptance is claimed. The table below describes
 the maintained control contract; the code Inventory entry receipt gives exact RED.
+The revised proposal requires modal replacement refusal and zero-quantity Add
+tests plus the source/commit-bound Config diagnosis artifact; none is inferred
+as already covered by the45-check diagnostic.
 
 | Control | Type / displayed text | Purpose |
 |---|---|---|

@@ -5790,6 +5790,14 @@ unrelated worksheet mutation. Exact evidence and provenance are in code
    expires the context. Changed trusted-source feed/root/Config binding requires
    reopening or refusal; restoring it cannot revive an expired context. Authorized
    in-command writes do not themselves expire the command's own verified results.
+   For modal Add/Edit/Delete, this same schedule revalidates the captured catalog
+   source, the selected catalog record when applicable, and any resolved affected
+   entity set. An externally changed/deleted/replaced catalog source or selection,
+   or a changed/replaced affected entity, refuses the pending action. Never silently
+   reload and use a replacement, including a replacement under the same Item Code.
+   Modal Add checks the captured catalog source even before an existing entity is
+   selected or a new entity exists. Reopening with a fresh context is required to
+   use a changed/replaced source or selection; switching back cannot revive it.
 3. **Owning boundaries and separate headless path.** Admin retains controls,
    input/confirmation and presentation; Core owns interactive authorization and
    command coordination; Inventory Domain retains canonical application through
@@ -5811,10 +5819,8 @@ unrelated worksheet mutation. Exact evidence and provenance are in code
    No new entity-allocation, conversion, catalog or bulk-delete policy is approved:
    an ambiguous quantity target refuses rather than inventing allocation. Keep
    greenfield Admin-created inventory; no migration or ROW-to-key mapping.
-   Preserve D14's later explicit zero-or-greater Starting Qty rule for form and
-   worksheet ADD. On approval, align the earlier workbench phrase "positive
-   starting quantity" with that later rule; it currently contradicts the same
-   section's explicit zero-quantity behavior. No positive-only narrowing is allowed.
+   The D13 assertions below protect existing zero-quantity creation. This proposal
+   authorizes no edit to D14's locked quantity wording.
 5. **Worksheet ownership and joint preflight.** Create/Upload operate only on the
    captured saved operator workbook and exact selected invSys staging table.
    Refuse trusted authority, canonical inventory, published snapshots or foreign
@@ -5845,11 +5851,33 @@ identities and expand RED before product edits through actual Ribbon/modal OK,
 Edit/Delete and worksheet Create/Upload handlers, plus direct Core refusal tests.
 Cover signed-out stale hints, other-warehouse Admin, replacement session, role/
 capability loss, every reachable yield and write phase, changed/restored source
-feed, workbook/table replacement and forbidden overlap. Authorized and denied
-controls require exact independent persisted results, including zero/non-counted
+feed, workbook/table replacement and forbidden overlap. Modal Add/Edit/Delete
+must additionally cover changed/replaced catalog sources/selections and affected
+entities after each reachable yield, including same-Item-Code replacements; assert
+refusal without retargeting or mutation. Modal Add includes source replacement
+before its new entity exists. Authorized and denied controls require exact
+independent persisted results. Explicitly assert zero-quantity creation remains
+accepted through both the modal Add and worksheet ADD handlers, with its active
+entity and exact saved quantity preserved; do not narrow it to positive-only
+creation. This protects D14's existing explicit zero-quantity behavior and is not
+an instruction to edit the earlier workbench wording. Also cover non-counted
 creates, multi-entity same-SKU edits/retirement, unknown/custom-column preservation,
 read-only/dirty borrowed workbooks, cancellation, partial application and failed
-result saves/retry. Diagnose Config separately without weakening inspection guards.
+result saves/retry.
+
+**Required Config diagnosis artifact:** maintain a written `Config diagnosis`
+section in code `tests/integration/plan022_slice4be_admin_inventory_entry_results.md`
+for each RED cohort. It must name that RED's exact product-source and test commits,
+controller/worker IDs, observed Config/Auth preservation results, diagnostic evidence
+and either an established cause with supporting evidence or an explicit unresolved
+status with the remaining questions and next diagnostic. Keep values redacted and
+inspection read-only. Evidence from a different source commit must be identified
+as a separate comparison, never substituted for the RED cohort's diagnosis.
+The artifact is a required D13 review deliverable alongside focused GREEN; passing
+GREEN cannot silently close an unresolved Config finding or weaken inspection
+guards. Carry unresolved status forward explicitly until cause/required correction
+is independently established and verified.
+
 Keep headless authorization, accepted Create/Seed/Receiving and Release1 workflows.
 Require focused GREEN, relevant regression/layout/recording/guidance gates, five
 cold compiles, regenerated static evidence and nonregressing growth/call metrics.

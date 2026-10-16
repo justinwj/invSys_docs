@@ -21,15 +21,21 @@ command boundary, captured source/session checks at every listed yield and befor
 mutation, D14 identity, exact entity/source/table revalidation and honest partial
 retry. It preserves separate headless authorization and existing catalog/SKU
 selection; no new quantity allocation, conversion, receipt store, historical import
-or bulk delete is implied. D14's earlier positive-only worksheet phrase conflicts
-with its later explicit zero-or-greater form/worksheet rule; the proposal calls
-for aligning that phrase on approval, preserving zero-quantity behavior. Product
+or bulk delete is implied. The revised D13 list explicitly protects zero-quantity
+creation through modal Add and worksheet ADD; this proposal authorizes no edit to
+D14's locked quantity wording. Modal catalog/source/selection or affected-entity
+replacement after a yield must refuse without silently binding a replacement,
+including the Add path before its new entity exists. Product
 implementation is withheld pending this decision, as requested by the user.
 
 After approval: expand actual-action D13 RED across Edit/Delete, worksheet Create/
-Upload, live session/source changes and reachable yield/write phases; diagnose
-Config separately; then implement and qualify focused/regression/layout/static/
-recording/guidance gates. Tester127, Settings202, recording80 and Receiving121
+Upload, live session/source changes and reachable yield/write phases. Require the
+Inventory receipt's written `Config diagnosis` artifact tied to each RED's exact
+product/test commits and controller/worker IDs, with proven cause or explicit
+unresolved status, supporting evidence and next diagnostic. Focused GREEN cannot
+silently close that unresolved finding. Then implement and qualify focused,
+regression, layout, static, recording and guidance gates. Tester127, Settings202,
+recording80 and Receiving121
 remain qualified on source1c9bff87. Current Release1 fixture conformance, remaining
 coverage and comprehensive4be-A acceptance remain open. No package promotion or
 new recording ID. Earlier dated checkpoints below retain their original scopes.
