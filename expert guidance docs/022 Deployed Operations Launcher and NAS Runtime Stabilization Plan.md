@@ -4,6 +4,18 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**GitHub workflow clarified,2026-10-16 Pacific:** pull from soetrain's matching
+main branches, publish feature branches to the authenticated justinwj repositories,
+and create/update PRs targeting soetrain/main for his review/merge. Both origin/main
+branches were pulled and already contained in the working branches. Draft
+[code PR3](https://github.com/soetrain/invSys_fork/pull/3) and
+[docs PR2](https://github.com/soetrain/invSys_docs/pull/2) now exist. Git/CLI defaults
+and both root AGENTS.md files preserve this across chats; local main branches match
+origin/main, with the old divergent docs main preserved on an archive branch.
+The earlier fork-push authorization block is resolved. The separate rejected
+catalog implementation edit remains unapplied, and all runtime acceptance gates
+remain unchanged. This is repository housekeeping, not a D13 contract change.
+
 **Config diagnosis140 qualified,2026-10-16 Pacific:** unchanged validated
 product68949ab0/testfb59319c retains49/1 over the exact50 baseline identities/order.
 The byte difference affects core.xml and only Excel runtime-metadata record3073
@@ -24,7 +36,7 @@ fixtures and normal owned/native closure through07:03:14.2959637Z. A partially w
 unbuilt Core input prototype is staged. Automatic approval review rejected the
 guarded live catalog mutation/save patch twice as too broad for automatic approval.
 The unapplied198-line diff/review note are under code tests/proposals. Specific
-product-edit authorization and separate rejected fork pushes are pending;
+product-edit authorization is pending; the GitHub publication block is resolved above;
 D8-INV-01's architectural approval remains operative. Do not build/promote the
 prototype before completing event/result acknowledgement and catalog/staging/write
 phases, then obtaining focused GREEN and applicable regressions. All broader4be-A/
