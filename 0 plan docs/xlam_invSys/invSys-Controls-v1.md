@@ -1,6 +1,17 @@
 # invSys Form Controls v1
 
-**Version:** 1.641 -- Exact Edit quantity RED11/1; captured-authority increment in progress.
+**Version:** 1.642 -- Captured-authority comparison229/28; remaining Inventory gates open.
+
+**Inventory authority comparison,2026-10-15 Pacific:** source/test08d0e3f1 records
+229 PASS/28 FAIL over257 checks,42 actual handler/yield cases and no harness
+exception. Tested stale authority/session/capability/root refusals and authorized
+zero-quantity controls pass. ROW display/payload, selected-input replacement,
+exact Edit quantity and Config diagnosis remain open. Five packages/all486 tooling/
+settings/fixtures and normal owned/native closure qualify through
+2026-10-16T05:40:51.8753855Z. Build121/cold122 qualify the unpromoted candidate;
+static duplicate/dynamic counts remain194/9/45. Existing control IDs/catalog43/186
+remain. Reserved-field modal/Upload tests are prepared, not yet run; complete
+Core coordination, identity, retry, visible proof and broader acceptance stay open.
 
 **Current Inventory implementation checkpoint,2026-10-15 Pacific:** focused
 source1c9bff87/testc60fad9f passes11/fails1 at exact saved Edit target quantity,
