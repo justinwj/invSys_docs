@@ -4,6 +4,21 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Managed-field source regression,2026-10-16 Pacific:** unchanged product
+3d66ac92/testeeec095c qualifies GREEN16533/33 with all original124 names/order.
+Diagnostic164 proves the generated seed workbook is open and dirty; refusing it
+is correct. Test setup now independently verifies persisted entities/quantities
+and unchanged bytes, then closes only that owned copy without saving. No product
+guard is weakened. Pins/settings/fixtures and normal native closure qualify through
+20:09:55.6993159Z. Full166 is running; no built-package or comprehensive acceptance.
+
+**Cleanup163 resolved naturally,2026-10-16 Pacific:** the same worker/Excel/
+controller exit unforced; all pins/settings/fixtures and zero native failures
+qualify through19:58:45.3089330Z. The257/3 over260 observation is preserved as
+incomplete, not a300-check GREEN. No force exception is required. The earlier
+cleanup block and handoff192 are historical to this exit. Focused managed-field
+admission diagnosis is next; cause remains unproved and product guards stay intact.
+
 **Full comparison163 incomplete; cleanup blocked,2026-10-16 Pacific:** source
 3d66ac92/testb7be62d7 observes257/3 over260 checks including a harness exception,
 not completion of the300-check suite. Known Config byte failure remains; the

@@ -1,6 +1,19 @@
 # invSys Form Controls v1
 
-**Version:** 1.655 -- Edit GREEN23/catalog GREEN27; full comparison incomplete and owned Excel cleanup blocked.
+**Version:** 1.657 -- Edit GREEN23/catalog GREEN27/managed fields GREEN33; full comparison rerunning.
+
+**Managed-field regression GREEN,2026-10-16 Pacific:**16533/33 on unchanged
+product3d66ac92/testeeec095c retains all original names/order.164 locates a dirty
+owned seed fixture; closing only its verified persisted copy without saving
+restores admission and preserves bytes. No guard or business policy changes.
+Normal native/pin/settings/fixture closure passes through20:09:55.6993159Z. Full166
+is running; no new control IDs, build/deploy or comprehensive acceptance.
+
+**Cleanup resolved,2026-10-16 Pacific:**163 exits without force; all pins,
+settings and fixtures restore, with zero native failures through19:58:45.3089330Z.
+Its257/3 over260 remains an incomplete comparison with an unreached managed-field
+handler. Diagnose admission in the focused gate before any guard edit; no new
+control IDs, build, force approval or full acceptance is implied.
 
 **Full comparison163 incomplete,2026-10-16 Pacific:** source3d66ac92 observes
 257/3 over260 emitted checks including one harness exception. The first managed
