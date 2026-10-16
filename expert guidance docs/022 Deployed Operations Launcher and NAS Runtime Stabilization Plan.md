@@ -4,6 +4,15 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Full-Edit continuation checkpoint,2026-10-16 Pacific:** current sourceb84093c5/
+test21556a44 qualifies RED15314/9 over23 actual Edit-handler checks. Even no-op
+quantity does not continue; changed-quantity cases never reach the processor.
+An earlier catalog/integration refusal requires fixed-stage diagnosis before any
+quantity acknowledgement correction. All source/tool/package/settings/fixture
+pins and normal native closure pass through19:06:04.0365010Z. This does not negate
+151's narrower108 input checks or establish built-package acceptance. Config/Auth
+remain unmeasured in153; the cohort-bound unresolved note is in the code receipt.
+
 **Catalog source checkpoint,2026-10-16 Pacific:** qualified component RED145
 16/16 becomes GREEN14632/32 on5e7b81b4. Real Core RED14724/3 becomes GREEN148
 27/27 onb84093c5, retaining exact names/order; independent saved-byte confirmation
@@ -11,8 +20,10 @@ now rejects memory-only Saved flags. Post-save authority loss stays partial.
 The32-check component gate is retained GREEN149 on the same source. All cohorts
 preserve settings/fixtures/packages/tooling and close normally; latest native
 audit18:48:12.8617567Z. These are unsaved source probes, not built XLAMs or packaged
-acceptance. Own-write acknowledgement, worksheet integration and the108-handler
-matrix remain open. Config notes stay cohort-specific in the code receipt.
+acceptance. The retained108-handler input matrix also qualifies GREEN151 on this source,
+exact RED138 names/order, preserved seven source overlays/all489 tooling/five
+packages/four harness pins, normal native audit through19:00:06.4994974Z.
+Own-write acknowledgement and worksheet integration remain open. Config notes stay cohort-specific in the code receipt.
 Harness142–144 are not RED.
 
 **Catalog phase authorization,2026-10-16 Pacific:** the user approved the concrete

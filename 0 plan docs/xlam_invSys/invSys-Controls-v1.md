@@ -1,6 +1,12 @@
 # invSys Form Controls v1
 
-**Version:** 1.650 -- Catalog component GREEN32; real-Core persisted-confirmation GREEN27; packages unbuilt.
+**Version:** 1.652 -- Input GREEN108; full-Edit continuation RED14/9; packages unbuilt.
+
+**Full-Edit continuation,2026-10-16 Pacific:** b84093c5/test21556a44 qualifies
+RED15314/9 over23 actual Edit-handler checks. No-op continuation fails, and the
+changed-quantity cases do not reach the processor. Diagnose the earlier catalog
+refusal before correcting quantity acknowledgement. Native/owned/pin preservation
+passes through19:06:04.0365010Z. No control IDs or acceptance gates are closed.
 
 **Catalog phase progress,2026-10-16 Pacific:** sourceb84093c5 qualifies the
 real Core saved-byte confirmation27/27 and retained component32/32 gates, exact
@@ -8,7 +14,10 @@ assertion retention and clean normal native/owned closure through18:48:12.861756
 Memory-only Saved flags refuse; verified saves can continue; post-save authority
 loss reports partial. These are unsaved source probes, not rebuilt XLAMs or
 packaged callback acceptance. No control ID or comprehensive acceptance change;
-remaining input/write/result integration and broader gates stay open.
+the retained108-handler input matrix now qualifies GREEN151 on this source,
+exact RED138 names/order and preserved normal native closure through19:00:06.4994974Z.
+Own-write acknowledgement, worksheet write/result integration and broader gates
+stay open. The108 result uses unsaved overlays and does not qualify built packages.
 
 **Catalog phase contract,2026-10-16 Pacific:** the user approved applying the
 D8-INV-01 catalog phase after restructuring: plan all fields, one joint check,
