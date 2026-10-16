@@ -4,6 +4,17 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Inventory Config diagnostic qualified,2026-10-15 Pacific:** unchanged
+source1c9bff87/testd9aab17a completes142 PASS/48 FAIL with190 unique checks,
+retaining all185 prior names/order/outcomes. Five read-only extraction proofs
+pass. Table-cell values/shapes do not change; four callback cases change one
+metadata and one unidentified Other ZIP part, while other-warehouse changes none.
+Config cause remains explicitly unresolved in the cohort-bound artifact. Preserved
+five packages/all486 tooling/settings/fixtures and normal unforced owned/native
+closure qualify through2026-10-16T04:36:26.4217803Z, without desktop stop or Excel
+failure. Next test expansion covers catalog/entity/source/table changes and UOM/
+Delete-reason prompts; it is prepared, not yet run. No product implementation.
+
 **Approved Inventory first expanded RED,2026-10-15 Pacific:** source1c9bff87/
 testc8321d65 completes137 PASS/48 FAIL,185 unique checks without a harness
 exception. All45 baseline names/order/outcomes and30 actual modal/worksheet

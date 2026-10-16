@@ -1,6 +1,16 @@
 # invSys Form Controls v1
 
-**Version:** 1.638 -- Approved Inventory expanded RED137/48 qualified; implementation pending.
+**Version:** 1.639 -- Inventory diagnostic RED142/48 qualified; Config cause unresolved.
+
+**Latest Inventory diagnostic,2026-10-15 Pacific:** source1c9bff87/testd9aab17a
+retains all185 prior checks/outcomes and adds five passing read-only Config
+extraction checks:142 PASS/48 FAIL, no harness exception. Config table cells/shapes
+remain unchanged; metadata and unidentified Other package-part changes leave
+causality unresolved in the required artifact. Five-package/all486 tooling/settings/
+fixture preservation and normal owned/native closure qualify through
+2026-10-16T04:36:26.4217803Z, with no desktop stop or Excel failure. Replacements,
+remaining prompts and partial/retry gates stay open. Product controls/wording,
+catalog43/186 and packages remain unchanged;4be-A is incomplete.
 
 **Current Inventory expanded RED,2026-10-15 Pacific:** unchanged source1c9bff87/
 testc8321d65 completes137 PASS/48 FAIL,185 unique checks with no harness exception.
