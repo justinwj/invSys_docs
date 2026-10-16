@@ -1,6 +1,16 @@
 # invSys Form Controls v1
 
-**Version:** 1.645 -- Inventory comparison272/28 qualified; ROW cleanup awaits packaged proof.
+**Version:** 1.646 -- ROW checks GREEN; input RED88/20; catalog phase blocked by automatic review.
+
+**Current Inventory boundary,2026-10-16 Pacific:** source68949ab0 passes all seven
+ROW assertions within baseline137's49 PASS/1 FAIL; Config remains unresolved.
+Focused input138 is88/20 with preserved packages/all486 tooling/settings/fixtures
+and normal native/owned closure through07:03:14.2959637Z. An incomplete, unbuilt
+Core input prototype is staged. Automatic approval review rejected the guarded
+live catalog mutation/save patch twice; its exact diff and review note are saved
+under code tests/proposals and specific authorization is pending. D8-INV-01 remains
+approved. No deployment or complete acceptance; remaining result/write phases,
+Config semantics, headless/Core/refusal/retry and broader4be-A gates stay open.
 
 **Inventory full comparison135,2026-10-15 Pacific:** productb936503e/testad7b7056
 records272 PASS/28 FAIL over300 checks, exact257-name/order prefix and no harness
@@ -8166,8 +8176,9 @@ workflow. It does not make a worksheet row the durable identity.
 **Acceptance limitation,2026-10-15 Pacific:** D8-INV-01 implementation has scoped
 authority, managed-field, exact-quantity and bounded-retry qualifications. Full
 comparison135 is272/28, with remaining ROW, changed-input and Config failures.
-Source68949ab0 removes ROW wording/payload/signatures but has not yet been built
-or packaged-tested. Complete Add/Edit/Delete/worksheet acceptance remains open.
+Source68949ab0 removes ROW wording/payload/signatures and its seven protecting
+assertions pass within baseline137's49/1. Complete acceptance remains open; input
+matrix138 is88/20 and automatic approval review blocks the next catalog phase.
 The table describes the maintained contract; the code Inventory receipt records
 exact cohorts and the required unresolved Config diagnosis. Both authorized
 zero-quantity paths are protected; replacement/remaining phase gates stay open.
@@ -8201,7 +8212,7 @@ zero-quantity paths are protected; replacement/remaining phase gates stay open.
 | `btnCancel` | Button — **Cancel** | Closes without submitting. |
 | `lblTitle` | Label | Shows the current add/edit title. |
 | `lblContext` | Label | Explains that invSys generates the internal item code. |
-| `lblGenerated` | Label | Shows internal Item Code and warehouse/station context. ROW is removed in source68949ab0; packaged verification is pending. Physical identity remains the owning generated System_Key. |
+| `lblGenerated` | Label | Shows internal Item Code and warehouse/station context without ROW, protected by baseline137. Physical identity remains the owning generated System_Key. |
 | `lblStatus` | Label | Displays validation and completion status. |
 | `lblEditItem`, `lblItemName`, `lblUom`, `lblQty`, `lblLocation`, `lblCategory`, `lblDescription`, `lblVendorName`, `lblVendorCode`, `lblExternalCode`, `lblImagePath`, `lblEditReason`, `lblCustomName`, `lblCustomValue` | Field labels | Identify the controls listed above. |
 
