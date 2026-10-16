@@ -1,6 +1,30 @@
 # invSys Form Controls v1
 
-**Version:** 1.634 -- Shared recording80, Settings202, Receiving121 and Tester127 qualified.
+**Version:** 1.635 -- Inventory packaged RED qualified; D8-INV-01 approval pending.
+
+**Current Add/Edit Inventory checkpoint,2026-10-15 Pacific:** unchanged recording02/
+source1c9bff87 trial115 completes35 PASS/10 FAIL, retaining all45 assertion names/
+order without a harness exception. The actual Ribbon/modal OK action persists a
+new exact entity after sign-out, proved by read-only reopen without a diagnostic
+save. Authorized controls persist exact quantities. ROW remains in payload/display;
+one replacement-session case captures another workbook. Other-warehouse Admin does
+not mutate inventory. Auth bytes are preserved; Config byte-change cause is
+unresolved. Five packages/all485 tooling/settings/fixture preservation and normal
+owned/native closure qualify through2026-10-16T00:02:59.4379339Z, without an Excel
+failure or desktop stop. Exact evidence: code Inventory entry receipt.
+
+Normative **D8-INV-01 is proposed, approval pending**. Product controls/wording,
+catalog43/186 and packages are unchanged. The pending contract captures the source
+operator before inspection, requires Core live-session/source authorization and
+joint input checks after every declared yield and before writes, removes ROW under
+D14 and preserves honest partial results/retry. Existing catalog selection,
+zero/non-counted creation, exact-key retirement and worksheet staging semantics
+remain; the earlier positive-only worksheet phrase requires alignment with D14's
+later explicit zero-or-greater rule. No new ControlId, replay adapter, historical
+import or full form acceptance. Expanded Edit/Delete/worksheet D13 RED follows
+approval before implementation. Tester127/Settings202/recording80/Receiving121
+stand; Release1 fixture conformance and remaining controls keep4be-A open. Earlier
+dated checkpoints below retain their scopes.
 
 **Current shared lifecycle regression,2026-10-15 Pacific:** source1c9bff87/
 recording02 passes80/80 with two original-size reviewed captures. Package/all484
@@ -8044,6 +8068,13 @@ separate reachability review before removal.
 
 This form edits inventory item metadata and queues the supported add/edit
 workflow. It does not make a worksheet row the durable identity.
+
+**Acceptance limitation,2026-10-15 Pacific:** trial115's actual Add modal action
+proves persisted signed-out creation and legacy ROW payload/display; one wrong
+captured host is also observed. Other-warehouse denial passes. Config-byte change
+remains unresolved. D8-INV-01 is proposed, approval pending; no product correction
+or full Add/Edit/Delete/worksheet acceptance is claimed. The table below describes
+the maintained control contract; the code Inventory entry receipt gives exact RED.
 
 | Control | Type / displayed text | Purpose |
 |---|---|---|

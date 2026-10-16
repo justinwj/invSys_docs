@@ -4,6 +4,36 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Current approval boundary,2026-10-15 Pacific:** Add/Edit Inventory trial115 on
+unchanged recording02/source1c9bff87 completes35 PASS/10 FAIL through the actual
+Ribbon/modal OK path, retaining all45 names/order without a harness exception.
+Independent read-only reopen proves exact authorized and signed-out persisted
+creates. ROW payload/display and one wrong-host capture also fail. Another
+warehouse's Admin does not mutate inventory; replacement-session refusal is not
+assumed as an already approved rule. Auth is preserved; Config bytes change with
+unresolved cause. Five packages/all485 tooling/settings/fixture preservation and
+normal owned/native closure qualify through2026-10-16T00:02:59.4379339Z, with zero
+Excel failures or desktop stops. Code Inventory receipt records exact evidence.
+
+Normative **D8-INV-01 is PROPOSED, approval pending**, within the existing4be-A
+slice. It defines a separate Core-owned interactive Add/Edit/Delete and worksheet
+command boundary, captured source/session checks at every listed yield and before
+mutation, D14 identity, exact entity/source/table revalidation and honest partial
+retry. It preserves separate headless authorization and existing catalog/SKU
+selection; no new quantity allocation, conversion, receipt store, historical import
+or bulk delete is implied. D14's earlier positive-only worksheet phrase conflicts
+with its later explicit zero-or-greater form/worksheet rule; the proposal calls
+for aligning that phrase on approval, preserving zero-quantity behavior. Product
+implementation is withheld pending this decision, as requested by the user.
+
+After approval: expand actual-action D13 RED across Edit/Delete, worksheet Create/
+Upload, live session/source changes and reachable yield/write phases; diagnose
+Config separately; then implement and qualify focused/regression/layout/static/
+recording/guidance gates. Tester127, Settings202, recording80 and Receiving121
+remain qualified on source1c9bff87. Current Release1 fixture conformance, remaining
+coverage and comprehensive4be-A acceptance remain open. No package promotion or
+new recording ID. Earlier dated checkpoints below retain their original scopes.
+
 **Current shared lifecycle qualified,2026-10-15 Pacific:** source1c9bff87/
 recording02 passes80/80 with two original-size reviewed captures and verified
 five-package/all484 tooling/settings/fixture preservation. Normal owned closure

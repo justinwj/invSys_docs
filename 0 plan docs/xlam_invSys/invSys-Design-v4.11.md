@@ -5742,6 +5742,121 @@ Implementation is authorized within this contract. No new recording control ID o
 4be-A acceptance is implied; D18-REPLAY-01 and early B0 boundaries remain unchanged.
 
 ---
+### D8-INV-01 — Add/Edit Inventory interactive authority and System_Key identity (PROPOSED; approval pending)
+
+Proposed2026-10-15 Pacific within Plan0224be-A. **This section is not operative
+until explicit approval.** D8-AGG-01 approval does not approve this distinct
+interactive Inventory command boundary. D14 already prohibits runtime/display/
+payload `ROW`; retaining it is not an option proposed here.
+
+**Observed problem and limits:** on unchanged source1c9bff87, the actual
+`btnAdminAddInventoryItem` -> `RibbonOnActionAdmin` -> `Add_InventoryItem` ->
+modal `mBtnOK_Click` diagnostic completes35 PASS/10 FAIL, without a harness
+exception. Two authorized controls and the signed-out action each persist one
+new exact entity at the submitted quantity, independently cold-read without a
+diagnostic save. Two create payloads contain `ROW`; all five forms display it.
+The other-warehouse Admin case does not mutate inventory. A replacement-session
+case captures another workbook and persists a create; a rule expiring that
+session is proposed below, not assumed to be an existing approved test oracle.
+Auth bytes remain unchanged; Config bytes change from the first authorized
+control onward, with cause and semantic significance unresolved. These45 checks
+are an Add-entry diagnostic, not an Edit/Delete/worksheet matrix or proof of
+unrelated worksheet mutation. Exact evidence and provenance are in code
+`tests/integration/plan022_slice4be_admin_inventory_entry_results.md`.
+
+**Proposed contract:**
+
+1. **Captured interactive command.** Admin captures the original saved operator
+   workbook before Config/Auth/catalog/source inspection can activate another
+   workbook. Core captures an opaque transient interactive context bound to that
+   exact workbook, source warehouse/station, signed-in invSys user/session
+   generation and trusted Config/Auth/runtime identities. Source resolution and
+   ADMIN_MAINT refer to that captured source. No ActiveWorkbook, saved user-ID,
+   Windows/Office identity, selected destination or other warehouse's Admin can
+   substitute. Invalid/missing/closed bindings refuse; the form never retargets.
+   Ordinary inspection follows D5/D8-A and cannot provision or repair authority.
+   Diagnose the observed Config byte change before classifying or changing it;
+   a byte mismatch alone does not establish an unauthorized semantic mutation.
+2. **One recheck schedule.** Immediately before every mutation, and immediately
+   after each yield before further work, Core rechecks live ADMIN_MAINT, captured
+   session/source continuity and the selected catalog/entity/table inputs together.
+   The closed yield list is: form return; UOM, edit-reason or custom-field prompts;
+   file/folder/connection/source/table pickers or inspection dialogs; confirmation
+   and result dialogs; event pumping; and external/asynchronous waits. Map actual
+   reachable sites to tests; do not count absent sites as coverage. This applies
+   before catalog, inbox/event, quantity, retirement, staging/result or save writes,
+   including automatic provisioning side effects. Sign-out, replacement session,
+   user/station/warehouse change, lost capability or an observed invalid source
+   expires the context. Changed trusted-source feed/root/Config binding requires
+   reopening or refusal; restoring it cannot revive an expired context. Authorized
+   in-command writes do not themselves expire the command's own verified results.
+3. **Owning boundaries and separate headless path.** Admin retains controls,
+   input/confirmation and presentation; Core owns interactive authorization and
+   command coordination; Inventory Domain retains canonical application through
+   events and its processor. Keep Core/Domain headless, typed calls within each
+   project and declared primitive/serialized cross-XLAM envelopes. Preserve explicit
+   provisioned headless/fixture authorization separately. A headless-capable queue
+   helper's provisioned-user check cannot authorize a stale interactive form.
+   D8's existing processor-run cache/TTL rule remains; recheck the interactive
+   command on processor return before any later command phase or write.
+4. **Identity and existing business scope.** Remove `ROW` from this runtime path's
+   managed headers, display, payloads, validation and compatibility signatures;
+   update callers rather than translating legacy rows. Generate System_Key once
+   at the owning creation boundary and preserve it thereafter. Catalog selection
+   and worksheet EDIT remain exact Item Code/SKU choices; catalog identity is not
+   a physical entity key. Quantity/retirement events must resolve and revalidate
+   their exact affected System_Key set before queueing. Preserve the existing
+   all-active-entities retirement contract, required reasons, catalog history,
+   non-counted modes, Condition, shared custom values by key and unknown columns.
+   No new entity-allocation, conversion, catalog or bulk-delete policy is approved:
+   an ambiguous quantity target refuses rather than inventing allocation. Keep
+   greenfield Admin-created inventory; no migration or ROW-to-key mapping.
+   Preserve D14's later explicit zero-or-greater Starting Qty rule for form and
+   worksheet ADD. On approval, align the earlier workbench phrase "positive
+   starting quantity" with that later rule; it currently contradicts the same
+   section's explicit zero-quantity behavior. No positive-only narrowing is allowed.
+5. **Worksheet ownership and joint preflight.** Create/Upload operate only on the
+   captured saved operator workbook and exact selected invSys staging table.
+   Refuse trusted authority, canonical inventory, published snapshots or foreign
+   workbook overlap; never close/save a borrowed authority workbook or redirect
+   structure changes. Keep worksheet catalog staging free of physical System_Key
+   and ROW headers. Validate every pending row before the first authoritative
+   write, and revalidate selected rows, resolved exact entities and source/session
+   together on the schedule in item2. A changed/deleted/replaced table, invalid
+   pending row or changed source cannot become a successful partial selection.
+   Preserve unknown columns and skip only independently confirmed successful rows.
+6. **Honest partial result and retry.** Preauthorization failure persists no new
+   command output. Authority loss stops further writes, including cleanup and
+   worksheet status/save writes. A failure after a confirmed earlier write reports
+   the known partial outcome; it never claims atomic rollback or full success.
+   Retain exact command/event/entity identifiers and confirmed/pending results in
+   the existing authorized result/receipt boundary until reconciliation or confirmed
+   cleanup. If no result could be durably recorded before authority loss, explicitly
+   report that limitation; do not claim a durable receipt exists. Freshly authorized
+   retry must reconcile already queued/applied events by their exact identities
+   before resubmission, including when a worksheet result save failed, and must not
+   duplicate a create or adjustment. A batch count alone is not saved application
+   proof. Cancellation, queue success, exact saved application and publication
+   remain distinct outcomes. No new general receipt store or cross-package object
+   contract is implicitly authorized by this proposal.
+
+**D13 acceptance required after approval:** retain the45 diagnostic check
+identities and expand RED before product edits through actual Ribbon/modal OK,
+Edit/Delete and worksheet Create/Upload handlers, plus direct Core refusal tests.
+Cover signed-out stale hints, other-warehouse Admin, replacement session, role/
+capability loss, every reachable yield and write phase, changed/restored source
+feed, workbook/table replacement and forbidden overlap. Authorized and denied
+controls require exact independent persisted results, including zero/non-counted
+creates, multi-entity same-SKU edits/retirement, unknown/custom-column preservation,
+read-only/dirty borrowed workbooks, cancellation, partial application and failed
+result saves/retry. Diagnose Config separately without weakening inspection guards.
+Keep headless authorization, accepted Create/Seed/Receiving and Release1 workflows.
+Require focused GREEN, relevant regression/layout/recording/guidance gates, five
+cold compiles, regenerated static evidence and nonregressing growth/call metrics.
+Approval authorizes this test-first implementation, not4be-A acceptance, new D18
+ControlIds/replay adapters, package promotion or historical inventory import.
+
+---
 ### D9 -- Operator Read Models and Refresh Contract (R1 Locked)
 **Decision:** Operator-facing inventory tables are read models refreshed from published or local warehouse snapshots. They are not authoritative write targets.
 
