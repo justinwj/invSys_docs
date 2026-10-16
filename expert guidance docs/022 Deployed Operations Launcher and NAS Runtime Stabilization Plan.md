@@ -1,5 +1,26 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**Full comparison166 qualified,2026-10-16 Pacific:** product3d66ac92/testeeec095c
+completes299 PASS/1 FAIL across300 unique checks, retaining135 names/order with no
+harness exception. Only InventoryEntry.SourceAuthAndConfigPreserved fails. All
+five package/490 tooling/eight source/four harness pins, settings and fixtures
+restore; normal native closure qualifies through20:42:43.7367441Z with zero Excel
+events. Controller050b2f01fc01419e81dbeed4b59010d7;
+worker6ba01fdf595f430f9e11359f71806572. Long normal shutdown finishes without force.
+This qualifies the comparison's observation, not whole-suite GREEN or built-package
+acceptance. Exact quantity, managed fields and bounded retry controls pass.
+
+**Add continuation RED167 qualified:** unchanged product3d66ac92/test9770b233
+reproduces17 PASS/2 FAIL across19 actual-handler checks. Authorized Add saves the
+owning generated zero-quantity entity but does not reopen; post-processor sign-out
+saves that entity without an honest saved-partial notice. Controller
+59b2f023689f4c2d82cebe60a73b26c0; worker0910ffdacbd34942b0592cbf1a88df8f.
+Five package/491 tooling/eight source/four harness pins, settings and fixtures
+restore with normal native audit20:45:45.3429007Z, zero Excel events. D8-INV-01
+requires exact own-result acknowledgement and refusal after authority loss.
+No XLAM build/deployment or comprehensive4be-A acceptance.
+
+
 **Status:** Current corrective implementation plan
 
 ## Slice 4be -- recording/guidance and replay/proof
