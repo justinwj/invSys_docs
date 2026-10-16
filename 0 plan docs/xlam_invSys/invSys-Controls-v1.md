@@ -1,6 +1,17 @@
 # invSys Form Controls v1
 
-**Version:** 1.643 -- Reserved managed fields RED28/5 to GREEN33; Inventory remains incomplete.
+**Version:** 1.644 -- Exact Edit quantity GREEN12 and bounded retry GREEN22; Inventory incomplete.
+
+**Inventory quantity and bounded-retry checkpoints,2026-10-15 Pacific:** actual
+Edit/reason target test moves11/1 to12/12 on306fa2da. A confirmed queued-event fault
+and fresh-form retry then establish17/3; adding an unrelated pending event yields
+17/5 over22 checks. The bounded correction onb936503e passes22/22, reuses the
+original event once, reaches the exact target and preserves the unrelated event/
+quantity. Five packages/all486 tooling/settings/fixtures and normal owned/native
+closure qualify through2026-10-16T06:24:09.0656757Z. Candidate remains unpromoted.
+Full300 comparison and safe Config part/save-phase instrumentation are prepared;
+cause, remaining ROW/input revalidation, create/result-save retry and broader
+acceptance stay open. Existing control IDs and catalog43/186 remain unchanged.
 
 **Managed-field guard GREEN,2026-10-15 Pacific:** actual modal Additional Field
 and worksheet Upload tests move28 PASS/5 FAIL on08d0e3f1 to33/33 on73e883b0,

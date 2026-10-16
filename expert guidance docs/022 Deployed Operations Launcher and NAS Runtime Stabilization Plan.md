@@ -4,6 +4,18 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Inventory exact quantity/retry GREEN,2026-10-15 Pacific:** focused actual Edit
+target RED11/1 becomes12/12 on306fa2da. Queued-event failure/retry establishes17/3;
+the expanded unrelated pending-event control establishes17/5 over22 checks. On
+b936503e, bounded exact-payload/event matching and an optional exact-receipt
+processor filter produce22/22: one original event applies, exact target/identities
+are preserved and the unrelated event remains unapplied. Preserved five packages/
+all486 tooling/settings/fixtures and normal owned/native closure qualify through
+2026-10-16T06:24:09.0656757Z. Candidate remains unpromoted. Full300 comparison and
+safe Config part/save-phase instrumentation are prepared. All remaining ROW/input
+revalidation, canonical catalog ownership, create/result-save retry, Config cause
+and broader4be-A/Release1 gates remain open; focused GREEN is not acceptance.
+
 **Inventory managed-field GREEN,2026-10-15 Pacific:** actual modal Additional
 Field/worksheet Upload tests move RED28/5 on08d0e3f1 to GREEN33/33 on73e883b0,
 unchanged test9367159b and exact assertion identities/order. Build125 and preserved
