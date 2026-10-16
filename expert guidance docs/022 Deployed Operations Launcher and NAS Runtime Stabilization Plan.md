@@ -4,6 +4,25 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Catalog regression and final-source maintenance,2026-10-16 Pacific:** source
+3d66ac92 retains catalog GREEN16227/27 with clean preserved native closure through
+19:35:28.8443616Z. All six maintenance reports are complete, three schemas validate,
+and non-growth ratchets pass:194 duplicate groups,9 literal/45 unresolved dynamic
+calls and no oversized-module growth. Full retained Inventory comparison163 is
+running in unsaved source overlays. No XLAM build/deploy or comprehensive acceptance.
+
+**Exact Edit source checkpoint,2026-10-16 Pacific:** source3d66ac92/
+testb7be62d7 qualifies GREEN16123/23, retaining RED153 names/order. The timestamp
+precision correction first narrows14/9 to22/1; exact saved-event acknowledgement,
+numeric-date validation and owned-reader lifetime now allow successful Edit to
+continue while post-save sign-out stays partial. All pins/settings/fixtures and
+normal native closure pass through19:32:53.5398853Z. No XLAM build/deploy; these
+are unsaved operator-handler overlays. Current catalog/full Inventory regressions,
+Add/Delete own results, worksheet write/result retry and broader gates remain.
+Config remains a separate unresolved cohort-bound finding. Prior-sourcec5b82d52
+maintenance validates all schemas and restores194 duplicate groups with9/45 calls
+and no oversized-module growth; final-source maintenance is running.
+
 **Full-Edit continuation checkpoint,2026-10-16 Pacific:** current sourceb84093c5/
 test21556a44 qualifies RED15314/9 over23 actual Edit-handler checks. Even no-op
 quantity does not continue; changed-quantity cases never reach the processor.

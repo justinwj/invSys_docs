@@ -1,6 +1,20 @@
 # invSys Form Controls v1
 
-**Version:** 1.652 -- Input GREEN108; full-Edit continuation RED14/9; packages unbuilt.
+**Version:** 1.654 -- Exact Edit GREEN23/catalog GREEN27; full comparison and broader integration open.
+
+**Regression checkpoint,2026-10-16 Pacific:** source3d66ac92 qualifies catalog
+GREEN16227/27 with preserved normal native closure through19:35:28.8443616Z.
+Final-source maintenance validates all three schemas with194 duplicate groups,
+9/45 dynamic calls and no oversized-module growth. Full Inventory comparison163
+is running; source overlays are not built-package or comprehensive acceptance.
+
+**Exact Edit continuation GREEN,2026-10-16 Pacific:** source3d66ac92/testb7be62d7
+qualifies16123/23 with exact RED153 names/order retained, clean pins/settings/
+fixtures and normal native closure through19:32:53.5398853Z. Successful exact
+quantity saves reopen the form; sign-out after processing reports saved partial
+and refuses continuation. No control IDs change. This is unsaved source-handler
+coverage; catalog/full Inventory regressions, Add/Delete own results, worksheet
+write/result-save retry, built packages and comprehensive4be-A remain open.
 
 **Full-Edit continuation,2026-10-16 Pacific:** b84093c5/test21556a44 qualifies
 RED15314/9 over23 actual Edit-handler checks. No-op continuation fails, and the
