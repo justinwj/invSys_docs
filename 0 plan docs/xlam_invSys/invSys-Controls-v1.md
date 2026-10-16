@@ -1,6 +1,17 @@
 # invSys Form Controls v1
 
-**Version:** 1.646 -- ROW checks GREEN; input RED88/20; catalog phase blocked by automatic review.
+**Version:** 1.647 -- Config record diagnosis qualified; input RED88/20; catalog phase blocked by automatic review.
+
+**Config diagnostic boundary,2026-10-16 Pacific:** product68949ab0/testfb59319c
+retains49/1 over the exact50 baseline checks. The Config byte difference in authorized controls
+is isolated to core.xml and Excel runtime-metadata record3073 in workbook.bin;
+other payloads, record headers/order, table cells/shapes and observed properties/
+bindings are unchanged. Denied actions make no Config saves/part changes. The
+required written cohort diagnosis is in the code Inventory receipt; comprehensive
+semantics remain unproved and the raw byte-preservation assertion remains FAIL.
+Five packages/all486 tooling/settings/fixtures and normal native/owned closure
+qualify through07:52:35.9468342Z. No control ID, wording, catalog, runtime contract,
+deployment or acceptance changes; the blocked catalog edit/prototype remain unbuilt.
 
 **Current Inventory boundary,2026-10-16 Pacific:** source68949ab0 passes all seven
 ROW assertions within baseline137's49 PASS/1 FAIL; Config remains unresolved.

@@ -4,6 +4,19 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Config diagnosis140 qualified,2026-10-16 Pacific:** unchanged validated
+product68949ab0/testfb59319c retains49/1 over the exact50 baseline identities/order.
+The byte difference affects core.xml and only Excel runtime-metadata record3073
+(`brtRevisionPtr`) in workbook.bin. All40 record headers/order, other payloads,
+table cells/shapes and observed properties/bindings remain unchanged; denied cases
+make no saves/part changes. One Workbook property is unavailable. The same-cohort
+cause-or-unresolved artifact is recorded in the code Inventory receipt; all workbook
+semantics remain unproved and the raw byte-preservation assertion remains FAIL.
+Five packages/all486 tooling/settings/fixtures and normal owned/native closure
+qualify through07:52:35.9468342Z with zero desktop stops/Excel failures. The read-only
+test diagnostic changes no runtime/architectural contract. No rejected catalog edit,
+prototype build or promotion occurred; specific review-block permissions stay pending.
+
 **Inventory continuation boundary,2026-10-16 Pacific:** source68949ab0 turns all
 seven retained ROW assertions GREEN in baseline137's49/1; Config remains unresolved.
 Focused input138 qualifies88/20 with preserved packages/all486 tooling/settings/
