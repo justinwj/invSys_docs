@@ -4,6 +4,18 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Inventory replacements RED qualified,2026-10-15 Pacific:** source1c9bff87/
+testf379ae51 completes183 PASS/68 FAIL,251 unique checks with all190 prior names/
+order/outcomes retained and42 actual handler/yield cases reached. Catalog/entity/
+worksheet replacement and UOM/Delete-reason authority changes expose continuation;
+changed source root causes foreign runtime-file changes in Add and operator save
+in Create. The Boolean foreign-file proof does not identify contents or quantity
+redirection. Five packages/all486 tooling/settings/fixture preservation and normal
+unforced native/owned closure qualify through2026-10-16T04:54:07.6935062Z, without
+desktop stops or Excel failures. Config cause remains unresolved in the required
+cohort artifact. Next: actual exact-entity Edit target-quantity RED for the existing
+ROW guard, then applicable partial/retry and remaining gates. No product edits.
+
 **Inventory Config diagnostic qualified,2026-10-15 Pacific:** unchanged
 source1c9bff87/testd9aab17a completes142 PASS/48 FAIL with190 unique checks,
 retaining all185 prior names/order/outcomes. Five read-only extraction proofs

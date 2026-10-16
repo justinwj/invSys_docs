@@ -1,6 +1,17 @@
 # invSys Form Controls v1
 
-**Version:** 1.639 -- Inventory diagnostic RED142/48 qualified; Config cause unresolved.
+**Version:** 1.640 -- Inventory replacement RED183/68 qualified; implementation pending.
+
+**Current Inventory replacement evidence,2026-10-15 Pacific:** unchanged source
+1c9bff87/testf379ae51 completes183 PASS/68 FAIL,251 unique checks without a harness
+exception. All190 prior checks/outcomes and42 actual handler/yield cases are retained/
+reached. Replacement/prompt continuation and source-root foreign-file/operator-save
+defects are proved; foreign contents/quantity redirection remain unproved. Normal
+unforced owned/native closure and package/all486 tooling/settings/fixture preservation
+qualify through2026-10-16T04:54:07.6935062Z, without desktop stop or Excel failure.
+Config cause remains unresolved. Exact-entity Edit target-quantity and partial/
+retry/remaining gates stay open. No product wording, recording catalog or package
+change. See the code Inventory receipt for exact scope and the next protecting test.
 
 **Latest Inventory diagnostic,2026-10-15 Pacific:** source1c9bff87/testd9aab17a
 retains all185 prior checks/outcomes and adds five passing read-only Config
