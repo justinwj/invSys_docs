@@ -1,6 +1,18 @@
 # invSys Form Controls v1
 
-**Version:** 1.640 -- Inventory replacement RED183/68 qualified; implementation pending.
+**Version:** 1.641 -- Exact Edit quantity RED11/1; captured-authority increment in progress.
+
+**Current Inventory implementation checkpoint,2026-10-15 Pacific:** focused
+source1c9bff87/testc60fad9f passes11/fails1 at exact saved Edit target quantity,
+with owning identity/other quantities preserved, five compiles and clean preserved
+closure through2026-10-16T05:01:20.9278151Z. Config is unmeasured in this focus and
+remains unresolved. The first source increment binds the original operator before
+inspection and uses Core live-source/session/capability checks at the form actions
+and prompts. Refusal is displayed in the existing status label with fixed sign-in,
+changed-source/session or missing-ADMIN_MAINT wording. Pure search helpers move
+unchanged to avoid form growth. No candidate/native visible GREEN; complete Core
+coordination, selected-input revalidation, identity/quantity, retry and broader
+gates remain open. Existing control IDs, catalog43/186 and deployment are unchanged.
 
 **Current Inventory replacement evidence,2026-10-15 Pacific:** unchanged source
 1c9bff87/testf379ae51 completes183 PASS/68 FAIL,251 unique checks without a harness

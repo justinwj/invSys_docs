@@ -4,6 +4,17 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Inventory focused quantity RED,2026-10-15 Pacific:** source1c9bff87/testc60fad9f
+passes11/fails1 through actual Edit/reason after owning single-entity creation.
+Only the exact target quantity fails; identity/other quantities and all five
+compiles pass. Preserved normal closure qualifies through
+2026-10-16T05:01:20.9278151Z. Config is unmeasured in that focused scope and remains
+unresolved, separately from119's comparison. A first implementation increment now
+adds Core-captured source/session checks at the launcher and real form actions,
+with unchanged search helpers extracted to prevent oversized-component growth.
+Catalog/entity/table revalidation, full Core coordination/write ownership, D14
+quantity/payload and partial/retry work remain; no candidate GREEN or acceptance.
+
 **Inventory replacements RED qualified,2026-10-15 Pacific:** source1c9bff87/
 testf379ae51 completes183 PASS/68 FAIL,251 unique checks with all190 prior names/
 order/outcomes retained and42 actual handler/yield cases reached. Catalog/entity/
