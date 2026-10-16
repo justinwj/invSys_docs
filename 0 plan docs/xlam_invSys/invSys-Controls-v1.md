@@ -1,15 +1,22 @@
 # invSys Form Controls v1
 
-**Version:** 1.648 -- Catalog batch phase conditionally approved; source component tests prepared; input RED88/20 remains.
+**Version:** 1.650 -- Catalog component GREEN32; real-Core persisted-confirmation GREEN27; packages unbuilt.
+
+**Catalog phase progress,2026-10-16 Pacific:** sourceb84093c5 qualifies the
+real Core saved-byte confirmation27/27 and retained component32/32 gates, exact
+assertion retention and clean normal native/owned closure through18:48:12.8617567Z.
+Memory-only Saved flags refuse; verified saves can continue; post-save authority
+loss reports partial. These are unsaved source probes, not rebuilt XLAMs or
+packaged callback acceptance. No control ID or comprehensive acceptance change;
+remaining input/write/result integration and broader gates stay open.
 
 **Catalog phase contract,2026-10-16 Pacific:** the user approved applying the
 D8-INV-01 catalog phase after restructuring: plan all fields, one joint check,
 write the batch, recheck, save, confirm. Refuse already-open unsaved workbooks;
 report saved-but-unconfirmed as partial. Focused GREEN must precede build/deploy.
 The old interleaved patch remains unapplied. A component gate is prepared without
-building/saving an XLAM; all487 tooling parse. Excel is already running, so RED
-execution is pending its closure. No runtime implementation or acceptance change
-is claimed; packaged callbacks and the remaining4be-A gates still apply.
+building/saving an XLAM; the scoped RED/GREEN results above apply. Excel was closed with user authorization.
+Packaged callbacks and the remaining4be-A gates still apply; no XLAM was built.
 
 **Config diagnostic boundary,2026-10-16 Pacific:** product68949ab0/testfb59319c
 retains49/1 over the exact50 baseline checks. The Config byte difference in authorized controls

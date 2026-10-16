@@ -4,6 +4,17 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Catalog source checkpoint,2026-10-16 Pacific:** qualified component RED145
+16/16 becomes GREEN14632/32 on5e7b81b4. Real Core RED14724/3 becomes GREEN148
+27/27 onb84093c5, retaining exact names/order; independent saved-byte confirmation
+now rejects memory-only Saved flags. Post-save authority loss stays partial.
+The32-check component gate is retained GREEN149 on the same source. All cohorts
+preserve settings/fixtures/packages/tooling and close normally; latest native
+audit18:48:12.8617567Z. These are unsaved source probes, not built XLAMs or packaged
+acceptance. Own-write acknowledgement, worksheet integration and the108-handler
+matrix remain open. Config notes stay cohort-specific in the code receipt.
+Harness142–144 are not RED.
+
 **Catalog phase authorization,2026-10-16 Pacific:** the user approved the concrete
 write phase under D8-INV-01 after restructuring to plan every field, one joint
 check, write the whole synchronous batch, recheck, save and confirm. Refuse dirty
@@ -12,9 +23,8 @@ before building or deploying. The old198-line interleaved patch remains unapplie
 and is superseded by this sequence. A source-component gate is prepared: exact
 catalog procedures run in an unsaved probe with deterministic guard outcomes and
 independent cold reads of Admin-generated fixtures. It builds/saves no XLAM and
-does not substitute for the packaged callback/input gates. All487 tooling scripts
-parse; execution is pending closure of an existing Excel process. No behavioral
-RED/GREEN, implementation correction or build is claimed for this approval.
+does not substitute for the packaged callback/input gates. The scoped RED/GREEN results above implement this approval. Excel was closed
+with user authorization; no XLAM build/deploy or comprehensive acceptance is claimed.
 
 **GitHub workflow clarified,2026-10-16 Pacific:** pull from soetrain's matching
 main branches, publish feature branches to the authenticated justinwj repositories,
