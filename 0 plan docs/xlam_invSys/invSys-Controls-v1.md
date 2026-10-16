@@ -1,6 +1,18 @@
 # invSys Form Controls v1
 
-**Version:** 1.637 -- Tightened D8-INV-01 approved; test-first implementation authorized.
+**Version:** 1.638 -- Approved Inventory expanded RED137/48 qualified; implementation pending.
+
+**Current Inventory expanded RED,2026-10-15 Pacific:** unchanged source1c9bff87/
+testc8321d65 completes137 PASS/48 FAIL,185 unique checks with no harness exception.
+All45 prior names/order/outcomes remain;30 actual Add/Edit/Delete/Create/Upload
+handler/yield cases reach their intended boundaries. Authorized modal Add and
+worksheet Upload persist exact zero-quantity entities. Stale authority and changed
+catalog continuation fail; worksheet Create/Upload save after another-warehouse
+authority switch. Preserved packages/all486 tooling/settings/fixtures and normal
+unforced closure qualify through2026-10-16T04:22:45.9302285Z, with zero desktop stops
+or Excel failures. Config cause remains unresolved in the required cohort-bound
+artifact. Additional replacement/yield/partial-result/Core/headless tests and
+diagnosis remain before implementation/qualification; no product or catalog change.
 
 **Current Add/Edit Inventory checkpoint,2026-10-15 Pacific:** unchanged recording02/
 source1c9bff87 trial115 completes35 PASS/10 FAIL, retaining all45 assertion names/

@@ -4,6 +4,18 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Approved Inventory first expanded RED,2026-10-15 Pacific:** source1c9bff87/
+testc8321d65 completes137 PASS/48 FAIL,185 unique checks without a harness
+exception. All45 baseline names/order/outcomes and30 actual modal/worksheet
+handler/yield cases are retained/reached. Authorized modal Add and worksheet
+Upload persist exact zero-quantity entities. Stale authority and changed catalog
+cases fail; worksheet Create/Upload save after another-warehouse authority switch.
+Five packages/all486 tooling/settings/fixture preservation and normal native/owned
+closure qualify through2026-10-16T04:22:45.9302285Z, without desktop stops or Excel
+failure events. Code Inventory receipt records exact scope and the cohort-bound
+unresolved Config note. Further replacement/yield/partial-result/Core/headless
+cases and Config diagnosis remain required; no product implementation yet.
+
 **Current approval boundary,2026-10-15 Pacific:** Add/Edit Inventory trial115 on
 unchanged recording02/source1c9bff87 completes35 PASS/10 FAIL through the actual
 Ribbon/modal OK path, retaining all45 names/order without a harness exception.
