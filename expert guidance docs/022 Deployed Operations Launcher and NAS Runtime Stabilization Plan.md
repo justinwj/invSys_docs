@@ -4,6 +4,18 @@
 
 ## Slice 4be -- recording/guidance and replay/proof
 
+**Catalog phase authorization,2026-10-16 Pacific:** the user approved the concrete
+write phase under D8-INV-01 after restructuring to plan every field, one joint
+check, write the whole synchronous batch, recheck, save and confirm. Refuse dirty
+already-open workbooks; saved-but-unconfirmed is partial. Focused GREEN is required
+before building or deploying. The old198-line interleaved patch remains unapplied
+and is superseded by this sequence. A source-component gate is prepared: exact
+catalog procedures run in an unsaved probe with deterministic guard outcomes and
+independent cold reads of Admin-generated fixtures. It builds/saves no XLAM and
+does not substitute for the packaged callback/input gates. All487 tooling scripts
+parse; execution is pending closure of an existing Excel process. No behavioral
+RED/GREEN, implementation correction or build is claimed for this approval.
+
 **GitHub workflow clarified,2026-10-16 Pacific:** pull from soetrain's matching
 main branches, publish feature branches to the authenticated justinwj repositories,
 and create/update PRs targeting soetrain/main for his review/merge. Both origin/main
@@ -27,7 +39,8 @@ semantics remain unproved and the raw byte-preservation assertion remains FAIL.
 Five packages/all486 tooling/settings/fixtures and normal owned/native closure
 qualify through07:52:35.9468342Z with zero desktop stops/Excel failures. The read-only
 test diagnostic changes no runtime/architectural contract. No rejected catalog edit,
-prototype build or promotion occurred; specific review-block permissions stay pending.
+prototype build or promotion occurred in that cohort; the later catalog phase
+authorization and its conditions are recorded above.
 
 **Inventory continuation boundary,2026-10-16 Pacific:** source68949ab0 turns all
 seven retained ROW assertions GREEN in baseline137's49/1; Config remains unresolved.
@@ -35,8 +48,8 @@ Focused input138 qualifies88/20 with preserved packages/all486 tooling/settings/
 fixtures and normal owned/native closure through07:03:14.2959637Z. A partially wired,
 unbuilt Core input prototype is staged. Automatic approval review rejected the
 guarded live catalog mutation/save patch twice as too broad for automatic approval.
-The unapplied198-line diff/review note are under code tests/proposals. Specific
-product-edit authorization is pending; the GitHub publication block is resolved above;
+The unapplied198-line diff/review note are under code tests/proposals. The user has
+now authorized the batch restructuring above; GitHub publication is also authorized;
 D8-INV-01's architectural approval remains operative. Do not build/promote the
 prototype before completing event/result acknowledgement and catalog/staging/write
 phases, then obtaining focused GREEN and applicable regressions. All broader4be-A/

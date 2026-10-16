@@ -5751,6 +5751,15 @@ refusal, zero-quantity protecting tests without editing D14, and the required
 cohort-bound Config diagnosis artifact. D14 already prohibits runtime/display/
 payload `ROW`; retaining it is not an approved compatibility option.
 
+**Catalog implementation refinement approved,2026-10-16:** plan all catalog
+fields before mutation, perform one joint authority/input check, write the whole
+synchronous batch without intervening yields, recheck, save, then confirm. Refuse
+already-open workbooks with unsaved changes. Report saved-but-unconfirmed output
+as a partial result; do not claim success or unproved rollback. The user requires
+focused GREEN before any build or deployment. Packaged-action and remaining
+acceptance gates still apply. This refines the approved implementation sequence
+and changes no catalog business policy or identity rule.
+
 **Observed problem and limits:** on unchanged source1c9bff87, the actual
 `btnAdminAddInventoryItem` -> `RibbonOnActionAdmin` -> `Add_InventoryItem` ->
 modal `mBtnOK_Click` diagnostic completes35 PASS/10 FAIL, without a harness

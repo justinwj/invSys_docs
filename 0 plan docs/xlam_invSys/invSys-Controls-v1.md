@@ -1,6 +1,15 @@
 # invSys Form Controls v1
 
-**Version:** 1.647 -- Config record diagnosis qualified; input RED88/20; catalog phase blocked by automatic review.
+**Version:** 1.648 -- Catalog batch phase conditionally approved; source component tests prepared; input RED88/20 remains.
+
+**Catalog phase contract,2026-10-16 Pacific:** the user approved applying the
+D8-INV-01 catalog phase after restructuring: plan all fields, one joint check,
+write the batch, recheck, save, confirm. Refuse already-open unsaved workbooks;
+report saved-but-unconfirmed as partial. Focused GREEN must precede build/deploy.
+The old interleaved patch remains unapplied. A component gate is prepared without
+building/saving an XLAM; all487 tooling parse. Excel is already running, so RED
+execution is pending its closure. No runtime implementation or acceptance change
+is claimed; packaged callbacks and the remaining4be-A gates still apply.
 
 **Config diagnostic boundary,2026-10-16 Pacific:** product68949ab0/testfb59319c
 retains49/1 over the exact50 baseline checks. The Config byte difference in authorized controls
@@ -19,8 +28,8 @@ Focused input138 is88/20 with preserved packages/all486 tooling/settings/fixture
 and normal native/owned closure through07:03:14.2959637Z. An incomplete, unbuilt
 Core input prototype is staged. Automatic approval review rejected the guarded
 live catalog mutation/save patch twice; its exact diff and review note are saved
-under code tests/proposals and specific authorization is pending. D8-INV-01 remains
-approved. No deployment or complete acceptance; remaining result/write phases,
+under code tests/proposals. The user has now authorized the batch restructuring
+above under D8-INV-01. No deployment or complete acceptance; remaining result/write phases,
 Config semantics, headless/Core/refusal/retry and broader4be-A gates stay open.
 
 **Inventory full comparison135,2026-10-15 Pacific:** productb936503e/testad7b7056
