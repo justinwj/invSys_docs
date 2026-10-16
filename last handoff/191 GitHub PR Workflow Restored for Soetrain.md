@@ -2,8 +2,9 @@
 
 ## Goal and release outcome
 
-Restore the user's contribution workflow across chats: pull from soetrain, publish
-feature branches through PRs to soetrain, and preserve all pending4be-A work.
+Restore the user's contribution workflow across chats on this computer only:
+pull from soetrain, publish feature branches through PRs to soetrain, and preserve
+all pending4be-A work.
 This housekeeping advances continuity; it does not establish runtime acceptance.
 
 ## Current verified state
@@ -27,7 +28,8 @@ Last verified2026-10-16 Pacific.
 
 ## Decisions and constraints
 
-- User explicitly confirmed the workflow. `origin` is the matching soetrain repo;
+- User explicitly confirmed the workflow for this computer only. `origin` is the
+  matching soetrain repo;
   `fork` is the authenticated contributor's matching justinwj repo. Publishing to
   those contributor branches and submitting upstream PRs is authorized. Do not
   repeatedly ask for fork-destination approval in later chats.
@@ -65,8 +67,9 @@ permission statements are historical and superseded by this user confirmation.
 ## Assumptions to Re-verify
 
 At resume, fetch upstream, inspect both native Git statuses, PR states and exact
-published heads. Local Git/CLI settings are not cloned; restore them from AGENTS.md
-on another machine. Recheck Excel closure before any product build.
+published heads. Local Git/CLI settings are not cloned; do not apply this computer's
+PR configuration to another machine. Follow that machine's user-authorized workflow.
+Recheck Excel closure before any product build.
 
 ## Open questions and blockers
 

@@ -6,9 +6,13 @@ precedence, the required specification/plan/handoff read order, evidence handlin
 and the handoff policy for both repositories. Resolve pointers within this
 repository; do not select a specification, plan or handoff by timestamp.
 
-## GitHub contribution workflow
+## GitHub contribution workflow — this computer only
 
-The user confirmed this workflow on 2026-10-16; it persists across chats:
+The user confirmed this workflow on 2026-10-16 for **this computer only** (the
+current Windows laptop). It applies to both local repositories and persists
+across chats on this computer. This versioned file does not establish the GitHub
+workflow for other computers or clones. Use their own user-authorized workflow;
+do not automatically copy this computer's remote, push or PR defaults to them.
 
 - Pull upstream changes from `soetrain/invSys_docs`, branch `main`, using remote
   `origin`. The sibling code repository pulls from `soetrain/invSys_fork`.
