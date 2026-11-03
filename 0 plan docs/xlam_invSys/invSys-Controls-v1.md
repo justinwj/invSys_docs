@@ -1,28 +1,22 @@
 # invSys Form Controls v1
 
-**Version:** 1.722 -- Worksheet CREATE candidate compiled; later-catalog retry RED remains open.
+**Version:** 1.723 -- Worksheet CREATE quantity-only fixes await packaged GREEN.
 
-**D13 checkpoint,2026-11-03:** expanded actual Upload baseline98/17 reaches all
-eight captured handlers and compiles all five instrumented packages. Missing
-CREATE receipt/catalog/queue output accounts for16 failures; the later authority
-checkpoint is unreachable after refusal. Invalid selections and read-only
-preservation pass. Dependent retry/identity checks are not fabricated. Initial
-source now extends the private receipt with CREATE and exact event/key proof,
-using Config-preserving inbox preparation. Candidate validation-inventory-config-01
-builds and cold compiles all five packages with normal preserved closure and zero
-delayed native faults. Focused packaged retry finishes34/1: immutable identities,
-one exact creation and zero Config saves pass, but later catalog edits are overwritten.
-The source payload correction awaits GREEN; location/counting-mode guards and broader
-gates remain. That run closes normally and passes the delayed native audit. The
-location/counting-mode pair finishes assertions56/4; Core's pending-plan checks
-await GREEN and that pair's cleanup is pending. A queued-event diagnostic will
-check the quantity-only phase through headless processing. No new control ID or acceptance.
+**D13 checkpoint,2026-11-03:** candidate validation-inventory-config-01 builds and
+cold compiles all five packages with preserved, unassisted closure and clean
+delayed native audits. Following baseline98/17, focused RED34/1,56/4 and53/4 expose
+catalog reapplication and changed pending quantity plans through actual Upload
+and headless processing. Sourcef38d0370 corrects Core payload/preflight and Domain's
+exact saved CREATE receipt path; ordinary CREATE callers retain their existing
+behavior. Domain refusal says “The saved worksheet EDIT creation plan could not
+be verified.” The latest53/4 cleanup, next packaged GREEN and broader gates remain
+open; retained source guards pass36/36. No new control ID or acceptance.
 
 **Approved D8-INV-EDIT-02,2026-11-03:** the actual Upload test reaches worksheet catalog-only
 EDIT but returns RED16/3: no exact entity completion or IMPORTED result. The
 earlier D8-INV-CONFIG-01 description incorrectly routed this action through
 Admin CompleteCatalogItem; interactive worksheet EDIT uses Core's durable receipt
-planner, which requires an existing entity. The approved resolution extends the
+planner, which previously required an existing entity. The approved resolution extends the
 private EDIT receipt with CREATE, preserves Admin key generation and exact bound
 event/key retry proof, and names Core's authorized CREATE phase as a no-formatting
 inbox caller. Modal Edit, retained formatting callers, rights and existing receipt
