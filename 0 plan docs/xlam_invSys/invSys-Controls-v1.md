@@ -1,16 +1,18 @@
 # invSys Form Controls v1
 
-**Version:** 1.723 -- Worksheet CREATE quantity-only fixes await packaged GREEN.
+**Version:** 1.724 -- Worksheet CREATE candidate02 compiled; packaged GREEN pending.
 
-**D13 checkpoint,2026-11-03:** candidate validation-inventory-config-01 builds and
+**D13 checkpoint,2026-11-03:** candidate validation-inventory-config-02 builds and
 cold compiles all five packages with preserved, unassisted closure and clean
 delayed native audits. Following baseline98/17, focused RED34/1,56/4 and53/4 expose
 catalog reapplication and changed pending quantity plans through actual Upload
 and headless processing. Sourcef38d0370 corrects Core payload/preflight and Domain's
 exact saved CREATE receipt path; ordinary CREATE callers retain their existing
 behavior. Domain refusal says “The saved worksheet EDIT creation plan could not
-be verified.” The latest53/4 cleanup, next packaged GREEN and broader gates remain
-open; retained source guards pass36/36. No new control ID or acceptance.
+be verified.” All focused RED controllers close unassisted with preservation and
+clean delayed native audits. Candidate02 also preserves source/package pins.
+Packaged GREEN and broader gates remain open; retained source guards pass36/36,
+with no dynamic-call or oversized-module growth. No new control ID or acceptance.
 
 **Approved D8-INV-EDIT-02,2026-11-03:** the actual Upload test reaches worksheet catalog-only
 EDIT but returns RED16/3: no exact entity completion or IMPORTED result. The
