@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.725 -- Worksheet CREATE partial candidate02 checks; focused GREEN pending.
+**Version:** 1.726 -- Worksheet CREATE partial checks; cancelled-run cleanup unresolved.
 
 **D13 checkpoint,2026-11-03:** candidate validation-inventory-config-02 builds and
 cold compiles all five packages with preserved, unassisted closure and clean
@@ -13,7 +13,10 @@ be verified.” All focused RED controllers close unassisted with preservation a
 clean delayed native audits. Candidate02 also preserves source/package pins.
 The combined run prints158 PASS through creation, identity-loss and reopened failure
 retries, then is intentionally cancelled for the original work deadline. It is
-not full GREEN; cleanup is pending. The authority-loss warning exposed a harness
+not full GREEN; cleanup is pending. Quit/release return, but Excel remains after
+assisted worker termination; exact-process termination returns error5 while a
+separate cursor movement/restoration check passes. No release closure is claimed.
+The parent retains settings-restoration state. The authority-loss warning exposed a harness
 acknowledgement gap, now covered by a test-only observer. Focused quantity-phase
 GREEN and broader gates remain open; retained source guards pass36/36,
 with no dynamic-call or oversized-module growth. No new control ID or acceptance.

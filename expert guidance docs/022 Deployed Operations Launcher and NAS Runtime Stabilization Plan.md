@@ -7,7 +7,7 @@ the actual Upload test now reaches the handler and finishes RED16/3. The decisio
 retains Admin key generation, Core authorization, private receipts, exact creation
 event proof and immutable retry identities, and names the additional Core CREATE
 phase using the no-formatting inbox entry. Modal Edit and retained formatting
-callers stay unchanged. Controls1.725 tracks the unqualified implementation.
+callers stay unchanged. Controls1.726 tracks the unqualified implementation.
 Expanded actual Upload baseline finishes98/17; sixteen failures are missing
 CREATE receipt/catalog/queue output, and one later authority checkpoint cannot
 be reached after refusal. Dependent retry/identity checks are not fabricated.
@@ -22,7 +22,10 @@ native audits. Candidate02, source27a05408/productf38d0370, builds/cold compiles
 five packages, preserves source/package pins and closes with a clean delayed audit.
 The combined run prints158 PASS through creation, identity-loss and reopened failure
 retries, then is intentionally cancelled for the original deadline; cleanup remains
-pending. This is not full GREEN or a desktop fault. A test-only observer now handles
+pending. Quit/release return, but Excel remains after assisted worker termination;
+exact-process termination returns error5 while an independent cursor check passes.
+The parent retains its settings snapshot; do not start another Excel test/build.
+This is not full GREEN or release closure. A test-only observer now handles
 the expected authority-loss tracking warning. Focused quantity-phase GREEN must
 retain131 prior passes and correct9 prior failures; broader gates remain.
 Retained source guards pass36/36.
