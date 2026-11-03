@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.721 -- Worksheet CREATE receipt implementation draft; packaged acceptance remains open.
+**Version:** 1.722 -- Worksheet CREATE candidate compiled; later-catalog retry RED remains open.
 
 **D13 checkpoint,2026-11-03:** expanded actual Upload baseline98/17 reaches all
 eight captured handlers and compiles all five instrumented packages. Missing
@@ -8,9 +8,12 @@ CREATE receipt/catalog/queue output accounts for16 failures; the later authority
 checkpoint is unreachable after refusal. Invalid selections and read-only
 preservation pass. Dependent retry/identity checks are not fabricated. Initial
 source now extends the private receipt with CREATE and exact event/key proof,
-using Config-preserving inbox preparation. It remains unbuilt/unqualified;
-later catalog edits must survive quantity-only retry. Baseline cleanup/native
-audit and current packaged GREEN remain pending. No new control ID or acceptance.
+using Config-preserving inbox preparation. Candidate validation-inventory-config-01
+builds and cold compiles all five packages with normal preserved closure and zero
+delayed native faults. Focused packaged retry finishes34/1: immutable identities,
+one exact creation and zero Config saves pass, but later catalog edits are overwritten.
+The source payload correction awaits GREEN; location/counting-mode guards and broader
+gates remain. Focused-run cleanup is pending. No new control ID or acceptance.
 
 **Approved D8-INV-EDIT-02,2026-11-03:** the actual Upload test reaches worksheet catalog-only
 EDIT but returns RED16/3: no exact entity completion or IMPORTED result. The

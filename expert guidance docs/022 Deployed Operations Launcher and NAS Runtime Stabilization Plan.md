@@ -7,13 +7,16 @@ the actual Upload test now reaches the handler and finishes RED16/3. The decisio
 retains Admin key generation, Core authorization, private receipts, exact creation
 event proof and immutable retry identities, and names the additional Core CREATE
 phase using the no-formatting inbox entry. Modal Edit and retained formatting
-callers stay unchanged. Controls1.721 tracks the unqualified implementation.
+callers stay unchanged. Controls1.722 tracks the unqualified implementation.
 Expanded actual Upload baseline finishes98/17; sixteen failures are missing
 CREATE receipt/catalog/queue output, and one later authority checkpoint cannot
 be reached after refusal. Dependent retry/identity checks are not fabricated.
-The initial source draft and deeper save/authority/intervening-change tests remain
-unbuilt; source review identifies later-catalog preservation as a focused candidate
-gate. Baseline cleanup/native audit and current packaged GREEN remain pending.
+Baseline closure/native audit pass. Candidate validation-inventory-config-01 builds
+and cold compiles all five packages, with normal preserved closure and zero delayed
+native faults. Focused actual Upload retry finishes34/1: bound identities, one exact
+creation and Config preservation pass, but old payload fields overwrite a later
+catalog edit. The source correction awaits GREEN; related location/counting-mode
+cases and broader gates remain. Focused-run cleanup is pending.
 See the code Inventory entry audit for exact evidence. Approval is not acceptance. The original work timer
 continues toward2026-11-03 22:14:05Z (2:14 PM Pacific), including the approval pause.
 
