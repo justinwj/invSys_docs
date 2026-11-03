@@ -6190,6 +6190,56 @@ one intended quantity event, preserving exact entity identity and custom columns
 Existing accepted Add/Create, headless, Operations and Release1 gates still apply;
 approval does not close4be-A or add a recording ControlId/replay adapter.
 
+### D8-INV-EDIT-02 — Worksheet catalog-only completion and receipt routing (PROPOSED,2026-11-03)
+
+**Approval required before implementation.** D8-INV-CONFIG-01 explicitly includes
+worksheet EDIT giving quantity to a catalog-only item, but incorrectly describes
+that action as reaching Admin `CompleteCatalogItem`. Interactive worksheet EDIT
+now enters Core `modInventoryEditCommands`; its receipt planner requires an
+existing entity. Packaged RED16/3 reaches the Upload handler but creates no entity
+and cannot confirm IMPORTED. This proposal resolves the routing conflict without
+bypassing D8-INV-EDIT-01's durable receipt contract.
+
+1. Preserve the approved explicit completion: an existing active catalog item,
+   positive submitted quantity, required reason and no managed entity for that
+   exact item may create its first entity. Retired or ambiguous entity histories
+   do not qualify. Whole-selection preflight refuses conflicting completion rows
+   for the same item before canonical writes.
+2. Extend the existing private EDIT receipt with a `CREATE` quantity intent.
+   The Admin creation boundary generates its fresh `System_Key`; Core binds it,
+   the planned `INVENTORY_CREATE` event, command, source/user and exact inputs.
+   Preserve reciprocal staging-reference/receipt binding without adding a
+   `System_Key` worksheet header. One confirmed Inventory save holds the catalog
+   change, receipt and planned identities before queueing. Once bound, identities
+   never change on retry; missing or unprovable identity state refuses rather
+   than regenerating an identity or inventing a receipt.
+3. A fresh authorized retry resumes only the incomplete quantity phase. Prove
+   application by that exact event in `tblAppliedEvents`/`tblInventoryLog`, including
+   the bound new key and intended creation effect. Pending-queue inspection is
+   separate; payload equality, present quantity or a batch count cannot prove it.
+   Recheck absence of an intervening entity before dispatch; preserve and report
+   any saved catalog phase if later completion is refused or unconfirmed.
+4. Amend D8-INV-CONFIG-01's caller description: modal completion retains Admin
+   `CompleteCatalogItem`; worksheet completion remains in Core's EDIT receipt
+   sequence. Only its authorized `CREATE` phase additionally calls
+   `EnsureStationInboxWithoutFormatting` for the three inbox roles, with the same
+   captured-context/yield and ownership checks. Its permitted Config preparation
+   is the narrow D8-INV-CONFIG-01 exception to EDIT's no-repair rule; ordinary
+   EDIT/preflight gains no repair authority. Preserve zero saves/identical bytes
+   when unchanged, presentation/unknown columns when changes are required, and
+   all retained formatting callers. Modal Edit remains outside worksheet receipts.
+5. D13 must expand the actual Upload RED before implementation: positive completion,
+   invalid/retired/conflicting selections, source/session changes, failed saves,
+   failed queue/application/result saves and reopened retry. Prove one catalog
+   application and at most one exact creation, immutable bound identities, honest
+   partial results, independent receipt proof and Config preservation. Retain
+   existing EDIT/ADD/headless regressions and private-receipt exclusions.
+
+No new receipt store, capability, recording ControlId, replay adapter, historical
+inventory import, automatic repair or 4be-A acceptance is authorized by this proposal.
+Until approved, the two earlier approved decisions retain their requirements;
+do not implement a substitute route that satisfies one by weakening the other.
+
 ---
 ### D9 -- Operator Read Models and Refresh Contract (R1 Locked)
 **Decision:** Operator-facing inventory tables are read models refreshed from published or local warehouse snapshots. They are not authoritative write targets.

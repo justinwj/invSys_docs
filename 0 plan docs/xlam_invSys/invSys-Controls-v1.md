@@ -1,6 +1,18 @@
 # invSys Form Controls v1
 
-**Version:** 1.718 -- Approved Inventory Config preservation;4be-A acceptance remains open.
+**Version:** 1.719 -- Proposed worksheet catalog-only receipt completion;4be-A acceptance remains open.
+
+**Pending D8-INV-EDIT-02:** the actual Upload test reaches worksheet catalog-only
+EDIT but returns RED16/3: no exact entity completion or IMPORTED result. The
+approved D8-INV-CONFIG-01 description incorrectly routes this action through
+Admin CompleteCatalogItem; interactive worksheet EDIT uses Core's durable receipt
+planner, which requires an existing entity. The proposed resolution extends the
+private EDIT receipt with CREATE, preserves Admin key generation and exact bound
+event/key retry proof, and names Core's authorized CREATE phase as a no-formatting
+inbox caller. Modal Edit, retained formatting callers, rights and existing receipt
+exclusions remain. No new control ID, replay adapter or acceptance. Architecture
+v4.11 holds the full pending contract and D13 gates; approval is required before
+implementation. The partial formatting draft remains unbuilt.
 
 **Approved: D8-INV-CONFIG-01.** Interactive modal Add/worksheet ADD and catalog-only
 quantity completion through modal Edit/worksheet EDIT, including retries, switch

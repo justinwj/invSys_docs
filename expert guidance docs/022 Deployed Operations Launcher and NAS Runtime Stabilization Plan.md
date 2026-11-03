@@ -1,5 +1,15 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**Approval checkpoint,2026-11-03:** proposed Architecture D8-INV-EDIT-02 resolves
+the worksheet catalog-only completion routing conflict. D8-INV-CONFIG-01 includes
+that path, but Core's durable EDIT planner currently requires an existing entity;
+the actual Upload test now reaches the handler and finishes RED16/3. The proposal
+retains Admin key generation, Core authorization, private receipts, exact creation
+event proof and immutable retry identities, and names the additional Core CREATE
+phase using the no-formatting inbox entry. Modal Edit and retained formatting
+callers stay unchanged. Controls1.719 tracks the same pending decision. No product
+implementation, build or acceptance follows this checkpoint until approval.
+
 **User resume,2026-11-03:** 4be-A resumed on the user's direction after the
 2026-10-27 pause. The current work increment ends after four hours and forty-four
 minutes, with updated evidence and a handoff; acceptance remains unproven.
