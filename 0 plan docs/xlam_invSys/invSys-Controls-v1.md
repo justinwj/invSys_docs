@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.724 -- Worksheet CREATE candidate02 compiled; packaged GREEN pending.
+**Version:** 1.725 -- Worksheet CREATE partial candidate02 checks; focused GREEN pending.
 
 **D13 checkpoint,2026-11-03:** candidate validation-inventory-config-02 builds and
 cold compiles all five packages with preserved, unassisted closure and clean
@@ -11,7 +11,11 @@ exact saved CREATE receipt path; ordinary CREATE callers retain their existing
 behavior. Domain refusal says “The saved worksheet EDIT creation plan could not
 be verified.” All focused RED controllers close unassisted with preservation and
 clean delayed native audits. Candidate02 also preserves source/package pins.
-Packaged GREEN and broader gates remain open; retained source guards pass36/36,
+The combined run prints158 PASS through creation, identity-loss and reopened failure
+retries, then is intentionally cancelled for the original work deadline. It is
+not full GREEN; cleanup is pending. The authority-loss warning exposed a harness
+acknowledgement gap, now covered by a test-only observer. Focused quantity-phase
+GREEN and broader gates remain open; retained source guards pass36/36,
 with no dynamic-call or oversized-module growth. No new control ID or acceptance.
 
 **Approved D8-INV-EDIT-02,2026-11-03:** the actual Upload test reaches worksheet catalog-only
