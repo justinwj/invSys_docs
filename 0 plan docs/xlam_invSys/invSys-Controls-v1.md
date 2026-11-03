@@ -13,7 +13,10 @@ builds and cold compiles all five packages with normal preserved closure and zer
 delayed native faults. Focused packaged retry finishes34/1: immutable identities,
 one exact creation and zero Config saves pass, but later catalog edits are overwritten.
 The source payload correction awaits GREEN; location/counting-mode guards and broader
-gates remain. Focused-run cleanup is pending. No new control ID or acceptance.
+gates remain. That run closes normally and passes the delayed native audit. The
+location/counting-mode pair finishes assertions56/4; Core's pending-plan checks
+await GREEN and that pair's cleanup is pending. A queued-event diagnostic will
+check the quantity-only phase through headless processing. No new control ID or acceptance.
 
 **Approved D8-INV-EDIT-02,2026-11-03:** the actual Upload test reaches worksheet catalog-only
 EDIT but returns RED16/3: no exact entity completion or IMPORTED result. The

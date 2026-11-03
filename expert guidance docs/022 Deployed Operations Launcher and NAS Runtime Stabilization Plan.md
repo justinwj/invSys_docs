@@ -16,7 +16,10 @@ and cold compiles all five packages, with normal preserved closure and zero dela
 native faults. Focused actual Upload retry finishes34/1: bound identities, one exact
 creation and Config preservation pass, but old payload fields overwrite a later
 catalog edit. The source correction awaits GREEN; related location/counting-mode
-cases and broader gates remain. Focused-run cleanup is pending.
+cases and broader gates remain. The34/1 run closes normally with a clean delayed
+audit. Location/counting-mode assertions finish56/4; Core's pending-plan checks
+await GREEN and that pair's cleanup is pending. Queued-event diagnostic tests
+will check the same quantity-only guarantee through headless processing.
 See the code Inventory entry audit for exact evidence. Approval is not acceptance. The original work timer
 continues toward2026-11-03 22:14:05Z (2:14 PM Pacific), including the approval pause.
 
