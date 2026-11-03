@@ -1,6 +1,16 @@
 # invSys Form Controls v1
 
-**Version:** 1.720 -- Approved worksheet catalog-only receipt completion;4be-A acceptance remains open.
+**Version:** 1.721 -- Worksheet CREATE receipt implementation draft; packaged acceptance remains open.
+
+**D13 checkpoint,2026-11-03:** expanded actual Upload baseline98/17 reaches all
+eight captured handlers and compiles all five instrumented packages. Missing
+CREATE receipt/catalog/queue output accounts for16 failures; the later authority
+checkpoint is unreachable after refusal. Invalid selections and read-only
+preservation pass. Dependent retry/identity checks are not fabricated. Initial
+source now extends the private receipt with CREATE and exact event/key proof,
+using Config-preserving inbox preparation. It remains unbuilt/unqualified;
+later catalog edits must survive quantity-only retry. Baseline cleanup/native
+audit and current packaged GREEN remain pending. No new control ID or acceptance.
 
 **Approved D8-INV-EDIT-02,2026-11-03:** the actual Upload test reaches worksheet catalog-only
 EDIT but returns RED16/3: no exact entity completion or IMPORTED result. The
@@ -13,7 +23,7 @@ inbox caller. Modal Edit, retained formatting callers, rights and existing recei
 exclusions remain. No new control ID, replay adapter or acceptance. Architecture
 v4.11 holds the full contract and D13 gates. Expand actual Upload RED for applied
 retry, identity loss, pending/applied partial outcomes and retained receipt types
-before implementation. The partial formatting draft remains unbuilt.
+before implementation. The expanded baseline and unbuilt implementation checkpoint above supersede the earlier partial-draft status.
 
 **Approved: D8-INV-CONFIG-01.** Interactive modal Add/worksheet ADD and catalog-only
 quantity completion through modal Edit/worksheet EDIT, including retries, switch
