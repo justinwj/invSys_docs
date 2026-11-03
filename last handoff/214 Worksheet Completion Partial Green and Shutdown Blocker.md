@@ -7,7 +7,7 @@ Complete 4be-A under Architecture4.11/D18/Plan022, including early Receiving B0;
 
 ## 2. Current verified state
 
-Last verified2026-11-03 21:13Z. Implementation worktree `../invSys_edit_receipts`,
+Last verified2026-11-03 21:14Z. Implementation worktree `../invSys_edit_receipts`,
 branch `work/d8-inv-edit-receipts`, code607bb030, clean and pushed to soetrain
 [draft4](https://github.com/soetrain/invSys_fork/pull/4). Productf38d0370 is built in
 main-code `deploy/validation-inventory-config-02`; test source has advanced.
@@ -24,6 +24,9 @@ holds the original settings snapshot in memory and waits to restore it. Do not
 terminate that controller or reboot without addressing the loss of restoration
 state. Exact process identities are in the ignored controller `cleanup-owner.json`.
 Package pins still match; closure/settings restoration and native audit are pending.
+The same shutdown blocker persists across three consecutive goal turns. Further
+automatic pursuit is blocked pending actual process exit or recovery; a polling
+timeout is not exit and does not authorize another test instance.
 
 ## 3. Decisions and constraints
 
