@@ -6056,9 +6056,11 @@ This is an approved owning-behavior change, separate from D18's observation-only
 `modAdmin.ApplyInventoryWorksheetRecordForWarehouse`. Include their authorized
 retries and all three inbox roles. Also switch
 `modAdminInventoryCreate.CompleteCatalogItem` when `interactiveContext` is not empty:
-modal Edit and worksheet EDIT reach it through `SetInventoryQuantityForWarehouse`
+modal Edit reaches it through `SetInventoryQuantityForWarehouse`
 -> `CreateFirstInventoryEntityForCatalogItemAdmin` when giving quantity to a
-catalog-only item. A missing or expired interactive context must
+catalog-only item. Under approved D8-INV-EDIT-02, interactive worksheet EDIT stays
+in Core's durable receipt sequence; only its authorized CREATE phase additionally
+uses the no-formatting entry for all three inbox roles. A missing or expired interactive context must
 not turn an interactive request into a headless fallback.
 
 Preserve the signatures, defaults, formatting and save behavior of
@@ -6190,14 +6192,17 @@ one intended quantity event, preserving exact entity identity and custom columns
 Existing accepted Add/Create, headless, Operations and Release1 gates still apply;
 approval does not close4be-A or add a recording ControlId/replay adapter.
 
-### D8-INV-EDIT-02 — Worksheet catalog-only completion and receipt routing (PROPOSED,2026-11-03)
+### D8-INV-EDIT-02 — Worksheet catalog-only completion and receipt routing (APPROVED,2026-11-03)
 
-**Approval required before implementation.** D8-INV-CONFIG-01 explicitly includes
-worksheet EDIT giving quantity to a catalog-only item, but incorrectly describes
+**Approved by the user in chat,2026-11-03**, following the
+[review recommendation](https://github.com/soetrain/invSys_docs/pull/3#issuecomment-6612066530).
+The review itself was not approval; the user's explicit approval authorizes D13
+implementation, not merging, promotion or acceptance. D8-INV-CONFIG-01 explicitly includes
+worksheet EDIT giving quantity to a catalog-only item, but its earlier wording incorrectly described
 that action as reaching Admin `CompleteCatalogItem`. Interactive worksheet EDIT
 now enters Core `modInventoryEditCommands`; its receipt planner requires an
 existing entity. Packaged RED16/3 reaches the Upload handler but creates no entity
-and cannot confirm IMPORTED. This proposal resolves the routing conflict without
+and cannot confirm IMPORTED. This decision resolves the routing conflict without
 bypassing D8-INV-EDIT-01's durable receipt contract.
 
 1. Preserve the approved explicit completion: an existing active catalog item,
@@ -6236,9 +6241,12 @@ bypassing D8-INV-EDIT-01's durable receipt contract.
    existing EDIT/ADD/headless regressions and private-receipt exclusions.
 
 No new receipt store, capability, recording ControlId, replay adapter, historical
-inventory import, automatic repair or 4be-A acceptance is authorized by this proposal.
-Until approved, the two earlier approved decisions retain their requirements;
-do not implement a substitute route that satisfies one by weakening the other.
+inventory import, automatic repair or 4be-A acceptance is authorized by this decision.
+This decision amends the earlier caller description while retaining both completion
+and durable receipt requirements. Reconcile an already-applied creation before
+testing for an intervening entity; its own created entity must not defeat retry.
+Expanded D13 also covers lost identity bindings, queued-but-unapplied versus
+applied-but-unreported outcomes, and retained NONE/NOOP/ADJUST receipt validation.
 
 ---
 ### D9 -- Operator Read Models and Refresh Contract (R1 Locked)
