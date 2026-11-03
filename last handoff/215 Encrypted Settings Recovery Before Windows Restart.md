@@ -28,6 +28,12 @@ contains no plaintext file. **This supersedes214's loss-of-snapshot restart
 blocker.** It does not establish that Windows restart has been requested, performed
 or that settings have been restored. No reboot was issued in this recovery turn.
 
+**User approval,21:26Z:** the user explicitly approved restarting Windows.
+Independent recovery validation passes again before scheduling the restart.
+Restart dispatch/result is recorded locally in the controller's
+`restart-request.json`; verify actual boot state after reconnecting. Settings
+restoration still requires the explicit post-exit step below.
+
 Restore under the same Windows account after Excel exits. Do not delete the
 encrypted copy or local recovery helpers before verified restoration. Do not
 print/export plaintext settings. Product contracts and unassisted release-closure
