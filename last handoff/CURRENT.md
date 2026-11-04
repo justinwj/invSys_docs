@@ -1,1 +1,1 @@
-`216 Recovery Complete and Focused Inventory Green Pending.md`
+`217 Perplexity Tooling Shift and Inventory Runtime Gate.md`
