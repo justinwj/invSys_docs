@@ -1,5 +1,17 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-05 broader CREATE success regression:** the packaged actual Upload
+`Success` case passed **88/88** on candidate `validation-inventory-config-03`.
+It covered exact fresh creation, saved command/event/key identities, imported
+operator result, reopened retry without duplication, and six identity-loss
+refusals without replacement identities. Config/Auth bytes and presentation,
+unknown operator columns, and read-only inspection were preserved. Five
+instrumented XLAMs compiled; Excel closed unassisted, settings/package pins
+were preserved, and desktop and delayed native-fault audits were clear.
+Controller `green-fc0444a923084b5a844aea183d06d86e` holds local ignored
+evidence. This single broader case does not close the remaining Inventory,
+live-role, visible-operator, Release 1 or 4be-A gates.
+
 **2026-11-05 retained EDIT receipt checkpoint:** packaged candidate
 `validation-inventory-config-03` passed **81/81** focused checks through the
 actual Add/Upload handlers: catalog-only and no-op EDIT, applied quantity EDIT,

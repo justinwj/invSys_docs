@@ -1,6 +1,16 @@
 # invSys Form Controls v1
 
-**Version:** 1.729 -- Retained worksheet EDIT receipt GREEN; 4be-A acceptance pending.
+**Version:** 1.730 -- Retained EDIT receipt and CREATE Success GREEN; 4be-A acceptance pending.
+
+**D13 broader CREATE success checkpoint, 2026-11-05:** the actual packaged
+Upload `Success` case passed **88/88** with saved command/event/key identities,
+one exact creation, imported operator result, reopened retry without duplicate
+application, and six identity-loss refusals without replacement identities.
+Config/Auth bytes and presentation, custom columns, and read-only inspection
+were preserved. All five instrumented XLAMs compiled; Excel closed unassisted
+with settings/package hashes preserved and clear desktop/delayed fault audits.
+The single case does not establish complete Inventory or 4be-A acceptance;
+no control ID or displayed wording changed.
 
 **D13 retained EDIT receipt checkpoint, 2026-11-05:** packaged candidate
 `validation-inventory-config-03` passed **81/81** through actual Add/Upload
