@@ -1,6 +1,17 @@
 # invSys Form Controls v1
 
-**Version:** 1.730 -- Retained EDIT receipt and CREATE Success GREEN; 4be-A acceptance pending.
+**Version:** 1.731 -- Retained EDIT receipt and focused CREATE regressions GREEN; 4be-A acceptance pending.
+
+**D13 CREATE queue-failure checkpoint, 2026-11-05:** actual packaged Upload
+and reopened retry passed **34/34**. The failed queue preserved the saved
+catalog/CREATE receipt and operator reference, created no entity and did not
+mark the row imported. Retry kept the command, event and exact entity key,
+created once and did not reapply the catalog edit. Config/Auth/presentation,
+unknown columns and read-only inspection were preserved. Five instrumented
+packages compiled; Excel closed unassisted, settings/package pins held, and
+desktop/delayed fault audits were clear. Finalization took about 3 minutes 44
+seconds, so no general shutdown fix is claimed. This is a focused regression,
+not 4be-A acceptance; no control ID or displayed wording changed.
 
 **D13 broader CREATE success checkpoint, 2026-11-05:** the actual packaged
 Upload `Success` case passed **88/88** with saved command/event/key identities,

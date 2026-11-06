@@ -1,5 +1,19 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-05 CREATE queue-failure regression:** packaged candidate
+`validation-inventory-config-03` passed **34/34** through actual Upload and
+reopened retry. The failed queue left the saved catalog/CREATE receipt and
+operator reference intact, created no entity and did not report imported.
+Retry retained the command, planned event and exact `System_Key`, created one
+entity, and did not repeat the catalog edit. Config/Auth/presentation/custom
+column preservation and read-only inspection passed. Five instrumented XLAMs
+compiled; Excel closed unassisted, settings and package pins were restored,
+and desktop/delayed native audits were clear. Finalization still took about
+3 minutes 44 seconds; no general shutdown fix is claimed. Controller
+`green-f8fda55c6c1645cb99b72222ec7d7058` holds local ignored evidence.
+Controls 1.731 and the code audit record this one qualified regression; 4be-A
+and the remaining release gates stay open.
+
 **2026-11-05 broader CREATE success regression:** the packaged actual Upload
 `Success` case passed **88/88** on candidate `validation-inventory-config-03`.
 It covered exact fresh creation, saved command/event/key identities, imported
