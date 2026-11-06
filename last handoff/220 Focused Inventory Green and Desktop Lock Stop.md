@@ -29,7 +29,7 @@ The original retained AutoFit test targeted the workbook's empty first sheet; us
 
 ## Assumptions to Re-verify
 
-Recheck desktop unlock/cursor control, Excel closure, candidate package hashes and Git remote heads before runtime. The current GitHub CLI account is `soetrain`; pushing to `justinwj` forks returned HTTP 403. Code was published to the matching **soetrain feature branch**, while existing fork-head code PR4 and docs PR5 do not automatically advance. Confirm the desired PR publication route without force-push or a merge into `main`.
+Recheck desktop unlock/cursor control, Excel closure, candidate package hashes and Git remote heads before runtime. The current GitHub CLI account is `soetrain`; pushing to `justinwj` forks returned HTTP 403. Code PR4 is a `soetrain`-head draft and advanced to `6da35d64`. Docs PR5 is a `justinwj`-head draft and remains at `54cd913`; the new docs commits are published on `soetrain/work/perplexity-handoff218` and do not update PR5. Resolve that docs PR route without force-push or a merge into `main`.
 
 ## Open questions and blockers
 
