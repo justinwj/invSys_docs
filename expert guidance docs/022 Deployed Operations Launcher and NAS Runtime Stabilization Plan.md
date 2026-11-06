@@ -1,5 +1,19 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-05 retained EDIT receipt checkpoint:** packaged candidate
+`validation-inventory-config-03` passed **81/81** focused checks through the
+actual Add/Upload handlers: catalog-only and no-op EDIT, applied quantity EDIT,
+and failed queue followed by reopened retry. Saved command/receipt binding,
+one catalog application, the pre-queue planned event ID, exact applied/log proof,
+and retry without a duplicate edit or quantity application passed. Config,
+Auth, custom columns, and read-only inspection bytes were preserved. All five
+instrumented XLAMs compiled; Excel closed unassisted with settings/package pins
+preserved, zero desktop input failures, and zero delayed Excel faults. Controller
+`green-d5c80885c6c84984900e1f463fcb8120` is the local ignored evidence.
+The earlier 20/1 desktop-stop run remains excluded. Broader Inventory,
+live-role, visible-operator and full Release 1 gates keep 4be-A open. Controls
+1.729 and the code audit record this checkpoint; no architecture change.
+
 **2026-11-05 D8-INV-EDIT-02/D8-INV-CONFIG-01 checkpoint:** the focused
 worksheet CREATE quantity phase is GREEN across five isolated actual Upload
 and headless-completion runs on packaged candidate

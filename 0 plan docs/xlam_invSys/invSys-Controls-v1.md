@@ -1,6 +1,19 @@
 # invSys Form Controls v1
 
-**Version:** 1.728 -- Focused worksheet CREATE and retained Config formatting GREEN; 4be-A acceptance pending.
+**Version:** 1.729 -- Retained worksheet EDIT receipt GREEN; 4be-A acceptance pending.
+
+**D13 retained EDIT receipt checkpoint, 2026-11-05:** packaged candidate
+`validation-inventory-config-03` passed **81/81** through actual Add/Upload
+handlers: catalog-only, no-op quantity, applied quantity change, and queue
+failure with reopened retry. Exact saved command/receipt and planned event-ID
+proof, single catalog application, no premature imported status, and retry
+without duplicate catalog or quantity application all passed. Config, Auth,
+custom columns, and read-only inspection bytes were preserved. All five
+instrumented packages compiled; Excel closed unassisted, settings and package
+hashes were preserved, and desktop/delayed native audits were clear. The
+earlier 20/1 lock-stop remains excluded. This is focused receipt GREEN, not
+broader Inventory, visible operator, or 4be-A acceptance; no control ID or
+operator wording changed.
 
 **D13 checkpoint, 2026-11-05:** candidate `validation-inventory-config-03`
 passed the actual Upload/headless CREATE quantity matrix in five isolated packaged
