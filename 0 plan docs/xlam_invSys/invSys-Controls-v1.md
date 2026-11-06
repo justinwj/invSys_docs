@@ -1,6 +1,32 @@
 # invSys Form Controls v1
 
-**Version:** 1.727 -- Restart recovery verified; focused worksheet CREATE GREEN pending.
+**Version:** 1.728 -- Focused worksheet CREATE and retained Config formatting GREEN; 4be-A acceptance pending.
+
+**D13 checkpoint, 2026-11-05:** candidate `validation-inventory-config-03`
+passed the actual Upload/headless CREATE quantity matrix in five isolated packaged
+runs. Its 140 unique checks retain 131 earlier passes and correct all 9 qualified
+RED failures. When catalog changes and the private EDIT receipt are saved but
+quantity completion is unconfirmed, Upload now displays “Catalog changes and the
+EDIT receipt were saved; quantity completion is unconfirmed.” with the existing
+reference. This wording is shown only for the matching saved receipt and bound
+operator row. The shared, automation and packed Core inbox entries passed the
+retained formatting regression 123/123 across all three roles. The missing-default
+Config matrix passed 54/54 through the four packaged Add/Edit handlers, saving
+only the missing default while preserving custom columns and presentation.
+All seven runs
+cold compiled five XLAMs, closed Excel unassisted, preserved settings/package
+pins, and had clean delayed Excel fault audits. The earlier combined run and
+test-only probe/blank-sheet measurement failures remain excluded. Broader
+4be-A/release gates remain open; no
+new control ID or acceptance is claimed.
+
+**Retained receipt follow-up, interrupted:** after test-only cleanup of an
+open, dirty disposable Seed fixture, the catalog-only receipt path reached
+actual Add and Upload and printed 20 passes. The desktop monitor then recorded
+one input-desktop mismatch; the worker stopped before the other receipt cases.
+Excel closed unassisted with settings/package pins restored. The 20/1 controller
+is not broader receipt GREEN or user acceptance. Resume requires an unlocked
+desktop; no product contract or control changed for this fixture correction.
 
 **D13 checkpoint,2026-11-03:** candidate validation-inventory-config-02 builds and
 cold compiles all five packages with preserved, unassisted closure and clean

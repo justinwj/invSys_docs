@@ -1,5 +1,34 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-05 D8-INV-EDIT-02/D8-INV-CONFIG-01 checkpoint:** the focused
+worksheet CREATE quantity phase is GREEN across five isolated actual Upload
+and headless-completion runs on packaged candidate
+`validation-inventory-config-03`: the same 140 named checks as qualified RED
+now pass, including all 9 prior failures. The saved-catalog/unconfirmed-quantity
+notice now reaches the operator row through an exact Core receipt check.
+Retained shared, automation and packed Config formatting passes 123/123 across
+RECEIVE, SHIP and PRODUCTION; its original empty-sheet AutoFit measurement was
+a test defect and is excluded. The missing-default Config matrix passed 54/54
+through the four packaged Add/Edit handlers, with only the missing default
+saved and unknown columns/presentation preserved. All seven qualifying runs compiled five packaged
+XLAMs, closed Excel without assistance, restored settings, preserved package
+hashes, and had zero delayed Excel faults. The combined QuantityPhase attempt
+needed assisted teardown and is excluded. Broader Inventory regressions,
+live-role/visible operator
+evidence, the full Release 1 chain and 4be-A acceptance remain open. Controls
+1.728 and the code Inventory audit record this checkpoint. No new contract or
+approval is needed.
+
+**2026-11-05 retained-receipt interruption:** the disposable seeded Inventory
+workbook remained open and dirty, so Core correctly refused the initial
+test fixture capture. The test now saves and closes only that exact owned
+workbook before the receipt cohort. A packaged rerun reached actual Add and
+catalog-only EDIT, printing 20 passes, then stopped at the next boundary when
+the desktop monitor reported one input-desktop mismatch. Its 20/1 result is
+not receipt GREEN; the other three scenarios did not run. Excel closed
+unassisted and settings/package pins were restored. Resume only after an
+unlocked desktop is confirmed. No product contract changed.
+
 **Approved,2026-11-03:** Architecture D8-INV-EDIT-02 resolves
 the worksheet catalog-only completion routing conflict. D8-INV-CONFIG-01 includes
 that path, but Core's durable EDIT planner previously required an existing entity;
