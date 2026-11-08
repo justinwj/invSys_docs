@@ -1,5 +1,39 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**Proposed amendment VT-EXCEL-01, 2026-11-08, pending owner approval:**
+packaged automated test Excel may run visible through a new worker opt-in.
+Diagnostics v9.1, v9.3 and v10 isolate the delayed-exit mechanism:
+hidden Excel accumulates window-surface resources that it does not reclaim
+while hidden, and at Quit one thread then spins in DirectComposition cleanup
+(`ReleaseResource`/`CleanUpListItemsPendingDeletion`) until a slow native exit.
+Plain, add-in-free Excel reproduces this. Hidden NewWindow cycles grew GDI from
+228 at cycle 100 to 9,978 at cycle 855, then failed at the 10,000 per-process
+limit (handles 12,118, Section 9,633, Dxgk 442), and native exit came 166.46 s
+after Quit. The same 2,000 cycles visible stayed flat (peak handles 4,044, Section
+1,725, Dxgk 15) and exited in 2.74 s. On the pinned QueueFailure worker, the
+only change was `$excel.Visible=$true`. That run passed 34/34 and Excel closed
+unassisted 9.24 s after Quit, compared with 144.6 s hidden; recorded hidden
+exits range 144.6-265.9 s. This is an Excel/Windows defect, not an invSys
+fault, and it is reported separately. Visibility is a test workaround, not a
+product fix. The evidence is one production run, so it is not qualified yet.
+
+Scope if approved: add a `-VisibleExcelForTest` switch to the test worker
+(`tests/tooling/Test-Slice4beConfigCommands.ps1`) that sets only
+`Application.Visible`. It stays separate from `GuideCaptureVisibleExcelForTest`,
+which keeps its Viewer/guide restriction and its Handoff 172 reservation, and
+it changes no capture, input, guard or compile behavior. Packaged gate controllers
+pass the switch explicitly. Hidden runs remain available but are diagnostic
+only, consistent with the existing native-harness rule. Re-pin the changed
+worker and pins manifest as a separately approved exception; the other frozen
+inputs stay unchanged. Visible runs need the interactive non-elevated session
+left idle, because focus or input interference invalidates the run. The earlier
+combined visible guard failure (255/1, 80010007, then oleaut32/c0000005) remains
+open and is not explained by this change. Qualification requires a repeat visible
+QueueFailure plus one broader packaged gate with unassisted closure, preserved
+inputs and a clean delayed audit. Controls 1.732 records this pending scope; no
+architecture, replay, authority or product behavior changes. Implementation stays
+paused until approval.
+
 **2026-11-05 CREATE queue-failure regression:** packaged candidate
 `validation-inventory-config-03` passed **34/34** through actual Upload and
 reopened retry. The failed queue left the saved catalog/CREATE receipt and
