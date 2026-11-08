@@ -1,6 +1,31 @@
 # invSys Form Controls v1
 
-**Version:** 1.731 -- Retained EDIT receipt and focused CREATE regressions GREEN; 4be-A acceptance pending.
+**Version:** 1.732 -- Visible test-Excel amendment VT-EXCEL-01 approved and qualified; 4be-A acceptance pending.
+
+**VT-EXCEL-01 qualification GREEN, 2026-11-08:** with the `-VisibleExcelForTest`
+change and the re-pinned worker entry, visible packaged QueueFailure passed 34/34
+and Success 88/88 on `validation-inventory-config-03`. Excel exited unassisted 9.56 s
+and 9.19 s after Quit, inputs and settings were preserved, and the delayed audit was
+clean. The v11 6/1 attempt is excluded as a launcher-sampler file-access collision.
+No control ID or displayed wording changed; the 255/1 visible guard gate, Release 1
+and 4be-A remain open.
+
+**Approved VT-EXCEL-01, 2026-11-08:** test tooling
+may run packaged automated Excel visible through a new worker opt-in
+`-VisibleExcelForTest`. Diagnostics found that hidden Excel accumulates
+window-surface resources and, at Quit, spins in DirectComposition cleanup until
+a slow native exit. Plain Excel reproduces this: hidden NewWindow cycles reached
+GDI 9,978 and failed at cycle 855, with a 166.46 s exit, while 2,000 visible cycles
+stayed flat with a 2.74 s exit. The pinned QueueFailure worker, changed only to
+`$excel.Visible=$true`, passed 34/34 and closed unassisted in 9.24 s, compared
+with 144.6 s hidden. The switch sets only `Application.Visible` and is separate
+from `GuideCaptureVisibleExcelForTest`, which keeps its guide-only restriction.
+Hidden runs remain diagnostic only. Re-pinning the changed worker and manifest
+is an explicit exception; the other frozen inputs are unchanged. The earlier
+combined visible guard failure (255/1) remains open. Qualification required a
+repeat visible QueueFailure plus one broader packaged gate; v11.1 met both.
+No control ID, displayed wording, architecture or product behavior changes;
+implementation is in invSys_fork PR 9; qualification GREEN (above).
 
 **D13 CREATE queue-failure checkpoint, 2026-11-05:** actual packaged Upload
 and reopened retry passed **34/34**. The failed queue preserved the saved

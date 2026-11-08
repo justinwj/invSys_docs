@@ -11,6 +11,17 @@ below supersede earlier pending-approval checkpoint wording in this document,
 Plan 022 and the controls catalog. Approval is not implementation or acceptance;
 all protecting D13 and release gates remain required.
 
+**Approved test-host note VT-EXCEL-01, 2026-11-08:**
+packaged automated tests may host Excel visible through an explicit test-worker
+opt-in. Hidden Excel reproducibly accumulates window-surface resources and has
+slow DirectComposition cleanup at Quit (144.6-265.9 s native exits, also with
+plain Excel). Visible Excel closed in 2.74 s (plain) and 9.24 s (QueueFailure,
+34/34). This extends the existing native-harness rule: hidden-host results are
+diagnostic only. It is a test-host workaround, not a product, replay or
+deployment change. Plan 022 and Controls 1.732 hold the evidence, scope and
+qualification result (visible QueueFailure 34/34 and Success 88/88, unassisted exits
+under 10 s, 2026-11-08).
+
 ---
 ## Reference Links
 - `https://www.perplexity.ai/search/https-github-com-soetrain-invs-IL_KZ22YSsW5kMph4kOzxA?preview=1#7`

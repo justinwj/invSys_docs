@@ -1,5 +1,57 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**VT-EXCEL-01 qualification GREEN, 2026-11-08:** Codex package v11.1 ran PR 9's
+`-VisibleExcelForTest` change, applied to the pinned v4 generated worker, against
+the re-pinned manifest (D38E9446; only the worker entry changed). On candidate
+`validation-inventory-config-03`, visible QueueFailure passed **34/34** and visible
+Success passed **88/88**. Both workers exited 0 and Excel exited unassisted 9.56 s
+and 9.19 s after Quit. Peak handles were 4,377/4,374, with Section ≤1,261,
+Dxgk ≤45 and GDI ≤1,860. Settings were restored, inputs preserved, and the 120 s
+delayed Application-log audit found no Excel fault, hang or WER events. Timelines
+A83B4DEB…4683 and 61D616F9…5B8C are local ignored evidence. The earlier v11 attempt
+(6/1) is excluded: its launcher sampler opened the worker's call-timing log during
+the run and caused a file-in-use error, Excel still exited in 9.48 s, and v11.1
+removed those reads. Packaged gates may now pass `-VisibleExcelForTest`, and hidden
+runs remain diagnostic only. This qualifies the test-host workaround only; the
+combined visible guard gate (255/1), Release 1 and 4be-A remain open. The
+Excel/Windows defect itself is unresolved and reported separately.
+
+**Approved amendment VT-EXCEL-01, 2026-11-08:**
+packaged automated test Excel may run visible through a new worker opt-in.
+Diagnostics v9.1, v9.3 and v10 isolate the delayed-exit mechanism:
+hidden Excel accumulates window-surface resources that it does not reclaim
+while hidden, and at Quit one thread then spins in DirectComposition cleanup
+(`ReleaseResource`/`CleanUpListItemsPendingDeletion`) until a slow native exit.
+Plain, add-in-free Excel reproduces this. Hidden NewWindow cycles grew GDI from
+228 at cycle 100 to 9,978 at cycle 855, then failed at the 10,000 per-process
+limit (handles 12,118, Section 9,633, Dxgk 442), and native exit came 166.46 s
+after Quit. The same 2,000 cycles visible stayed flat (peak handles 4,044, Section
+1,725, Dxgk 15) and exited in 2.74 s. On the pinned QueueFailure worker, the
+only change was `$excel.Visible=$true`. That run passed 34/34 and Excel closed
+unassisted 9.24 s after Quit, compared with 144.6 s hidden; recorded hidden
+exits range 144.6-265.9 s. This is an Excel/Windows defect, not an invSys
+fault, and it is reported separately. Visibility is a test workaround, not a
+product fix. The initial evidence was one production run; v11.1 has since
+qualified the test-host workaround (above).
+
+Approved scope: add a `-VisibleExcelForTest` switch to the test worker
+(`tests/tooling/Test-Slice4beConfigCommands.ps1`) that sets only
+`Application.Visible`. It stays separate from `GuideCaptureVisibleExcelForTest`,
+which keeps its Viewer/guide restriction and its Handoff 172 reservation, and
+it changes no capture, input, guard or compile behavior. Packaged gate controllers
+pass the switch explicitly. Hidden runs remain available but are diagnostic
+only, consistent with the existing native-harness rule. Re-pin the changed
+worker and pins manifest as a separately approved exception; the other frozen
+inputs stay unchanged. Visible runs need the interactive non-elevated session
+left idle, because focus or input interference invalidates the run. The earlier
+combined visible guard failure (255/1, 80010007, then oleaut32/c0000005) remains
+open and is not explained by this change. Qualification required a repeat visible
+QueueFailure plus one broader packaged gate with unassisted closure, preserved
+inputs and a clean delayed audit; v11.1 met these gates (above). Controls
+1.732 records this approved scope; no architecture, replay, authority or
+product behavior changes. Implementation is in
+[invSys_fork PR 9](https://github.com/soetrain/invSys_fork/pull/9) (worker commit 2db3f365).
+
 **2026-11-05 CREATE queue-failure regression:** packaged candidate
 `validation-inventory-config-03` passed **34/34** through actual Upload and
 reopened retry. The failed queue left the saved catalog/CREATE receipt and
