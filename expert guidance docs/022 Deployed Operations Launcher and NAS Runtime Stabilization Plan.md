@@ -31,7 +31,8 @@ only change was `$excel.Visible=$true`. That run passed 34/34 and Excel closed
 unassisted 9.24 s after Quit, compared with 144.6 s hidden; recorded hidden
 exits range 144.6-265.9 s. This is an Excel/Windows defect, not an invSys
 fault, and it is reported separately. Visibility is a test workaround, not a
-product fix. The evidence is one production run, so it is not qualified yet.
+product fix. The initial evidence was one production run; v11.1 has since
+qualified the test-host workaround (above).
 
 Approved scope: add a `-VisibleExcelForTest` switch to the test worker
 (`tests/tooling/Test-Slice4beConfigCommands.ps1`) that sets only
@@ -44,12 +45,12 @@ worker and pins manifest as a separately approved exception; the other frozen
 inputs stay unchanged. Visible runs need the interactive non-elevated session
 left idle, because focus or input interference invalidates the run. The earlier
 combined visible guard failure (255/1, 80010007, then oleaut32/c0000005) remains
-open and is not explained by this change. Qualification requires a repeat visible
+open and is not explained by this change. Qualification required a repeat visible
 QueueFailure plus one broader packaged gate with unassisted closure, preserved
-inputs and a clean delayed audit. Controls 1.732 records this pending scope; no
-architecture, replay, authority or product behavior changes. Draft implementation is
-[invSys_fork PR 9](https://github.com/soetrain/invSys_fork/pull/9) (worker commit 2db3f365);
-qualification GREEN in v11.1 (above).
+inputs and a clean delayed audit; v11.1 met these gates (above). Controls
+1.732 records this approved scope; no architecture, replay, authority or
+product behavior changes. Implementation is in
+[invSys_fork PR 9](https://github.com/soetrain/invSys_fork/pull/9) (worker commit 2db3f365).
 
 **2026-11-05 CREATE queue-failure regression:** packaged candidate
 `validation-inventory-config-03` passed **34/34** through actual Upload and

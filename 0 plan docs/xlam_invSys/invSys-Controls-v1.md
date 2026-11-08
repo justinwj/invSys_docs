@@ -22,10 +22,10 @@ with 144.6 s hidden. The switch sets only `Application.Visible` and is separate
 from `GuideCaptureVisibleExcelForTest`, which keeps its guide-only restriction.
 Hidden runs remain diagnostic only. Re-pinning the changed worker and manifest
 is an explicit exception; the other frozen inputs are unchanged. The earlier
-combined visible guard failure (255/1) remains open. Qualification needs a repeat
-visible QueueFailure plus one broader packaged gate. No control ID, displayed
-wording, architecture or product behavior changes; draft implementation is
-invSys_fork PR 9; qualification GREEN (above).
+combined visible guard failure (255/1) remains open. Qualification required a
+repeat visible QueueFailure plus one broader packaged gate; v11.1 met both.
+No control ID, displayed wording, architecture or product behavior changes;
+implementation is in invSys_fork PR 9; qualification GREEN (above).
 
 **D13 CREATE queue-failure checkpoint, 2026-11-05:** actual packaged Upload
 and reopened retry passed **34/34**. The failed queue preserved the saved
