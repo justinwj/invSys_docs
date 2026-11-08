@@ -1,6 +1,6 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
-**Proposed amendment VT-EXCEL-01, 2026-11-08, pending owner approval:**
+**Approved amendment VT-EXCEL-01, 2026-11-08:**
 packaged automated test Excel may run visible through a new worker opt-in.
 Diagnostics v9.1, v9.3 and v10 isolate the delayed-exit mechanism:
 hidden Excel accumulates window-surface resources that it does not reclaim
@@ -17,7 +17,7 @@ exits range 144.6-265.9 s. This is an Excel/Windows defect, not an invSys
 fault, and it is reported separately. Visibility is a test workaround, not a
 product fix. The evidence is one production run, so it is not qualified yet.
 
-Scope if approved: add a `-VisibleExcelForTest` switch to the test worker
+Approved scope: add a `-VisibleExcelForTest` switch to the test worker
 (`tests/tooling/Test-Slice4beConfigCommands.ps1`) that sets only
 `Application.Visible`. It stays separate from `GuideCaptureVisibleExcelForTest`,
 which keeps its Viewer/guide restriction and its Handoff 172 reservation, and
@@ -31,8 +31,9 @@ combined visible guard failure (255/1, 80010007, then oleaut32/c0000005) remains
 open and is not explained by this change. Qualification requires a repeat visible
 QueueFailure plus one broader packaged gate with unassisted closure, preserved
 inputs and a clean delayed audit. Controls 1.732 records this pending scope; no
-architecture, replay, authority or product behavior changes. Implementation stays
-paused until approval.
+architecture, replay, authority or product behavior changes. Draft implementation is
+[invSys_fork PR 9](https://github.com/soetrain/invSys_fork/pull/9) (worker commit 2db3f365);
+qualification is pending and needs fresh run authorization.
 
 **2026-11-05 CREATE queue-failure regression:** packaged candidate
 `validation-inventory-config-03` passed **34/34** through actual Upload and

@@ -11,7 +11,7 @@ below supersede earlier pending-approval checkpoint wording in this document,
 Plan 022 and the controls catalog. Approval is not implementation or acceptance;
 all protecting D13 and release gates remain required.
 
-**Proposed test-host note VT-EXCEL-01, 2026-11-08, pending owner approval:**
+**Approved test-host note VT-EXCEL-01, 2026-11-08:**
 packaged automated tests may host Excel visible through an explicit test-worker
 opt-in. Hidden Excel reproducibly accumulates window-surface resources and has
 slow DirectComposition cleanup at Quit (144.6-265.9 s native exits, also with

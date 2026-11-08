@@ -1,8 +1,8 @@
 # invSys Form Controls v1
 
-**Version:** 1.732 -- Proposed visible test-Excel amendment VT-EXCEL-01 pending owner approval; 4be-A acceptance pending.
+**Version:** 1.732 -- Approved visible test-Excel amendment VT-EXCEL-01, qualification pending; 4be-A acceptance pending.
 
-**Proposed VT-EXCEL-01, 2026-11-08, pending owner approval:** test tooling
+**Approved VT-EXCEL-01, 2026-11-08:** test tooling
 may run packaged automated Excel visible through a new worker opt-in
 `-VisibleExcelForTest`. Diagnostics found that hidden Excel accumulates
 window-surface resources and, at Quit, spins in DirectComposition cleanup until
@@ -16,8 +16,8 @@ Hidden runs remain diagnostic only. Re-pinning the changed worker and manifest
 is an explicit exception; the other frozen inputs are unchanged. The earlier
 combined visible guard failure (255/1) remains open. Qualification needs a repeat
 visible QueueFailure plus one broader packaged gate. No control ID, displayed
-wording, architecture or product behavior changes; implementation is paused
-until approval.
+wording, architecture or product behavior changes; draft implementation is
+invSys_fork PR 9; qualification is pending.
 
 **D13 CREATE queue-failure checkpoint, 2026-11-05:** actual packaged Upload
 and reopened retry passed **34/34**. The failed queue preserved the saved
