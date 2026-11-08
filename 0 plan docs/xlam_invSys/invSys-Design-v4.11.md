@@ -19,7 +19,8 @@ plain Excel). Visible Excel closed in 2.74 s (plain) and 9.24 s (QueueFailure,
 34/34). This extends the existing native-harness rule: hidden-host results are
 diagnostic only. It is a test-host workaround, not a product, replay or
 deployment change. Plan 022 and Controls 1.732 hold the evidence, scope and
-qualification gates.
+qualification result (visible QueueFailure 34/34 and Success 88/88, unassisted exits
+under 10 s, 2026-11-08).
 
 ---
 ## Reference Links

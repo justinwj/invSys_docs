@@ -1,5 +1,21 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**VT-EXCEL-01 qualification GREEN, 2026-11-08:** Codex package v11.1 ran PR 9's
+`-VisibleExcelForTest` change, applied to the pinned v4 generated worker, against
+the re-pinned manifest (D38E9446; only the worker entry changed). On candidate
+`validation-inventory-config-03`, visible QueueFailure passed **34/34** and visible
+Success passed **88/88**. Both workers exited 0 and Excel exited unassisted 9.56 s
+and 9.19 s after Quit. Peak handles were 4,377/4,374, with Section ≤1,261,
+Dxgk ≤45 and GDI ≤1,860. Settings were restored, inputs preserved, and the 120 s
+delayed Application-log audit found no Excel fault, hang or WER events. Timelines
+A83B4DEB…4683 and 61D616F9…5B8C are local ignored evidence. The earlier v11 attempt
+(6/1) is excluded: its launcher sampler opened the worker's call-timing log during
+the run and caused a file-in-use error, Excel still exited in 9.48 s, and v11.1
+removed those reads. Packaged gates may now pass `-VisibleExcelForTest`, and hidden
+runs remain diagnostic only. This qualifies the test-host workaround only; the
+combined visible guard gate (255/1), Release 1 and 4be-A remain open. The
+Excel/Windows defect itself is unresolved and reported separately.
+
 **Approved amendment VT-EXCEL-01, 2026-11-08:**
 packaged automated test Excel may run visible through a new worker opt-in.
 Diagnostics v9.1, v9.3 and v10 isolate the delayed-exit mechanism:
@@ -33,7 +49,7 @@ QueueFailure plus one broader packaged gate with unassisted closure, preserved
 inputs and a clean delayed audit. Controls 1.732 records this pending scope; no
 architecture, replay, authority or product behavior changes. Draft implementation is
 [invSys_fork PR 9](https://github.com/soetrain/invSys_fork/pull/9) (worker commit 2db3f365);
-qualification is pending and needs fresh run authorization.
+qualification GREEN in v11.1 (above).
 
 **2026-11-05 CREATE queue-failure regression:** packaged candidate
 `validation-inventory-config-03` passed **34/34** through actual Upload and
