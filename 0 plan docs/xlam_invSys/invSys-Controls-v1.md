@@ -1,18 +1,33 @@
 # invSys Form Controls v1
 
-**Version:** 1.732 -- PR4-BASE-02 combined edit-creation and Config gate GREEN; 4be-A acceptance pending.
+**Version:** 1.733 -- PR4-BASE-02 v14-v16 Inventory evidence reconciled; 4be-A acceptance pending.
 
-**D13 PR4-BASE-02 combined gate, 2026-11-08:** visible packaged
-EditCreation.All passed **545/545**, including the 140 QuantityPhase
-checks. ConfigPreservation.All, MissingDefault and RetainedShared passed
-**50/50**, **54/54** and **123/123**. Every check identity matched once
-with PASS; all four workers exited 0, Excel exited naturally, settings
-and 538 pinned inputs were preserved, and the delayed audit found zero
-Excel faults. The test-only save probe now selects the loaded Inventory
-Domain package; product XLAMs and behavior were unchanged. This is the
-focused combined Inventory/Config gate, not broad Inventory GREEN,
-visible operator, 4be-A or Release 1 acceptance. No ControlId or
-displayed wording changed.
+**D13 PR4-BASE-02 Inventory checkpoint, 2026-11-08:** v14 ran
+both catalog-save failure cases separately and repeated v13.1's same
+2 failed checks in each case; the combined session was not the cause.
+v15 located the test-setup fault: a source-tree check put the save
+probe on the old Admin path although the loaded Domain XLAM owned the
+save. A Domain-owned probe passed the cases 28/28 and 33/33. PR 4
+commit e2c8a06f changes only the test probe owner selection and stops
+clearly if the Domain package cannot be inspected. Product packages,
+contract, ControlIds and displayed wording are unchanged.
+
+Justin approved separate PR4-BASE-02 manifest SHA256 F2DE6B82...
+with only that tooling file re-pinned to SHA256 E0428CB0...;
+PR4-BASE-01 manifest SHA256 6FDE11C2... and the XLAM pins are
+untouched. v16, run independently on PR4-BASE-02, passed visible
+packaged EditCreation.All **545/545** (including 140 QuantityPhase
+checks) and ConfigPreservation.All, MissingDefault and RetainedShared
+**50/50**, **54/54** and **123/123**. All 772 check names matched
+exactly; four worker/Excel pairs exited naturally, settings and
+frozen inputs were preserved, and the delayed audit found zero Excel
+faults. These passes are not combined with v13.1's failed run.
+
+RetainedShared does not complete all retained-formatting caller tests.
+Other Inventory selectors, recording and guides, early Receiving B0,
+live-role, restart, full-chain, final compile/layout/static and visible
+operator evidence remain open. Broad Inventory GREEN, 4be-A and
+Release 1 acceptance are not established.
 
 **D13 CREATE queue-failure checkpoint, 2026-11-05:** actual packaged Upload
 and reopened retry passed **34/34**. The failed queue preserved the saved

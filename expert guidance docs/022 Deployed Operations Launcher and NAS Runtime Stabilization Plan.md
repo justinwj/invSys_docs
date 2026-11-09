@@ -1,20 +1,48 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
-**2026-11-08 PR4-BASE-02 combined Inventory gate:** v16 passed
-EditCreation.All **545/545**, ConfigPreservation.All **50/50**,
-MissingDefault **54/54**, and RetainedShared **123/123** on the visible
-packaged PR 4 worker at e2c8a06f. All 772 expected identities matched
-exactly, including the 140 QuantityPhase checks; no failures, missing,
-duplicate or unexpected checks. Four worker/Excel pairs exited naturally,
-settings and all 538 frozen inputs were preserved, and the delayed audit
-found zero Excel faults. Run 01 AfterQuit-to-exit was 14.95 s; the other
-selectors record only informational stdout-quiet-to-exit times.
-The single changed baseline pin is the test-only Domain save-probe owner;
-the five XLAM pins and product contract did not change. Controls 1.732
-and the code Inventory audit record this focused gate. Broad Inventory
-GREEN, early Receiving B0, full chain, live-role, visible operator,
-4be-A and 4be-B acceptance remain open. Local ignored evidence is under
+**2026-11-08 PR4-BASE-02 Inventory checkpoint:** v14 ran
+BeforeCatalogSaveThrows and AfterCatalogSaveThrows separately on unchanged
+PR 4 tooling. Each reproduced the v13.1 failure: 17 PASS, 2 FAIL, with
+9 and 14 missing checks respectively. Both failed
+ActualCanonicalSaveBoundaryReached and NoCreationAfterUnconfirmedSave.
+The combined session was not the cause. v15 traced the test-setup fault:
+the probe used the main checkout's source tree to choose its save owner.
+That tree lacks the Domain module, so the probe attached to the old Admin
+path while the loaded Domain XLAM performed the save. Choosing the owner
+from the loaded Domain package passed the isolated cases 28/28 and 33/33.
+
+PR 4 commit e2c8a06f changes only
+tests/tooling/Slice4beInventoryEditCanonicalSave.ps1. It now checks the
+loaded Domain package and stops clearly if inspection fails, with no
+silent fallback to Admin. Justin approved PR4-BASE-02 as a separate
+test-only baseline: manifest SHA256 F2DE6B82..., one re-pinned tooling
+file SHA256 E0428CB0..., 538 frozen inputs and unchanged XLAM pins.
+The PR4-BASE-01 manifest SHA256 6FDE11C2... is untouched. No product
+or architectural contract changed.
+
+v16 then passed four sequential visible packaged runs on PR4-BASE-02:
+EditCreation.All 545/545 (including 140 QuantityPhase checks),
+ConfigPreservation.All 50/50, MissingDefault 54/54 and RetainedShared
+123/123. All 772 expected identities matched exactly once; zero failed,
+missing, duplicate or unexpected checks. All four worker/Excel pairs
+exited naturally, test settings and frozen inputs were preserved, and
+the delayed audit found zero Excel faults. Run 01 AfterQuit-to-exit was
+14.95 s; the Config selectors record only informational
+stdout-quiet-to-exit times. v16 stands alone and is not added to v13.1's
+failed combined run. Controls 1.733 and the code Inventory audit record
+this checkpoint. Local ignored evidence is under
+reports/runtime/inventory-creation-save-v14-20261108/,
+reports/runtime/inventory-creation-save-v15-20261108/ and
 reports/runtime/inventory-gate-v16-pr4-base-02-20261108/.
+
+Still open: complete retained-formatting caller coverage (the
+RetainedShared selector is narrower), other Inventory selectors and
+broad Inventory GREEN, recording and guides, early Receiving B0,
+live-role, restart, full Release 1 chain, final compile/layout/static
+and visible-operator evidence, and 4be-A acceptance. The slowdown
+across Execute calls and underlying Excel native-exit defect remain
+unresolved. Justin submitted the Microsoft report; no follow-up
+dialogue is open. Separate 4be-B replay acceptance also remains open.
 
 **2026-11-05 CREATE queue-failure regression:** packaged candidate
 `validation-inventory-config-03` passed **34/34** through actual Upload and
