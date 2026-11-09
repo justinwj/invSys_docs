@@ -1,5 +1,21 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-08 PR4-BASE-02 combined Inventory gate:** v16 passed
+EditCreation.All **545/545**, ConfigPreservation.All **50/50**,
+MissingDefault **54/54**, and RetainedShared **123/123** on the visible
+packaged PR 4 worker at e2c8a06f. All 772 expected identities matched
+exactly, including the 140 QuantityPhase checks; no failures, missing,
+duplicate or unexpected checks. Four worker/Excel pairs exited naturally,
+settings and all 538 frozen inputs were preserved, and the delayed audit
+found zero Excel faults. Run 01 AfterQuit-to-exit was 14.95 s; the other
+selectors record only informational stdout-quiet-to-exit times.
+The single changed baseline pin is the test-only Domain save-probe owner;
+the five XLAM pins and product contract did not change. Controls 1.732
+and the code Inventory audit record this focused gate. Broad Inventory
+GREEN, early Receiving B0, full chain, live-role, visible operator,
+4be-A and 4be-B acceptance remain open. Local ignored evidence is under
+reports/runtime/inventory-gate-v16-pr4-base-02-20261108/.
+
 **2026-11-05 CREATE queue-failure regression:** packaged candidate
 `validation-inventory-config-03` passed **34/34** through actual Upload and
 reopened retry. The failed queue left the saved catalog/CREATE receipt and

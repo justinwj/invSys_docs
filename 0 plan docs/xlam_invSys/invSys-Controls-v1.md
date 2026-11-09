@@ -1,6 +1,18 @@
 # invSys Form Controls v1
 
-**Version:** 1.731 -- Retained EDIT receipt and focused CREATE regressions GREEN; 4be-A acceptance pending.
+**Version:** 1.732 -- PR4-BASE-02 combined edit-creation and Config gate GREEN; 4be-A acceptance pending.
+
+**D13 PR4-BASE-02 combined gate, 2026-11-08:** visible packaged
+EditCreation.All passed **545/545**, including the 140 QuantityPhase
+checks. ConfigPreservation.All, MissingDefault and RetainedShared passed
+**50/50**, **54/54** and **123/123**. Every check identity matched once
+with PASS; all four workers exited 0, Excel exited naturally, settings
+and 538 pinned inputs were preserved, and the delayed audit found zero
+Excel faults. The test-only save probe now selects the loaded Inventory
+Domain package; product XLAMs and behavior were unchanged. This is the
+focused combined Inventory/Config gate, not broad Inventory GREEN,
+visible operator, 4be-A or Release 1 acceptance. No ControlId or
+displayed wording changed.
 
 **D13 CREATE queue-failure checkpoint, 2026-11-05:** actual packaged Upload
 and reopened retry passed **34/34**. The failed queue preserved the saved
