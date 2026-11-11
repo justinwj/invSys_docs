@@ -1,5 +1,44 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-10 PR4-BASE-03 Inventory recording/guide checkpoint:** v17 ran
+the Inventory results and recording selectors on PR4-BASE-02. Runs 01
+WorksheetResults 64/64, 02 OwnResults 50/50, 03 HeadlessWorksheet 56/56,
+04 Recording 151/151 and 05 Recording.Selections 65/65 matched exactly
+with natural exits (run 01 was attended after three native tracking notices); run 06 Recording.Selections.Guide stopped the series
+at 9 PASS, 1 FAIL, 66 missing. Runs 07 Recording.Uom, 08 and 09 did not
+run. v17.1 to v17.4, on tooling copies outside the pinned tree, isolated
+the fault to the pinned guide re-asserting Application.Visible = True on
+an already visible Excel, which moved the application window handle and
+emptied Workbook.Windows; executing each visible-host statement only
+when its target was not already in the requested state passed the same
+75 checks (v17.4 run-06b).
+
+Justin approved a PR4-BASE-03 re-pin exception for exactly three
+test-tooling files (Slice4beInventoryGuide.ps1,
+Slice4beAdminTesterRecording.ps1, Slice4beAdminCreateRecording.ps1) at
+code commit 55f46fcc (PR10, merged into the PR4 working branch as 550d9ff0), as a separate manifest SHA256
+B03E9264... pinning their on-disk hashes; PR4-BASE-02 F2DE6B82...,
+PR4-BASE-01 6FDE11C2..., the worker and all XLAM pins are unchanged.
+No product or architectural contract changed.
+
+v18 then passed seven sequential visible packaged runs on PR4-BASE-03:
+04 Recording 151/151, 05 Recording.Selections 65/65, 06
+Recording.Selections.Guide 75/75, 08 Recording.Uom.Guide 74/74, 09
+Recording.Guide 73/73, focused Tester.Recording 163/163 and focused
+Create.Recording 170/170. All 771 expected identities matched exactly
+once; seven worker/Excel pairs exited naturally, settings and frozen
+inputs were preserved, and the delayed audit found zero Excel faults.
+v18 stands alone and is not added to v17, v16 or v13.1. Controls 1.734
+and handoff 224 record this checkpoint. Local ignored evidence is under
+reports/runtime/inventory-gate-v17-pr4-base-02-20261110/,
+inventory-gate-v17-1..4-guide-host-20261110/ and
+inventory-gate-v18-pr4-base-03-20261110/.
+
+Still open: run 07 Recording.Uom (68 identities) has not run on either
+baseline; whether the product itself re-asserts Application.Visible is
+unexamined; the Excel native-exit slowness is unresolved. Broad
+Inventory GREEN, 4be-A and Release 1 acceptance remain open.
+
 **2026-11-08 PR4-BASE-02 Inventory checkpoint:** v14 ran
 BeforeCatalogSaveThrows and AfterCatalogSaveThrows separately on unchanged
 PR 4 tooling. Each reproduced the v13.1 failure: 17 PASS, 2 FAIL, with

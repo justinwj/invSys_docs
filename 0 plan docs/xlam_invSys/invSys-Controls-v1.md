@@ -1,6 +1,37 @@
 # invSys Form Controls v1
 
-**Version:** 1.733 -- PR4-BASE-02 v14-v16 Inventory evidence reconciled; 4be-A acceptance pending.
+**Version:** 1.734 -- PR4-BASE-03 v17-v18 Inventory recording/guide evidence reconciled; 4be-A acceptance pending.
+
+**D13 PR4-BASE-03 recording/guide checkpoint, 2026-11-10:** v17 on
+PR4-BASE-02 passed WorksheetResults, OwnResults, HeadlessWorksheet,
+Recording and Recording.Selections exactly (64, 50, 56, 151 and 65; run 01 was attended after three native tracking notices) and
+stopped at Recording.Selections.Guide with 9 PASS, 1 FAIL, 66 missing;
+Recording.Uom, Recording.Uom.Guide and Recording.Guide did not run.
+v17.1 to v17.4 isolated a test-tooling fault: the pinned guide
+re-asserted Application.Visible = True on visible Excel, moving the
+window handle and emptying Workbook.Windows. A guarded form that sets
+each visible-host statement only when needed passed the same 75 checks.
+Product packages, contract, ControlIds and displayed wording are
+unchanged.
+
+Justin approved separate PR4-BASE-03 manifest SHA256 B03E9264... with
+exactly three test-tooling files re-pinned at code commit 55f46fcc
+(PR10, merged into the PR4 working branch as 550d9ff0); PR4-BASE-02 F2DE6B82..., PR4-BASE-01 6FDE11C2..., the
+worker and the XLAM pins are untouched. v18, run independently on
+PR4-BASE-03, passed visible packaged Recording **151/151**,
+Recording.Selections **65/65**, Recording.Selections.Guide **75/75**,
+Recording.Uom.Guide **74/74**, Recording.Guide **73/73**, focused
+Tester.Recording **163/163** and focused Create.Recording **170/170**.
+All 771 check names matched exactly; seven worker/Excel pairs exited
+naturally, settings and frozen inputs were preserved, and the delayed
+audit found zero Excel faults. These passes stand alone and are not
+combined with v17, v16 or v13.1.
+
+Recording.Uom (run 07, 68 checks) remains unrun on both baselines.
+Other Inventory selectors, early Receiving B0, live-role, restart,
+full-chain, final compile/layout/static and visible operator evidence
+remain open. Broad Inventory GREEN, 4be-A and Release 1 acceptance are
+not established.
 
 **D13 PR4-BASE-02 Inventory checkpoint, 2026-11-08:** v14 ran
 both catalog-save failure cases separately and repeated v13.1's same
