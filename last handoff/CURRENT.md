@@ -1,1 +1,1 @@
-`226 Worksheet PARTIAL and Notice Gates on Current Candidate.md`
+`227 PR4-BASE-08 A-Family Gates and Settings Memory Failure.md`
