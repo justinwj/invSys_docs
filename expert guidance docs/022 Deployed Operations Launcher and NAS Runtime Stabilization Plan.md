@@ -15,16 +15,24 @@ records `B0Accepted=false`: technical replay proof is current, but human B0
 acceptance is not established. These standalone results do not combine into
 4be-A or Release 1 acceptance.
 
-v32 attempted the 202-check packaged Settings/policy/detail/preference gate.
-Excel showed a captured insufficient-memory modal while Windows commit was
-82.6/85.7 GiB; Perplexity-owned models used about 44.5 GiB. After Perplexity
-closed, the attended run ended with 134 PASS, one harness exception at
-fixture target selection (`WH_CONFIG_INVALID`) and 68 unrun checks. Excel
-exited naturally, settings and pins were preserved, and delayed audit found
-zero Excel faults. v32 is diagnostic failure, not product RED or Settings
-GREEN. A fresh, separately authorized current-candidate Settings gate is
-needed. No Architecture, product package, ControlId or displayed-wording
-change was made by this checkpoint; Controls 1.738 records the same state.
+v32 and the separately authorized v32.1 each reached 134 PASS, then a
+fixture-target selection exception (`WH_CONFIG_INVALID`) and 68 unrun
+Settings/policy/detail/preference checks. Both were attended after a captured
+Excel insufficient-memory dialog; both closed naturally with settings and
+pins preserved. Perplexity-owned models and system commit pressure co-occurred
+in v32. In v32.1, about 40 GiB of virtual memory remained free while Excel
+reached 10,000 GDI objects; v32 reached 10,000 USER objects. Both configured
+per-process quotas are 10,000. The v32.1 delayed Application audit found nine
+`GDIObjectLeak` reports naming `EXCEL.EXE`, so it did not pass the fault gate.
+Captured windows included about 288 `XLMAIN` and 582 `OfficeGripperWnd`
+windows. A separate plain visible-Excel 40-cycle control stayed at 250-258
+GDI objects; hiding each transient workbook window before close stayed at
+226-250, with two `XLMAIN` windows in both lanes. Hiding the Config window
+alone did not reproduce the growth. The packaged Settings/form or fixture
+source remains unresolved; neither run is product RED or Settings GREEN.
+A focused packaged lifecycle diagnostic is required before a product or
+harness fix. Architecture, five XLAMs, ControlIds and displayed wording are
+unchanged; Controls 1.739 records the same acceptance limit.
 
 **2026-11-11/12 worksheet result/notice D13 checkpoint:** The
 PR4-BASE-06 validation packages passed v25's 170 exact Inventory

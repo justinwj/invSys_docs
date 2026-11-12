@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.738 -- PR4-BASE-08 A-family regression evidence
+**Version:** 1.739 -- PR4-BASE-08 Settings resource diagnosis
 reconciled; Settings and 4be-A acceptance pending.
 
 **D13 PR4-BASE-08 A-family checkpoint, 2026-11-12:** The current five
@@ -16,14 +16,20 @@ v31.1 passed 121/121 early Receiving replay checks, ten proof-critical
 identities and four fresh scope flags. `B0Accepted=false` remains the
 harness result, so human B0 acceptance is open.
 
-The separate v32 Settings/policy/detail/preference run met an Excel
-insufficient-memory modal under system commit pressure. After the
-Perplexity app released its models, the attended run ended at 134 PASS,
-one fixture-target harness exception and 68 unrun checks. It closed
-naturally with settings and pins preserved and zero delayed faults; it
-is neither product RED nor Settings GREEN. A fresh qualified run remains
-required. Architecture v4.11, product packages, ControlIds and displayed
-wording are unchanged. Broad 4be-A and Release 1 acceptance remain open.
+Two separately authorized Settings/policy/detail/preference runs, v32 and
+v32.1, each stopped after 134 PASS with one fixture-target exception and 68
+unrun checks. Both were attended after a captured Excel insufficient-memory
+dialog, and both closed naturally with settings and pins preserved. v32 also
+had system commit pressure from Perplexity models. v32.1 reached the 10,000
+GDI-object quota with about 40 GiB free virtual memory, and its delayed audit
+recorded nine `GDIObjectLeak` reports naming Excel; v32 reached the 10,000
+USER-object quota. Captures show about 288 Excel main windows. A plain
+visible-Excel 40-cycle control and hide-before-close variant both stayed
+near 250 GDI objects and two Excel main windows, so hiding a transient Config
+window alone did not reproduce the growth. The packaged Settings/form or
+fixture cause remains unresolved. No Settings GREEN, product RED, Architecture
+change, package change, ControlId or displayed-wording change is claimed.
+Broad 4be-A and Release 1 acceptance remain open.
 
 **D13 worksheet result/notice checkpoint, 2026-11-11/12:** On the
 PR4-BASE-06 validation packages, v25 passed 170/170 exact identities
