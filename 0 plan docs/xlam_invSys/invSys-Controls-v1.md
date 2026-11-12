@@ -1,7 +1,29 @@
 # invSys Form Controls v1
 
-**Version:** 1.737 -- worksheet result/notice v25-v27 evidence
-reconciled; 4be-A acceptance pending.
+**Version:** 1.738 -- PR4-BASE-08 A-family regression evidence
+reconciled; Settings and 4be-A acceptance pending.
+
+**D13 PR4-BASE-08 A-family checkpoint, 2026-11-12:** The current five
+validation XLAMs and 539 frozen inputs were unchanged. v28 Recording
+passed 151/151 exact checks. v29 run 05 passed 65/65; its run 06
+observer hit a timeline file-sharing error after 75 worker PASS checks,
+so it did not qualify. Corrected v29.1 independently passed runs 06-09
+at 75, 68, 80 and 73 exact checks (296/296). v30 passed visible Admin
+Tester/Create recording at 163/163 and 170/170. All these qualified
+runs closed naturally, restored settings, preserved pins and had zero
+delayed Excel faults. v31 checks-only failed before dispatch; corrected
+v31.1 passed 121/121 early Receiving replay checks, ten proof-critical
+identities and four fresh scope flags. `B0Accepted=false` remains the
+harness result, so human B0 acceptance is open.
+
+The separate v32 Settings/policy/detail/preference run met an Excel
+insufficient-memory modal under system commit pressure. After the
+Perplexity app released its models, the attended run ended at 134 PASS,
+one fixture-target harness exception and 68 unrun checks. It closed
+naturally with settings and pins preserved and zero delayed faults; it
+is neither product RED nor Settings GREEN. A fresh qualified run remains
+required. Architecture v4.11, product packages, ControlIds and displayed
+wording are unchanged. Broad 4be-A and Release 1 acceptance remain open.
 
 **D13 worksheet result/notice checkpoint, 2026-11-11/12:** On the
 PR4-BASE-06 validation packages, v25 passed 170/170 exact identities

@@ -1,5 +1,31 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-12 PR4-BASE-08 A-family regression checkpoint:** On the unchanged five
+validation XLAMs and 539 frozen inputs, visible v28 Recording passed 151/151.
+v29 run 05 passed 65/65; run 06 printed 75 PASS but its observer lost the
+gate to a timeline file-sharing error. The separate corrected v29.1 series
+passed Recording/Guide runs 06-09 exactly (75, 68, 80 and 73; 296/296),
+with natural exits, restored settings and zero delayed Excel faults. Visible
+v30 passed Admin Tester/Create recording exactly (163 and 170; 333/333),
+with the same closure and preservation evidence. v31 checks-only exposed a
+controller initializer error before Excel; corrected v31.1 passed 121/121
+Receiving replay identities, all ten proof-critical checks and four fresh
+replay scope flags, with natural closure and zero delayed faults. Its harness
+records `B0Accepted=false`: technical replay proof is current, but human B0
+acceptance is not established. These standalone results do not combine into
+4be-A or Release 1 acceptance.
+
+v32 attempted the 202-check packaged Settings/policy/detail/preference gate.
+Excel showed a captured insufficient-memory modal while Windows commit was
+82.6/85.7 GiB; Perplexity-owned models used about 44.5 GiB. After Perplexity
+closed, the attended run ended with 134 PASS, one harness exception at
+fixture target selection (`WH_CONFIG_INVALID`) and 68 unrun checks. Excel
+exited naturally, settings and pins were preserved, and delayed audit found
+zero Excel faults. v32 is diagnostic failure, not product RED or Settings
+GREEN. A fresh, separately authorized current-candidate Settings gate is
+needed. No Architecture, product package, ControlId or displayed-wording
+change was made by this checkpoint; Controls 1.738 records the same state.
+
 **2026-11-11/12 worksheet result/notice D13 checkpoint:** The
 PR4-BASE-06 validation packages passed v25's 170 exact Inventory
 worksheet result identities: WorksheetResults 64, OwnResults 50 and
