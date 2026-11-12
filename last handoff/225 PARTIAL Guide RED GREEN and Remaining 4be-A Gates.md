@@ -33,12 +33,12 @@ Recheck PR and branch heads, Excel closure, desktop input, candidate hashes, and
 
 ## Open questions and blockers
 
-The 28 worksheet-recording failures are historical RED on the older `validation-inventory-uom-02` package set; the current PR4/PR11 packages have different hashes and have not run that selector. The sanitized evidence is in `expert guidance docs/Worksheet Recording RED Evidence for Review.md`. Remaining Inventory selectors and retained formatting callers, relevant source/static regression review, live-role, restart, full Release 1 chain and visible operator evidence are open. The early Receiving B0 proof is technically GREEN but explicitly not accepted. 4be-A is incomplete.
+The 28 worksheet-recording failures are historical RED on the older `validation-inventory-uom-02` package set; the current PR4/PR11 packages have different hashes and have not run that selector. The sanitized evidence is in `expert guidance docs/Worksheet Recording RED Evidence for Review.md`. An ignored v23 controller and 78-name expected file are prepared under `reports/runtime/worksheet-recording-evidence-v23-pr4-base-05-20261111/`; checks-only passed with no Excel. Its launcher SHA256 is B16136D6..., expected checks D3AB5977..., and owner approval/dispatch are absent. The worker branch was restored clean at 550d9ff0. Remaining Inventory selectors and retained formatting callers, relevant source/static regression review, live-role, restart, full Release 1 chain and visible operator evidence are open. The early Receiving B0 proof is technically GREEN but explicitly not accepted. 4be-A is incomplete.
 
 ## Immediate next action
 
-Requalify the worksheet-recording selector on a current pinned package candidate through the packaged handler, then map only its remaining behavioral failures to Architecture v4.11 before changing product source.
+After a separate owner approval naming v23 and its frozen hashes, recheck its checks-only gate and run the single prepared worksheet `Evidence` selector on PR4-BASE-05; map only current qualified failures to Architecture v4.11 before changing product source.
 
 ## Critical references
 
-Architecture v4.11 Inventory PARTIAL observation contract; Plan 022 2026-11-11 checkpoint; Controls 1.735; `src/Core/Modules/modExpectationDraft.bas`; `tests/tooling/Slice4beInventoryPartialChoices.ps1`, `Slice4beInventoryWorksheetRecording.ps1`; `expert guidance docs/Worksheet Recording RED Evidence for Review.md`; draft code PR4 and PR11; draft docs PR5; local v21/v22/green-static report folders above.
+Architecture v4.11 Inventory PARTIAL and worksheet observation contracts; Plan 022 2026-11-11 checkpoint; Controls 1.735; `src/Core/Modules/modExpectationDraft.bas`; `tests/tooling/Slice4beInventoryPartialChoices.ps1`, `Slice4beInventoryWorksheetRecording.ps1`; `expert guidance docs/Worksheet Recording RED Evidence for Review.md`; draft code PR4 and PR11; draft docs PR5; local v21/v22/green-static and v23 preparation folders above.
