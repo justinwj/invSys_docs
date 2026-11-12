@@ -1,1 +1,1 @@
-`232 v36 Settings GREEN and Viewer Detail Gate Prepared.md`
+`233 Current Package Settings and Event Detail Qualified.md`
