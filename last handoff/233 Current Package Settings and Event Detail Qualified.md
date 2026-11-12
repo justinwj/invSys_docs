@@ -21,7 +21,7 @@ Last verified 2026-11-12: code `main` is `6d247543` with Justin's unrelated `AGE
 - v36 PR4-BASE-10 Settings/policy/detail/preference: **202/202 exact PASS**, worker exit 0, controller `StopReason=null`, pinned restart proof and both Excel native exits verified, no extra Excel, settings restored, 539 pins preserved, no process termination/modal, delayed audit zero faults. The first-Excel stdout-quiet metric is inapplicable because the first process exits before later checks. Evidence: `reports/runtime/settings-policy-v36-pr4-base-10-20261112`.
 - v37 stopped before Excel because the controller supplied a compile switch unsupported by the Event Detail selector; zero behavioral checks. v38 worker passed 90/90, exited naturally and had zero delayed faults, but its controller expected 85 names because the fixture itself emits five compile checks. These are controller/setup failures, not product RED. Both approvals consumed.
 - v39 PR4-BASE-10 visible Event Detail: **90/90 exact PASS**, including five fixture-owned compile checks, worker exit 0, controller `StopReason=null`, natural Excel exit 2.52 seconds after stdout quiet, settings restored, 539 pins preserved, no intervention or process termination, delayed audit zero faults. Reviewed default, multiline-bottom, multiline-right, maximized and restored captures show the selected detail, readable long/multiline text, reachable last line and horizontal `END` marker, and reachable Close. Evidence: `reports/runtime/viewer-detail-v39-pr4-base-10-20261112` and its `ReportRoot`.
-- Read-only next-gate map: latest historical Viewer published-read GREEN has 80 unique checks (2026-10-21); groups has 82 (2026-09-14); refresh has 16 (2026-09-14). These are older-candidate results, not current-package qualification. The current worker explicitly supports the compiled published-read selector; pin its exact current invocation before dispatch.
+- Read-only next-gate map: latest historical Viewer published-read report has 80 unique checks (2026-10-21): five fixture compile checks, one recording-probe setup check, 36 PublishedRead and 38 Recording checks. This appears to be a combined recording/published-read selector; do not assume `-CheckViewerPublishedRead` alone emits 80. Groups has 82 (2026-09-14), refresh 16 (2026-09-14). These are older-candidate results, not current-package qualification. The current worker supports a compiled published-read gate, but its exact selector and emitted identity set must be established before pinning.
 - Plan 022 / Controls 1.745 are pushed on docs PR5. These standalone gates do not establish complete Event Viewer, 4be-A, human Receiving B0 or Release 1 acceptance.
 
 ## Do Not Repeat
@@ -38,7 +38,7 @@ Current-package Viewer published-read/groups/refresh, guide transfer, other Admi
 
 ## Immediate next action
 
-Pin the 80 historical published-read identities against the current worker and prepare a single packaged gate on the unchanged five XLAMs; request bounded approval only after checks-only passes.
+Determine the exact current-worker selector for the combined recording/published-read gate, pin its emitted identity set, and prepare one packaged gate on the unchanged five XLAMs; request bounded approval only after checks-only passes.
 
 ## Critical references
 
