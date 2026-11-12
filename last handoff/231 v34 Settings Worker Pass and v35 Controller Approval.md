@@ -1,4 +1,4 @@
-# Handoff 231: v34 Settings worker pass and v35 controller approval
+# Handoff 231: v34 Settings worker pass and restart controller gate
 
 Date: 2026-11-12 Pacific. Predecessor: handoff 230.
 
@@ -13,31 +13,31 @@ Last verified 2026-11-12: code `main` is `6d247543` with Justin's unrelated `AGE
 ## Decisions and constraints
 
 - Architecture v4.11's saved operator workbook contract is unchanged. PR14 modifies only test tooling; the five validation XLAMs and product contracts are unchanged.
-- v34's one-run approval is consumed; do not retry. v35 needs separate approval and a clean dispatch before **19:55 UTC**. If the window expires, do not edit the pinned controller to extend it. No assisted Excel close, process kill, or retry.
+- v34's one-run approval is consumed; do not retry. v35 received approval after its **19:55 UTC** cutoff and never dispatched. Its pinned controller was not changed. v36 is a separate controller/window and needs separate approval before **20:15 UTC**. No assisted Excel close, process kill, or retry.
 - The `soetrain` docs branch `work/perplexity-handoff218` points to an older merged PR6 tree. Docs PR5's actual head is the `justinwj` fork branch; push that fork branch, and do not merge the older `soetrain` branch into current docs.
 
 ## Evidence and traceability
 
 - v34 worker: 202/202 exact named PASS, zero FAIL, exit 0; `Preference.NewExcelProcessRestoresSavedChoice` passed. The pinned fixture naturally closed first Excel and started one replacement. v34 controller rejected replacement PID 16096 as extra, so its gate failed. Settings and all 539 pins were preserved; both Excel processes ended, no termination; delayed Application audit found zero Excel faults. `run-S1/closure.json` and `series-closure.json` are in `reports/runtime/settings-policy-v34-pr4-base-10-20261112`.
-- v35 changes only the ignored runtime controller: accepts exactly one replacement after first natural exit, requires the pinned Preference PASS and unassisted restart proof, watches native exit of both Excel lifetimes, and rejects further processes. Manifest `68338D11...`, expected identities `E0D7763B...`, launcher `5003E5EB...`. PowerShell parser had zero errors; checks-only passed 539 pins / 202 identities with no Excel. Exact hashes, scope and command are in `reports/runtime/settings-policy-v35-pr4-base-10-20261112/codex-settings-policy-v35.md`.
+- v35 changed only the ignored runtime controller: exactly one replacement after first natural exit, pinned Preference PASS and unassisted restart proof, native exit of both Excel lifetimes, no further processes. Parser and checks-only passed without Excel, but the approved start window expired before dispatch. v36 preserves that rule and changes only series identity/window. Manifest `68338D11...`, expected identities `E73F7953...`, launcher `22FCBD39...`; parser zero errors; checks-only passed 539 pins / 202 identities without Excel. Exact hashes, scope and command are in `reports/runtime/settings-policy-v36-pr4-base-10-20261112/codex-settings-policy-v36.md`.
 - Plan 022 and Controls 1.743 are committed and pushed on docs PR5's fork branch. v34 worker GREEN is not qualified Settings GREEN, 4be-A or Release 1 acceptance.
 
 ## Do Not Repeat
 
-Do not rerun v32-v34, treat v34's controller failure as product RED, or treat the second Excel as an unrelated process without checking the Preference fixture. Do not merge the older `soetrain` docs working branch into the newer PR5 head.
+Do not rerun v32-v34, dispatch expired v35, treat v34's controller failure as product RED, or treat the second Excel as an unrelated process without checking the Preference fixture. Do not merge the older `soetrain` docs working branch into the newer PR5 head.
 
 ## Assumptions to Re-verify
 
-Recheck owner approval, time window, clean detached worker, no Excel, desktop/input, five XLAM hashes, 539 pins, launcher hash and no v35 dispatch before any run.
+Recheck owner approval, v36 time window, clean detached worker, no Excel, desktop/input, five XLAM hashes, 539 pins, launcher hash and no v36 dispatch before any run.
 
 ## Open questions and blockers
 
-v35 approval/qualified Settings gate; remaining Event Viewer/detail, guide transfer, other Admin/Operations, retained formatting, human Receiving B0, live role, full chain and visible operator acceptance. Execute slowdown and the Microsoft-reported Excel exit defect remain separate.
+v36 approval/qualified Settings gate; remaining Event Viewer/detail, guide transfer, other Admin/Operations, retained formatting, human Receiving B0, live role, full chain and visible operator acceptance. Execute slowdown and the Microsoft-reported Excel exit defect remain separate.
 
 ## Immediate next action
 
-If fresh approval arrives before 19:55 UTC, rerun v35 checks-only and dispatch its single approved run; otherwise leave runtime paused and prepare a new bounded window.
+If fresh approval arrives before 20:15 UTC, rerun v36 checks-only and dispatch its single approved run; otherwise leave runtime paused and prepare a new bounded window.
 
 ## Critical references
 
-Architecture v4.11 D18; Plan 022 PR4-BASE-10 checkpoint; Controls 1.743; draft code PR14; docs PR5; `tests/tooling/Test-Slice4beConfigCommands.ps1`; v34/v35 folders above.
+Architecture v4.11 D18; Plan 022 PR4-BASE-10 checkpoint; Controls 1.743; draft code PR14; docs PR5; `tests/tooling/Test-Slice4beConfigCommands.ps1`; v34/v35/v36 folders above.
