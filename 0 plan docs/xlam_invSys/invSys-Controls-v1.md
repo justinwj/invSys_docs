@@ -1,7 +1,21 @@
 # invSys Form Controls v1
 
-**Version:** 1.742 -- PR4-BASE-10 Settings host dirty-flag diagnosis
-reconciled; Settings and 4be-A acceptance pending.
+**Version:** 1.743 -- PR4-BASE-10 v34 Settings worker and controller
+evidence reconciled; Settings and 4be-A acceptance pending.
+
+**D13 PR4-BASE-10 v34 Settings checkpoint, 2026-11-12:** One approved
+visible packaged Settings run passed 202/202 exact identities, including
+`Preference.NewExcelProcessRestoresSavedChoice`, with worker exit 0,
+settings restored and 539 pinned inputs preserved. The Preference fixture
+intentionally closed its first Excel naturally and opened one replacement.
+The v34 controller rejected that replacement as an extra process, so its
+gate failed despite worker GREEN. Both Excel processes subsequently exited;
+the delayed audit found zero Excel faults. No v34 retry or acceptance claim
+is made. A separate v35 controller is prepared to require the pinned
+restart proof and both native Excel exits; checks-only passed 539 pins and
+202 identities without Excel. One fresh approval and run are required.
+Product packages, Architecture v4.11, ControlIds and displayed wording are
+unchanged. Broad 4be-A and Release 1 acceptance remain open.
 
 **D13 PR4-BASE-08 A-family checkpoint, 2026-11-12:** The current five
 validation XLAMs and 539 frozen inputs were unchanged. v28 Recording

@@ -1,5 +1,20 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-12 PR4-BASE-10 v34 Settings checkpoint:** The approved visible
+packaged worker passed 202/202 exact Settings/policy/detail/preference
+identities and exited 0. The pinned Preference fixture quit its first Excel
+naturally and launched a second for the saved-choice restart check. The v34
+controller rejected the second PID, so the controller gate failed; this is
+worker GREEN, not qualified Settings GREEN. Settings and 539 frozen inputs
+were preserved, both Excel processes ended without assisted teardown, and
+the delayed Application audit found zero Excel faults. No v34 retry is
+authorized. A separate v35 controller now requires exactly one proven
+Preference restart and native exit evidence for both Excel lifetimes;
+checks-only passed 539 pins and 202 expected identities without Excel.
+Fresh approval and runtime evidence are pending. The five XLAMs, product
+contract, ControlIds and displayed behavior are unchanged. 4be-A and Release
+1 acceptance remain open; Controls 1.743 records the same limit.
+
 **2026-11-12 PR4-BASE-08 A-family regression checkpoint:** On the unchanged five
 validation XLAMs and 539 frozen inputs, visible v28 Recording passed 151/151.
 v29 run 05 passed 65/65; run 06 printed 75 PASS but its observer lost the
