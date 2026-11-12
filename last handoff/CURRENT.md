@@ -1,1 +1,1 @@
-`231 v34 Settings Worker Pass and v35 Controller Approval.md`
+`232 v36 Settings GREEN and Viewer Detail Gate Prepared.md`
