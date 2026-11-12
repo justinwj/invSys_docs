@@ -33,12 +33,12 @@ Recheck PR and branch heads, Excel closure, desktop input, candidate hashes, and
 
 ## Open questions and blockers
 
-Worksheet-recording remains RED with 28 known failures pending product diagnosis. Remaining Inventory selectors and retained formatting callers, relevant source/static regression review, live-role, restart, full Release 1 chain and visible operator evidence are open. The early Receiving B0 proof is technically GREEN but explicitly not accepted. 4be-A is incomplete.
+The 28 worksheet-recording failures are historical RED on the older `validation-inventory-uom-02` package set; the current PR4/PR11 packages have different hashes and have not run that selector. The sanitized evidence is in `expert guidance docs/Worksheet Recording RED Evidence for Review.md`. Remaining Inventory selectors and retained formatting callers, relevant source/static regression review, live-role, restart, full Release 1 chain and visible operator evidence are open. The early Receiving B0 proof is technically GREEN but explicitly not accepted. 4be-A is incomplete.
 
 ## Immediate next action
 
-Read the existing worksheet-recording RED evidence, map its failed identities to the packaged handler and Architecture v4.11 contract, then create the focused D13 fix without changing frozen inputs.
+Requalify the worksheet-recording selector on a current pinned package candidate through the packaged handler, then map only its remaining behavioral failures to Architecture v4.11 before changing product source.
 
 ## Critical references
 
-Architecture v4.11 Inventory PARTIAL observation contract; Plan 022 2026-11-11 checkpoint; Controls 1.735; `src/Core/Modules/modExpectationDraft.bas`; `tests/tooling/Slice4beInventoryPartialChoices.ps1`; draft code PR4 and PR11; draft docs PR5; local v21/v22/green-static report folders above.
+Architecture v4.11 Inventory PARTIAL observation contract; Plan 022 2026-11-11 checkpoint; Controls 1.735; `src/Core/Modules/modExpectationDraft.bas`; `tests/tooling/Slice4beInventoryPartialChoices.ps1`, `Slice4beInventoryWorksheetRecording.ps1`; `expert guidance docs/Worksheet Recording RED Evidence for Review.md`; draft code PR4 and PR11; draft docs PR5; local v21/v22/green-static report folders above.
