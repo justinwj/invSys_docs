@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.741 -- PR4-BASE-09 Settings host retention diagnosis
+**Version:** 1.742 -- PR4-BASE-10 Settings host dirty-flag diagnosis
 reconciled; Settings and 4be-A acceptance pending.
 
 **D13 PR4-BASE-08 A-family checkpoint, 2026-11-12:** The current five
@@ -44,8 +44,15 @@ PASS checks and one combined host-retention assertion failure after fixture
 creation, leaving 196 checks unrun. The path, saved flag and workbook count
 were not recorded separately, so the cause is unresolved. Excel closed
 naturally, settings/inputs were preserved and the delayed audit found zero
-faults. A copied test-only fact probe is prepared, not run. This is not
-Settings GREEN or product RED; the acceptance limit is unchanged.
+faults. The separately approved copied fact probe then recorded that the
+host object, exact path and file remained available and exactly one workbook
+was open; only its in-memory `Saved` flag became false. The worker returned
+0, Excel closed naturally and the delayed audit found no faults. Draft PR14
+commit `b8f94241` removes only that after-fixture dirty-flag test assertion;
+the path, file and sole-workbook checks remain. PR4-BASE-10 (`68338D11...`)
+re-pins this one worker file. v34 checks-only passed 539 pins/202 names
+without Excel; a separately approved full run is still required. This is
+not Settings GREEN or product RED; the acceptance limit is unchanged.
 
 **D13 worksheet result/notice checkpoint, 2026-11-11/12:** On the
 PR4-BASE-06 validation packages, v25 passed 170/170 exact identities

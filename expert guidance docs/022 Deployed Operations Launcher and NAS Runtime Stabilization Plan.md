@@ -53,8 +53,16 @@ changed component is unknown. Excel and worker exited naturally; settings
 and inputs were preserved, and the delayed audit found zero Excel faults.
 This is a harness setup failure, not Settings GREEN or product RED. A distinct
 test-only copy now records those three host facts before any further Settings
-gate; it has not run. Earlier manifests are unchanged. Controls 1.741 records
-the same acceptance limit.
+gate. Its approved single run proved the host object and exact path remained
+accessible, its file existed, and exactly one workbook was open; only Excel's
+in-memory `Workbook.Saved` flag became false. The worker exited 0, Excel
+closed naturally and the delayed Application audit found zero faults. A dirty
+flag does not revoke saved-workbook identity. Draft PR14 commit `b8f94241`
+therefore removes only the after-fixture dirty-flag assertion while retaining
+the path, file and sole-workbook checks. PR4-BASE-10 (`68338D11...`) re-pins
+that one test file; v34 passed checks-only for 539 pins and 202 names with no
+Excel. Its separately approved packaged run is still required. Earlier
+manifests are unchanged. Controls 1.742 records the same acceptance limit.
 
 **2026-11-11/12 worksheet result/notice D13 checkpoint:** The
 PR4-BASE-06 validation packages passed v25's 170 exact Inventory
