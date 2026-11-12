@@ -1,7 +1,23 @@
 # invSys Form Controls v1
 
-**Version:** 1.744 -- PR4-BASE-10 v36 packaged Settings gate qualified;
+**Version:** 1.745 -- PR4-BASE-10 v39 packaged Event Detail gate qualified;
 4be-A acceptance pending.
+
+**D13 PR4-BASE-10 v39 Event Detail gate, 2026-11-12:** On the unchanged
+five validation XLAMs, one approved visible packaged run passed 90/90
+exact checks, including five fixture-owned compiles, selected-event detail,
+long/multiline text, native scroll/typing and layout. Worker exit 0 and
+controller `StopReason=null`; Excel exited naturally 2.52 seconds after
+stdout went quiet. Settings and all 539 frozen inputs were preserved;
+there was no modal intervention, process termination or delayed Excel
+fault. Reviewed captures show the default, maximized and restored forms,
+readable multiline content, the last line and its right-hand `END` marker,
+and reachable Close. v37 stopped before Excel on an unsupported controller
+compile switch; v38 worker passed 90/90 but its controller pinned only
+85 names. Neither is counted as a qualified gate or product RED. v39 is
+standalone Event Detail evidence; Viewer publication/groups/refresh,
+broader 4be-A and Release 1 acceptance remain open. No product contract,
+ControlId or displayed wording changed.
 
 **D13 PR4-BASE-10 v36 Settings gate, 2026-11-12:** v35 was never
 dispatched: its approval arrived after its fixed start cutoff. A distinct

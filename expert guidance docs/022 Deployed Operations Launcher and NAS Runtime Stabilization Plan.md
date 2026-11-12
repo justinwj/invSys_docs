@@ -1,5 +1,20 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-12 PR4-BASE-10 v39 Event Detail qualification:** The approved
+visible packaged Event Detail run passed 90/90 exact identities, including
+five compiles performed by the detail fixture. Native scrolling/typing,
+long and multiline text, selected-line detail and layout checks passed.
+The worker exited 0, controller `StopReason=null`, Excel exited naturally
+2.52 seconds after stdout quiet, settings and 539 pins were preserved,
+and the delayed Application audit found zero Excel faults. Reviewed
+default/maximized/restored and scroll captures show readable multiline
+content, a reachable last line and horizontal `END` marker, and Close.
+v37 stopped before Excel on an unsupported controller compile switch;
+v38 worker passed 90/90 but its controller expected 85, so neither is
+qualified or product RED. Controls 1.745 records v39 as standalone
+Event Detail evidence. Other Viewer, Action Path, human B0, live-role,
+full-chain and Release 1 gates remain open.
+
 **2026-11-12 PR4-BASE-10 v36 Settings qualification:** v35 never
 dispatched because its approval followed the pinned cutoff. A separately
 approved v36 visible packaged Settings/policy/detail/preference run passed
