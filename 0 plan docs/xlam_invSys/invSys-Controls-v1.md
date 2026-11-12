@@ -1,7 +1,25 @@
 # invSys Form Controls v1
 
-**Version:** 1.736 -- worksheet Upload PARTIAL v23 RED/v24 focused GREEN
-recorded; 4be-A acceptance pending.
+**Version:** 1.737 -- worksheet result/notice v25-v27 evidence
+reconciled; 4be-A acceptance pending.
+
+**D13 worksheet result/notice checkpoint, 2026-11-11/12:** On the
+PR4-BASE-06 validation packages, v25 passed 170/170 exact identities
+across WorksheetResults, OwnResults and HeadlessWorksheet. The 64/64
+WorksheetResults run required three recorded OK clicks for the exact
+stale-context tracking notice, so it is attended diagnostic evidence;
+the 50/50 and 56/56 runs were unattended. A test-only fixture change
+observes that same packaged notice path and asserts it in the three
+deliberate sign-out cases without showing a native MsgBox. Its first
+v26 run stopped at a fixture seam error before behavioral checks; it
+was not product RED. The corrected fixture commit `f9016668` is pinned
+separately by PR4-BASE-08 (`B5FE3624...`); all five XLAMs are unchanged.
+v27 passed 67/67 exact packaged WorksheetResults identities, including
+three notice assertions, without a modal. Excel and worker exited
+naturally, settings and 539 inputs were preserved, and the delayed
+audit found zero Excel faults. Product wording, ControlIds and the
+Architecture v4.11 contract are unchanged. v25 and v27 stand alone;
+neither establishes broad Inventory, 4be-A or Release 1 acceptance.
 
 **D13 worksheet Upload PARTIAL checkpoint, 2026-11-11/12:** The
 packaged worksheet Upload handler must return an exact PARTIAL outcome

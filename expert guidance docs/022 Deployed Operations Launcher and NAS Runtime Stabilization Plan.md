@@ -1,5 +1,24 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-11/12 worksheet result/notice D13 checkpoint:** The
+PR4-BASE-06 validation packages passed v25's 170 exact Inventory
+worksheet result identities: WorksheetResults 64, OwnResults 50 and
+HeadlessWorksheet 56. WorksheetResults was attended because three
+actual stale-context `invSys Admin` tracking notices required recorded
+OK clicks; its 64/64 is diagnostic evidence. The other two runs were
+unattended. A test-only packaged fixture now observes and asserts the
+exact notice in the three deliberate sign-out cases. v26 stopped on a
+fixture seam setup error before behavioral checks, not a product RED.
+The corrected commit `f9016668` uses the established whole-module seam;
+PR4-BASE-08 (`B5FE3624...`) re-pins only that test helper and retains
+all five PR4-BASE-06 XLAM hashes. v27 passed 67/67 exact packaged
+WorksheetResults identities, with no modal or intervention, natural
+Excel/worker exits, preserved settings and 539 pins, and zero delayed
+Excel faults. The product contract and source are unchanged by this
+fixture. v25 and v27 are separate focused evidence; broad Inventory,
+early Receiving B0 acceptance, 4be-A and Release 1 remain open.
+Controls 1.737 records the same checkpoint.
+
 **2026-11-11/12 worksheet upload PARTIAL checkpoint:** Architecture
 v4.11 already requires an exact owner outcome and event reference when
 Inventory worksheet Upload saves inventory but its result save is
