@@ -1,5 +1,23 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-11 PARTIAL guide expectation D13 checkpoint:** Architecture
+v4.11 already defines PARTIAL for Inventory Create/Upload; Core's guide
+expectation choices omitted it. On PR4-BASE-04, v21 established exact
+packaged RED (76 PASS, four specified Create/Upload choice FAIL; two
+UOM and 74 retained guide checks PASS). Code commit 0e014dc8 adds only
+PARTIAL to Core's non-catalog choice list. The five validation XLAMs
+matched that source. Justin approved a separate PR4-BASE-05 manifest
+2280127D... with the same 539 file pins as PR4-BASE-04 and one v22
+run. v22 passed 80/80 exact visible packaged checks; both native exits,
+settings restoration, input preservation and zero delayed Excel faults
+were verified. The prior manifests and candidate packages remain
+unchanged. v19 separately passed Inventory Recording.Uom 68/68 on
+PR4-BASE-03; v20 passed early Receiving replay 121/121 technically,
+but its proof states B0Accepted=false. These results are not combined
+into broad Inventory GREEN, B0, 4be-A or Release 1 acceptance. Current
+regression, live-role, full-chain, restart, static, layout and visible
+operator gates remain open. Controls 1.735 records the same checkpoint.
+
 **2026-11-10 PR4-BASE-03 Inventory recording/guide checkpoint:** v17 ran
 the Inventory results and recording selectors on PR4-BASE-02. Runs 01
 WorksheetResults 64/64, 02 OwnResults 50/50, 03 HeadlessWorksheet 56/56,
@@ -34,9 +52,10 @@ reports/runtime/inventory-gate-v17-pr4-base-02-20261110/,
 inventory-gate-v17-1..4-guide-host-20261110/ and
 inventory-gate-v18-pr4-base-03-20261110/.
 
-Still open: run 07 Recording.Uom (68 identities) has not run on either
-baseline; whether the product itself re-asserts Application.Visible is
-unexamined; the Excel native-exit slowness is unresolved. Broad
+At this 2026-11-10 checkpoint, run 07 Recording.Uom had not run on either
+baseline; v19 later completed it on PR4-BASE-03. Whether the product
+itself re-asserts Application.Visible is unexamined; the Excel native-exit
+slowness is unresolved. Broad
 Inventory GREEN, 4be-A and Release 1 acceptance remain open.
 
 **2026-11-08 PR4-BASE-02 Inventory checkpoint:** v14 ran

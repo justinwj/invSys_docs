@@ -1,6 +1,25 @@
 # invSys Form Controls v1
 
-**Version:** 1.734 -- PR4-BASE-03 v17-v18 Inventory recording/guide evidence reconciled; 4be-A acceptance pending.
+**Version:** 1.735 -- PARTIAL guide expectation v21 RED/v22 focused GREEN
+recorded; 4be-A acceptance pending.
+
+**D13 PARTIAL guide expectation checkpoint, 2026-11-11:** Architecture
+v4.11 already defines PARTIAL for Inventory Create/Upload. The packaged
+expectation editor omitted it from those choices. v21 on PR4-BASE-04
+established exact behavioral RED: 76 PASS and only the four named
+Create/Upload PARTIAL choice checks FAIL; both UOM checks and 74 retained
+guide checks passed. Code commit 0e014dc8 adds PARTIAL to the Core
+expectation choices without changing catalog filtering, ControlIds,
+displayed wording or the architectural contract. Five rebuilt XLAMs
+matched that source. Justin approved PR4-BASE-05 manifest 2280127D...
+and one v22 run; visible packaged run 08 passed all 80 exact identities,
+including the four prior failures. Excel and worker exited naturally,
+settings and 539 pinned file inputs were preserved, and the delayed
+audit found zero Excel faults. v21 and v22 stand alone, with no broad
+Inventory GREEN or 4be-A acceptance. Earlier PR4-BASE-03 v19 passed
+Recording.Uom 68/68, and v20 passed technical Receiving replay 121/121;
+the v20 proof explicitly has B0Accepted=false. Current live-role,
+full-chain, restart, static, layout and visible operator gates remain open.
 
 **D13 PR4-BASE-03 recording/guide checkpoint, 2026-11-10:** v17 on
 PR4-BASE-02 passed WorksheetResults, OwnResults, HeadlessWorksheet,
@@ -27,7 +46,8 @@ naturally, settings and frozen inputs were preserved, and the delayed
 audit found zero Excel faults. These passes stand alone and are not
 combined with v17, v16 or v13.1.
 
-Recording.Uom (run 07, 68 checks) remains unrun on both baselines.
+At this 2026-11-10 checkpoint, Recording.Uom (run 07, 68 checks) had
+not run on either baseline; later v19 completed it on PR4-BASE-03.
 Other Inventory selectors, early Receiving B0, live-role, restart,
 full-chain, final compile/layout/static and visible operator evidence
 remain open. Broad Inventory GREEN, 4be-A and Release 1 acceptance are
