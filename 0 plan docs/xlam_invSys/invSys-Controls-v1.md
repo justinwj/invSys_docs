@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.739 -- PR4-BASE-08 Settings resource diagnosis
+**Version:** 1.740 -- PR4-BASE-08 Settings saved-host diagnosis
 reconciled; Settings and 4be-A acceptance pending.
 
 **D13 PR4-BASE-08 A-family checkpoint, 2026-11-12:** The current five
@@ -23,13 +23,24 @@ dialog, and both closed naturally with settings and pins preserved. v32 also
 had system commit pressure from Perplexity models. v32.1 reached the 10,000
 GDI-object quota with about 40 GiB free virtual memory, and its delayed audit
 recorded nine `GDIObjectLeak` reports naming Excel; v32 reached the 10,000
-USER-object quota. Captures show about 288 Excel main windows. A plain
-visible-Excel 40-cycle control and hide-before-close variant both stayed
-near 250 GDI objects and two Excel main windows, so hiding a transient Config
-window alone did not reproduce the growth. The packaged Settings/form or
-fixture cause remains unresolved. No Settings GREEN, product RED, Architecture
-change, package change, ControlId or displayed-wording change is claimed.
-Broad 4be-A and Release 1 acceptance remain open.
+USER-object quota. Captures show about 288 Excel main windows. Plain `.xlsx`
+and `.xlsb` 40-cycle controls stayed near baseline with two Excel main
+windows. A test-only packaged Core probe with no saved workbook grew from
+1,036 to 3,606 GDI and 20 to 100 Excel main windows over 80 successful
+Config loads, then reached its 5,000-object safety stop during Settings
+form cycles. The same 80 loads with one saved `.xlsb` reopened under the
+five XLAMs held at 927-929 GDI and 16 main windows; 20 Settings cycles
+ended at 935 GDI and zero loaded forms with natural Excel closure. This
+matches Architecture v4.11's existing saved-workbook operator path. The
+diagnostic does not qualify the full Settings gate. A pinned harness run
+with the saved host is required. No Settings GREEN, product RED,
+Architecture change, package change, ControlId or displayed-wording
+change is claimed. Broad 4be-A and Release 1 acceptance remain open.
+Draft code PR14 (`d94768c7`) changes only test tooling to establish the
+saved operator host before Settings fixtures. PR4-BASE-09 (`6F867D13...`)
+re-pins that one worker file; v33 checks-only verified 539 exact inputs and
+202 retained identities without launching Excel. The run needs separate
+one-use approval and has not qualified Settings.
 
 **D13 worksheet result/notice checkpoint, 2026-11-11/12:** On the
 PR4-BASE-06 validation packages, v25 passed 170/170 exact identities

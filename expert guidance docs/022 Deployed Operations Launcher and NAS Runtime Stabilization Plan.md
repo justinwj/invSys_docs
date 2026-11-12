@@ -25,14 +25,28 @@ reached 10,000 GDI objects; v32 reached 10,000 USER objects. Both configured
 per-process quotas are 10,000. The v32.1 delayed Application audit found nine
 `GDIObjectLeak` reports naming `EXCEL.EXE`, so it did not pass the fault gate.
 Captured windows included about 288 `XLMAIN` and 582 `OfficeGripperWnd`
-windows. A separate plain visible-Excel 40-cycle control stayed at 250-258
-GDI objects; hiding each transient workbook window before close stayed at
-226-250, with two `XLMAIN` windows in both lanes. Hiding the Config window
-alone did not reproduce the growth. The packaged Settings/form or fixture
-source remains unresolved; neither run is product RED or Settings GREEN.
-A focused packaged lifecycle diagnostic is required before a product or
-harness fix. Architecture, five XLAMs, ControlIds and displayed wording are
-unchanged; Controls 1.739 records the same acceptance limit.
+windows. Plain visible-Excel 40-cycle `.xlsx` and `.xlsb` controls, including
+hide-before-close and held child references, kept GDI near baseline and
+`XLMAIN` at two. A test-only packaged Core probe then isolated the host
+condition: with no saved workbook open, 80 successful `modConfig.LoadConfig`
+calls grew GDI 1,036 to 3,606 and `XLMAIN` 20 to 100 even though the workbook
+count returned to zero; ten Settings open/show/close cycles reached the
+5,000-object safety stop. With one disposable saved `.xlsb` reopened under
+the same five XLAMs, the same 80 loads held GDI at 927-929 and `XLMAIN` at
+16; 20 Settings cycles ended at 935 GDI, zero loaded forms and a natural
+Excel exit. This matches Architecture v4.11's existing saved-workbook
+operator model and its retained add-in-only stress finding. The saved-host
+probe is diagnostic, not the full Settings gate: neither v32 nor v32.1 is
+product RED or Settings GREEN. The Settings test harness must establish that
+saved host before a fresh pinned acceptance run. Architecture, five XLAMs,
+ControlIds and displayed wording are unchanged; Controls 1.740 records the
+same acceptance limit.
+Draft code PR14 (`d94768c7`) adds only the saved-host switch to the packaged
+Settings test worker; it does not change a product package. Separate
+PR4-BASE-09 manifest `6F867D13...` differs from BASE-08 in exactly that
+worker file pin. The v33 visible Settings controller passed checks-only with
+539 exact pins and 202 expected identities, launching no Excel. Its one-run
+approval and packaged GREEN remain pending; earlier manifests are unchanged.
 
 **2026-11-11/12 worksheet result/notice D13 checkpoint:** The
 PR4-BASE-06 validation packages passed v25's 170 exact Inventory
