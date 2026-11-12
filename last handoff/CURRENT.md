@@ -1,1 +1,1 @@
-`225 PARTIAL Guide RED GREEN and Remaining 4be-A Gates.md`
+`226 Worksheet PARTIAL and Notice Gates on Current Candidate.md`
