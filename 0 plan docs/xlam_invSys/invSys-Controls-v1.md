@@ -1,7 +1,22 @@
 # invSys Form Controls v1
 
-**Version:** 1.735 -- PARTIAL guide expectation v21 RED/v22 focused GREEN
+**Version:** 1.736 -- worksheet Upload PARTIAL v23 RED/v24 focused GREEN
 recorded; 4be-A acceptance pending.
+
+**D13 worksheet Upload PARTIAL checkpoint, 2026-11-11/12:** The
+packaged worksheet Upload handler must return an exact PARTIAL outcome
+and owner event references when inventory application succeeded but
+the worksheet result save was unconfirmed. v23 on PR4-BASE-05 passed
+76/78 exact identities and failed only the two `UploadSaveThrows`
+outcome/event-reference checks. Admin source commit `c4444f58`
+(draft PR12) changes the error-path outcome to PARTIAL. The visible
+report text and ControlIds do not change. Separate PR4-BASE-06 manifest
+`98AFB384...` pins 539 unchanged tooling inputs and the five rebuilt
+XLAMs. v24 passed 78/78 exact packaged identities, five package
+compiles and source extraction; Excel and worker exited naturally,
+settings/inputs were preserved, and the delayed audit found zero Excel
+faults. Static maintenance metrics did not grow. Focused GREEN does
+not establish broad Inventory, 4be-A or Release 1 acceptance.
 
 **D13 PARTIAL guide expectation checkpoint, 2026-11-11:** Architecture
 v4.11 already defines PARTIAL for Inventory Create/Upload. The packaged

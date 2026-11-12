@@ -1,5 +1,23 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-11/12 worksheet upload PARTIAL checkpoint:** Architecture
+v4.11 already requires an exact owner outcome and event reference when
+Inventory worksheet Upload saves inventory but its result save is
+unconfirmed. On PR4-BASE-05, v23 reached the packaged Upload handler:
+76/78 exact checks passed; only `UploadSaveThrows.ExactCorrelatedOwnerOutcome`
+and `UploadSaveThrows.ExactOwnerEventReferences` failed. Code commit
+`c4444f58` (draft PR12) changes the Admin handler's post-application
+save-error outcome from FAILED to PARTIAL while retaining the existing
+report and owner event references. A separate PR4-BASE-06 manifest
+`98AFB384...` pins the unchanged 539 tooling inputs and the rebuilt
+five XLAMs. v24 passed all 78 exact packaged checks, including both
+former failures, with five package compiles, source extraction match,
+natural Excel/worker exits, restored settings, preserved inputs and
+zero delayed Excel faults. Static maintenance metrics did not grow.
+This is focused Inventory GREEN, not broad Inventory, 4be-A or Release 1
+acceptance. The remaining selectors and live/full-chain/operator gates
+remain open. Controls 1.736 records the same evidence.
+
 **2026-11-11 PARTIAL guide expectation D13 checkpoint:** Architecture
 v4.11 already defines PARTIAL for Inventory Create/Upload; Core's guide
 expectation choices omitted it. On PR4-BASE-04, v21 established exact
