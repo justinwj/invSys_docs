@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.740 -- PR4-BASE-08 Settings saved-host diagnosis
+**Version:** 1.741 -- PR4-BASE-09 Settings host retention diagnosis
 reconciled; Settings and 4be-A acceptance pending.
 
 **D13 PR4-BASE-08 A-family checkpoint, 2026-11-12:** The current five
@@ -39,8 +39,13 @@ change is claimed. Broad 4be-A and Release 1 acceptance remain open.
 Draft code PR14 (`d94768c7`) changes only test tooling to establish the
 saved operator host before Settings fixtures. PR4-BASE-09 (`6F867D13...`)
 re-pins that one worker file; v33 checks-only verified 539 exact inputs and
-202 retained identities without launching Excel. The run needs separate
-one-use approval and has not qualified Settings.
+202 retained identities. The approved run stopped after six compiled-probe
+PASS checks and one combined host-retention assertion failure after fixture
+creation, leaving 196 checks unrun. The path, saved flag and workbook count
+were not recorded separately, so the cause is unresolved. Excel closed
+naturally, settings/inputs were preserved and the delayed audit found zero
+faults. A copied test-only fact probe is prepared, not run. This is not
+Settings GREEN or product RED; the acceptance limit is unchanged.
 
 **D13 worksheet result/notice checkpoint, 2026-11-11/12:** On the
 PR4-BASE-06 validation packages, v25 passed 170/170 exact identities

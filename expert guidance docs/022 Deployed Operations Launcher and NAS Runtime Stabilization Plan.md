@@ -45,8 +45,16 @@ Draft code PR14 (`d94768c7`) adds only the saved-host switch to the packaged
 Settings test worker; it does not change a product package. Separate
 PR4-BASE-09 manifest `6F867D13...` differs from BASE-08 in exactly that
 worker file pin. The v33 visible Settings controller passed checks-only with
-539 exact pins and 202 expected identities, launching no Excel. Its one-run
-approval and packaged GREEN remain pending; earlier manifests are unchanged.
+539 exact pins and 202 expected identities. Its approved single run stopped
+after six compiled-probe PASS checks and one test-host assertion failure
+immediately after fixture creation; 196 identities were not reached. The
+assertion combines saved-host path, dirty flag and workbook count, so the
+changed component is unknown. Excel and worker exited naturally; settings
+and inputs were preserved, and the delayed audit found zero Excel faults.
+This is a harness setup failure, not Settings GREEN or product RED. A distinct
+test-only copy now records those three host facts before any further Settings
+gate; it has not run. Earlier manifests are unchanged. Controls 1.741 records
+the same acceptance limit.
 
 **2026-11-11/12 worksheet result/notice D13 checkpoint:** The
 PR4-BASE-06 validation packages passed v25's 170 exact Inventory
