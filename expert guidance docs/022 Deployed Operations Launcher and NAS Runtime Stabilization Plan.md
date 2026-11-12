@@ -1,5 +1,19 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-12 PR4-BASE-10 v36 Settings qualification:** v35 never
+dispatched because its approval followed the pinned cutoff. A separately
+approved v36 visible packaged Settings/policy/detail/preference run passed
+202/202 exact identities, worker exit 0 and controller `StopReason=null`.
+The pinned Preference restart was proved; the first and replacement Excel
+processes both exited naturally with native evidence and no extra Excel.
+Settings and 539 frozen inputs were preserved; no termination, modal
+intervention or delayed Application fault occurred. Run time was 6.49
+minutes. The negative stdout-quiet-to-first-Excel-exit value is not an exit
+speed measure for this two-Excel run: the first Excel exits before later
+checks. The standalone Settings gate is qualified on the unchanged five
+XLAMs. Controls 1.744 records the same limit. 4be-A and Release 1
+acceptance, human Receiving B0 and other pending gates remain open.
+
 **2026-11-12 PR4-BASE-10 v34 Settings checkpoint:** The approved visible
 packaged worker passed 202/202 exact Settings/policy/detail/preference
 identities and exited 0. The pinned Preference fixture quit its first Excel

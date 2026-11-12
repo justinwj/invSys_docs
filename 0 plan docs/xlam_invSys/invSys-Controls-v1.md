@@ -1,7 +1,21 @@
 # invSys Form Controls v1
 
-**Version:** 1.743 -- PR4-BASE-10 v34 Settings worker and controller
-evidence reconciled; Settings and 4be-A acceptance pending.
+**Version:** 1.744 -- PR4-BASE-10 v36 packaged Settings gate qualified;
+4be-A acceptance pending.
+
+**D13 PR4-BASE-10 v36 Settings gate, 2026-11-12:** v35 was never
+dispatched: its approval arrived after its fixed start cutoff. A distinct
+approved v36 visible packaged run passed 202/202 exact Settings, policy,
+detail and preference identities with worker exit 0. The pinned Preference
+restart proof passed, both Excel native exits were verified, and no extra
+Excel remained. Settings and all 539 frozen inputs were preserved; there
+was no process termination, modal intervention or delayed Excel fault.
+Controller `StopReason=null`; the run took 6.49 minutes. Its negative
+stdout-quiet-to-first-Excel-exit value is inapplicable because the first
+Excel closes before the later Preference and Operations checks. This
+standalone Settings gate is qualified on the current five unchanged XLAMs;
+it does not complete 4be-A or Release 1 acceptance. No product contract,
+ControlId or displayed wording changed.
 
 **D13 PR4-BASE-10 v34 Settings checkpoint, 2026-11-12:** One approved
 visible packaged Settings run passed 202/202 exact identities, including
