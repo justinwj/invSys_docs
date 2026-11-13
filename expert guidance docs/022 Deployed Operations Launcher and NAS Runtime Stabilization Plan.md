@@ -1,5 +1,35 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-13 current-package guide and Admin checkpoint:** PR4-BASE-14
+v48 passed 499/499 exact guide-transfer identities. PR4-BASE-15 v50
+passed 188/188 exact Admin Console callback, recording and guide identities
+after v49 exposed five stale catalog-version assertions (183 PASS / 5 FAIL).
+Both GREEN runs used the unchanged five XLAMs, exited naturally, restored
+settings, preserved all 541 pins, and had zero delayed Excel faults. These
+are separate technical gates, not comprehensive 4be-A acceptance. PR15's
+test-only Console correction changes two fixture files; no product or
+architectural contract changed.
+
+Admin Seed v51 on BASE-15 completed 286 PASS / 5 FAIL across 291 unique
+identities: its 283 historical names were present, plus eight native-feedback
+checks. The five failures are stale catalog-version/count assertions in two
+Seed fixtures. Excel exited naturally, settings and pins were preserved,
+and delayed audit found zero faults. PR4-BASE-16 re-pins only those two
+test files for a separate v52 packaged gate. v52 passed 291/291 exact
+identities, including the eight native-feedback checks. It exited
+naturally with settings/pins preserved and zero delayed Excel faults.
+This is standalone Admin Seed technical GREEN, not full Demo Inventory
+control coverage. On the same BASE-16 pins, v53 separately passed
+202/202 exact Admin Verify callback, recording and guide identities,
+with natural Excel exit, restored settings/pins and zero delayed faults.
+v51 is fixture RED, not product RED. On BASE-16 v54 separately passed
+219/219 exact Admin
+Directory callback, recording and guide identities with natural Excel
+exit, restored settings/pins and zero delayed faults. Human Receiving B0,
+broader Admin/Operations, live-role, full-chain, visible operator, 4be-A
+and Release 1 acceptance
+remain open. Controls 1.750 records the same evidence boundary.
+
 **2026-11-13 PR4-BASE-13 observed guide ordinals checkpoint:** The
 approved v46 packaged guide-transfer run on BASE-12 stopped after 11
 PASS and one restart-fixture exception. Its sanitized journal receipt

@@ -1,7 +1,33 @@
 # invSys Form Controls v1
 
-**Version:** 1.749 -- PR4-BASE-13 observed guide ordinals checkpoint;
+**Version:** 1.750 -- PR4-BASE-16 guide and Admin fixture checkpoint;
 4be-A acceptance pending.
+
+**D13 current-package guide and Admin checkpoint, 2026-11-13:**
+PR4-BASE-14 v48 passed 499/499 exact guide-transfer identities.
+PR4-BASE-15 v50 passed 188/188 exact Admin Console callback, recording
+and guide identities after v49's five catalog-version fixture failures.
+Both independent GREEN runs used the same five unchanged XLAMs, closed
+naturally, restored settings, preserved their 541 pins and had zero
+delayed Excel faults. PR15 changes test assertions only; no ControlId,
+displayed wording, product behavior or contract changed.
+
+Admin Seed v51 produced 286 PASS / 5 FAIL, with all 283 historical
+identities and eight additional native-feedback checks present exactly
+once. Five catalog-version/count fixture assertions failed; the worker
+and Excel closed naturally, settings/pins were preserved and delayed
+audit found zero Excel faults. Separate PR4-BASE-16 re-pins only two
+Seed fixture files. v52 passed 291/291 exact names, including the eight
+native-feedback checks, with natural Excel exit, settings/pin
+preservation and zero delayed faults. v51 is fixture RED, not product
+RED; v52 is standalone Admin Seed technical GREEN, not all Demo
+Inventory controls or 4be-A acceptance. On the same BASE-16 pins,
+v53 separately passed 202/202 exact Admin Verify callback, recording
+and guide identities with natural exit, restored settings/pins and
+zero delayed faults. v54 separately passed 219/219 exact Admin
+Directory callback, recording and guide identities under the same
+BASE-16 pins, with natural exit, restored settings/pins and zero delayed
+faults. Broader Admin acceptance remains open.
 
 **D13 PR4-BASE-13 observed guide ordinals, 2026-11-13:**
 The approved v46 packaged run on BASE-12 stopped at the restart fixture
