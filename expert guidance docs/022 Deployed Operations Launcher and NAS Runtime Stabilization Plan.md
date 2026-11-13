@@ -1,5 +1,23 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-13 PR4-BASE-10 Viewer published-read/recording diagnostic:**
+The separately approved v40 visible packaged run passed checks-only (539 pins,
+80 exact expected identities) and its first eight worker assertions (five
+instrumented compiles, recording-probe installation, and two publication
+checks). It then paused in test-owned Excel/VBA break mode at
+`modInventoryViewer.OpenInventoryViewer` calling `SetWarehouse`, before the
+third publication check. The owned-window capture found no modal; GDI/USER
+counts were stable near 2,100, below the earlier 10,000-object quota. The
+runtime error and cause are unknown. After the 15-minute controller budget,
+the worker reported 8 PASS, one packaged-call exception, and 72 unrun checks;
+the controller failed the exact-identity gate. Both processes exited, test
+settings were restored, 539 pins were preserved, and the delayed audit found
+zero Excel faults; whether anyone interacted with the VBA window is being
+confirmed. This is neither product RED nor current-package GREEN. A separate
+hidden-start comparator, matching the historical fixture's reveal-before-Viewer
+timing, passed checks-only and awaits its own authorization. Product packages, Architecture v4.11,
+ControlIds and displayed behavior remain unchanged; 4be-A stays open.
+
 **2026-11-12 PR4-BASE-10 v39 Event Detail qualification:** The approved
 visible packaged Event Detail run passed 90/90 exact identities, including
 five compiles performed by the detail fixture. Native scrolling/typing,

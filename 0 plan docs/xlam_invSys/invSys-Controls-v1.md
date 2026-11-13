@@ -1,7 +1,23 @@
 # invSys Form Controls v1
 
-**Version:** 1.745 -- PR4-BASE-10 v39 packaged Event Detail gate qualified;
+**Version:** 1.746 -- PR4-BASE-10 v40 Viewer diagnostic recorded;
 4be-A acceptance pending.
+
+**D13 PR4-BASE-10 v40 Viewer published-read/recording diagnostic, 2026-11-13:**
+Checks-only verified 539 pinned inputs and 80 exact historical identities on
+the unchanged five XLAMs. The approved visible packaged worker passed five
+instrumented compiles, recording-probe installation, and two real publication
+checks, then entered VBA break mode at the actual Viewer open handler's
+`SetWarehouse` call. The owned-window capture found no modal and stable
+GDI/USER counts near 2,100; the cause is unresolved. The worker ended with
+8 PASS, one packaged-call exception and 72 missing checks. The controller
+failed the exact-identity gate, but verified both native exits, test-settings
+restoration and 539 preserved pins; delayed audit found zero Excel faults.
+Operator interaction with the VBA window is being confirmed. This is
+diagnostic evidence, not product RED or qualified GREEN. A separate
+historical-timing comparator passed checks-only and awaits authorization.
+No product contract, control identity or displayed wording changed;
+Viewer and 4be-A acceptance remain open.
 
 **D13 PR4-BASE-10 v39 Event Detail gate, 2026-11-12:** On the unchanged
 five validation XLAMs, one approved visible packaged run passed 90/90
