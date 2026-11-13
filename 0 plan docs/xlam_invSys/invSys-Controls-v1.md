@@ -1,7 +1,20 @@
 # invSys Form Controls v1
 
-**Version:** 1.750 -- PR4-BASE-16 guide and Admin fixture checkpoint;
+**Version:** 1.751 -- PR4-BASE-17 Admin Aggregation technical checkpoint;
 4be-A acceptance pending.
+
+**D13 current-package Admin Aggregation checkpoint, 2026-11-13:**
+On unchanged validation XLAMs, v56 completed 131 PASS / 4 FAIL across
+135 exact identities. Four recording context assertions expected catalog
+version 43; packaged Core reports 47. PR15 commit `415450fb` changes
+only two test fixtures to read the loaded Core version for new records,
+while historical 43/42 definition checks remain. Separate PR4-BASE-17
+re-pins those two files only. v57 passed **135/135 exact packaged Admin
+Aggregation owner and guide identities**, exited naturally, restored
+settings, preserved all 541 pins and recorded zero delayed Excel faults.
+No product package, ControlId, displayed wording or architectural
+contract changed. This standalone technical GREEN does not complete
+4be-A, human Receiving B0, live-role, full-chain or Release 1 acceptance.
 
 **D13 current-package guide and Admin checkpoint, 2026-11-13:**
 PR4-BASE-14 v48 passed 499/499 exact guide-transfer identities.

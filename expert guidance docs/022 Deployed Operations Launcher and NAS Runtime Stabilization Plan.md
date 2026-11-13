@@ -1,5 +1,20 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-13 current-package Admin Aggregation checkpoint:** On the
+unchanged five validation XLAMs, v56 completed 131 PASS / 4 FAIL across
+135 exact names. All four failures came from recording fixtures expecting
+catalog version 43 while the packaged Core reports 47; this was test
+fixture drift, not demonstrated product RED. Test-only code PR15 commit
+`415450fb` reads the loaded Core catalog for newly recorded activity and
+retains the historical 43/42 definition checks. Separate PR4-BASE-17
+manifest `A83EA130...` re-pins only the two Aggregation test files; the
+five XLAMs are unchanged. v57 passed **135/135 exact identities** through
+the packaged Admin Aggregation owner and guide paths. Excel exited
+naturally, settings and all 541 pins were preserved, and delayed audit
+found zero Excel faults. This is standalone technical GREEN under
+Architecture v4.11 D8-AGG-01/D18, not full 4be-A or Release 1 acceptance.
+Controls 1.751 records the same boundary.
+
 **2026-11-13 current-package guide and Admin checkpoint:** PR4-BASE-14
 v48 passed 499/499 exact guide-transfer identities. PR4-BASE-15 v50
 passed 188/188 exact Admin Console callback, recording and guide identities
