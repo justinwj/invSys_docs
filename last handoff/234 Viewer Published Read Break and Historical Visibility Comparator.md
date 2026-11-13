@@ -8,7 +8,7 @@ Complete Release 1 Slice 4be-A under Architecture v4.11 D18 and Plan 022. The cu
 
 ## Current verified state
 
-Last verified 2026-11-13: code `main` at `6d247543` has Justin's unrelated `AGENTS.md` edit. Draft code PR14 head is `b8f94241`. The execution worker is clean but detached at `b8f94241`; restore it to `work/d8-inv-edit-receipts` at `550d9ff0` after the next gate or before ending work. Docs branch is `work/perplexity-handoff218` (pre-handoff head `9fd9196`); unrelated docs changes are untouched. Excel and the v40 controller are closed. v36 Settings 202/202 and v39 Event Detail 90/90 remain separate qualified gates.
+Last verified 2026-11-13: code `main` at `6d247543` has Justin's unrelated `AGENTS.md` edit. Draft code PR14 head is `b8f94241`. The execution worker was restored clean to `work/d8-inv-edit-receipts` at `550d9ff0` after v40; detach at `b8f94241` again only for an approved v41 run. Docs branch is `work/perplexity-handoff218` (pre-handoff head `9fd9196`); unrelated docs changes are untouched. Excel and the v40 controller are closed. v36 Settings 202/202 and v39 Event Detail 90/90 remain separate qualified gates.
 
 ## Decisions and constraints
 
@@ -36,7 +36,7 @@ Current-package Viewer published-read/recording, groups/refresh, guide transfer,
 
 ## Immediate next action
 
-If the owner approves v41 within its cutoff, create its single-use authorization, repeat checks-only and execute the hidden-start comparator once; then restore the worker branch and classify the result before any product change.
+If the owner approves v41 within its cutoff, confirm a clean worker, detach at `b8f94241`, create its single-use authorization, repeat checks-only and execute the hidden-start comparator once; then restore the worker branch and classify the result before any product change.
 
 ## Critical references
 
