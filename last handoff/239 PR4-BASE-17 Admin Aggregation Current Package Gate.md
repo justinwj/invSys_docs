@@ -21,6 +21,7 @@ Last verified 2026-11-13: code worker `work/d18-recording-fixture-filter` at `41
 - PR15 commit `415450fb` reads `CurrentCatalogVersion()` from the loaded Core for new Aggregation records and keeps historical 43/42 definition assertions. PowerShell 5.1 parsing and diff check passed.
 - Separate BASE-17 manifest SHA256 `A83EA130FA8F0F2E82965FEA976B55AB0CBC391BAD579BFE7160507F512C6E87` pins 541 inputs. v57 achieved **135/135 exact PASS**, worker exit 0, natural Excel closure, restored settings, preserved packages/tooling/all 541 pins, owned fixture removed and zero delayed Excel fault events. The independent verifier reports `Qualified: true`, `FullAcceptance: false`; desktop monitor reported no lock or input failure. Evidence: `reports/runtime/aggregation-current-v56-20261113/`, `reports/runtime/aggregation-current-v57-20261113/qualification.json`, controller report root `reports/runtime/admin-aggregation-controller/2b74e73f29804a188c722f912d82c694/`.
 - Earlier standalone current-package gates remain: guide transfer v48 499/499; Admin Console v50 188/188; Seed v52 291/291; Verify v53 202/202; Directory v54 219/219. See handoff 238 for their exact provenance.
+- Read-only Reconcile mapping after v57 found the existing packaged controller `Test-Slice4beAdminReconcileIdentity.ps1`. Its full path requires `-NativePresentation -CheckRecording -CheckGuidePaths -CheckAppliedGuide` with `-Phase GREEN`; the main fixture requires compiled callback probes. Historical applied-guide evidence passed 360/360 on an older candidate. Its 360 unique check names exactly match both historical `worker.log` and `green.json`; the ignored `reports/runtime/reconcile-current-v58-prep-20261113/expected-checks-v58.json` records that baseline (SHA256 `83EC562B066734DB79E77258BC0AB9C217B21A448AC9549462F4AA441A759155`). This is preparation only; no current-package Reconcile run was dispatched. The recording and guide fixtures already query the loaded Core catalog for new records while preserving older definitions.
 
 ## Do Not Repeat
 
@@ -28,16 +29,16 @@ Do not rerun consumed v55-v57 dispatches or interpret the four v56 fixture failu
 
 ## Assumptions to Re-verify
 
-Recheck worker and docs PR heads, clean tracked state, Excel closure/build, package hashes and input desktop before the next runtime gate. The live-role, full Release 1 chain, visible operator, broad Inventory, retained formatting and human Receiving B0 acceptance are still open.
+Recheck worker and docs PR heads, clean tracked state, Excel closure/build, package hashes and input desktop before the next runtime gate. Reconcile's historical 360 identities may change on the current packages; a current run must report exact missing/unexpected names instead of assuming parity. The live-role, full Release 1 chain, visible operator, broad Inventory, retained formatting and human Receiving B0 acceptance are still open.
 
 ## Open questions and blockers
 
-Remaining current-package 4be-A family coverage and the final combined acceptance chain require a fresh exact-identity map. Earlier independent passes do not establish full acceptance. The incremental Execute slowdown and underlying Excel/Windows exit defect remain separate; Microsoft report already submitted.
+Remaining current-package 4be-A family coverage and the final combined acceptance chain require fresh gates. Earlier independent passes do not establish full acceptance. The incremental Execute slowdown and underlying Excel/Windows exit defect remain separate; Microsoft report already submitted.
 
 ## Immediate next action
 
-Read-only map the current-package Admin Reconcile callback/recording/guide selector and its required exact identities under D8/D18, then prepare one focused packaged gate before any product edit.
+Prepare a bounded current-package Admin Reconcile controller with the reviewed 360-name historical baseline and BASE-17 pins, then run its checks-only preflight before a distinct packaged run under D8/D18.
 
 ## Critical references
 
-Architecture v4.11 D8-AGG-01, D18 and D18-REPLAY-01; Plan 022; Controls 1.751; code PR15; docs PR5; `tests/tooling/Slice4beAdminAggregationRecording.ps1`; `tests/tooling/Slice4beAdminAggregationGuide.ps1`; BASE-17 manifest and v57 `qualification.json`.
+Architecture v4.11 D8-AGG-01, D8-RECON-01, D14-RECON-01, D18 and D18-REPLAY-01; Plan 022; Controls 1.751; code PR15; docs PR5; `tests/tooling/Slice4beAdminAggregationRecording.ps1`; `tests/tooling/Slice4beAdminAggregationGuide.ps1`; `tests/tooling/Test-Slice4beAdminReconcileIdentity.ps1`; BASE-17 manifest, v57 `qualification.json` and v58 prepared expected-check list.
