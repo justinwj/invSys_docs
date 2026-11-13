@@ -1,7 +1,23 @@
 # invSys Form Controls v1
 
-**Version:** 1.747 -- PR4-BASE-10 Viewer gates and guide fixture checkpoint;
+**Version:** 1.748 -- PR4-BASE-12 guide restart fixture checkpoint;
 4be-A acceptance pending.
+
+**D13 PR4-BASE-12 guide restart fixture checkpoint, 2026-11-13:**
+The one approved PR4-BASE-11 v45 run passed the v44 Save Value fixture,
+then stopped at the restart journal fixture: 11 PASS, one fixture
+exception and 488 expected identities unrun. Both processes exited
+naturally; settings and pins were preserved and the delayed Excel audit
+found zero faults. This is a fixture prerequisite failure, not product RED
+or packaged GREEN. Draft PR15 now also changes the test-only restart
+fixture and adds a file-only test: focused RED 4/1 and GREEN 5/5. Its
+selection-inclusive journal shape is inferred pending packaged proof;
+sanitized structural counts are written if the shape differs. Separate
+PR4-BASE-12 pins 541 inputs, changing that fixture and adding one test;
+earlier manifests and the five XLAMs remain unchanged. v46 checks-only
+passed 541 pins and 499 exact expected identities without Excel. Its
+one-run owner approval is pending. No product contract, ControlId or
+displayed wording changed; guide transfer and 4be-A acceptance remain open.
 
 **D13 PR4-BASE-10 Viewer and guide fixture checkpoint, 2026-11-13:**
 On the same unchanged five XLAMs and 539 pinned inputs, hidden-start v41

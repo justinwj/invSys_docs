@@ -1,5 +1,21 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-13 PR4-BASE-12 guide restart fixture checkpoint:** The
+approved PR4-BASE-11 v45 guide-transfer worker passed the v44 recording
+fixture and stopped at the next restart-journal fixture (11 PASS, one
+fixture exception, 488 missing expected identities). Both native exits
+were verified; settings and pins were preserved; delayed Excel audit
+found zero faults. This is a test prerequisite failure, not product RED
+or guide-transfer GREEN. Draft code PR15 at `686dbf02` now includes a
+test-only restart-fixture correction and file-only test (focused RED
+4/1, GREEN 5/5); the expected selection-inclusive journal shape is
+inferred until packaged evidence confirms it. Separate PR4-BASE-12
+manifest SHA256 `224F0BE5...` pins 541 inputs, changing one fixture and
+adding one test relative to BASE-11. The five XLAMs and earlier manifests
+are unchanged. v46 checks-only passed 541 pins and 499 exact identities;
+one packaged run awaits owner approval. Controls 1.748 records the same
+limit. Guide transfer, 4be-A and Release 1 acceptance remain open.
+
 **2026-11-13 PR4-BASE-10 Viewer gates and guide fixture checkpoint:**
 On the unchanged five XLAMs and 539 pinned inputs, separate hidden-start
 runs v41 (published read/recording 80/80), v42 (groups/publication 82/82)
