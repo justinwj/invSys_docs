@@ -1,5 +1,27 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-13 PR4-BASE-10 Viewer gates and guide fixture checkpoint:**
+On the unchanged five XLAMs and 539 pinned inputs, separate hidden-start
+runs v41 (published read/recording 80/80), v42 (groups/publication 82/82)
+and v43 (refresh failure 16/16) passed exact identities. All three workers
+exited 0; Excel exited naturally, test settings and pins were preserved,
+no modal or IDE intervention occurred, and delayed audit found zero Excel
+faults. v41 supports initial-host visibility as the v40 break condition,
+but the underlying Excel cause is unproved. These are separate technical
+gates, not full Viewer/operator or 4be-A acceptance.
+
+Current-package v44 recorded guide transfer stopped at 11 PASS, one fixture
+exception and 488 missing checks. The shared `SaveRecordedSetting` fixture
+counted unrelated, approved Admin Settings selection events as part of its
+required Save Value pair. Code draft PR15 (`3a5700c1`) filters only the
+fixture observation: focused file-only RED 3/1 and GREEN 4/4; no product
+source or XLAM changes. Separate PR4-BASE-11 manifest SHA256 23EEDA51...
+pins 540 inputs (one changed fixture, one new test); BASE-10 and all older
+manifests remain unchanged. v45 checks-only passed 540 pins and 499 exact
+historical identities. Owner approval for the manifest and one packaged
+v45 run is pending. This is not guide-transfer GREEN, human B0 acceptance,
+4be-A or Release 1 acceptance; Controls 1.747 records the same limit.
+
 **2026-11-13 PR4-BASE-10 Viewer published-read/recording diagnostic:**
 The separately approved v40 visible packaged run passed checks-only (539 pins,
 80 exact expected identities) and its first eight worker assertions (five

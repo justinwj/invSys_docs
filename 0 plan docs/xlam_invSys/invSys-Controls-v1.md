@@ -1,7 +1,28 @@
 # invSys Form Controls v1
 
-**Version:** 1.746 -- PR4-BASE-10 v40 Viewer diagnostic recorded;
+**Version:** 1.747 -- PR4-BASE-10 Viewer gates and guide fixture checkpoint;
 4be-A acceptance pending.
+
+**D13 PR4-BASE-10 Viewer and guide fixture checkpoint, 2026-11-13:**
+On the same unchanged five XLAMs and 539 pinned inputs, hidden-start v41
+passed 80/80 published-read/recording identities; v42 passed 82/82 groups
+and publication; v43 passed 16/16 refresh-failure identities. Each had
+exact check names, worker exit 0, natural native Excel exit, restored test
+settings, preserved pins, no intervention and zero delayed Excel faults.
+These are separate current-package technical gates; v40's visible-start
+break remains a diagnostic and the exact Excel cause is unproved.
+
+The v44 recorded guide-transfer worker stopped with 11 PASS and one fixture
+exception before its 499-check gate. Its sanitized activity count showed
+one `ADMIN_SETTINGS_SAVE_VALUE` request/completion pair plus two approved
+`ADMIN_SETTINGS_SELECT_CONFIG` request/selection pairs. The shared fixture
+wrongly required exactly two new files. Draft code PR15 changes only that
+test fixture and adds a file-only check (RED 3/1, GREEN 4/4). The distinct
+PR4-BASE-11 manifest pins 540 inputs, changing that fixture and adding its
+test; five XLAMs and earlier manifests are unchanged. v45 checks-only passed
+540 pins and 499 expected identities; new manifest and runtime approval are
+pending. No product contract, ControlId or displayed wording changed.
+Guide-transfer, human B0, broad 4be-A and Release 1 acceptance remain open.
 
 **D13 PR4-BASE-10 v40 Viewer published-read/recording diagnostic, 2026-11-13:**
 Checks-only verified 539 pinned inputs and 80 exact historical identities on
