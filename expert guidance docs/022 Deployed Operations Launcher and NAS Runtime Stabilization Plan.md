@@ -1,5 +1,20 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-13 PR4-BASE-13 observed guide ordinals checkpoint:** The
+approved v46 packaged guide-transfer run on BASE-12 stopped after 11
+PASS and one restart-fixture exception. Its sanitized journal receipt
+confirmed 14 versions, six actions, 12 observations and Save Value
+ordinals 3/6; the fixture had inferred 2/5. Both processes exited
+naturally, settings and frozen inputs were preserved, and delayed audit
+found zero Excel faults. This is a fixture prerequisite failure, not
+product RED or guide-transfer GREEN. Test-only draft PR15 at `d6fb040c`
+now uses the observed ordinals (focused RED 4/1, GREEN 5/5); the prior
+recording-filter test stays 4/4. Separate PR4-BASE-13 manifest SHA256
+`B3DCF39A...` re-pins those two files; five XLAMs and earlier manifests
+are unchanged. v47 checks-only passed 541 pins and 499 exact names.
+One packaged run awaits owner approval. Controls 1.749 records the same
+limit; 4be-A and Release 1 acceptance remain open.
+
 **2026-11-13 PR4-BASE-12 guide restart fixture checkpoint:** The
 approved PR4-BASE-11 v45 guide-transfer worker passed the v44 recording
 fixture and stopped at the next restart-journal fixture (11 PASS, one

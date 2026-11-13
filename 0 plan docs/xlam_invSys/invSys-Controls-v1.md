@@ -1,7 +1,22 @@
 # invSys Form Controls v1
 
-**Version:** 1.748 -- PR4-BASE-12 guide restart fixture checkpoint;
+**Version:** 1.749 -- PR4-BASE-13 observed guide ordinals checkpoint;
 4be-A acceptance pending.
+
+**D13 PR4-BASE-13 observed guide ordinals, 2026-11-13:**
+The approved v46 packaged run on BASE-12 stopped at the restart fixture
+after 11 PASS, one fixture exception and 488 unrun expected identities.
+Its sanitized receipt confirmed 14 journal versions, six actions,
+12 observations and Save Value action ordinals 3/6. The fixture had
+inferred 2/5. Both processes exited naturally; settings and pins were
+preserved and the delayed Excel audit found zero faults. This is a
+fixture prerequisite failure, not product RED or packaged GREEN. Draft
+PR15 now uses the observed ordinals: focused RED 4/1, GREEN 5/5;
+the recording-filter test remains 4/4. Separate PR4-BASE-13 re-pins
+those two test files and keeps the five XLAMs unchanged. v47 checks-only
+passed 541 pins and 499 expected identities without Excel; its one-run
+approval is pending. No product contract, ControlId or displayed wording
+changed. Guide transfer and 4be-A acceptance remain open.
 
 **D13 PR4-BASE-12 guide restart fixture checkpoint, 2026-11-13:**
 The one approved PR4-BASE-11 v45 run passed the v44 Save Value fixture,
