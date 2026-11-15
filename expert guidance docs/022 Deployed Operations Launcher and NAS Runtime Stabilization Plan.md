@@ -1,5 +1,35 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-14 current-package Admin/live-role checkpoint:** On the unchanged
+five validation XLAMs, standalone v58 Reconcile passed 360/360, v59
+Warehouse Root 370/370, v62 Create Warehouse 381/381 ordered checks, and
+v63 Tester Setup 444/444. The 444 includes 145 checks beyond the 299-name
+historical Tester baseline; it is not a 299-name exact gate. v60 Users &
+Roles passed 126/129: three new-record assertions expected catalog 39
+while loaded Core reported 47. Test-only PR15 commit `0e988b2c` reads the
+loaded catalog; PR4-BASE-18 re-pins only two Users fixtures and keeps all
+five XLAMs unchanged. v61 then passed 129/129 exact checks. All these
+packaged runs had natural Excel closure, restored settings, preserved
+pins and zero delayed Excel faults.
+
+A separate current-package live-role v67 passed 48/48 distinct checks,
+with natural Excel exit, restored settings, unchanged package hashes and
+zero desktop or Excel fault events. Static scan v66 exactly matches the
+2026-11-12 candidate: 391 components, 6,743 procedures, 29 forms,
+1,043 dynamic roots, 30 warnings and 1,246 maintenance candidates.
+These independent results do not constitute the ordered Release 1 chain.
+
+The v64 full-chain attempt stopped after packaged Admin bootstrap, Seed
+and inventory creation: its older source integration harness raised a
+VBA compile error for missing `modConfigPaths`. A focused disposable v65
+imported that module and reached a second missing `modInventoryCommands`;
+a lexical scan found 41 candidate module names outside the old
+harness import list. The incomplete one-line fixture change was discarded.
+Both runs needed a captured dialog and IDE reset, so neither is unattended
+GREEN. The ordered full-chain, human Receiving B0, broad Inventory,
+layout/operator comparison and 4be-A/Release 1 acceptance remain open.
+Controls 1.752 records the same boundary.
+
 **2026-11-13 current-package Admin Aggregation checkpoint:** On the
 unchanged five validation XLAMs, v56 completed 131 PASS / 4 FAIL across
 135 exact names. All four failures came from recording fixtures expecting

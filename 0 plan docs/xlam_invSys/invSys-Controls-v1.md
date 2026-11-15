@@ -1,7 +1,30 @@
 # invSys Form Controls v1
 
-**Version:** 1.751 -- PR4-BASE-17 Admin Aggregation technical checkpoint;
+**Version:** 1.752 -- PR4-BASE-18 Admin/live-role technical checkpoint;
 4be-A acceptance pending.
+
+**D13 current-package Admin/live-role checkpoint, 2026-11-14:**
+Unchanged five validation XLAMs: v58 Reconcile 360/360, v59 Root
+370/370, v62 Create Warehouse 381/381 ordered, and v63 Tester Setup
+444/444. v63 contains the 299 historical Tester names plus 145 further
+checks; it is standalone broader evidence. v60 Users & Roles was
+126 PASS / 3 FAIL because new-record fixture assertions expected Core
+catalog 39 instead of the loaded 47. Test-only PR15 `0e988b2c` reads
+the loaded catalog, and separate PR4-BASE-18 re-pins only those two
+fixture files. v61 passed 129/129 exact checks. Every packaged run closed
+Excel naturally, restored settings, preserved pins and found zero Excel
+faults. No product package, ControlId, wording or contract changed.
+
+Standalone current-package live-role v67 passed 48/48 unique checks,
+closed naturally and preserved settings/package hashes. Static scan v66
+matches the Nov 12 candidate counts exactly. The v64 ordered full-chain
+attempt stopped at an obsolete source integration harness's missing
+`modConfigPaths` compile error; focused v65 reached missing
+`modInventoryCommands` after importing the first dependency. Both
+attended failures are fixture prerequisites, not behavioral RED or
+full-chain GREEN. The incomplete edit was discarded. Human Receiving B0,
+broad Inventory, layout, visible operator comparison, ordered chain and
+4be-A/Release 1 acceptance remain open.
 
 **D13 current-package Admin Aggregation checkpoint, 2026-11-13:**
 On unchanged validation XLAMs, v56 completed 131 PASS / 4 FAIL across
