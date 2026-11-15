@@ -1,5 +1,17 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-14 current-package early B0 replay checkpoint:** Read-only
+comparison found v20's five XLAMs differ from the current validation set.
+Standalone v82 therefore ran the existing 121-check Receiving replay on the
+unchanged current five XLAMs. All 121 identities passed in exact order; the
+source guide, exact source event, actual replay and fresh applied proof flags
+were true, with no proof-critical check missing. Excel exited naturally,
+settings and package hashes were preserved, desktop failure counts were zero,
+and delayed Excel fault audit was clear. Representative setup, concluded,
+stopped and resize captures were reviewed. The harness deliberately records
+`B0Accepted=false`; v82 is technical B0 replay evidence, not human B0 or
+4be-A acceptance. No product or architecture contract changed.
+
 **2026-11-14 current-package UOM guide identity checkpoint:** Standalone
 v81 updates the test controller's exact list from the historical 74 names
 to those 74 in order plus six `InventoryPartialChoices` identities. The
@@ -25,7 +37,7 @@ five-package hashes, natural Excel closure, no modal and zero delayed Excel
 faults. The technical chain regression is qualified on this candidate.
 No product behavior, XLAM, ControlId, displayed wording or architectural
 contract changed. Broad Inventory, human Receiving B0, visible operator
-comparison and 4be-A/Release 1 acceptance remain open. Controls 1.755 and
+comparison and 4be-A/Release 1 acceptance remain open. Controls 1.756 and
 handoff 242 record this boundary.
 
 **2026-11-14 current-package Inventory continuation checkpoint:** The five

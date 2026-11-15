@@ -1,7 +1,17 @@
 # invSys Form Controls v1
 
-**Version:** 1.755 -- packaged D14 chain and UOM guide checkpoints;
+**Version:** 1.756 -- current-package B0 replay and chain checkpoints;
 4be-A acceptance pending.
+
+**D13 current-package early B0 replay checkpoint, 2026-11-14:** V20's five
+XLAM bytes differ from the current validation candidate, so standalone v82
+rechecked Receiving replay. It passed 121/121 exact ordered identities; all
+four required scope flags were true and all 10 proof-critical checks passed.
+Natural Excel closure, settings restoration, five package hashes, desktop
+monitor and delayed native audit passed. Representative setup, completed,
+stopped and resize captures were reviewed. `B0Accepted=false` is the
+harness's deliberate status marker: human B0 and 4be-A acceptance remain
+open. No product, ControlId, wording or contract changed.
 
 **D13 current-package UOM guide identity checkpoint, 2026-11-14:**
 Standalone v81 re-pins the test controller's exact list to the historical
