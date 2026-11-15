@@ -30,7 +30,7 @@ Recheck Excel ownership, candidate hashes, current PR heads and empty Training h
 
 ## Open questions and blockers
 
-Justin authorized closing Excel but did not answer the grant question. A follow-up asks whether both a privately entered PIN and `ACTION_PATH_MAINT` may be provisioned only in the disposable Training fixture for an early preview, leaving ordinary onboarding open; the answer is pending. Another pending question asks whether an existing signed-in source Admin warehouse is available for the D8-CREATE-01 Create action. A Release 1 onboarding path needs a concrete architecture decision before implementation, then Plan/Controls synchronization and D13 packaged RED/GREEN.
+Justin authorized closing Excel but did not answer the grant question. A follow-up asks whether both a privately entered PIN and `ACTION_PATH_MAINT` may be provisioned only in the disposable Training fixture for an early preview, leaving ordinary onboarding open; the answer is pending. Another pending question asks whether an existing signed-in source Admin warehouse is available for the D8-CREATE-01 Create action. A proposed user-side resolution is saved locally as `reports/runtime/4be-a-human-review-20261115/D8-TRAINING-ONBOARD-01.PROPOSAL.md`; it is not approved or normative. A Release 1 onboarding path needs an architecture decision before implementation, then Plan/Controls synchronization and D13 packaged RED/GREEN.
 
 ## Immediate next action
 
