@@ -1,7 +1,22 @@
 # invSys Form Controls v1
 
-**Version:** 1.752 -- PR4-BASE-18 Admin/live-role technical checkpoint;
+**Version:** 1.753 -- current-package Inventory technical checkpoint;
 4be-A acceptance pending.
+
+**D13 current-package Inventory continuation checkpoint, 2026-11-14:**
+Unchanged five validation XLAMs: standalone v68 WorksheetResults 67/67
+unique PASS, with the 64 historical identities in order plus three new
+tracking-notice checks; v69 OwnResults 50/50 exact PASS; v70
+HeadlessWorksheet 56/56 exact PASS; v71 recording/navigation 151/151
+exact PASS. The v72 follow-up passed exact run 05 Selections 65/65,
+run 06 Selections.Guide 75/75, and run 07 UOM recording 68/68. Run 08
+UOM.Guide produced 80/80 unique PASS but failed its old 74-name exact
+identity gate due solely to six new InventoryPartialChoices checks; the
+original 74 remain in order. Run 09 did not start in v72; a separate
+v73 passed run 09 Recording.Guide 73/73 exact. Every run had natural Excel closure, restored settings and zero desktop or
+Excel fault events. The identity mismatch is not product RED or an exact
+GREEN gate. No package, ControlId, displayed wording or contract changed.
+Broad Inventory and 4be-A/Release 1 acceptance remain open.
 
 **D13 current-package Admin/live-role checkpoint, 2026-11-14:**
 Unchanged five validation XLAMs: v58 Reconcile 360/360, v59 Root
@@ -22,7 +37,9 @@ attempt stopped at an obsolete source integration harness's missing
 `modConfigPaths` compile error; focused v65 reached missing
 `modInventoryCommands` after importing the first dependency. Both
 attended failures are fixture prerequisites, not behavioral RED or
-full-chain GREEN. The incomplete edit was discarded. Human Receiving B0,
+full-chain GREEN. The incomplete edit was discarded. Packaged Create
+v62 does not replace the source harness's D14 key/no-ROW/Condition/custom-column
+checks; retain those assertions in the chain repair. Human Receiving B0,
 broad Inventory, layout, visible operator comparison, ordered chain and
 4be-A/Release 1 acceptance remain open.
 

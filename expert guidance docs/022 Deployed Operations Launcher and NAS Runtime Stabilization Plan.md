@@ -1,5 +1,26 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-14 current-package Inventory continuation checkpoint:** The five
+validation XLAMs stayed unchanged. Standalone v68 WorksheetResults passed
+67/67 unique checks: its 64 historical identities remain in order, with
+three additional exact tracking-notice checks, so this is not a 64-name
+exact gate. v69 OwnResults passed 50/50 exact, v70 HeadlessWorksheet
+56/56 exact, and v71 recording/navigation 151/151 exact.
+
+The v72 sequential follow-up passed exact historical lists for run 05
+Selections (65/65), run 06 Selections.Guide (75/75), and run 07 UOM
+recording (68/68). Run 08 UOM.Guide passed 80/80 unique behavioral checks
+but failed the controller's old 74-name exact identity gate because six
+new InventoryPartialChoices checks were emitted. All original 74 names
+remain in order. The series stopped as designed before run 09. A
+separate current-package v73 then passed run 09 Recording.Guide 73/73
+exact checks. Every started run closed Excel naturally, restored test settings, and recorded
+zero desktop failures or Excel fault events. Run 08 is a test identity
+mismatch, not a demonstrated product failure or a qualified exact gate.
+No product, ControlId, displayed wording or architectural contract
+changed. Broad Inventory, ordered chain, operator acceptance and 4be-A
+remain open. Controls 1.753 records the same boundary.
+
 **2026-11-14 current-package Admin/live-role checkpoint:** On the unchanged
 five validation XLAMs, standalone v58 Reconcile passed 360/360, v59
 Warehouse Root 370/370, v62 Create Warehouse 381/381 ordered checks, and
@@ -26,7 +47,10 @@ imported that module and reached a second missing `modInventoryCommands`;
 a lexical scan found 41 candidate module names outside the old
 harness import list. The incomplete one-line fixture change was discarded.
 Both runs needed a captured dialog and IDE reset, so neither is unattended
-GREEN. The ordered full-chain, human Receiving B0, broad Inventory,
+GREEN. Packaged Create v62 does not carry the old harness's named D14 key,
+no-ROW, Condition and custom-column assertions. Simply replacing the
+source gate with v62 would weaken coverage; map those assertions to
+current packaged paths before repairing the chain. The ordered full-chain, human Receiving B0, broad Inventory,
 layout/operator comparison and 4be-A/Release 1 acceptance remain open.
 Controls 1.752 records the same boundary.
 
