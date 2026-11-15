@@ -11,13 +11,17 @@ covers separate complete and incomplete observed runs.
 Read-only source inspection found a user-side setup gap: new-warehouse bootstrap
 grants the initial user `ADMIN_MAINT` and `RECEIVE_POST`, while guide authoring
 requires separate `ACTION_PATH_MAINT`. The current Users & Roles form and typed
-Core write command expose only six other capabilities and cannot grant it. Older
+Core write command expose only six other capabilities and cannot grant it.
+Bootstrap also leaves the initial user's PIN hash empty, and normal sign-in
+rejects that account; no credential field or subsequent destination-user setup
+is present in the Create Warehouse form. Older
 packaged guide fixtures explicitly inserted the grant into disposable Auth data;
-that proves the guide handlers under a prepared fixture, not a supported user-side
-grant path. A disclosed test-only grant could support an early usability preview,
-but would not qualify Release 1 permission setup. No product or normative contract
-change is approved by this checkpoint; the setup choice and a user-side grant
-proposal remain open. Do not mark 4be-A or human B0 accepted.
+that proves the guide handlers under a prepared fixture, not supported user-side
+onboarding. Disclosed test-only credential and capability setup could support an
+early usability preview, but would not qualify Release 1 onboarding. No product
+or normative contract change is approved by this checkpoint; the setup choice
+and a user-side onboarding proposal remain open. Do not mark 4be-A or human B0
+accepted.
 
 **2026-11-14 current-package early B0 replay checkpoint:** Read-only
 comparison found v20's five XLAMs differ from the current validation set.
