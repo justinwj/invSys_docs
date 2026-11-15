@@ -1,7 +1,34 @@
 # invSys Form Controls v1
 
-**Version:** 1.753 -- current-package Inventory technical checkpoint;
+**Version:** 1.755 -- packaged D14 chain and UOM guide checkpoints;
 4be-A acceptance pending.
+
+**D13 current-package UOM guide identity checkpoint, 2026-11-14:**
+Standalone v81 re-pins the test controller's exact list to the historical
+74 identities in order plus six `InventoryPartialChoices` identities.
+The unchanged packaged Inventory UOM guide passed 80/80 unique ordered checks,
+closed Excel naturally, restored settings and recorded zero desktop or
+delayed Excel faults. V72 run 08's prior 74-name mismatch was test-list
+drift, not product RED. No XLAM, ControlId, wording or contract changed;
+broad Inventory and 4be-A acceptance remain open.
+
+**D13 packaged D14 chain checkpoint, 2026-11-14:** Draft code PR16
+protects six exact D14 assertions through packaged Admin Create/Seed and Core
+snapshot/refresh paths. Focused v76 and exact-case v79 each passed 6/6 with
+natural Excel exit, restored settings and unchanged XLAM hashes. The static
+warning classifier passed 5/5 and chain contract checks passed 13/13. Six
+reviewed `ROW` warnings concern reserved-name rejection or local staging;
+new paths and changed source remain unreviewed failures.
+
+Isolated v77 passed 31/32 and exposed the warning-ratchet prerequisite. V78
+passed 32/32 internal checks, but delayed Windows audit found one Excel
+Application Error 1000 (`combase.dll`, `0xc0000005`, PID 24652); faulting
+stage attribution remains unresolved. A fresh isolated v80 passed 32/32
+with exact-case D14 protection, natural Excel closure, restored settings,
+matching package hashes, no modal and zero delayed Excel faults. The
+technical chain regression is qualified on this candidate; 4be-A and
+Release 1 remain open. No product XLAM, ControlId, displayed wording or
+architectural contract changed. Handoff 242 carries the next gate.
 
 **D13 current-package Inventory continuation checkpoint, 2026-11-14:**
 Unchanged five validation XLAMs: standalone v68 WorksheetResults 67/67

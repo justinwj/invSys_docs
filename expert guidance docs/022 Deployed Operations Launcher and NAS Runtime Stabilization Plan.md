@@ -1,5 +1,33 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-14 current-package UOM guide identity checkpoint:** Standalone
+v81 updates the test controller's exact list from the historical 74 names
+to those 74 in order plus six `InventoryPartialChoices` identities. The
+unchanged packaged Inventory UOM guide passed 80/80 unique and ordered checks,
+with natural Excel exit, restored settings, zero desktop failures and zero
+delayed Excel faults. This resolves v72 run 08's test-list mismatch; it is
+not a product change or broad Inventory/4be-A acceptance.
+
+**2026-11-14 packaged D14 chain checkpoint:** Draft code PR16 replaces the
+obsolete source Create gate with six exact D14 checks through current packaged
+Admin Create/Seed and Core snapshot/refresh paths. Focused v76 and exact-case
+v79 each passed 6/6 with natural Excel exit, restored settings and unchanged
+five XLAM hashes. The static warning review passed 5/5 focused checks; the
+chain contract passed 13/13. Its exact-hash exception covers six reviewed
+`ROW` guard or local staging warnings; changed source or new warnings fail.
+
+Isolated chain v77 passed 31/32 and exposed the warning-ratchet prerequisite.
+After review, v78 passed all 32 internal checks, including D14, but a delayed
+Windows audit found one Excel Application Error 1000 (`combase.dll`,
+`0xc0000005`, PID 24652). The faulting stage is unproven. A fresh isolated
+v80 passed 32/32 with exact-case D14 protection, restored settings, matching
+five-package hashes, natural Excel closure, no modal and zero delayed Excel
+faults. The technical chain regression is qualified on this candidate.
+No product behavior, XLAM, ControlId, displayed wording or architectural
+contract changed. Broad Inventory, human Receiving B0, visible operator
+comparison and 4be-A/Release 1 acceptance remain open. Controls 1.755 and
+handoff 242 record this boundary.
+
 **2026-11-14 current-package Inventory continuation checkpoint:** The five
 validation XLAMs stayed unchanged. Standalone v68 WorksheetResults passed
 67/67 unique checks: its 64 historical identities remain in order, with
