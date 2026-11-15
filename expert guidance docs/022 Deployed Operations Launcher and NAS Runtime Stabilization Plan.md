@@ -1,5 +1,24 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-15 4be-A human-review setup checkpoint:** Justin chose a new
+disposable Training warehouse for the Operations/Admin How-To and Diagnostic
+comparison. The current five-XLAM candidate and inventory template were copied
+byte-for-byte into an ignored local review folder; an empty Training hub was
+prepared. No warehouse was created and no human result was recorded. The
+versioned [operator review sheet](https://github.com/soetrain/invSys_fork/blob/work/d14-packaged-chain-coverage/tests/integration/plan022_slice4be_operator_review.md)
+covers separate complete and incomplete observed runs.
+
+Read-only source inspection found a user-side setup gap: new-warehouse bootstrap
+grants the initial user `ADMIN_MAINT` and `RECEIVE_POST`, while guide authoring
+requires separate `ACTION_PATH_MAINT`. The current Users & Roles form and typed
+Core write command expose only six other capabilities and cannot grant it. Older
+packaged guide fixtures explicitly inserted the grant into disposable Auth data;
+that proves the guide handlers under a prepared fixture, not a supported user-side
+grant path. A disclosed test-only grant could support an early usability preview,
+but would not qualify Release 1 permission setup. No product or normative contract
+change is approved by this checkpoint; the setup choice and a user-side grant
+proposal remain open. Do not mark 4be-A or human B0 accepted.
+
 **2026-11-14 current-package early B0 replay checkpoint:** Read-only
 comparison found v20's five XLAMs differ from the current validation set.
 Standalone v82 therefore ran the existing 121-check Receiving replay on the

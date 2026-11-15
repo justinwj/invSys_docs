@@ -1,7 +1,19 @@
 # invSys Form Controls v1
 
-**Version:** 1.756 -- current-package B0 replay and chain checkpoints;
+**Version:** 1.757 -- Training guide-maintenance reachability gap recorded;
 4be-A acceptance pending.
+
+**4be-A operator-review setup, 2026-11-15:** A disposable Training warehouse
+review and exact guide/run comparison are prepared, with no human result yet.
+Current Create Warehouse bootstrap provisions the initial user with `ADMIN_MAINT`
+and `RECEIVE_POST`, but no `ACTION_PATH_MAINT`. Admin Users & Roles exposes six
+role choices and its Core save command cannot grant `ACTION_PATH_MAINT`.
+Consequently **Create guide**, published-guide edit and transfer are unavailable
+to that newly created user until a separate grant exists. Existing test fixtures
+grant this capability directly in disposable Auth data; such setup does not prove
+the ordinary user-side grant path. This records observed reachability only; no
+new control, permission rule, wording or acceptance is approved here. An explicit
+contract decision and D13 coverage are needed before implementing a grant path.
 
 **D13 current-package early B0 replay checkpoint, 2026-11-14:** V20's five
 XLAM bytes differ from the current validation candidate, so standalone v82
