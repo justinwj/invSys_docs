@@ -1,1 +1,1 @@
-`243 Training Warehouse Operator Review Setup.md`
+`244 Standalone Training Onboarding Proposal.md`
