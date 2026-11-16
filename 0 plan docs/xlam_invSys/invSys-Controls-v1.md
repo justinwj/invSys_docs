@@ -1,7 +1,18 @@
 # invSys Form Controls v1
 
-**Version:** 1.758 -- Training initial sign-in and guide reachability gaps recorded;
-4be-A acceptance pending.
+**Version:** 1.759 -- standalone local first-use onboarding proposal recorded;
+no new reachability or 4be-A acceptance claimed.
+
+**D8-TRAINING-ONBOARD-01 proposal, 2026-11-15:** Justin selected a standalone
+local, credential-free first-use Create followed by a separate Secure action.
+Architecture v4.11 contains the proposed contract; it is not approved or
+implemented. The proposed packaged controls are **Set Up Standalone Warehouse**,
+**Secure New Warehouse** and **Finish Standalone Setup**; existing signed-in
+Create/Publish behavior remains binding. The proposed Users & Roles
+**Action Path guide maintenance** grant is also pending. None of these new
+controls is currently reachable, and no D13 behavioral RED/GREEN or visible
+acceptance is claimed. A disposable test-only PIN and `ACTION_PATH_MAINT` grant
+may support a labelled preview, not supported onboarding.
 
 **4be-A operator-review setup, 2026-11-15:** A disposable Training warehouse
 review and exact guide/run comparison are prepared, with no human result yet.
