@@ -1,5 +1,33 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-16 4be-A stopped-recording picker checkpoint:** The first disposable
+Training preview exposed a slow **Choose tracked actions** selection and an
+unattributed later Excel crash. Focused packaged RED on the unchanged five
+XLAMs passed 16 checks and failed the response check: the first selection
+took 10.39 seconds with 23 real published candidates. PR17 changes only the
+Operations picker form's selection synchronization: unchanged visible rows no
+longer repeat Core `Choose`; changed rows still pass through its guard. The
+rebuilt five-XLAM GREEN passed 17/17 with a 0.84-second first selection,
+both guide Save routes, Cancel and source immutability. Retained direct
+curation passed 70/70; current-package early Receiving replay passed 121/121
+technically with `B0Accepted=false` pending human review.
+
+PR16's packaged D14 chain coverage was carried into PR17. The six exact
+Create/Seed/identity/custom-column checks passed with natural Excel exit;
+the static `ROW` review passed 6/6 after byte-level newline normalization,
+which still rejects changed source. A first full chain passed 32/32 internal
+checks but an independent Windows audit found Excel Error 1000 in
+`combase.dll`; it is not clean acceptance evidence. The chain controller now
+checks native Error/Hang events, and a fresh run passed 33/33 with zero Excel
+faults, natural exit, settings restored and all five package hashes preserved.
+Static maintenance was regenerated with no new product warning paths or
+dynamic-call targets. The original `VBE7.DLL` operator crash remains
+unattributed. A matching review copy is open for a second human preview in
+disposable NAS warehouse WHT7025AE; no second-preview verdict is recorded.
+Ordinary guide-right onboarding, full Events source coverage, human B0,
+4be-A and Release 1 acceptance remain open. Architecture v4.11 and the D18
+contract are unchanged.
+
 **2026-11-15 4be-A disposable Training human-preview checkpoint:** The current
 five-XLAM candidate was used in existing disposable NAS warehouse WHT7025AE.
 A test-only guide right and tracking policy v1 enabled recording. The visible

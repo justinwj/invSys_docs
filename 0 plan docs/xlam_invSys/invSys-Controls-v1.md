@@ -1,7 +1,32 @@
 # invSys Form Controls v1
 
-**Version:** 1.760 -- Training recovery-save status clarified;
+**Version:** 1.761 -- stopped-recording picker response and current candidate
+evidence reconciled;
 4be-A acceptance pending.
+
+**4be-A picker and reviewed candidate, 2026-11-16:** The first Training
+preview's **Choose tracked actions** selection was protected with a focused
+packaged test using five actual stopped-recording actions and 23 published
+candidates. On the prior XLAM, 16 checks passed and the first-selection
+response check failed at 10.39 seconds. PR17's Operations form change sends
+only changed visible rows to the existing Core guard. On the rebuilt five
+XLAMs, the same real-handler gate passed 17/17; first selection took 0.84
+seconds, both guide Save routes persisted their separate immutable versions,
+Cancel closed the owned draft, and source activity bytes were retained.
+Direct curation remained 70/70; early Receiving B0 replay was 121/121
+technically, with human `B0Accepted=false`.
+
+The packaged D14 regression passed its six exact checks. Static warning
+review passed 6/6 and retained changed-source refusal. One 32/32 internal
+Release 1 chain run had an independent Excel Error 1000 and is not clean
+qualification; after the controller gained a native fault check, a fresh
+33/33 run passed with zero Excel Error/Hang events, natural closure, restored
+settings and preserved XLAM hashes. A matching review copy is open for a
+second disposable Training preview, whose human result is pending. The
+earlier `VBE7.DLL` crash remains unassigned. Inventory and Shipping Holds
+Events source availability, ordinary `ACTION_PATH_MAINT` onboarding, human
+B0, 4be-A and Release 1 acceptance remain open. No ControlId, displayed
+wording or Architecture v4.11 contract changed.
 
 **4be-A human preview, 2026-11-15:** In approved disposable NAS warehouse
 WHT7025AE, a test-only `ACTION_PATH_MAINT` grant and saved tracking policy
