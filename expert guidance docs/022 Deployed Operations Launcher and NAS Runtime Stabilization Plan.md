@@ -27,6 +27,8 @@ older Events artifact's Shipping Holds status is not live proof of the fix.
 Inventory source validation, human Action Path review, ordinary guide-right
 grant, human B0, 4be-A and Release 1 acceptance remain open. This corrects
 the existing 4be.3/D18 owner read; no architecture contract was changed.
+The 121/121 technical B0 replay predates this Shipping-reader rebuild and
+must be rerun on the final candidate before 4be-A acceptance.
 
 **2026-11-16 4be-A stopped-recording picker checkpoint:** The first disposable
 Training preview exposed a slow **Choose tracked actions** selection and an

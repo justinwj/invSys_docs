@@ -28,6 +28,8 @@ warehouse WHT7025AE, so its prior Events artifact still reports the earlier
 Shipping Holds status. Inventory source validation remains a separate gap.
 No ControlId, displayed wording or Architecture v4.11 contract changed;
 human 4be-A acceptance remains open.
+The 121/121 technical B0 replay predates this Shipping-reader rebuild; final
+candidate B0 qualification is still required.
 
 **4be-A picker and reviewed candidate, 2026-11-16:** The first Training
 preview's **Choose tracked actions** selection was protected with a focused
