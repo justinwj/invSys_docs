@@ -1,8 +1,24 @@
 # invSys Form Controls v1
 
-**Version:** 1.761 -- stopped-recording picker response and current candidate
+**Version:** 1.762 -- stopped-recording picker and empty Shipping Holds source
 evidence reconciled;
 4be-A acceptance pending.
+
+**4be-A empty Shipping Holds source, 2026-11-16:** The owner legitimately
+persists a zero-byte local Holds file when no rows remain. The Operations
+publication reader classified it as unavailable. Actual-handler packaged RED
+was 69 PASS / 1 FAIL on the unchanged XLAMs; an incomplete first correction
+was 85/1. PR17's final reader guard passed the full publication gate 86/86:
+the existing empty store was Available with zero groups/lines and no invented
+current-state entry; the test-owned source was restored byte for byte and
+the nonempty owner rows remained available. All five packages cold-compiled.
+A fresh native-audited Release 1 chain passed 33/33 with natural Excel exit,
+restored settings, five unchanged package hashes and zero Excel Error/Hang
+events. This current candidate has not been republished in disposable NAS
+warehouse WHT7025AE, so its prior Events artifact still reports the earlier
+Shipping Holds status. Inventory source validation remains a separate gap.
+No ControlId, displayed wording or Architecture v4.11 contract changed;
+human 4be-A acceptance remains open.
 
 **4be-A picker and reviewed candidate, 2026-11-16:** The first Training
 preview's **Choose tracked actions** selection was protected with a focused

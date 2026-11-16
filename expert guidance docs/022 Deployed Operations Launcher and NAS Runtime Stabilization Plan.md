@@ -1,5 +1,20 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-16 4be-A empty Shipping Holds follow-up:** The owning Shipping
+handler creates a zero-byte local Holds store when no rows remain. The
+Operations publication read classified that existing empty store as
+unavailable. Focused actual-handler RED was 69 PASS / 1 FAIL; an incomplete
+first reader correction was 85/1. Final PR17 package GREEN was 86/86 on the
+full Events publication selector, preserving source bytes and nonempty
+owner-row behavior. All five XLAMs cold-compiled; a fresh Release 1 chain
+passed 33/33 with static ratchet, live roles, natural Excel exit, restored
+settings, five unchanged package hashes and zero Excel Error/Hang events.
+The disposable NAS warehouse has not been republished on this build, so its
+older Events artifact's Shipping Holds status is not live proof of the fix.
+Inventory source validation, human Action Path review, ordinary guide-right
+grant, human B0, 4be-A and Release 1 acceptance remain open. This corrects
+the existing 4be.3/D18 owner read; no architecture contract was changed.
+
 **2026-11-16 4be-A stopped-recording picker checkpoint:** The first disposable
 Training preview exposed a slow **Choose tracked actions** selection and an
 unattributed later Excel crash. Focused packaged RED on the unchanged five
