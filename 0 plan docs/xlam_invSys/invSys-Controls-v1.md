@@ -1,10 +1,29 @@
 # invSys Form Controls v1
 
-**Version:** 1.758 -- Training initial sign-in and guide reachability gaps recorded;
+**Version:** 1.759 -- disposable Training Action Path preview and native crash recorded;
 4be-A acceptance pending.
 
+**4be-A human preview, 2026-11-15:** In approved disposable NAS warehouse
+WHT7025AE, a test-only `ACTION_PATH_MAINT` grant and saved tracking policy
+version 1 enabled recorded-control capture. Core published and read the current
+Events artifact; the visible Viewer showed 23/23 available groups and 26 lines.
+Inventory and Shipping Holds sources remained unavailable, so this is not
+complete source coverage. A stopped Receiving recording retained five distinct
+controls and ten requested/result observations, with no expected conclusion.
+The visible Viewer showed four controls because its publication preceded the
+last result and Close; a later publication/Refresh was not completed.
+
+The operator reported an unresponsive **Choose tracked actions** form, then an
+attempted guide Save. No guide version was written. Excel 16.0.20527.20196
+crashed in `VBE7.DLL` (`0xc0000005`); causation and the editor entry route are
+unproved. AutoRecovered review/Receiving workbooks were left untouched for
+inspection; by wrap-up Excel was closed, with recovery disposition unverified. Existing packaged Cancel/guide tests do not qualify this human path.
+This is a visible acceptance blocker, not 4be-A, B0 or Release 1 acceptance.
+No contract, ControlId, caption or XLAM changed. D13 implementation waits for
+a focused packaged behavioral RED after safe Excel recovery.
+
 **4be-A operator-review setup, 2026-11-15:** A disposable Training warehouse
-review and exact guide/run comparison are prepared, with no human result yet.
+review and exact guide/run comparison were prepared; no human result had yet been recorded.
 Current Create Warehouse bootstrap provisions the initial user with `ADMIN_MAINT`
 and `RECEIVE_POST`, but leaves `PinHash` empty and grants no `ACTION_PATH_MAINT`.
 Normal sign-in rejects that account. Admin Users & Roles exposes six role choices

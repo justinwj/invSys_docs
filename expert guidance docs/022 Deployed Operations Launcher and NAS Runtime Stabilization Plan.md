@@ -1,10 +1,27 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-15 4be-A disposable Training human-preview checkpoint:** The current
+five-XLAM candidate was used in existing disposable NAS warehouse WHT7025AE.
+A test-only guide right and tracking policy v1 enabled recording. The visible
+Viewer loaded 23/23 available groups; Inventory and Shipping Holds sources
+remained unavailable. The stopped Receiving recording held five controls/ten
+observations and no expected conclusion. The Viewer showed four controls from
+a publication made before the final result and Close; republishing was not
+completed. The operator found **Choose tracked actions** unresponsive, then
+attempted guide Save. No guide version was written. Excel
+16.0.20527.20196 crashed in `VBE7.DLL` (`0xc0000005`); the exact trigger and
+editor entry route remain unknown. Recovered review/Receiving workbooks
+were left untouched for inspection; Excel was closed by wrap-up, but
+recovery disposition is unverified. Next: protect both guide-entry routes and
+the picker-to-Save interaction with focused packaged RED after recovery, then
+localize the defect before implementation. No contract or package changed;
+4be-A, human B0 and Release 1 acceptance remain open.
+
 **2026-11-15 4be-A human-review setup checkpoint:** Justin chose a new
 disposable Training warehouse for the Operations/Admin How-To and Diagnostic
 comparison. The current five-XLAM candidate and inventory template were copied
 byte-for-byte into an ignored local review folder; an empty Training hub was
-prepared. No warehouse was created and no human result was recorded. The
+prepared. At that setup checkpoint, no warehouse had been created and no human result had been recorded. The
 versioned [operator review sheet](https://github.com/soetrain/invSys_fork/blob/work/d14-packaged-chain-coverage/tests/integration/plan022_slice4be_operator_review.md)
 covers separate complete and incomplete observed runs.
 
