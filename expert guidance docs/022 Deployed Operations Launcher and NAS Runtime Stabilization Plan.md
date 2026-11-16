@@ -1,5 +1,18 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-16 disposable Inventory source diagnosis:** A read-only ACE query of
+WHT7025AE's `InventoryLog$` worksheet saw 227 event rows, including one row
+with a nonblank EventID and EventType but a blank `System_Key`. Required
+publication headers are present and the prohibited `ROW` header is absent;
+the workbook SHA-256 was identical before and after inspection. Core's
+`cEventsPublication.CaptureInventory` refuses an event without its exact
+`System_Key`, so this is a plausible explanation for the current Inventory
+source warning. The query has not proved that the suspect row lies inside the
+Excel ListObject used by Core. Do not repair, invent or map its identity.
+Confirm the exact table scope through a separate read-only check before
+attributing the warning. The open operator review and 4be-A acceptance remain
+pending.
+
 **2026-11-16 4be-A empty Shipping Holds follow-up:** The owning Shipping
 handler creates a zero-byte local Holds store when no rows remain. The
 Operations publication read classified that existing empty store as

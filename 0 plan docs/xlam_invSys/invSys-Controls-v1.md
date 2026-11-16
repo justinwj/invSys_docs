@@ -1,8 +1,17 @@
 # invSys Form Controls v1
 
-**Version:** 1.762 -- stopped-recording picker and empty Shipping Holds source
-evidence reconciled;
+**Version:** 1.763 -- disposable Inventory source diagnosis recorded;
 4be-A acceptance pending.
+
+**4be-A disposable Inventory source diagnosis, 2026-11-16:** Read-only ACE
+inspection of WHT7025AE's `InventoryLog$` worksheet found 227 rows, one with
+nonblank EventID and EventType but blank `System_Key`; required publication
+headers were present, `ROW` was absent, and the workbook hash was unchanged.
+Core rejects such a row in its exact-identity publication reader. The query
+did not establish whether this row is inside the source ListObject, so the
+cause of the visible Inventory warning remains unconfirmed. No data was
+repaired or mapped; the disposable operator review remains open. No
+ControlId, displayed wording or Architecture v4.11 contract changed.
 
 **4be-A empty Shipping Holds source, 2026-11-16:** The owner legitimately
 persists a zero-byte local Holds file when no rows remain. The Operations
