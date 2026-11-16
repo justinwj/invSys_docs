@@ -1,6 +1,6 @@
 # invSys Form Controls v1
 
-**Version:** 1.759 -- disposable Training Action Path preview and native crash recorded;
+**Version:** 1.760 -- Training recovery-save status clarified;
 4be-A acceptance pending.
 
 **4be-A human preview, 2026-11-15:** In approved disposable NAS warehouse
@@ -17,7 +17,9 @@ The operator reported an unresponsive **Choose tracked actions** form, then an
 attempted guide Save. No guide version was written. Excel 16.0.20527.20196
 crashed in `VBE7.DLL` (`0xc0000005`); causation and the editor entry route are
 unproved. AutoRecovered review/Receiving workbooks were left untouched for
-inspection; by wrap-up Excel was closed, with recovery disposition unverified. Existing packaged Cancel/guide tests do not qualify this human path.
+inspection. Justin later confirmed no open Excel files were saved; the original
+review host remained unchanged, while residual AutoRecover status is unknown.
+Existing packaged Cancel/guide tests do not qualify this human path.
 This is a visible acceptance blocker, not 4be-A, B0 or Release 1 acceptance.
 No contract, ControlId, caption or XLAM changed. D13 implementation waits for
 a focused packaged behavioral RED after safe Excel recovery.

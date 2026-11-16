@@ -11,8 +11,10 @@ completed. The operator found **Choose tracked actions** unresponsive, then
 attempted guide Save. No guide version was written. Excel
 16.0.20527.20196 crashed in `VBE7.DLL` (`0xc0000005`); the exact trigger and
 editor entry route remain unknown. Recovered review/Receiving workbooks
-were left untouched for inspection; Excel was closed by wrap-up, but
-recovery disposition is unverified. Next: protect both guide-entry routes and
+were left untouched for inspection. Justin later confirmed he did not save
+any open Excel files; the original review host remained unchanged. Excel was
+closed by wrap-up; residual AutoRecover status is unknown. Next: protect
+both guide-entry routes and
 the picker-to-Save interaction with focused packaged RED after recovery, then
 localize the defect before implementation. No contract or package changed;
 4be-A, human B0 and Release 1 acceptance remain open.

@@ -8,7 +8,7 @@ Reach invSys Release 1 and Slice 4be-A human acceptance under Architecture v4.11
 
 ## Current verified state
 
-Last verified 2026-11-15 Pacific: code `main` is `6d247543` with Justin's unrelated modified `AGENTS.md`; draft code PR16 remains `work/d14-packaged-chain-coverage` at `6e866f16`. Docs `work/perplexity-handoff218` was based on `2813480` before this handoff, with unrelated deletion/edit/untracked files preserved. The current five candidate XLAMs are registered for Excel startup; their hashes remain recorded in ignored review `candidate.json` (PR4-BASE-18). Excel PID 30248 crashed. A replacement Excel opened AutoRecovered review-host and Receiving workbooks. Justin chose to leave them for inspection; at wrap-up (2026-11-16 07:22 UTC) no Excel process remained and no new Excel fault was recorded. Whether the recovery copies were saved or discarded is unknown. Do not start a build, new Excel test or publication until recovery disposition and startup registration are checked. No product code or XLAM changed this session.
+Last verified 2026-11-15 Pacific: code `main` is `6d247543` with Justin's unrelated modified `AGENTS.md`; draft code PR16 remains `work/d14-packaged-chain-coverage` at `6e866f16`. Docs `work/perplexity-handoff218` was based on `2813480` before this handoff, with unrelated deletion/edit/untracked files preserved. The current five candidate XLAMs are registered for Excel startup; their hashes remain recorded in ignored review `candidate.json` (PR4-BASE-18). Excel PID 30248 crashed. A replacement Excel opened AutoRecovered review-host and Receiving workbooks. Justin chose to leave them for inspection; at wrap-up (2026-11-16 07:22 UTC) no Excel process remained and no new Excel fault was recorded. Justin later confirmed he did not save any open Excel files. The original review host remains unchanged since before the review; no guide version exists. Whether any separate AutoRecover artifact remains is unknown. Do not overwrite recovery artifacts; verify Excel closure, startup registration and candidate hashes before a new test. No product code or XLAM changed this session.
 
 ## Decisions and constraints
 
@@ -20,20 +20,20 @@ The visible Events Viewer loaded 23/23 available groups and 26 lines; Inventory 
 
 ## Do Not Repeat
 
-Do not attribute the crash to Cancel, the window X, the Save handler or our rejected COM calls without focused evidence. Do not count five observed controls as a verified guide conclusion, four displayed rows as complete current publication, test-only Auth setup as user-side acceptance, or an absent guide file as a successful Save. Do not assume the AutoRecovered copies were saved or discarded; verify recovery disposition before cleanup.
+Do not attribute the crash to Cancel, the window X, the Save handler or our rejected COM calls without focused evidence. Do not count five observed controls as a verified guide conclusion, four displayed rows as complete current publication, test-only Auth setup as user-side acceptance, or an absent guide file as a successful Save. Do not treat Excel Recent as proof of Save; Justin confirmed no open file was saved. Do not overwrite any residual AutoRecover artifact.
 
 ## Assumptions to Re-verify
 
-Recheck Excel ownership, recovery state, startup add-in paths, candidate hashes, branch/PR heads and NAS target before any runtime action. The exact clicked picker controls, guide editor entry route, and whether any unsaved Receiving staging should be retained are unknown. The Event Viewer may still hold the earlier loaded publication. Native crash causation is unknown.
+Recheck Excel ownership, recovery state, startup add-in paths, candidate hashes, branch/PR heads and NAS target before any runtime action. The exact clicked picker controls, guide editor entry route, and whether a residual Receiving AutoRecover copy remains are unknown. The Event Viewer may still hold the earlier loaded publication. Native crash causation is unknown.
 
 ## Open questions and blockers
 
-Excel is closed, but the disposition of unsaved recovery data is unknown. Verify it before cleanup; an Excel-free test lane is available only after startup/package checks. Both guide entry routes require reproduction because the operator cannot distinguish them. Inventory and Shipping Holds publication availability remain separate 4be-A coverage gaps. The ordinary `ACTION_PATH_MAINT` grant and first-use sign-in gap remain open.
+Excel is closed and Justin confirmed no manual save. Any residual AutoRecover copy must remain untouched; an Excel-free test lane is available after startup/package checks. Both guide entry routes require reproduction because the operator cannot distinguish them. Inventory and Shipping Holds publication availability remain separate 4be-A coverage gaps. The ordinary `ACTION_PATH_MAINT` grant and first-use sign-in gap remain open.
 
 ## Immediate next action
 
-After confirming the recovery disposition and safe Excel closure, create and run a focused packaged RED through both real Create guide routes, picker interaction and Save in a selected stopped-recording context, checking responsive close, immutable guide persistence and natural Excel exit before changing product code.
+After confirming Excel remains closed and candidate pins are unchanged, create and run a focused packaged RED through both real Create guide routes, picker interaction and Save in a selected stopped-recording context, checking responsive close, immutable guide persistence and natural Excel exit before changing product code.
 
 ## Critical references
 
-Architecture v4.11 4be.5/D18; Plan 022; Controls 1.759; `frmGuideActionPicker`, `frmActionPaths`, `frmActionPathGuide`, `modGuideEditor`, `modCuratedGuideSource`, `modActionGuideDraft`, `tests/tooling/Slice4beGuideActionCuration.ps1`, `tests/tooling/Slice4beGuideDraft.ps1`; `tools/register_current_addins.ps1`; ignored review `candidate.json` and `excel-registration-before-review.json`.
+Architecture v4.11 4be.5/D18; Plan 022; Controls 1.760; `frmGuideActionPicker`, `frmActionPaths`, `frmActionPathGuide`, `modGuideEditor`, `modCuratedGuideSource`, `modActionGuideDraft`, `tests/tooling/Slice4beGuideActionCuration.ps1`, `tests/tooling/Slice4beGuideDraft.ps1`; `tools/register_current_addins.ps1`; ignored review `candidate.json` and `excel-registration-before-review.json`.
