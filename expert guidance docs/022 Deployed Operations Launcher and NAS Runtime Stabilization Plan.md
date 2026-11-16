@@ -1,19 +1,5 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
-**2026-11-15 standalone Training onboarding decision pending:** Justin directed
-that a user be able to create a standalone local warehouse without existing
-invSys credentials, then secure it with a new invSys credential afterward; the
-first-use exception does not cover shared/NAS creation. Architecture v4.11 now
-contains proposed D8-TRAINING-ONBOARD-01. It is not approved or implemented.
-Current D8-CREATE-01 source-Admin authorization remains binding for the existing
-Create/Publish commands. The proposal uses a distinct signed-out local setup
-command, a protected pending claim and a separate Secure step; it keeps the
-existing signed-in Create/Publish contract. Justin approved a test-only PIN and
-`ACTION_PATH_MAINT` grant for a disposable Training preview, which does not
-qualify user-side onboarding. Do not run D13 implementation or count 4be-A
-accepted until the architecture decision is approved and the packaged gates
-pass.
-
 **2026-11-15 4be-A human-review setup checkpoint:** Justin chose a new
 disposable Training warehouse for the Operations/Admin How-To and Diagnostic
 comparison. The current five-XLAM candidate and inventory template were copied
