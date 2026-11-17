@@ -1,17 +1,30 @@
 # invSys Form Controls v1
 
-**Version:** 1.764 -- one guide Save confirmed; input latency under test;
+**Version:** 1.765 -- guide input RED confirmed; proposed buffered-entry
+contract pending approval;
 4be-A acceptance pending.
+
+**D18 guide-input checkpoint, 2026-11-16:** The final packaged candidate
+returned 24 PASS / 3 FAIL through actual guide form handlers. Name,
+instructions and selected-step instruction retained exact text but took
+19.89/26.36/23.95 seconds for 20/25/22 characters. Both guide Save routes,
+Cancel and source preservation passed. Action/step selection passed its local
+timing thresholds, but Justin reported poor NAS list usability. Architecture
+v4.11 proposes `D18-GUIDE-INPUT-01`: local, unsaved keystroke buffering with
+guarded Core flush before dependent actions and Save, with refusal on stale
+context. The proposal is **not approved or implemented**; existing control
+wording/IDs are unchanged. Packaged GREEN, operator usability and 4be-A
+acceptance remain open.
 
 **4be-A guide-editor operator finding, 2026-11-16:** Justin's disposable
 Training review visibly published guide version 1; read-only storage inspection
 confirmed one guide file and no pending save. He reported very slow action/step
 lists and title/instruction typing. Current text Change handlers call Core's
-source/policy/session/capability guard per character; this is a suspected cause
-until a timed actual-handler test runs. The focused test is prepared but unrun
-while the operator's Excel session is open. This Save is not the required
-How-To/Diagnostic comparison or 4be-A acceptance. No ControlId, displayed
-wording, product handler or Architecture v4.11 contract changed.
+source/policy/session/capability guard per character; this remains a suspected
+cause because the timed test confirms the symptom without isolating the guard.
+This Save is not the required How-To/Diagnostic comparison or 4be-A
+acceptance. No ControlId, displayed wording, product handler or Architecture
+v4.11 contract changed.
 
 **4be-A disposable Inventory source diagnosis, 2026-11-16:** Read-only ACE
 inspection of WHT7025AE's `InventoryLog$` worksheet found 227 rows, one with

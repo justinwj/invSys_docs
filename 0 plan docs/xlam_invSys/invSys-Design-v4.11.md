@@ -4511,6 +4511,43 @@ they do not relax immutable save/version/publication, search, both presentations
 comparison, export/import, current-policy or incomplete-evidence requirements.
 The initial draft-entry D13 gate does not accept those remaining behaviors.
 
+**D18-GUIDE-INPUT-01 -- proposed, approval required before implementation:**
+The current guide editor calls guarded Core `WriteText` for each TextBox
+`Change`. A 2026-11-16 packaged actual-handler RED preserved all three
+authored fields but took 19.89 s for 20 guide-name characters, 26.36 s for
+25 guide-instruction characters and 23.95 s for 22 step-instruction
+characters. The following explicit exception to the preceding "later operator
+actions retain their own guards" rule is proposed to make text entry usable;
+it is not effective until approved.
+
+Keystrokes in `txtGuideName`, `txtGuideTags`, `txtGuideInstructions` and
+`txtGuideStepInstruction` update only an Operations-owned, unsaved form buffer.
+A keystroke is not a Core write, policy decision, activity event or proof of an
+action. Before step selection changes, step reorder/removal, expectation
+authoring, Save or any action that reads or replaces authored text, the editor
+flushes each dirty field through the existing typed Core `WriteText` boundary
+under its captured draft and, for step text, the exact StepId being edited.
+Ordinary focus exit also flushes dirty text; Cancel and window close discard
+the buffer without a flush. Each flush and each later operator action
+retains the current source, session/warehouse, policy and ACTION_PATH_MAINT
+guard; Save performs its existing complete guard again. If any flush fails or
+its binding is stale,
+the editor refuses the dependent action and Save, invalidates the draft,
+clears retained source evidence and reports the existing unavailable notice.
+Reopening or refreshing an editor cannot overwrite dirty local text without a
+successful guarded flush or explicit Cancel. No form buffer is persisted,
+shared across sessions, exposed as observed evidence or treated as Domain/Core
+authority. Step identity, immutable guide versions, activity recording,
+source-data integrity and all other 4be.5 guards remain unchanged.
+
+D13 must first retain the qualified three-field RED, then prove GREEN for
+incremental input and exact saved text through the real form handlers, step
+switch/reorder, Save, Cancel, stale context/policy/capability refusal, reopened
+editor, packaged XLAM/compile/layout and retained Release 1 gates. Separate
+operator evidence must confirm that the action and step lists are usable; the
+one-second local selection measurements did not reproduce the full NAS
+complaint. No implementation or acceptance is claimed by this proposal.
+
 **4be.5 immutable guide-save refinement:** `frmActionPathGuide` adds
 `btnSaveGuide`, **Save guide**. Visible wording explains that Save publishes a
 version for permitted Viewers in this warehouse. It does not publish business

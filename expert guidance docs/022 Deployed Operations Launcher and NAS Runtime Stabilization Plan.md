@@ -9,9 +9,25 @@ complete/incomplete How-To and Diagnostic comparison. Source inspection shows
 the text Change handlers invoke Core `WriteText` and its current source,
 policy, session and capability guard for every changed character. That is a
 plausible latency cause, not yet a timed attribution. A focused actual-handler
-test for incremental typing and repeated list selection is prepared but cannot
-run while the operator's Excel review session remains open. No product or
-normative contract change is approved or implemented; 4be-A remains open.
+test for incremental typing and repeated list selection was prepared; the
+checkpoint below records its later execution. No product or normative
+contract change is approved or implemented; 4be-A remains open.
+
+**2026-11-16 D18 guide-input RED and proposal checkpoint:** After Justin
+finished the review, Excel closed naturally with both workbooks Saved. The
+unchanged final five XLAMs cold-compiled and the focused actual-handler test
+returned 24 PASS / 3 FAIL: incremental name, guide instructions and step
+instructions took 19.89/26.36/23.95 seconds for 20/25/22 characters, while
+exact text, both Save routes, Cancel and source bytes passed. Local picker
+toggles and step selection were about one second each; NAS list usability
+remains an operator finding. Excel exited without assistance; all five source
+XLAM hashes matched afterward and the Application audit found no Excel
+Error 1000/Hang 1002. Architecture v4.11 contains proposed
+`D18-GUIDE-INPUT-01` local text buffering with guarded flush at dependent
+actions. It requires approval before implementation. Then D13 must add
+stale-context and step-switch coverage, obtain packaged GREEN, compile,
+layout, static, live-role, full-chain and visible operator evidence. This
+RED is not 4be-A acceptance.
 
 **2026-11-16 disposable Inventory source diagnosis:** A read-only ACE query of
 WHT7025AE's `InventoryLog$` worksheet saw 227 event rows, including one row
