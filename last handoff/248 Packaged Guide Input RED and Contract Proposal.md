@@ -14,7 +14,7 @@ Excel PID 22272 closed naturally after a read-only check that the review host an
 
 ## Decisions and constraints
 
-Architecture v4.11 now contains **proposed, unapproved** `D18-GUIDE-INPUT-01`; Plan 022 and Controls 1.765 mark the same proposed state. Do not implement buffering until Justin approves the normative amendment. The proposal treats keystrokes as local unsaved form input and requires guarded Core flush before dependent actions and Save; Save retains its own full guard. The cancelled signed-out onboarding proposal stays cancelled. Preserve captured session/warehouse, exact `System_Key`, unknown columns, source bytes and unrelated user work.
+Architecture v4.11 contains **proposed, unapproved** `D18-GUIDE-INPUT-01`; Plan 022 and Controls 1.765 mark the same proposed state. Do not implement buffering until Justin approves the normative amendment. The proposal treats keystrokes as local unsaved form input and requires guarded Core flush before dependent actions and Save; Save retains its own full guard. Review refinements require dirty step text to flush against its previous editing StepId before switching/reordering/removing/reloading, and Cancel/X to discard before any focus-exit flush, including stale authority. The cancelled signed-out onboarding proposal stays cancelled. Preserve captured session/warehouse, exact `System_Key`, unknown columns, source bytes and unrelated user work.
 
 ## Evidence and traceability
 
@@ -36,7 +36,7 @@ Justin's approval of `D18-GUIDE-INPUT-01` is required for buffering implementati
 
 ## Immediate next action
 
-After approval, extend the focused actual-handler test for dirty step-switch, stale session/policy/capability refusal and Save, then implement only the approved guide-form buffering contract and run packaged GREEN.
+After approval, extend the focused actual-handler test for dirty step switch/reorder/removal, tags, blur, expectation entry/return, refresh/rebind, Save while focused with exact persisted text/StepId, and dirty Cancel/X with stale authority and zero `WriteText`, then implement only the approved buffering contract and run packaged GREEN.
 
 ## Critical references
 

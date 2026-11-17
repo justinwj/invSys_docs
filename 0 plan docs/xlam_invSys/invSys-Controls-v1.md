@@ -16,6 +16,17 @@ context. The proposal is **not approved or implemented**; existing control
 wording/IDs are unchanged. Packaged GREEN, operator usability and 4be-A
 acceptance remain open.
 
+**Pending guide-input event-ordering refinement:** Dirty step instruction is
+bound to its previous editing StepId, independently of the selected list row;
+step change, reorder, removal or reload must flush that exact step before
+loading another. Cancel and window X discard dirty text before any ordinary
+focus-exit flush, even if focus events fire first; stale authority cannot
+cause a `WriteText` call or publication on those paths. D13 must exercise
+these actual form event sequences, plus tags, focus exit, expectation
+entry/return, refresh/rebind, Save while focused, and exact persisted text
+and step assignment. This remains a proposed Architecture v4.11 rule, with
+no product control or visible acceptance change.
+
 **4be-A guide-editor operator finding, 2026-11-16:** Justin's disposable
 Training review visibly published guide version 1; read-only storage inspection
 confirmed one guide file and no pending save. He reported very slow action/step

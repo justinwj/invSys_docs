@@ -4527,8 +4527,21 @@ action. Before step selection changes, step reorder/removal, expectation
 authoring, Save or any action that reads or replaces authored text, the editor
 flushes each dirty field through the existing typed Core `WriteText` boundary
 under its captured draft and, for step text, the exact StepId being edited.
-Ordinary focus exit also flushes dirty text; Cancel and window close discard
-the buffer without a flush. Each flush and each later operator action
+The form retains that editing StepId separately from the list's current
+selection. Because `mSteps_Change` observes the newly selected row, it must
+flush dirty step text against the **previous editing StepId** before reading
+the new step. Step reorder, removal and draft reload likewise flush the bound
+old step before changing order, identity or displayed text; failure stops the
+action without assigning the dirty text to another StepId and follows the
+invalidation rule below.
+
+Ordinary focus exit also flushes dirty text. Cancel and window close take
+precedence over focus-exit flushing: a focus transition caused by Cancel or
+the window X is not an ordinary edit completion, even if its event fires
+before the Click or QueryClose handler. Those paths discard dirty form text
+without calling Core `WriteText`, publishing or creating an activity event,
+including when session, policy or capability is stale. Each attempted flush
+and each later operator action
 retains the current source, session/warehouse, policy and ACTION_PATH_MAINT
 guard; Save performs its existing complete guard again. If any flush fails or
 its binding is stale,
@@ -4541,9 +4554,14 @@ authority. Step identity, immutable guide versions, activity recording,
 source-data integrity and all other 4be.5 guards remain unchanged.
 
 D13 must first retain the qualified three-field RED, then prove GREEN for
-incremental input and exact saved text through the real form handlers, step
-switch/reorder, Save, Cancel, stale context/policy/capability refusal, reopened
-editor, packaged XLAM/compile/layout and retained Release 1 gates. Separate
+incremental input through the real form handlers, including tags. Tests must
+cover dirty step switch/reorder/removal against the prior StepId, ordinary
+focus exit, expectation entry/return, refresh/rebind, Save while a field is
+still focused, and exact persisted guide text and step assignment. Actual
+Cancel and window-X event sequences with dirty text and stale session,
+policy or capability must prove zero `WriteText` calls and no publication.
+Dependent actions and Save must refuse stale context, policy or capability.
+Then require packaged XLAM/compile/layout and retained Release 1 gates. Separate
 operator evidence must confirm that the action and step lists are usable; the
 one-second local selection measurements did not reproduce the full NAS
 complaint. No implementation or acceptance is claimed by this proposal.

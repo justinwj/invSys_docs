@@ -29,6 +29,17 @@ stale-context and step-switch coverage, obtain packaged GREEN, compile,
 layout, static, live-role, full-chain and visible operator evidence. This
 RED is not 4be-A acceptance.
 
+**D18-GUIDE-INPUT-01 review refinement, pending approval:** The guide form's
+`mSteps_Change` reads the new list selection, so dirty step instructions must
+retain and flush their previous editing StepId before the new row loads or a
+step is reordered, removed or the draft reloaded. Cancel and window X must
+discard ahead of focus-exit flushing in the actual event sequence, including
+stale authority, with no `WriteText` or publication. D13 adds tags, exact
+persisted text/step assignment, Save while focused, ordinary blur,
+expectation entry/return, refresh/rebind and stale session/policy/capability
+cases to the existing real-handler RED before product work. These clarify
+the proposed contract; they do not approve or implement it.
+
 **2026-11-16 disposable Inventory source diagnosis:** A read-only ACE query of
 WHT7025AE's `InventoryLog$` worksheet saw 227 event rows, including one row
 with a nonblank EventID and EventType but a blank `System_Key`. Required
