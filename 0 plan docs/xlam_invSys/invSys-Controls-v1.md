@@ -1,7 +1,20 @@
 # invSys Form Controls v1
 
-**Version:** 1.766 -- D18-GUIDE-INPUT-01 approved for test-first
-implementation; guide input GREEN and 4be-A acceptance pending.
+**Version:** 1.767 -- D18-GUIDE-INPUT-01 expanded packaged RED; native
+Cancel/X test blocked by cursor failure; guide input GREEN pending.
+
+**D18 guide-input D13 stop, 2026-11-17:** An expanded unchanged-package
+fixture passed 28 checks and failed 12 behavioral checks: four incremental
+input timing checks, four per-character Core-write checks, three ordinary-blur
+flush checks and the dirty step-switch flush check. Exact text, prior StepId
+content, both Save routes and source bytes passed. The next native Cancel/X
+test could not qualify: its first variant did not find an automation button,
+the second could not foreground the form, and the third stopped when native
+cursor restoration failed (`SetCursorPos=False`, Win32 error 0). The last
+run therefore reported 28 PASS / 13 FAIL, including one harness exception.
+Excel later exited naturally. No guide form or package change was made.
+Testing stopped under the local verified-input-failure rule; the actual
+Cancel/X zero-write proof, packaged GREEN and operator acceptance remain open.
 
 **D18 guide-input approval, 2026-11-17:** Justin approved the Architecture
 v4.11 buffer and event-ordering contract. `txtGuideName`, `txtGuideTags`,

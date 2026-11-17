@@ -1,5 +1,19 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-17 D18 guide-input RED and input-failure stop:** The approved
+buffer contract is unchanged. A disposable, unchanged-package Core write
+counter extended the actual-handler test to tags, blur, prior StepId, focused
+Save and exact persisted content. The completed run had 28 PASS, 12 behavioral
+FAIL and one native-test harness exception. Name/tags/instructions/step text
+still wrote Core per character and took 42.18/34.01/54.03/48.00 seconds;
+ordinary blur and the dirty step-switch did not perform the required single
+flush. The native Cancel/X test remains unqualified: the final attempt failed
+to restore the cursor (`SetCursorPos=False`, Win32 error 0). Stop desktop
+testing under AGENTS.md; no product implementation, GREEN or 4be-A acceptance
+is claimed. Excel exited naturally after the failed diagnostic. Resume by
+restoring verified desktop input, then prove Cancel/X zero-write ordering and
+the remaining dirty-action cases before changing `frmActionPathGuide`.
+
 **2026-11-17 D18-GUIDE-INPUT-01 approval and D13 entry:** Justin approved
 the Architecture v4.11 local guide-text buffer and its event ordering.
 The previous editing StepId must receive dirty text before the new step loads,
