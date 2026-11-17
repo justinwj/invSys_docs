@@ -1,5 +1,18 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-16 4be-A operator guide-save and input-latency finding:** In the
+open disposable WHT7025AE review, Justin reported that picker/guide lists and
+typing a guide title or instructions were very slow. The guide editor reported
+Published version 1; a read-only store count confirmed one guide JSON and no
+pending save file. This establishes one visible Save result, not the required
+complete/incomplete How-To and Diagnostic comparison. Source inspection shows
+the text Change handlers invoke Core `WriteText` and its current source,
+policy, session and capability guard for every changed character. That is a
+plausible latency cause, not yet a timed attribution. A focused actual-handler
+test for incremental typing and repeated list selection is prepared but cannot
+run while the operator's Excel review session remains open. No product or
+normative contract change is approved or implemented; 4be-A remains open.
+
 **2026-11-16 disposable Inventory source diagnosis:** A read-only ACE query of
 WHT7025AE's `InventoryLog$` worksheet saw 227 event rows, including one row
 with a nonblank EventID and EventType but a blank `System_Key`. Required

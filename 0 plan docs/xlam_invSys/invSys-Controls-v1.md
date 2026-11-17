@@ -1,7 +1,17 @@
 # invSys Form Controls v1
 
-**Version:** 1.763 -- disposable Inventory source diagnosis recorded;
+**Version:** 1.764 -- one guide Save confirmed; input latency under test;
 4be-A acceptance pending.
+
+**4be-A guide-editor operator finding, 2026-11-16:** Justin's disposable
+Training review visibly published guide version 1; read-only storage inspection
+confirmed one guide file and no pending save. He reported very slow action/step
+lists and title/instruction typing. Current text Change handlers call Core's
+source/policy/session/capability guard per character; this is a suspected cause
+until a timed actual-handler test runs. The focused test is prepared but unrun
+while the operator's Excel session is open. This Save is not the required
+How-To/Diagnostic comparison or 4be-A acceptance. No ControlId, displayed
+wording, product handler or Architecture v4.11 contract changed.
 
 **4be-A disposable Inventory source diagnosis, 2026-11-16:** Read-only ACE
 inspection of WHT7025AE's `InventoryLog$` worksheet found 227 rows, one with
