@@ -4511,14 +4511,15 @@ they do not relax immutable save/version/publication, search, both presentations
 comparison, export/import, current-policy or incomplete-evidence requirements.
 The initial draft-entry D13 gate does not accept those remaining behaviors.
 
-**D18-GUIDE-INPUT-01 -- proposed, approval required before implementation:**
+**D18-GUIDE-INPUT-01 -- approved 2026-11-17:** Justin approved this
+event-ordering contract for test-first implementation. Approval does not
+establish packaged GREEN, operator usability or 4be-A acceptance.
 The current guide editor calls guarded Core `WriteText` for each TextBox
 `Change`. A 2026-11-16 packaged actual-handler RED preserved all three
 authored fields but took 19.89 s for 20 guide-name characters, 26.36 s for
 25 guide-instruction characters and 23.95 s for 22 step-instruction
 characters. The following explicit exception to the preceding "later operator
-actions retain their own guards" rule is proposed to make text entry usable;
-it is not effective until approved.
+actions retain their own guards" rule makes text entry usable.
 
 Keystrokes in `txtGuideName`, `txtGuideTags`, `txtGuideInstructions` and
 `txtGuideStepInstruction` update only an Operations-owned, unsaved form buffer.
@@ -4564,7 +4565,7 @@ Dependent actions and Save must refuse stale context, policy or capability.
 Then require packaged XLAM/compile/layout and retained Release 1 gates. Separate
 operator evidence must confirm that the action and step lists are usable; the
 one-second local selection measurements did not reproduce the full NAS
-complaint. No implementation or acceptance is claimed by this proposal.
+complaint. No implementation or acceptance is claimed by this approval.
 
 **4be.5 immutable guide-save refinement:** `frmActionPathGuide` adds
 `btnSaveGuide`, **Save guide**. Visible wording explains that Save publishes a

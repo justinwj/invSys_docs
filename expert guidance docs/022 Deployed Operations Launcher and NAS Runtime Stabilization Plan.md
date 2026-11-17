@@ -1,5 +1,19 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-17 D18-GUIDE-INPUT-01 approval and D13 entry:** Justin approved
+the Architecture v4.11 local guide-text buffer and its event ordering.
+The previous editing StepId must receive dirty text before the new step loads,
+and Cancel/window X must discard ahead of focus-exit flushing, including
+stale authority. Controls 1.766 records the same approved contract. Extend
+the actual packaged handler test first for tags, step switch/reorder/removal,
+blur, expectation entry/return, refresh/rebind, Save while focused and exact
+persisted text/StepId. Dirty Cancel/X must prove no Core `WriteText` or
+publication. The existing 24 PASS / 3 FAIL is the behavioral input RED;
+missing fixtures or compile failures are not. Only then change the Operations
+guide form, preserving typed Core guards, immutable saves and source evidence.
+Packaged GREEN, layout, static, live-role, full-chain and visible NAS list
+usability remain required; 4be-A remains open.
+
 **2026-11-16 4be-A operator guide-save and input-latency finding:** In the
 open disposable WHT7025AE review, Justin reported that picker/guide lists and
 typing a guide title or instructions were very slow. The guide editor reported
@@ -22,14 +36,13 @@ exact text, both Save routes, Cancel and source bytes passed. Local picker
 toggles and step selection were about one second each; NAS list usability
 remains an operator finding. Excel exited without assistance; all five source
 XLAM hashes matched afterward and the Application audit found no Excel
-Error 1000/Hang 1002. Architecture v4.11 contains proposed
-`D18-GUIDE-INPUT-01` local text buffering with guarded flush at dependent
-actions. It requires approval before implementation. Then D13 must add
-stale-context and step-switch coverage, obtain packaged GREEN, compile,
-layout, static, live-role, full-chain and visible operator evidence. This
+Error 1000/Hang 1002. At this checkpoint, Architecture v4.11 contained the
+unapproved `D18-GUIDE-INPUT-01` local text-buffer proposal. D13 then required
+stale-context and step-switch coverage, packaged GREEN, compile, layout,
+static, live-role, full-chain and visible operator evidence. This
 RED is not 4be-A acceptance.
 
-**D18-GUIDE-INPUT-01 review refinement, pending approval:** The guide form's
+**D18-GUIDE-INPUT-01 review refinement, 2026-11-16:** The guide form's
 `mSteps_Change` reads the new list selection, so dirty step instructions must
 retain and flush their previous editing StepId before the new row loads or a
 step is reordered, removed or the draft reloaded. Cancel and window X must
@@ -38,7 +51,7 @@ stale authority, with no `WriteText` or publication. D13 adds tags, exact
 persisted text/step assignment, Save while focused, ordinary blur,
 expectation entry/return, refresh/rebind and stale session/policy/capability
 cases to the existing real-handler RED before product work. These clarify
-the proposed contract; they do not approve or implement it.
+the then-proposed contract; the 2026-11-17 checkpoint above records approval.
 
 **2026-11-16 disposable Inventory source diagnosis:** A read-only ACE query of
 WHT7025AE's `InventoryLog$` worksheet saw 227 event rows, including one row

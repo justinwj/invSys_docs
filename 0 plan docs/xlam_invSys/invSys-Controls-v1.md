@@ -1,22 +1,30 @@
 # invSys Form Controls v1
 
-**Version:** 1.765 -- guide input RED confirmed; proposed buffered-entry
-contract pending approval;
-4be-A acceptance pending.
+**Version:** 1.766 -- D18-GUIDE-INPUT-01 approved for test-first
+implementation; guide input GREEN and 4be-A acceptance pending.
 
-**D18 guide-input checkpoint, 2026-11-16:** The final packaged candidate
+**D18 guide-input approval, 2026-11-17:** Justin approved the Architecture
+v4.11 buffer and event-ordering contract. `txtGuideName`, `txtGuideTags`,
+`txtGuideInstructions` and `txtGuideStepInstruction` may buffer keystrokes
+locally; dirty text must flush through guarded Core before dependent actions
+and Save. The previous editing StepId owns dirty step text; Cancel and window
+X discard before focus-exit flushing, including stale authority. D13 must
+cover actual event sequences and exact persisted text before product changes.
+No handler change, packaged GREEN or operator acceptance is claimed yet.
+
+**D18 guide-input preapproval checkpoint, 2026-11-16:** The final packaged candidate
 returned 24 PASS / 3 FAIL through actual guide form handlers. Name,
 instructions and selected-step instruction retained exact text but took
 19.89/26.36/23.95 seconds for 20/25/22 characters. Both guide Save routes,
 Cancel and source preservation passed. Action/step selection passed its local
 timing thresholds, but Justin reported poor NAS list usability. Architecture
-v4.11 proposes `D18-GUIDE-INPUT-01`: local, unsaved keystroke buffering with
+v4.11 then proposed `D18-GUIDE-INPUT-01`: local, unsaved keystroke buffering with
 guarded Core flush before dependent actions and Save, with refusal on stale
-context. The proposal is **not approved or implemented**; existing control
+context. At that checkpoint it was **not approved or implemented**; existing control
 wording/IDs are unchanged. Packaged GREEN, operator usability and 4be-A
 acceptance remain open.
 
-**Pending guide-input event-ordering refinement:** Dirty step instruction is
+**Guide-input event-ordering refinement, 2026-11-16:** Dirty step instruction is
 bound to its previous editing StepId, independently of the selected list row;
 step change, reorder, removal or reload must flush that exact step before
 loading another. Cancel and window X discard dirty text before any ordinary
@@ -24,8 +32,8 @@ focus-exit flush, even if focus events fire first; stale authority cannot
 cause a `WriteText` call or publication on those paths. D13 must exercise
 these actual form event sequences, plus tags, focus exit, expectation
 entry/return, refresh/rebind, Save while focused, and exact persisted text
-and step assignment. This remains a proposed Architecture v4.11 rule, with
-no product control or visible acceptance change.
+and step assignment. This was proposed before the 2026-11-17 approval above;
+the refinement did not change a product control or visible acceptance result.
 
 **4be-A guide-editor operator finding, 2026-11-16:** Justin's disposable
 Training review visibly published guide version 1; read-only storage inspection
