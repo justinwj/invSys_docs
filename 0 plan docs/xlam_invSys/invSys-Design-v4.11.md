@@ -4523,7 +4523,7 @@ it is not effective until approved.
 Keystrokes in `txtGuideName`, `txtGuideTags`, `txtGuideInstructions` and
 `txtGuideStepInstruction` update only an Operations-owned, unsaved form buffer.
 A keystroke is not a Core write, policy decision, activity event or proof of an
-action. Before step selection changes, step reorder/removal, expectation
+action. Before loading a newly selected step, step reorder/removal, expectation
 authoring, Save or any action that reads or replaces authored text, the editor
 flushes each dirty field through the existing typed Core `WriteText` boundary
 under its captured draft and, for step text, the exact StepId being edited.
