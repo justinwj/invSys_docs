@@ -1,5 +1,21 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-20 current-candidate guide transfer:** The unchanged guide-input
+five-XLAM candidate passed a separate packaged Export/Import round trip
+**68/68**, including exact-version provenance, long multiline content,
+foreign-origin labelling, malformed/oversize refusal, visibility/rights loss,
+local edit/re-export and source non-mutation. A second packaged recorded
+transfer and diagnostic comparison run passed **496/496**, covering twenty
+Export/Import outcomes and their How-To/Diagnostic/Compare both views without
+invented Domain application. Five instrumented compiles passed in each run.
+Both Excel sessions exited naturally; the 496-check session took roughly nine
+minutes after its final GREEN line to exit. A five-minute quiet-window capture
+found no visible modal, and the checked Application fault window was clear.
+This slow native exit remains unresolved and the run is technical evidence,
+not human operator acceptance. Reports are local under
+`reports/runtime/slice4be-guide-transfer/0fd79a5f7230496f8dd536e1fe84adef`
+and `reports/runtime/slice4be-guide-transfer/f6a45fe04a5a4eee8d4d5abd1ceffbad`.
+
 **2026-11-20 current-candidate guide preference restart:** The unchanged
 guide-input five-XLAM candidate passed five instrumented compiles and the
 isolated packaged restart gate **28/28**. Its first Excel process exited

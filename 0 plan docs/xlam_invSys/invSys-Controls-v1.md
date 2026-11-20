@@ -1,7 +1,15 @@
 # invSys Form Controls v1
 
-**Version:** 1.774 -- current-candidate guide preference restart GREEN;
+**Version:** 1.775 -- current-candidate guide transfer and comparison GREEN;
 final 4be-A acceptance pending.
+
+**Guide transfer and comparison checkpoint, 2026-11-20:** The unchanged
+candidate passed packaged Export/Import round trip **68/68** and a separate
+recorded-transfer/diagnostic comparison **496/496**. Both Excel runs closed
+naturally, though the latter native exit was slow; no visible modal or Excel
+Application fault was found. This is technical evidence, not human
+How-To/Diagnostic/Compare both acceptance. No ControlId or displayed wording
+changed.
 
 **Guide preference restart checkpoint, 2026-11-20:** The unchanged candidate
 passed the packaged saved-copy restart **28/28**. A new Excel process restored
