@@ -1,7 +1,18 @@
 # invSys Form Controls v1
 
-**Version:** 1.775 -- current-candidate guide transfer and comparison GREEN;
+**Version:** 1.776 -- older-policy transfer fixture gap identified;
 final 4be-A acceptance pending.
+
+**Older-policy transfer checkpoint, 2026-11-20:** The packaged policy gate
+passed 211 checks before a fixture prerequisite stopped it. The fixture
+initially labelled a catalog-47 policy as catalog 29 while removing only two
+catalog-30 controls. After test-only correction to retain catalog-29 controls,
+the full run passed 412 checks and failed 14 expectations that assumed the
+current guide remained exportable/importable. That guide contains newer
+controls, so the valid older policy hides its content. Test tooling now refuses
+this invalid guide prerequisite; a catalog-29-only guide must be authored for
+the remaining older-policy transfer proof. No product behavior, ControlId or
+displayed wording changed; this gate is not GREEN.
 
 **Guide transfer and comparison checkpoint, 2026-11-20:** The unchanged
 candidate passed packaged Export/Import round trip **68/68** and a separate

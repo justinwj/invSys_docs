@@ -1,5 +1,20 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-20 guide transfer policy fixture:** On the unchanged five-XLAM
+candidate, the packaged activity/policy gate first reached 211 PASS before an
+invalid older-policy fixture stopped it. Catalog 47 had been relabelled 29
+without removing controls introduced after 30. Test-only commit `f7bcd4bf`
+uses Core's exact catalog-29 IDs and rejects a guide containing later controls
+as a fixture prerequisite. The corrected runtime passed 412 checks and exposed
+14 invalid expectations: the current guide contains later controls, which a
+valid catalog-29 policy hides, so its Export/Import success cases cannot serve
+as older-policy observation proof. The remaining D13 task is to author an
+actual catalog-29-only guide through packaged controls, then rerun this policy
+gate. Neither run qualifies the complete policy gate or product RED; settings,
+package bytes and Excel natural closure were preserved. Local controller
+receipts: `reports/runtime/guide-transfer-controller/99267efcce1a45c9beef08aa5c86ad04`
+and `reports/runtime/guide-transfer-controller/b263c44ca6e440738edb7ac5eb6f1a5d`.
+
 **2026-11-20 current-candidate guide transfer:** The unchanged guide-input
 five-XLAM candidate passed a separate packaged Export/Import round trip
 **68/68**, including exact-version provenance, long multiline content,
