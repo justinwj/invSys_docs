@@ -1,5 +1,22 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-20 current-candidate ordered chain and live-role checkpoint:** An
+isolated worktree at code commit `17675c6c` ran the existing Release 1
+chain against the unchanged `guide-input-green6-20261117` five XLAMs. The
+ordered Generate/Seed/Receive/Production/Boxing/Shipping/processor/restart
+chain passed **33/33**, including six packaged D14 identity, schema and
+custom-column assertions, five-package runtime presence, static ROW-warning
+review (six exact-hash reviewed, zero unreviewed), local-settings restoration
+and zero Excel Application faults. Excel's residual cleanup was slow enough
+to trigger the five-minute quiet-window inventory; 56 owned top-level windows
+were captured locally, with no visible native modal. Both remaining Excel
+processes later exited without intervention. A separate standalone live-role
+regression on the same packages passed **48/48**, with natural Excel exit and
+zero Excel fault events. Generated row-level reports remain local in the
+isolated worktree; do not commit or attach them without sanitization. These
+technical gates do not establish human B0, visible NAS guide-list usability,
+4be-A or Release 1 operator acceptance.
+
 **2026-11-20 current-candidate Receiving B0 technical replay:** The unchanged
 `guide-input-green6-20261117` five-XLAM candidate passed the full saved-copy,
 visible-capture Receiving replay **121/121**. A read-only comparison found all

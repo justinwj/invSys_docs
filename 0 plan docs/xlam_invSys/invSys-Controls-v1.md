@@ -1,7 +1,17 @@
 # invSys Form Controls v1
 
-**Version:** 1.772 -- current-candidate technical Receiving B0 replay GREEN;
+**Version:** 1.773 -- current-candidate ordered chain and live-role GREEN;
 final 4be-A acceptance pending.
+
+**Current-candidate chain and live-role checkpoint, 2026-11-20:** The
+unchanged guide-input five-XLAM candidate passed the isolated ordered Release
+1 technical chain **33/33**, including packaged D14 protection, settings
+restoration and the reviewed static warning ratchet. A separate live-role
+regression passed **48/48**. Excel exited naturally after each run, with no
+Excel Application Error/Hang events in the checked window. These technical
+results do not establish human B0, visible NAS guide-list usability or final
+4be-A/Release 1 operator acceptance. No ControlId or displayed wording
+changed.
 
 **Receiving B0 current-candidate checkpoint, 2026-11-20:** The unchanged
 guide-input candidate passed the full saved-copy, visible-capture replay
