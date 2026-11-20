@@ -1,7 +1,15 @@
 # invSys Form Controls v1
 
-**Version:** 1.778 -- current-candidate Settings regression GREEN;
+**Version:** 1.779 -- current-candidate Viewer groups/publication GREEN;
 final 4be-A acceptance pending.
+
+**Viewer groups/publication checkpoint, 2026-11-20:** The unchanged
+five-XLAM candidate passed the separate packaged Events group and Admin
+publication regression **86/86**. It covered pagination/search, complete
+exact-key groups, 5,000-group retention, owner source coverage, replacement
+failure, and empty/dirty Shipping sources without invented state. Excel closed
+naturally; a local visible capture exists. Human acceptance remains separate.
+No ControlId or displayed wording changed.
 
 **Settings checkpoint, 2026-11-20:** The unchanged five-XLAM candidate passed
 the separate visible packaged Admin/Operations Event Tracking Settings route

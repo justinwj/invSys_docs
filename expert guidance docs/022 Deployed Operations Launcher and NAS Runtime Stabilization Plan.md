@@ -1,5 +1,15 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-20 current-candidate Viewer groups/publication:** The unchanged
+five-XLAM candidate passed the packaged Events group and Admin publication
+regression **86/86**. The actual handlers preserved exact-key group lines,
+pagination/search, 5,000-group retention, and named source coverage. Missing,
+dirty and empty Shipping sources were reported without invented state or source
+repair; failed replacement retained prior bytes. Excel exited naturally.
+Local checks and visible captures:
+`reports/runtime/slice4be-viewer-groups/b41aead7bc484a1fac16c928886f26e1`.
+Human comparison and NAS list usability remain open.
+
 **2026-11-20 current-candidate Settings:** The unchanged five-XLAM candidate
 passed the visible packaged Admin/Operations Event Tracking Settings regression
 **202/202**, with five instrumented compiles, policy and user recording options,
