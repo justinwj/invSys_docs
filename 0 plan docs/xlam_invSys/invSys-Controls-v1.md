@@ -1,7 +1,15 @@
 # invSys Form Controls v1
 
-**Version:** 1.769 -- D18-GUIDE-INPUT-01 focused and paired-view packaged
-regressions GREEN; final 4be-A acceptance pending.
+**Version:** 1.770 -- D18-GUIDE-INPUT-01 static-maintenance exception reviewed;
+final 4be-A acceptance pending.
+
+**D18 guide-input static checkpoint, 2026-11-20:** The current scan retained
+9 literal and 45 unresolved dynamic calls and 43 split-module candidates.
+Three duplicate-body groups above the 2026-11-14 candidate are the required
+four-field `Exit`, `KeyDown` and `MouseDown` MSForms handlers in
+`frmActionPathGuide`; Plan 022 records the explicit reviewed exception. No
+ControlId, form wording or acceptance status changed. Final static and
+Release 1 gates remain open.
 
 **D18 guide-input and paired-view checkpoint, 2026-11-20:** The unchanged
 isolated five-XLAM candidate passed five instrumented compiles, focused

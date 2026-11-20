@@ -1,5 +1,20 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-20 D18 guide-input static-maintenance review:** The regenerated
+candidate scan at `reports/runtime/guide-input-static-20261120` reports 391
+components, 6760 procedures, 9 literal and 45 unresolved dynamic calls, and
+194 duplicate-body groups. Against the 2026-11-14 candidate scan (191 groups),
+the only three new groups are `frmActionPathGuide`'s four `Exit`, four `KeyDown`
+and four `MouseDown` MSForms field handlers. These separate event entry points
+are required to route Name, Tags, Instructions and Step Instruction through the
+approved dirty-buffer boundary; each delegates to one shared flush helper and
+retains its distinct field argument. This is an explicit reviewed exception to
+the duplicate-body count ratchet, not deletion authority. No new same-project
+late binding or unresolved dynamic call was found; the 43 split-module
+candidates are unchanged. The warning classifier found six reviewed and zero
+unreviewed changes. Focused packaged input and saved-guide tests protect the
+handlers; final Release 1 static and runtime qualification remain open.
+
 **2026-11-20 D18 guide-input and paired-view regression checkpoint:**
 The isolated `guide-input-green6-20261117` five-XLAM candidate passed five
 instrumented compiles and the focused actual-handler input run **50/50**.
