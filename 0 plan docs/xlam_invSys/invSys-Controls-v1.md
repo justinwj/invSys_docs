@@ -1,7 +1,15 @@
 # invSys Form Controls v1
 
-**Version:** 1.780 -- current-candidate Viewer published-read/recording GREEN;
+**Version:** 1.781 -- transfer policy gate GREEN on catalog-29-safe fixture;
 final 4be-A acceptance pending.
+
+**Guide transfer policy checkpoint, 2026-11-20:** Test tooling now authors a
+catalog-29-only guide through the actual Settings, publication, action picker,
+guide Save and Export handlers. The unchanged five-XLAM candidate passed the
+separate packaged policy/activity gate **426/426** across control-off, user-off,
+older-policy, unavailable-store and recovery cases. Excel closed naturally;
+settings and all five package bytes were preserved. This closes the historical
+fixture gap below, not human acceptance. No ControlId or wording changed.
 
 **Viewer published-read/recording checkpoint, 2026-11-20:** The unchanged
 five-XLAM candidate passed the separate packaged gate **80/80**, including
@@ -40,9 +48,9 @@ catalog-30 controls. After test-only correction to retain catalog-29 controls,
 the full run passed 412 checks and failed 14 expectations that assumed the
 current guide remained exportable/importable. That guide contains newer
 controls, so the valid older policy hides its content. Test tooling now refuses
-this invalid guide prerequisite; a catalog-29-only guide must be authored for
-the remaining older-policy transfer proof. No product behavior, ControlId or
-displayed wording changed; this gate is not GREEN.
+this invalid guide prerequisite; a catalog-29-only guide was still needed at
+that point. No product behavior, ControlId or
+displayed wording changed; that historical attempt was not GREEN.
 
 **Guide transfer and comparison checkpoint, 2026-11-20:** The unchanged
 candidate passed packaged Export/Import round trip **68/68** and a separate

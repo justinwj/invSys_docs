@@ -1,5 +1,16 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-20 current-candidate transfer policy GREEN:** Test-only commit
+`5d10c4b4` authors a catalog-29-safe guide through actual Settings, publication,
+action picker, guide Save and Export handlers; older-policy cases use that
+complete guide and its own export package. The unchanged five-XLAM candidate
+passed the separate packaged policy/activity fixture **426/426** across
+control-off, user-off, older-policy, unavailable-store and recovery cases.
+Controller `reports/runtime/guide-transfer-controller/b0a77f686bd64cbb99d938fa3f68a228`
+records natural Excel closure, restored settings and preserved package bytes.
+This resolves the historical fixture gap below; operator acceptance remains
+open. No product package or architecture behavior changed.
+
 **2026-11-20 current-candidate Viewer published-read/recording:** The unchanged
 five-XLAM candidate passed the packaged gate **80/80**. Five compiles and the
 actual Events read, filter and detail handlers passed with policy visibility,
@@ -44,9 +55,9 @@ uses Core's exact catalog-29 IDs and rejects a guide containing later controls
 as a fixture prerequisite. The corrected runtime passed 412 checks and exposed
 14 invalid expectations: the current guide contains later controls, which a
 valid catalog-29 policy hides, so its Export/Import success cases cannot serve
-as older-policy observation proof. The remaining D13 task is to author an
+as older-policy observation proof. The D13 task at that point was to author an
 actual catalog-29-only guide through packaged controls, then rerun this policy
-gate. Neither run qualifies the complete policy gate or product RED; settings,
+gate. Neither historical run qualified the complete policy gate or product RED; settings,
 package bytes and Excel natural closure were preserved. Local controller
 receipts: `reports/runtime/guide-transfer-controller/99267efcce1a45c9beef08aa5c86ad04`
 and `reports/runtime/guide-transfer-controller/b263c44ca6e440738edb7ac5eb6f1a5d`.
