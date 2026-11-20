@@ -1,7 +1,15 @@
 # invSys Form Controls v1
 
-**Version:** 1.779 -- current-candidate Viewer groups/publication GREEN;
+**Version:** 1.780 -- current-candidate Viewer published-read/recording GREEN;
 final 4be-A acceptance pending.
+
+**Viewer published-read/recording checkpoint, 2026-11-20:** The unchanged
+five-XLAM candidate passed the separate packaged gate **80/80**, including
+five compiles, actual Events read/filter/detail handlers, policy visibility,
+Start/Stop/Cancel recording, repeated actions, interrupted runs and an ordinary
+Viewer user's own run. Excel exited naturally; local layout and detail captures
+exist. This remains technical evidence, not the required operator comparison.
+No ControlId or displayed wording changed.
 
 **Viewer groups/publication checkpoint, 2026-11-20:** The unchanged
 five-XLAM candidate passed the separate packaged Events group and Admin

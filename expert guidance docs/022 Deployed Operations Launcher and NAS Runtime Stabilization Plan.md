@@ -1,5 +1,14 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-20 current-candidate Viewer published-read/recording:** The unchanged
+five-XLAM candidate passed the packaged gate **80/80**. Five compiles and the
+actual Events read, filter and detail handlers passed with policy visibility,
+Start/Stop/Cancel, repeated exact action occurrences, interrupted runs, storage
+failure, and an ordinary Viewer user's own recording. Excel exited naturally;
+local layout/detail captures and checks are at
+`reports/runtime/slice4be-viewer-published-read/ec3686ab7cfc4a78bbe5a2504e2f04c3`.
+Visible operator How-To/Diagnostic comparison remains open.
+
 **2026-11-20 current-candidate Viewer groups/publication:** The unchanged
 five-XLAM candidate passed the packaged Events group and Admin publication
 regression **86/86**. The actual handlers preserved exact-key group lines,
