@@ -1,7 +1,19 @@
 # invSys Form Controls v1
 
-**Version:** 1.767 -- D18-GUIDE-INPUT-01 expanded packaged RED; native
-Cancel/X test blocked by cursor failure; guide input GREEN pending.
+**Version:** 1.768 -- D18-GUIDE-INPUT-01 focused packaged GREEN; retained
+guide-source/activity preservation regression open; 4be-A acceptance pending.
+
+**D18 guide-input candidate, 2026-11-19:** The approved four-field local
+buffer and previous-StepId contract is present in draft Operations source.
+The isolated five-XLAM packaged handler run passed **43/43**: typing caused
+no per-character Core write, Tab and mouse transitions flushed once, Save
+persisted exact text on the intended step, and dirty Cancel/X discarded
+without a Core write or publication under stale authority. Five instrumented
+package compiles passed. The retained Viewer/guide run passed **169/171**;
+guide-library and guide-expectation source/activity preservation assertions
+remain failed pending exact pin diagnosis. No new ControlId, displayed wording
+or architectural rule was introduced. These results do not qualify the
+broader candidate, visible NAS usability or 4be-A acceptance.
 
 **D18 guide-input D13 stop, 2026-11-17:** An expanded unchanged-package
 fixture passed 28 checks and failed 12 behavioral checks: four incremental

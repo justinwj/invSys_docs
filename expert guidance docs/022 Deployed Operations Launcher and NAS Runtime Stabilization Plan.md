@@ -1,5 +1,23 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-19 D18 guide-input candidate checkpoint:** Approved
+`D18-GUIDE-INPUT-01` is implemented in the draft Operations source through
+local dirty buffers, a retained editing StepId, guarded flushes at Save and
+dependent actions, Tab and cross-field mouse focus, and dirty Cancel/X
+discard. The focused packaged actual-handler run on isolated candidate
+`guide-input-green6-20261117` passed **43/43**, including one Core write per
+ordinary mouse/Tab blur, exact saved text and prior-StepId assignment, both
+Save routes, and stale dirty Cancel/X with no Core write or publication.
+Instrumented five-package compile passed. A separate retained Viewer/guide
+run passed **169/171**; `GuideLibrary.ReadsPreserveGuideSourceAndActivityBytes`
+and `GuideExpectation.AllActionsPreserveRecordedExpectationsAndActivity`
+failed. The changed file or predicate is not yet isolated, so this candidate
+is not broad GREEN or 4be-A acceptance. Windows later restarted unexpectedly;
+Excel is closed and no Excel Application Error 1000/1002 was found in the
+checked window. Do not infer that the test caused the restart. Next: record
+which pin predicate changed, resolve the two failures, then finish dirty
+reorder/removal, expectation/rebind, stale-authority and acceptance gates.
+
 **2026-11-17 D18 guide-input RED and input-failure stop:** The approved
 buffer contract is unchanged. A disposable, unchanged-package Core write
 counter extended the actual-handler test to tags, blur, prior StepId, focused
