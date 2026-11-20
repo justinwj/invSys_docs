@@ -1,7 +1,14 @@
 # invSys Form Controls v1
 
-**Version:** 1.776 -- older-policy transfer fixture gap identified;
+**Version:** 1.777 -- current-candidate Event Detail regression GREEN;
 final 4be-A acceptance pending.
+
+**Event Detail checkpoint, 2026-11-20:** The unchanged five-XLAM candidate
+passed the separate packaged Event Detail regression **81/81**, including five
+instrumented compiles, multiline Operations/Admin text, saved profile refresh,
+read-only geometry, and invalidation after sign-out or target change. Excel
+closed naturally. This run did not repeat the prior native cursor scrolling or
+screenshot gate and is not human 4be-A acceptance. No ControlId or wording changed.
 
 **Older-policy transfer checkpoint, 2026-11-20:** The packaged policy gate
 passed 211 checks before a fixture prerequisite stopped it. The fixture

@@ -1,5 +1,13 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-20 current-candidate Event Detail:** The unchanged five-XLAM
+candidate passed the independent packaged regression **81/81**, with five
+instrumented compiles, multiline Operations/Admin rendering, saved profile
+refresh, layout geometry, and stale-context invalidation. Excel exited
+naturally. The earlier visible/native cursor screenshot gate was not repeated,
+and human acceptance remains open. Local report:
+`reports/runtime/slice4be-viewer-detail/2b4ee038367247acbb5cafd3bb67b1ec`.
+
 **2026-11-20 guide transfer policy fixture:** On the unchanged five-XLAM
 candidate, the packaged activity/policy gate first reached 211 PASS before an
 invalid older-policy fixture stopped it. Catalog 47 had been relabelled 29
