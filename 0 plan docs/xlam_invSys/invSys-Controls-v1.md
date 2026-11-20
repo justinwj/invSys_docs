@@ -1,7 +1,15 @@
 # invSys Form Controls v1
 
-**Version:** 1.773 -- current-candidate ordered chain and live-role GREEN;
+**Version:** 1.774 -- current-candidate guide preference restart GREEN;
 final 4be-A acceptance pending.
+
+**Guide preference restart checkpoint, 2026-11-20:** The unchanged candidate
+passed the packaged saved-copy restart **28/28**. A new Excel process restored
+the saved view choice, did not auto-pair a guide/run or infer an evaluation,
+and retained exact evidence after explicit pairing. Training, Config and
+probe packages were preserved; both Excel processes exited naturally. Human
+NAS list usability and How-To/Diagnostic/Compare acceptance remain open. No
+ControlId or displayed wording changed.
 
 **Current-candidate chain and live-role checkpoint, 2026-11-20:** The
 unchanged guide-input five-XLAM candidate passed the isolated ordered Release

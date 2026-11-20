@@ -1,5 +1,17 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-20 current-candidate guide preference restart:** The unchanged
+guide-input five-XLAM candidate passed five instrumented compiles and the
+isolated packaged restart gate **28/28**. Its first Excel process exited
+normally; a different verified Excel process reopened Operations Settings
+with the saved personal view choice, without silently selecting a guide/run
+pair or inferring an evaluation. Explicit pairing retained the exact guide
+and observed run; all training, Config and probe-package bytes remained
+unchanged. The second Excel process also exited; the checked Application
+Error/Hang window had zero Excel faults. This technical restart does not
+replace visible NAS list usability or human How-To/Diagnostic/Compare review.
+Evidence: `reports/runtime/slice4be-viewer-published-read/a8b53e2c099b4032888f3d9f64a88a36/green.json`.
+
 **2026-11-20 current-candidate ordered chain and live-role checkpoint:** An
 isolated worktree at code commit `17675c6c` ran the existing Release 1
 chain against the unchanged `guide-input-green6-20261117` five XLAMs. The
