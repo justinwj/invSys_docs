@@ -1,5 +1,25 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-20 D18 guide-input and paired-view regression checkpoint:**
+The isolated `guide-input-green6-20261117` five-XLAM candidate passed five
+instrumented compiles and the focused actual-handler input run **50/50**.
+That run now covers dirty step reorder/removal, exact saved StepId text,
+expectation entry/return, same-source reuse versus draft rebind, focused Save,
+stale dirty Save refusal, and stale dirty Cancel/X discard. A separate saved-copy
+Viewer/guide run passed **171/171**; its earlier two preservation failures were
+test assertions that counted the fixture's explicit Admin policy saves and
+Start/Close records as unexpected additions. Exact earlier bytes remain
+unchanged. The extended guide evaluation and How-To/Diagnostic/Compare run
+passed **247/247**. Its former preservation failure likewise counted four
+explicit personal-preference saves; the corrected check requires four matched
+REQUESTED/COMPLETED activity pairs and unchanged Config/publication. All runs
+used the same unchanged candidate packages and exited Excel naturally. These
+are separate gates, not a combined total. Dirty stale policy/capability input
+ordering, static maintenance, current-candidate live-role/B0/full-chain and
+restart qualification, visible NAS list usability and operator acceptance
+remain open. No new contract, ControlId, wording or package promotion is claimed;
+4be-A remains incomplete.
+
 **2026-11-19 D18 guide-input candidate checkpoint:** Approved
 `D18-GUIDE-INPUT-01` is implemented in the draft Operations source through
 local dirty buffers, a retained editing StepId, guarded flushes at Save and

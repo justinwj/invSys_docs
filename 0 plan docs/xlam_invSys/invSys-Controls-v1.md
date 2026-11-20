@@ -1,7 +1,23 @@
 # invSys Form Controls v1
 
-**Version:** 1.768 -- D18-GUIDE-INPUT-01 focused packaged GREEN; retained
-guide-source/activity preservation regression open; 4be-A acceptance pending.
+**Version:** 1.769 -- D18-GUIDE-INPUT-01 focused and paired-view packaged
+regressions GREEN; final 4be-A acceptance pending.
+
+**D18 guide-input and paired-view checkpoint, 2026-11-20:** The unchanged
+isolated five-XLAM candidate passed five instrumented compiles, focused
+actual-handler input **50/50**, saved-copy Viewer/guide **171/171**, and
+guide evaluation/How-To/Diagnostic/Compare **247/247** in separate natural-exit
+Excel runs. Dirty reorder/removal preserved the prior StepId and exact saved
+text; expectation entry and draft rebind flushed once, same-source reuse kept
+the local buffer, and stale dirty Save refused while Cancel/X discarded without
+a Core write. Earlier compound preservation failures were fixture assertions:
+two Admin policy saves and an intentional Start/Close pair added bounded records;
+four personal preference saves added four matched activity pairs. All earlier
+guide, source and activity bytes, Config and business publication remained
+unchanged. No product package, ControlId, displayed wording or architectural
+rule changed in this correction. Dirty stale policy/capability ordering,
+static, live-role, B0, full-chain, restart, visible NAS list usability and
+operator acceptance remain open; 4be-A is not accepted.
 
 **D18 guide-input candidate, 2026-11-19:** The approved four-field local
 buffer and previous-StepId contract is present in draft Operations source.
