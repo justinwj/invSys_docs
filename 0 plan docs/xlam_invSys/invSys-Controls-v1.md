@@ -1,7 +1,14 @@
 # invSys Form Controls v1
 
-**Version:** 1.777 -- current-candidate Event Detail regression GREEN;
+**Version:** 1.778 -- current-candidate Settings regression GREEN;
 final 4be-A acceptance pending.
+
+**Settings checkpoint, 2026-11-20:** The unchanged five-XLAM candidate passed
+the separate visible packaged Admin/Operations Event Tracking Settings route
+**202/202**, including policy, user options, detail profile, personal Action
+Path preference, saved-copy restart and close/reopen context binding. Both
+Excel processes exited naturally; captures and the restart receipt are local.
+This does not replace visible operator acceptance. No ControlId or wording changed.
 
 **Event Detail checkpoint, 2026-11-20:** The unchanged five-XLAM candidate
 passed the separate packaged Event Detail regression **81/81**, including five

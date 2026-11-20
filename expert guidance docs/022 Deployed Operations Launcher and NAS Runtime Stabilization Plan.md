@@ -1,5 +1,14 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-20 current-candidate Settings:** The unchanged five-XLAM candidate
+passed the visible packaged Admin/Operations Event Tracking Settings regression
+**202/202**, with five instrumented compiles, policy and user recording options,
+detail profile, personal Action Path preference, saved-copy restart in a new
+Excel process, and current-context close/reopen. Both Excel processes exited
+naturally; the restart receipt confirms no termination. Captures and checks
+are local at `reports/runtime/slice4be-tracking-settings/9b872f459eae40d9976416df1dd7f7c5`.
+Human How-To/Diagnostic comparison and NAS list usability remain open.
+
 **2026-11-20 current-candidate Event Detail:** The unchanged five-XLAM
 candidate passed the independent packaged regression **81/81**, with five
 instrumented compiles, multiline Operations/Admin rendering, saved profile
