@@ -1,5 +1,16 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-20 D18 stale-authority input-order GREEN:** The unchanged isolated
+five-XLAM candidate passed five instrumented compiles and a focused packaged
+guide-handler run **56/56**, with natural Excel exit. The six added checks
+exercise dirty Save, native Cancel and native window X under stale policy and
+revoked `ACTION_PATH_MAINT`; the prior stale-session checks also pass. Refused
+Save cannot publish and invalidates retained evidence; Cancel/X cause zero
+Core `WriteText` calls or guide publication. The disposable Auth workbook was
+restored byte-for-byte. This closes the focused D18 input-order matrix, not
+visible NAS list usability, live-role or Release 1 acceptance. Evidence:
+`reports/runtime/slice4be-viewer-published-read/ee761bd6c3a74a6fb34be37169be336b/green.json`.
+
 **2026-11-20 D18 guide-input static-maintenance review:** The regenerated
 candidate scan at `reports/runtime/guide-input-static-20261120` reports 391
 components, 6760 procedures, 9 literal and 45 unresolved dynamic calls, and
@@ -33,7 +44,8 @@ are separate gates, not a combined total. Dirty stale policy/capability input
 ordering, static maintenance, current-candidate live-role/B0/full-chain and
 restart qualification, visible NAS list usability and operator acceptance
 remain open. No new contract, ControlId, wording or package promotion is claimed;
-4be-A remains incomplete.
+4be-A remains incomplete. The later stale-authority input-order result above
+closes that focused gap; the other listed gates remain open.
 
 **2026-11-19 D18 guide-input candidate checkpoint:** Approved
 `D18-GUIDE-INPUT-01` is implemented in the draft Operations source through

@@ -1,7 +1,16 @@
 # invSys Form Controls v1
 
-**Version:** 1.770 -- D18-GUIDE-INPUT-01 static-maintenance exception reviewed;
+**Version:** 1.771 -- D18-GUIDE-INPUT-01 stale-authority matrix GREEN;
 final 4be-A acceptance pending.
+
+**D18 stale-authority input-order checkpoint, 2026-11-20:** The packaged
+guide-handler run passed **56/56** on unchanged candidate XLAMs. Dirty Save
+refused under stale session, policy and `ACTION_PATH_MAINT` authority; native
+Cancel and window X discarded dirty text without Core `WriteText` or guide
+publication for each of those conditions. Five instrumented compiles passed;
+Excel exited naturally. This closes the focused D18 input-order matrix, not
+visible NAS list usability, live-role, full-chain or 4be-A acceptance. No
+ControlId or displayed wording changed.
 
 **D18 guide-input static checkpoint, 2026-11-20:** The current scan retained
 9 literal and 45 unresolved dynamic calls and 43 split-module candidates.
