@@ -1,5 +1,17 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-20 current-candidate Receiving B0 technical replay:** The unchanged
+`guide-input-green6-20261117` five-XLAM candidate passed the full saved-copy,
+visible-capture Receiving replay **121/121**. A read-only comparison found all
+121 check names unique and in the exact order of the retained v20 B0 list.
+The source guide, exact source event, actual replay and fresh applied proof
+flags are true, with six source steps. The harness restored local settings;
+all five candidate package hashes remained unchanged, Excel exited, and the
+checked Application Error/Hang window contained zero Excel faults. The scope
+file explicitly says `B0Accepted=false`; this is technical replay evidence,
+not human B0 or 4be-A acceptance. Evidence:
+`reports/runtime/slice4be-receiving-replay/68d5f84c0f3d44e2a17a01abea3c43cb/green.json`.
+
 **2026-11-20 D18 stale-authority input-order GREEN:** The unchanged isolated
 five-XLAM candidate passed five instrumented compiles and a focused packaged
 guide-handler run **56/56**, with natural Excel exit. The six added checks

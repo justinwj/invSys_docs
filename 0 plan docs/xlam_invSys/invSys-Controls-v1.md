@@ -1,7 +1,15 @@
 # invSys Form Controls v1
 
-**Version:** 1.771 -- D18-GUIDE-INPUT-01 stale-authority matrix GREEN;
+**Version:** 1.772 -- current-candidate technical Receiving B0 replay GREEN;
 final 4be-A acceptance pending.
+
+**Receiving B0 current-candidate checkpoint, 2026-11-20:** The unchanged
+guide-input candidate passed the full saved-copy, visible-capture replay
+**121/121** in the exact retained B0 check order. All four required scope
+flags are true, with six source steps; `B0Accepted=false` remains explicit.
+Excel exited naturally and the checked Application fault window was clear.
+This is technical replay evidence, not human B0, 4be-A or Release 1
+acceptance. No ControlId or displayed wording changed.
 
 **D18 stale-authority input-order checkpoint, 2026-11-20:** The packaged
 guide-handler run passed **56/56** on unchanged candidate XLAMs. Dirty Save
