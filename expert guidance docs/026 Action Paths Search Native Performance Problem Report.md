@@ -1,6 +1,6 @@
 # Action Paths Search: native performance failure after packaged GREEN
 
-Date: 2026-11-20 Pacific. Status: **open 4be-A usability blocker**. This is a diagnostic request, not a proposed contract change.
+Date: 2026-11-20 Pacific. Status: **initial slow report; small-library candidate retest prompt, scale and measured timing open**. This is a diagnostic record, not a proposed contract change.
 
 ## Operator observation
 
@@ -8,7 +8,7 @@ On the disposable NAS review warehouse, **Action Paths > Search recordings** rem
 
 ## Contract and candidate
 
-Architecture v4.11, approved **D18-SEARCH-INPUT-01**, requires immediate local filtering of recording headers loaded by authorized Open/Refresh. Each edit checks captured session/warehouse and clears selected evidence/actions, but makes no per-key Config or NAS journal read. Selection and Refresh recheck current policy. Plan 022 and Controls 1.785 recorded packaged GREEN with visible NAS usability still pending; this operator result makes that visible gate **RED**.
+Architecture v4.11, approved **D18-SEARCH-INPUT-01**, requires immediate local filtering of recording headers loaded by authorized Open/Refresh. Each edit checks captured session/warehouse and clears selected evidence/actions, but makes no per-key Config or NAS journal read. Selection and Refresh recheck current policy. Plan 022 and Controls 1.785 recorded packaged GREEN with visible NAS usability still pending; the initial operator result made that visible gate **RED at the time**. The later candidate retest is recorded below.
 
 Code commit `aa44b245` is on draft [code PR17](https://github.com/soetrain/invSys_fork/pull/17). The isolated validation folder is `C:\Users\Justin\repos\invSys_edit_receipts\deploy\validation-action-search-final-20261120\`. Its `invSys.Operations.xlam` SHA-256 is `7A174635017618DDCC54B6F03D831780FA16B3F9D117F05E27962D97C9B3266D`; `deploy/current` has a different Operations hash, `882DABBDFF327C1B280CD4D13428577969B89ECBC576AE89C6263FC117ABB9C8`. **The exact Operations XLAM loaded in Justin's slow session has not been independently verified.**
 
@@ -40,3 +40,7 @@ Read-only inspection found Excel startup slots `OPEN` and `OPEN1` pointing to th
 With Excel closed, the two old startup entries were saved to ignored local `reports/runtime/action-search-startup-before-20261120.json` in the worker and temporarily changed to the November 20 candidate paths. All five startup slots now name that same candidate folder. `deploy/current`, the NAS and package files were untouched. The next manual Excel session must verify the actual five loaded workbook paths/hashes before a native Search conclusion. Restore the saved entries when the review no longer needs the candidate.
 
 A new test-only assertion that programmatic Search leaves no row selected passed in the existing hidden-host reader suite: **136/136**, natural Excel closure. It rules out automatic selection in that fixture. A separate native-keyboard probe is staged behind an explicit test switch but has **not reached Search**. Three visible-host attempts stopped in `modInventoryViewer.OpenInventoryViewer` before the probe with a captured Visual Basic `80010007` automation dialog; one attempt also stopped earlier on a test-only probe insertion error that was removed. The visible failures persisted after the startup entries were corrected. Their cause is unconfirmed and they are not behavioral Search RED. No product source was changed.
+
+The subsequent manual Excel session's Add-ins collection reported all five November 20 candidate paths with `Installed=True`; their file sizes matched the pre-launch candidate and the hashes were captured before Excel locked the files. On disposable WHT7025AE with one saved recording, Justin reported normal, prompt typing, a nonmatching query clearing the list, prompt Backspace/clear restoration, and prompt selected-evidence/action clearing without an error. This is visible small-library usability evidence for the verified candidate, not a measured native latency or larger-library qualification. The earlier slow session's loaded path remains unknown.
+
+Current disposition: the earlier visible slow result remains a valid observation, while the verified candidate now passes the limited operator interaction. Do not reproduce the old per-key Core path by restoring mixed startup add-ins during review. Next measure native input on a larger recording library and isolate the separate `80010007` visible-fixture failure before calling the native D13 probe GREEN.

@@ -1,14 +1,19 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
-**2026-11-20 native Action Paths Search RED:** Justin reports that the
-isolated 130/130 packaged-GREEN candidate still types extremely slowly on
-the disposable NAS review warehouse. Viewer Events Search and the working
-picker are responsive. Exact loaded XLAM paths and native timing have not
-been verified. Architecture v4.11 D18-SEARCH-INPUT-01 is unchanged;
-Controls 1.786 marks visible usability RED. The source-backed, sanitized
-diagnostic request is `expert guidance docs/026 Action Paths Search Native
-Performance Problem Report.md`. Do not promote the candidate or count
-4be-A acceptance from packaged GREEN alone.
+**2026-11-20 Action Paths Search identity and native retest:** The slow
+operator session's exact loaded Operations XLAM was not captured. Excel
+startup still registered November 16 Admin/Operations beside November 20
+Core/Domain add-ins; the old Operations source rereads Core on each Search
+edit. After the two entries were temporarily corrected, live Excel reported
+all five November 20 candidate add-ins installed. In disposable WHT7025AE,
+Justin found one-recording typing, Backspace/clear, filtering and selected
+evidence/action clearing prompt, with no error. This supports package mismatch
+as the slow-session explanation but leaves measured native latency and a
+larger recording library unqualified. A separate visible automation fixture
+fails at Viewer open with `80010007` before Search; the test-only native probe
+has not run. Architecture v4.11 D18-SEARCH-INPUT-01 is unchanged; Controls
+1.787 records the limited operator result. Do not promote the candidate or
+count 4be-A acceptance from it. See report 026 and handoff 256.
 
 **2026-11-20 D18-SEARCH-INPUT-01 implementation checkpoint:** Visible
 operator comparison showed Viewer Search filtering quickly on each keystroke,

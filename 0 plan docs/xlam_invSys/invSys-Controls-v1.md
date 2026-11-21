@@ -1,15 +1,29 @@
 # invSys Form Controls v1
 
-**Version:** 1.786 -- D18-SEARCH-INPUT-01 packaged Search GREEN;
-native NAS Search usability RED and final 4be-A acceptance pending.
+**Version:** 1.787 -- D18-SEARCH-INPUT-01 small-library native NAS retest
+prompt on the verified candidate; larger-library, automated native timing and
+final 4be-A acceptance pending.
 
-**Native Action Paths Search review, 2026-11-20:** Justin reports that
-Search recordings remains extremely slow after the isolated packaged-GREEN
-candidate, while Viewer Events Search and the working picker are responsive.
-Exact loaded XLAM paths and native key-to-result timings were not captured.
-The visible usability gate is RED; see `expert guidance docs/026 Action Paths
-Search Native Performance Problem Report.md`. The 130/130 packaged result
-below remains valid within its tested scope and does not close this gate.
+**Action Paths Search package-identity retest, 2026-11-20:** Excel's startup
+Admin and Operations entries still named the November 16 review copies;
+Core and Domain entries named the November 20 candidate. The old Operations
+source calls `RefreshPaths` on every search edit. After the two startup entries
+were temporarily changed, live Excel reported all five November 20 add-ins
+installed from the candidate folder. On disposable WHT7025AE with one saved
+recording, Justin reports normal, prompt typing, matching/no-match filtering,
+Backspace/clear restoration, and evidence/action clearing after selection,
+without an error. The exact Operations file loaded in the earlier slow session
+was not captured. Native latency at scale remains unmeasured, and the visible
+automation fixture still stops before Search at Viewer open with `80010007`.
+No ControlId, wording or product source changed; `deploy/current` remains
+untouched. See report 026 and handoff 256.
+
+**Initial native Action Paths Search review, 2026-11-20:** Justin reported
+extremely slow typing while Viewer Events Search and the picker were
+responsive. The exact loaded Operations path was not captured in that session;
+the mixed startup registration above is a strong explanation, not proof of
+historical loaded identity. The 130/130 packaged result below remains valid
+within its tested scope and does not close automated native timing or 4be-A.
 
 **Action Paths Search implementation checkpoint, 2026-11-20:** The
 approved local-header filter is implemented in the Operations form. A focused
