@@ -1,8 +1,18 @@
 # invSys Form Controls v1
 
-**Version:** 1.787 -- D18-SEARCH-INPUT-01 small-library native NAS retest
+**Version:** 1.788 -- D18-SEARCH-INPUT-01 small-library native NAS retest
 prompt on the verified candidate; larger-library, automated native timing and
 final 4be-A acceptance pending.
+
+**Viewer startup diagnostic, 2026-11-20:** The visible native Search fixture
+stops before Search at `frmInventoryViewer.SetWarehouse`, specifically its
+caption assignment, when test probes are compiled but unsaved in memory.
+The existing stage probe reproduced `80010007` with original read-only XLAMs
+with and without a saved operator workbook, and with writable unsaved copies.
+Saved disposable probe copies completed Viewer startup in both host states.
+This isolates a test-fixture package-state problem; it is not a product RED
+or native Search result. Candidate XLAM hashes and warehouse bytes were
+preserved, and Excel exited naturally. See report 026 and handoff 256.
 
 **Action Paths Search package-identity retest, 2026-11-20:** Excel's startup
 Admin and Operations entries still named the November 16 review copies;
@@ -14,7 +24,8 @@ recording, Justin reports normal, prompt typing, matching/no-match filtering,
 Backspace/clear restoration, and evidence/action clearing after selection,
 without an error. The exact Operations file loaded in the earlier slow session
 was not captured. Native latency at scale remains unmeasured, and the visible
-automation fixture still stops before Search at Viewer open with `80010007`.
+automation fixture still stops before Search at Viewer open with `80010007`
+until its unsaved-probe setup is corrected.
 No ControlId, wording or product source changed; `deploy/current` remains
 untouched. See report 026 and handoff 256.
 

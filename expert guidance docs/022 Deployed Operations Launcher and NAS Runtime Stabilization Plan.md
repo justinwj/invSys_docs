@@ -1,5 +1,16 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-20 Viewer startup diagnostic for native Search:** The existing
+fixed-stage probe localized the visible fixture's `80010007` to
+`frmInventoryViewer.SetWarehouse` at `Me.Caption`. The failure reproduced
+with original read-only and writable unsaved instrumented XLAMs, including
+with a saved active operator workbook. Saved disposable probe copies passed
+with and without that workbook. The host window alone is not the cause;
+unsaved in-memory probe state is the isolated fixture condition. No product
+source, candidate XLAM, or contract changed. Correct the test-only fixture
+before measuring native Search; these diagnostics are not behavioral RED.
+See report 026 and Controls 1.788.
+
 **2026-11-20 Action Paths Search identity and native retest:** The slow
 operator session's exact loaded Operations XLAM was not captured. Excel
 startup still registered November 16 Admin/Operations beside November 20
@@ -12,7 +23,7 @@ as the slow-session explanation but leaves measured native latency and a
 larger recording library unqualified. A separate visible automation fixture
 fails at Viewer open with `80010007` before Search; the test-only native probe
 has not run. Architecture v4.11 D18-SEARCH-INPUT-01 is unchanged; Controls
-1.787 records the limited operator result. Do not promote the candidate or
+1.788 records the limited operator result. Do not promote the candidate or
 count 4be-A acceptance from it. See report 026 and handoff 256.
 
 **2026-11-20 D18-SEARCH-INPUT-01 implementation checkpoint:** Visible
