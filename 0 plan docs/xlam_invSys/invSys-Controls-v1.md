@@ -1,7 +1,20 @@
 # invSys Form Controls v1
 
-**Version:** 1.784 -- approved D18-SEARCH-INPUT-01 for live Action Paths Search;
-implementation and final 4be-A acceptance pending.
+**Version:** 1.785 -- D18-SEARCH-INPUT-01 packaged Search GREEN;
+visible NAS usability and final 4be-A acceptance pending.
+
+**Action Paths Search implementation checkpoint, 2026-11-20:** The
+approved local-header filter is implemented in the Operations form. A focused
+packaged actual-handler RED on the prior five XLAMs was **123 PASS / 4
+behavioral FAIL**; the final candidate was **130/130 GREEN** with natural Excel
+exit. The new checks cover no per-key policy read, selected-evidence clearing,
+live filtering, filtering after journal removal, authorized Refresh, current
+policy on reselection, cached headers after a policy change, and sign-out and
+warehouse-switch clearing. All five candidate XLAMs built and compiled;
+local layout and reader integrity checks passed. This changes
+no control, ControlId or displayed wording. Native keyboard responsiveness
+on the disposable NAS warehouse remains an operator acceptance gate; the
+validation build has not replaced `deploy/current`.
 
 **Approved Action Paths Search input, 2026-11-20:** Like
 the existing Viewer Search, `txtPathSearch` filters the previously loaded
@@ -13,11 +26,9 @@ actions; the existing `btnPathRefresh` reloads headers under current policy
 and reapplies the text filter. Already loaded headers may remain filterable
 after an external policy change until Refresh, but cannot authorize access to
 observations. This is the explicit exception approved in Architecture v4.11;
-no new control, ControlId or displayed wording is added. Current behavior
-remains operative until D13 GREEN and candidate qualification. The earlier
-122/1 RED proved per-character NAS rereads; the experimental 128/128 builds
-do not qualify.
-Visible NAS usability and 4be-A acceptance remain open.
+no new control, ControlId or displayed wording is added. The earlier 122/1
+RED proved per-character NAS rereads; the experimental 128/128 builds do not
+qualify. Visible NAS usability and 4be-A acceptance remain open.
 
 **Guide transfer policy checkpoint, 2026-11-20:** Test tooling now authors a
 catalog-29-only guide through the actual Settings, publication, action picker,

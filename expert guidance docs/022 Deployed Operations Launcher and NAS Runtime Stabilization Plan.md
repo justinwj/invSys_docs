@@ -1,21 +1,22 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
-**2026-11-20 approved D18-SEARCH-INPUT-01:** Visible
+**2026-11-20 D18-SEARCH-INPUT-01 implementation checkpoint:** Visible
 operator comparison showed Viewer Search filtering quickly on each keystroke,
-while Action Paths Search was unusably slow. `mSearch_Change` currently calls
-`ListPaths` on every character, validating Config and rereading NAS headers.
-Architecture v4.11 and Controls 1.784 require immediate local filtering of
-already authorized recording headers, with an explicit narrow exception to
-the every-library-action current-policy rule. Any selected evidence and
-dependent actions clear on typing. Open, Refresh, selection and all Core-backed
-actions retain current session/policy guards; Refresh loads new headers. D13
-must first prove native per-character RED, then packaged GREEN for responsive
-filtering, no per-key Config/NAS read, policy/session/target refusal, and
-retained reader/layout checks. The prior 122 PASS / 1 FAIL proved the reread.
-Two experimental cached builds passed 128/128 but were disqualified and
-undeployed; their source/test edits were reverted. The handoff-251 five-XLAM
-candidate remains the only review candidate. Human NAS usability and 4be-A
-acceptance remain open.
+while Action Paths Search was unusably slow. The approved Architecture v4.11
+exception now filters the headers loaded by authorized Open/Refresh locally;
+typing checks session binding and clears selected evidence/actions. Selection,
+Refresh and other Core-backed actions retain current-policy checks. The
+actual-handler packaged RED was **123 PASS / 4 behavioral FAIL** on the old
+five XLAMs. The isolated final candidate built and compiled all five XLAMs
+and passed **130/130 GREEN**, including no per-key policy read, local filtering
+without journal access, Refresh selection retention, current-policy
+reselection, policy-change headers, sign-out/warehouse switch, reader
+integrity and layout. Excel exited naturally. Controls 1.785 records the same
+checkpoint;
+no ControlId or wording changed. The earlier experimental 128/128 builds
+remain disqualified. The new candidate has not replaced `deploy/current`.
+Native keyboard responsiveness on the disposable NAS warehouse and 4be-A
+operator acceptance remain open.
 
 **2026-11-20 current-candidate transfer policy GREEN:** Test-only commit
 `5d10c4b4` authors a catalog-29-safe guide through actual Settings, publication,
