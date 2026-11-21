@@ -1,6 +1,16 @@
 # Action Paths Search: native performance failure after packaged GREEN
 
-Date: 2026-11-20 Pacific. Status: **initial slow report; verified candidate prompt in manual and seven-recording native checks; larger-library NAS acceptance open**. This is a diagnostic record, not a proposed contract change.
+Date: 2026-11-20 Pacific. Status: **initial slow report; candidate prompt in native checks and qualitative 29-recording NAS review; recording-row usability open**. This is a diagnostic record, not a proposed contract change.
+
+## 2026-11-21 visible NAS review
+
+Justin reports Search recordings working with the 29-recording disposable
+WHT7025AE library. A screenshot shows a query filtering several rows. This is
+qualitative operator evidence, not a measured latency result or final 4be-A
+acceptance. The visible row fields are the fixed **Recorded sequence** title
+and UTC creation time; similarly named recordings cannot be identified by
+task from the list. The guide picker and guide editor provide separate
+authoring paths and do not improve these saved-recording rows.
 
 ## 2026-11-20 native keyboard result
 

@@ -1,8 +1,17 @@
 # invSys Form Controls v1
 
-**Version:** 1.790 -- D18-SEARCH-INPUT-01 disposable NAS Search library
-expanded to 29 recordings; visible operator result and final 4be-A acceptance
-pending.
+**Version:** 1.791 -- D18-SEARCH-INPUT-01 visible Search review on 29 NAS
+recordings; saved-recording row usability and final 4be-A acceptance pending.
+
+**Action Paths Search visible NAS review, 2026-11-21:** Justin reports that
+Search recordings works in the disposable WHT7025AE library with 29 saved
+recordings. The screenshot shows a query filtering the list; this is qualitative
+operator evidence, without measured key latency. The two visible fields remain
+the repeated **Recorded sequence** title and a UTC timestamp, so the rows do
+not identify a recording's content or distinguish similarly named runs well.
+**Choose tracked actions** and guide naming do not change these saved-recording
+rows. List usability remains open; this review does not accept 4be-A or change
+the approved search behavior.
 
 **Action Paths Search larger-library setup, 2026-11-21:** On disposable NAS
 warehouse WHT7025AE, the actual Viewer Start/Stop controls created 28

@@ -1,5 +1,14 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-21 visible NAS Search review:** Justin reports working Search
+recordings with the 29-recording WHT7025AE library; a matching query filters
+the list in the operator screenshot. No native timing was measured at this
+size. The two visible fields are a repeated fixed title and UTC timestamp,
+which leaves saved-recording identification inadequate. Guide authoring does
+not rename recorded runs. Treat Search responsiveness as qualitative visible
+evidence and list identification as an open 4be-A usability issue. See Controls
+1.791 and report 026; final acceptance remains open.
+
 **2026-11-21 disposable NAS Search-library setup:** In WHT7025AE, 28
 additional empty recordings were created through the actual Viewer Start/Stop
 buttons, raising the saved Action Paths library from one to 29. All 29 have
