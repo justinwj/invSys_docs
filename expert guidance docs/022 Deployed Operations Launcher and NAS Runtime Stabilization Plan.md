@@ -1,5 +1,15 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-21 disposable NAS Search-library setup:** In WHT7025AE, 28
+additional empty recordings were created through the actual Viewer Start/Stop
+buttons, raising the saved Action Paths library from one to 29. All 29 have
+Stopped Close entries, and no capture remains active. One Stop click in the
+bounded fill sequence did not close immediately; a separate guarded Stop
+completed that recording. Original files remained byte-identical. This is
+search-load setup only, not native Search or visible operator acceptance at
+29 rows. D18-SEARCH-INPUT-01 and the candidate XLAMs remain unchanged; see
+report 026 and Controls 1.790.
+
 **2026-11-20 Action Paths Search native keyboard checkpoint:** The
 test-only saved-copy/saved-host correction allowed the actual packaged form's
 native Search diagnostic to complete **152/152** with seven disposable

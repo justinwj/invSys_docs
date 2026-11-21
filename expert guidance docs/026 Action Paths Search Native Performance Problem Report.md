@@ -25,6 +25,20 @@ The correction changes only test tooling. This result does not prove the
 historical slow session's loaded package identity, qualify a larger NAS library,
 or close 4be-A acceptance. `deploy/current` and the NAS were not changed.
 
+## 2026-11-21 larger-library NAS setup
+
+In disposable WHT7025AE, guarded clicks on the real Viewer Start and Stop
+buttons created 28 additional empty recordings. The library now contains 29
+distinct recordings; all have Stopped Close entries and none remains active.
+The initial one-recording pilot and 26 of the next 27 runs closed within their
+bounded sequences. The final run's first Stop click did not take effect; a
+separate guarded Stop closed it after inspection. Both fill reports confirmed
+pre-existing file hashes were preserved. The ignored local setup reports are
+under `reports/runtime/action-search-scale-20261120/` in the code worker.
+This is a search-load fixture, not a How-To guide or a native Search result at
+29 rows. Visible operator responsiveness remains pending. No inventory action,
+product source, XLAM or approved contract was changed.
+
 ## Operator observation
 
 On the disposable NAS review warehouse, **Action Paths > Search recordings** remains extremely slow to type into after the D18-SEARCH-INPUT-01 change. Justin reports that **Viewer > Events > Search** is fast and that the previously built picker is also responsive. No per-character timing, Excel CPU trace, or exact loaded-add-in inventory was captured during this observation. Do not label the final build visibly accepted.

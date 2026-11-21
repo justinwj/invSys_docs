@@ -1,8 +1,18 @@
 # invSys Form Controls v1
 
-**Version:** 1.789 -- D18-SEARCH-INPUT-01 seven-recording native keyboard
-diagnostic GREEN on the verified candidate; larger-library NAS and final
-4be-A acceptance pending.
+**Version:** 1.790 -- D18-SEARCH-INPUT-01 disposable NAS Search library
+expanded to 29 recordings; visible operator result and final 4be-A acceptance
+pending.
+
+**Action Paths Search larger-library setup, 2026-11-21:** On disposable NAS
+warehouse WHT7025AE, the actual Viewer Start/Stop controls created 28
+additional empty recordings, bringing the saved library from one to 29.
+All 29 have a Stopped Close entry; no capture remains active. The first 27
+new runs closed in the guarded sequence. One later Stop click did not take
+effect during the sequence; a separately observed guarded Stop closed that
+run. The existing files were preserved. This prepares a live Search usability
+check; no operator responsiveness result has yet been recorded. No product
+source, XLAM, ControlId, wording or D18-SEARCH-INPUT-01 rule changed.
 
 **Action Paths Search native keyboard checkpoint, 2026-11-20:** The test-only
 visible fixture now saves disposable instrumented XLAM copies before Viewer
