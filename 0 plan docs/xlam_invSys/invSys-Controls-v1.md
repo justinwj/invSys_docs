@@ -1,18 +1,21 @@
 # invSys Form Controls v1
 
-**Version:** 1.782 -- proposed D18-SEARCH-INPUT-01 for Action Paths typing;
+**Version:** 1.783 -- revised D18-SEARCH-INPUT-01 for live Action Paths Search;
 approval and final 4be-A acceptance pending.
 
-**Proposed Action Paths Search input, 2026-11-20 (unapproved):** The existing
-`txtPathSearch` accepts a pending query without reading Config or the NAS on
-each character. Enter in that field or the existing `btnPathRefresh` submits
-the query through the current-policy/session-guarded Core reader; Refresh also
-fetches newly saved recordings. While typing, `lblPathStatus` says **Search
-pending. Press Enter or Refresh.** No new control or ControlId is proposed.
-The current per-character Search remains the operative behavior until
-Architecture v4.11 D18-SEARCH-INPUT-01 is approved and D13 GREEN passes. The
-focused 122/1 RED proved the NAS reread; experimental cached 128/128 builds
-are excluded from acceptance because they did not meet the complete contract.
+**Proposed Action Paths Search input, revised 2026-11-20 (unapproved):** Like
+the existing Viewer Search, `txtPathSearch` filters the previously loaded
+recording headers immediately as the operator types. It does not open Config
+or the NAS per character. Each edit checks the captured session locally,
+clears selected evidence and disables dependent guide/evaluation actions.
+Selecting a row rechecks current policy before showing evidence or enabling
+actions; the existing `btnPathRefresh` reloads headers under current policy
+and reapplies the text filter. Already loaded headers may remain filterable
+after an external policy change until Refresh, but cannot authorize access to
+observations. This is the explicit exception proposed in Architecture v4.11;
+no new control, ControlId or displayed wording is proposed. Current behavior
+remains operative until approval and D13 GREEN. The earlier 122/1 RED proved
+per-character NAS rereads; the experimental 128/128 builds do not qualify.
 Visible NAS usability and 4be-A acceptance remain open.
 
 **Guide transfer policy checkpoint, 2026-11-20:** Test tooling now authors a

@@ -4465,21 +4465,28 @@ controls implement the approved library and integrity rules. Guide authoring,
 expectations, evaluation, both presentations and import/export remain required
 extensions of that library, not alternative records or a reduced R1 scope.
 
-**Proposed D18-SEARCH-INPUT-01 (unapproved, 2026-11-20):** Typing in
-`txtPathSearch` only edits the pending query; a keystroke is not a library
-Search action and does not open Config or the NAS journal. Pressing Enter in
-that field or clicking the existing `btnPathRefresh` executes Search with the
-current query. Each execution rechecks the captured invSys session and current
-tracking policy in Core and reads the current recording library; a failed
-check clears the selected evidence and reports unavailability. The existing
-list may remain visible while a query is pending, with **Search pending. Press
-Enter or Refresh.** in the status field. A selected-run action still rechecks
-current authority and policy; pending text never authorizes use of previously
-loaded evidence. Refresh also fetches recordings added since the prior Search.
-No new control, ControlId, recording event, canonical write or automatic
-publication is added. D13 must exercise native typing and Enter, the packaged
-Refresh handler, policy/session invalidation, list selection, and NAS typing
-latency. The existing every-library-action policy rule above remains operative.
+**Proposed D18-SEARCH-INPUT-01, revised 2026-11-20 (unapproved):** Match the
+existing Viewer search interaction: each change to `txtPathSearch` immediately
+filters only the recording headers loaded by the last authorized Open or
+Refresh. This is local presentation of an already loaded snapshot, not a Core
+library read or a new authorization decision. It must not open Config, read
+NAS journals, publish, record keystrokes or display new evidence. Each edit
+checks the captured invSys session/warehouse locally; loss of binding clears
+the list and evidence. Filtering clears the selected recording's evidence and
+disables dependent guide/evaluation actions until the operator selects a row
+again. That selection, Open, Refresh and every other Core-backed library
+action still check the current policy and authority before returning evidence
+or enabling a dependent action. `btnPathRefresh` reloads current headers from
+Core under the current policy, then applies the existing search text. Headers
+already loaded may remain locally filterable after an external policy change
+until Refresh; they cannot reveal observations or authorize a new action.
+This is an explicit, narrow exception to the per-action policy rule above for
+local filtering only; the requirement that previously loaded evidence cannot
+bypass a later restriction remains in force. No new control, ControlId or
+displayed wording is proposed. D13 must prove native per-character filtering
+and responsiveness, no per-key Config/NAS read, current-policy selection and
+Refresh, stale session/warehouse refusal, and the retained reader/layout
+regressions before visible NAS acceptance.
 
 **4be.5 guide draft entry refinement:** The recorded-run library exposes
 `btnCreateGuide`, **Create guide**, for the selected permitted run. It is enabled

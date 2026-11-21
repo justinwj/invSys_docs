@@ -1,19 +1,21 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
-**2026-11-20 proposed D18-SEARCH-INPUT-01, approval pending:** The NAS
-Action Paths Search field is unusably slow because `mSearch_Change` calls
-`ListPaths` on each character; that path validates Config and rereads recording
-headers. Architecture v4.11 and Controls 1.782 carry the proposed
-submit-on-Enter-or-Refresh contract pending approval. D13: native typing must
-stay local and responsive; Enter/Refresh must execute the actual handler
-against the current session, policy and journal, with sign-out/target/policy
-refusal and existing
-reader/layout regressions. A focused 122 PASS / 1 FAIL run proved the current
-per-character reread. Two experimental local-snapshot builds passed 128/128,
-but the last skipped the mandatory current-policy check on Search; both builds
-are disqualified, undeployed and their source/test edits were reverted. The
-previous five-XLAM candidate remains the only review candidate. Human NAS
-usability and 4be-A acceptance remain open.
+**2026-11-20 revised D18-SEARCH-INPUT-01 proposal, approval pending:** Visible
+operator comparison showed Viewer Search filtering quickly on each keystroke,
+while Action Paths Search was unusably slow. `mSearch_Change` currently calls
+`ListPaths` on every character, validating Config and rereading NAS headers.
+Architecture v4.11 and Controls 1.783 propose immediate local filtering of
+already authorized recording headers, with an explicit narrow exception to
+the every-library-action current-policy rule. Any selected evidence and
+dependent actions clear on typing. Open, Refresh, selection and all Core-backed
+actions retain current session/policy guards; Refresh loads new headers. D13
+must first prove native per-character RED, then packaged GREEN for responsive
+filtering, no per-key Config/NAS read, policy/session/target refusal, and
+retained reader/layout checks. The prior 122 PASS / 1 FAIL proved the reread.
+Two experimental cached builds passed 128/128 but were disqualified and
+undeployed; their source/test edits were reverted. The handoff-251 five-XLAM
+candidate remains the only review candidate. Human NAS usability and 4be-A
+acceptance remain open.
 
 **2026-11-20 current-candidate transfer policy GREEN:** Test-only commit
 `5d10c4b4` authors a catalog-29-safe guide through actual Settings, publication,
