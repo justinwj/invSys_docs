@@ -1,8 +1,23 @@
 # invSys Form Controls v1
 
-**Version:** 1.792 -- D18-SEARCH-INPUT-01 visible Search review on 29 NAS
-recordings; D18-RECORDING-LIST-01 proposed, not approved; final 4be-A
-acceptance pending.
+**Version:** 1.793 -- D18-COURSE-01 Subject/Title contract approved;
+D18-RECORDING-LIST-01 proposed, not approved; final 4be-A acceptance pending.
+
+**Approved D18-COURSE-01, 2026-11-21:** The Action Path guide editor changes
+the **Guide name** label to **Title** and adds a separate **Subject** field.
+Subject groups authored learning guides; the title can convey author-chosen
+lesson progression. Tags stay independent. New and revised Save guide actions
+require both fields; buffered typing and Cancel/X behavior retain the approved
+D18-GUIDE-INPUT-01 safeguards. Published guides will show labelled Subject,
+Title, Version and Tags columns, sort/group by Subject then Title, and search
+those fields and exact ID through the existing current-policy Core read.
+The fast local filter remains specific to Saved recordings. Older guides show
+Unassigned without rewriting them; exact version, visibility, transfer and
+provenance protections remain. Recordings receive no course label. These are
+approved requirements, not implemented or accepted controls yet. Packaged
+editor/library/transfer RED/GREEN, layout, compile, regression and visible
+NAS review are still required. See Architecture v4.11 D18-COURSE-01 and
+Plan 022.
 
 **Action Paths Search visible NAS review, 2026-11-21:** Justin reports that
 Search recordings works in the disposable WHT7025AE library with 29 saved

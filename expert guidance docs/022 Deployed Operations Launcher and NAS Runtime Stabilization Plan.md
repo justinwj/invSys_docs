@@ -1,5 +1,19 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**Approved D18-COURSE-01, 2026-11-21:** Learning Subject groups authored
+guides and Title is the existing guide Name displayed to learners. Tags are
+separate; raw recordings remain evidence without course labels. New/edited
+guides use schema 3 with Subject, preserving legacy schema 1/2 reads and
+immutable history. Transfer v1 accepts all three guide schemas and preserves
+Subject, Title and provenance; old imports are Unassigned until authored.
+Published guides displays/searches Subject, Title, Version and Tags; Search
+retains its current per-action Core policy check. The local per-key exception
+remains limited to Saved recordings. D13 starts with packaged
+editor/library/transfer behavioral RED,
+then build/compile, regressions and visible NAS course review. This approved
+contract does not make the separate saved-recording metadata proposal
+D18-RECORDING-LIST-01 approved. See Architecture v4.11 and Controls 1.793.
+
 **Proposed D18-RECORDING-LIST-01, approval pending 2026-11-21:** The
 saved-recording rows need labelled Started (UTC), Recorded by, Actions and
 Capture state columns; the exact ActionPathId stays hidden and newest runs
