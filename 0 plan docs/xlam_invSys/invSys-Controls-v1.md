@@ -1,7 +1,8 @@
 # invSys Form Controls v1
 
-**Version:** 1.791 -- D18-SEARCH-INPUT-01 visible Search review on 29 NAS
-recordings; saved-recording row usability and final 4be-A acceptance pending.
+**Version:** 1.792 -- D18-SEARCH-INPUT-01 visible Search review on 29 NAS
+recordings; D18-RECORDING-LIST-01 proposed, not approved; final 4be-A
+acceptance pending.
 
 **Action Paths Search visible NAS review, 2026-11-21:** Justin reports that
 Search recordings works in the disposable WHT7025AE library with 29 saved
@@ -12,6 +13,18 @@ not identify a recording's content or distinguish similarly named runs well.
 **Choose tracked actions** and guide naming do not change these saved-recording
 rows. List usability remains open; this review does not accept 4be-A or change
 the approved search behavior.
+
+**Proposed Saved recordings columns, D18-RECORDING-LIST-01 (approval
+pending):** Replace the repeated visible title/timestamp presentation with
+labelled Started (UTC), Recorded by, Actions and Capture state metadata,
+newest first. Keep exact ActionPathId hidden for selection. Authorized
+Open/Refresh obtains validated, policy-permitted metadata; per-character
+Search stays local and current-policy selection still gates evidence. No
+observations or control captions become cached search text. The fixed journal
+Name and guide authoring remain separate. This is a proposed UI contract,
+not an accepted behavior or change to a deployed XLAM. Protect it with a
+packaged form-handler RED/GREEN, layout/read regressions and visible NAS
+review after Architecture approval.
 
 **Action Paths Search larger-library setup, 2026-11-21:** On disposable NAS
 warehouse WHT7025AE, the actual Viewer Start/Stop controls created 28

@@ -4488,6 +4488,34 @@ and responsiveness, no per-key Config/NAS read, current-policy selection and
 Refresh, stale session/warehouse refusal, and the retained reader/layout
 regressions before visible NAS acceptance.
 
+**Proposed D18-RECORDING-LIST-01 (approval pending, 2026-11-21):** The
+Operations **Saved recordings** list should identify runs using four labelled,
+visible columns: **Started (UTC)** from the Start entry, **Recorded by** from
+the bound invSys user, **Actions** as the distinct attempted-action count, and
+**Capture state** as Stopped, Cancelled, Incomplete or Interrupted. Keep the
+exact immutable ActionPathId hidden for selection and binding. Sort newest
+Start first, with ActionPathId as a stable tie-breaker. The fixed journal Name
+`Recorded sequence` remains unchanged but is not the primary visible label.
+Search matches the displayed metadata and exact ID in the snapshot loaded by
+authorized Open/Refresh. It must retain D18-SEARCH-INPUT-01's local,
+per-character filtering and current-session check, with no per-key Config or
+NAS access.
+
+Core must validate the journal before presenting an action count or capture
+state; missing or corrupt evidence shows **Incomplete evidence** in place of
+the capture state and leaves the action count blank.
+Open/Refresh may read the journal under current policy, but cached rows must
+contain only permitted recording metadata. Do not put control captions,
+observations, entered values, guide text or inferred business outcomes into
+searchable headers: those require current-policy selection and can become
+restricted after a policy change. Selection still revalidates the complete
+journal and current policy. Existing recording entries, guide titles,
+permissions, evaluation, and publication semantics do not change. D13 must
+first show behavioral RED through the packaged Action Paths form on exact
+column labels/data, ordering, filtering, invalid-evidence handling, layout and
+retained Search responsiveness; then prove GREEN and visible NAS usability.
+This proposal is not implementation authority until explicitly approved.
+
 **4be.5 guide draft entry refinement:** The recorded-run library exposes
 `btnCreateGuide`, **Create guide**, for the selected permitted run. It is enabled
 only with ACTION_PATH_MAINT and a validated selection. The command opens one
