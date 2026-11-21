@@ -1,8 +1,20 @@
 # invSys Form Controls v1
 
-**Version:** 1.788 -- D18-SEARCH-INPUT-01 small-library native NAS retest
-prompt on the verified candidate; larger-library, automated native timing and
-final 4be-A acceptance pending.
+**Version:** 1.789 -- D18-SEARCH-INPUT-01 seven-recording native keyboard
+diagnostic GREEN on the verified candidate; larger-library NAS and final
+4be-A acceptance pending.
+
+**Action Paths Search native keyboard checkpoint, 2026-11-20:** The test-only
+visible fixture now saves disposable instrumented XLAM copies before Viewer
+entry, keeps a saved operator host open, and clicks the owned Search textbox
+once before a continuous native typing sequence. The packaged fixture passed
+**152/152**, including six exact-text, list, selection and latency steps with
+seven disposable recordings; measured key-to-result times were 4.5–49.7 ms.
+All five XLAMs compiled, Excel exited naturally, the operator-host bytes and
+identity were preserved, and the five candidate XLAM hashes were unchanged.
+This is focused native diagnostic evidence, not a pinned release qualification
+or larger-library NAS operator acceptance. No product source, ControlId,
+wording or D18-SEARCH-INPUT-01 contract changed. See report 026.
 
 **Viewer startup diagnostic, 2026-11-20:** The visible native Search fixture
 stops before Search at `frmInventoryViewer.SetWarehouse`, specifically its

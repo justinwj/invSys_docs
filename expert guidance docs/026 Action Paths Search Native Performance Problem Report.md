@@ -1,6 +1,29 @@
 # Action Paths Search: native performance failure after packaged GREEN
 
-Date: 2026-11-20 Pacific. Status: **initial slow report; small-library candidate retest prompt, scale and measured timing open**. This is a diagnostic record, not a proposed contract change.
+Date: 2026-11-20 Pacific. Status: **initial slow report; verified candidate prompt in manual and seven-recording native checks; larger-library NAS acceptance open**. This is a diagnostic record, not a proposed contract change.
+
+## 2026-11-20 native keyboard result
+
+The test-only fixture now saves disposable instrumented packages before Viewer
+entry and keeps a saved operator host open. A process-owned click focuses the
+Search textbox once; the six subsequent keys are sent as a continuous native
+typing sequence. The actual packaged form and retained Viewer/recording-reader
+checks passed **152/152**. Seven disposable recording headers were loaded.
+First key after selection, two later letters, Backspace, Clear and a nonmatch
+each had exact textbox/list/selection results. Key-to-result times were 48.6,
+6.1, 5.6, 5.7, 49.7 and 4.5 ms, respectively. All five instrumented XLAMs
+compiled. Excel exited naturally, the saved operator host's identity and bytes
+were preserved, and the five candidate XLAM hashes were unchanged. Ignored
+local evidence: `reports/runtime/slice4be-viewer-published-read/717cc49005144623916f65c9630c3867/`;
+the timing JSON SHA-256 is `21EBBDCF7E6EAE857DA7AE373C734043A177AAC5951CE71616E0494467EC9AC1`.
+
+Earlier fixture failures were not behavioral RED: unsaved instrumented packages
+failed at Viewer caption assignment; no native focus left the first text empty;
+repeated textbox clicks replaced a later character; an assumed one-row result
+for `Rec` was wrong because all disposable rows were titled Recorded sequence.
+The correction changes only test tooling. This result does not prove the
+historical slow session's loaded package identity, qualify a larger NAS library,
+or close 4be-A acceptance. `deploy/current` and the NAS were not changed.
 
 ## Operator observation
 

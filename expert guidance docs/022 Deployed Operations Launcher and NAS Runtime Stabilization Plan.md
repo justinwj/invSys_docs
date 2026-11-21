@@ -1,5 +1,17 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-20 Action Paths Search native keyboard checkpoint:** The
+test-only saved-copy/saved-host correction allowed the actual packaged form's
+native Search diagnostic to complete **152/152** with seven disposable
+recordings. Six key transitions verified exact textbox content, filtered row
+count, no selected row and 4.5–49.7 ms key-to-result times. All five
+instrumented XLAMs compiled, Excel exited naturally, and the saved host and
+candidate package bytes were preserved. A single owned textbox click before
+continuous typing was required for reliable native focus; repeated clicks
+disturbed text entry. This is focused diagnostic GREEN, not a pinned final
+candidate, larger-library NAS review or 4be-A acceptance. No product or
+architecture change was made. See report 026 and Controls 1.789.
+
 **2026-11-20 Viewer startup diagnostic for native Search:** The existing
 fixed-stage probe localized the visible fixture's `80010007` to
 `frmInventoryViewer.SetWarehouse` at `Me.Caption`. The failure reproduced
