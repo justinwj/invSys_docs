@@ -4465,7 +4465,7 @@ controls implement the approved library and integrity rules. Guide authoring,
 expectations, evaluation, both presentations and import/export remain required
 extensions of that library, not alternative records or a reduced R1 scope.
 
-**Proposed D18-SEARCH-INPUT-01, revised 2026-11-20 (unapproved):** Match the
+**Approved D18-SEARCH-INPUT-01, 2026-11-20:** Match the
 existing Viewer search interaction: each change to `txtPathSearch` immediately
 filters only the recording headers loaded by the last authorized Open or
 Refresh. This is local presentation of an already loaded snapshot, not a Core

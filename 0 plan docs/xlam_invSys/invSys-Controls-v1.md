@@ -1,9 +1,9 @@
 # invSys Form Controls v1
 
-**Version:** 1.783 -- revised D18-SEARCH-INPUT-01 for live Action Paths Search;
-approval and final 4be-A acceptance pending.
+**Version:** 1.784 -- approved D18-SEARCH-INPUT-01 for live Action Paths Search;
+implementation and final 4be-A acceptance pending.
 
-**Proposed Action Paths Search input, revised 2026-11-20 (unapproved):** Like
+**Approved Action Paths Search input, 2026-11-20:** Like
 the existing Viewer Search, `txtPathSearch` filters the previously loaded
 recording headers immediately as the operator types. It does not open Config
 or the NAS per character. Each edit checks the captured session locally,
@@ -12,10 +12,11 @@ Selecting a row rechecks current policy before showing evidence or enabling
 actions; the existing `btnPathRefresh` reloads headers under current policy
 and reapplies the text filter. Already loaded headers may remain filterable
 after an external policy change until Refresh, but cannot authorize access to
-observations. This is the explicit exception proposed in Architecture v4.11;
-no new control, ControlId or displayed wording is proposed. Current behavior
-remains operative until approval and D13 GREEN. The earlier 122/1 RED proved
-per-character NAS rereads; the experimental 128/128 builds do not qualify.
+observations. This is the explicit exception approved in Architecture v4.11;
+no new control, ControlId or displayed wording is added. Current behavior
+remains operative until D13 GREEN and candidate qualification. The earlier
+122/1 RED proved per-character NAS rereads; the experimental 128/128 builds
+do not qualify.
 Visible NAS usability and 4be-A acceptance remain open.
 
 **Guide transfer policy checkpoint, 2026-11-20:** Test tooling now authors a

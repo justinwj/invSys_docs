@@ -1,10 +1,10 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
-**2026-11-20 revised D18-SEARCH-INPUT-01 proposal, approval pending:** Visible
+**2026-11-20 approved D18-SEARCH-INPUT-01:** Visible
 operator comparison showed Viewer Search filtering quickly on each keystroke,
 while Action Paths Search was unusably slow. `mSearch_Change` currently calls
 `ListPaths` on every character, validating Config and rereading NAS headers.
-Architecture v4.11 and Controls 1.783 propose immediate local filtering of
+Architecture v4.11 and Controls 1.784 require immediate local filtering of
 already authorized recording headers, with an explicit narrow exception to
 the every-library-action current-policy rule. Any selected evidence and
 dependent actions clear on typing. Open, Refresh, selection and all Core-backed
