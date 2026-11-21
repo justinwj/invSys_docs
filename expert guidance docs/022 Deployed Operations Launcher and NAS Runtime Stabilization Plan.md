@@ -1,5 +1,20 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-20 proposed D18-SEARCH-INPUT-01, approval pending:** The NAS
+Action Paths Search field is unusably slow because `mSearch_Change` calls
+`ListPaths` on each character; that path validates Config and rereads recording
+headers. Architecture v4.11 and Controls 1.782 carry the proposed
+submit-on-Enter-or-Refresh contract pending approval. D13: native typing must
+stay local and responsive; Enter/Refresh must execute the actual handler
+against the current session, policy and journal, with sign-out/target/policy
+refusal and existing
+reader/layout regressions. A focused 122 PASS / 1 FAIL run proved the current
+per-character reread. Two experimental local-snapshot builds passed 128/128,
+but the last skipped the mandatory current-policy check on Search; both builds
+are disqualified, undeployed and their source/test edits were reverted. The
+previous five-XLAM candidate remains the only review candidate. Human NAS
+usability and 4be-A acceptance remain open.
+
 **2026-11-20 current-candidate transfer policy GREEN:** Test-only commit
 `5d10c4b4` authors a catalog-29-safe guide through actual Settings, publication,
 action picker, guide Save and Export handlers; older-policy cases use that

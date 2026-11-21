@@ -1,7 +1,19 @@
 # invSys Form Controls v1
 
-**Version:** 1.781 -- transfer policy gate GREEN on catalog-29-safe fixture;
-final 4be-A acceptance pending.
+**Version:** 1.782 -- proposed D18-SEARCH-INPUT-01 for Action Paths typing;
+approval and final 4be-A acceptance pending.
+
+**Proposed Action Paths Search input, 2026-11-20 (unapproved):** The existing
+`txtPathSearch` accepts a pending query without reading Config or the NAS on
+each character. Enter in that field or the existing `btnPathRefresh` submits
+the query through the current-policy/session-guarded Core reader; Refresh also
+fetches newly saved recordings. While typing, `lblPathStatus` says **Search
+pending. Press Enter or Refresh.** No new control or ControlId is proposed.
+The current per-character Search remains the operative behavior until
+Architecture v4.11 D18-SEARCH-INPUT-01 is approved and D13 GREEN passes. The
+focused 122/1 RED proved the NAS reread; experimental cached 128/128 builds
+are excluded from acceptance because they did not meet the complete contract.
+Visible NAS usability and 4be-A acceptance remain open.
 
 **Guide transfer policy checkpoint, 2026-11-20:** Test tooling now authors a
 catalog-29-only guide through the actual Settings, publication, action picker,

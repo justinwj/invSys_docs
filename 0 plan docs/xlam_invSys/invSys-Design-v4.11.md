@@ -4465,6 +4465,22 @@ controls implement the approved library and integrity rules. Guide authoring,
 expectations, evaluation, both presentations and import/export remain required
 extensions of that library, not alternative records or a reduced R1 scope.
 
+**Proposed D18-SEARCH-INPUT-01 (unapproved, 2026-11-20):** Typing in
+`txtPathSearch` only edits the pending query; a keystroke is not a library
+Search action and does not open Config or the NAS journal. Pressing Enter in
+that field or clicking the existing `btnPathRefresh` executes Search with the
+current query. Each execution rechecks the captured invSys session and current
+tracking policy in Core and reads the current recording library; a failed
+check clears the selected evidence and reports unavailability. The existing
+list may remain visible while a query is pending, with **Search pending. Press
+Enter or Refresh.** in the status field. A selected-run action still rechecks
+current authority and policy; pending text never authorizes use of previously
+loaded evidence. Refresh also fetches recordings added since the prior Search.
+No new control, ControlId, recording event, canonical write or automatic
+publication is added. D13 must exercise native typing and Enter, the packaged
+Refresh handler, policy/session invalidation, list selection, and NAS typing
+latency. The existing every-library-action policy rule above remains operative.
+
 **4be.5 guide draft entry refinement:** The recorded-run library exposes
 `btnCreateGuide`, **Create guide**, for the selected permitted run. It is enabled
 only with ACTION_PATH_MAINT and a validated selection. The command opens one
