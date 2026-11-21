@@ -1,7 +1,15 @@
 # invSys Form Controls v1
 
-**Version:** 1.785 -- D18-SEARCH-INPUT-01 packaged Search GREEN;
-visible NAS usability and final 4be-A acceptance pending.
+**Version:** 1.786 -- D18-SEARCH-INPUT-01 packaged Search GREEN;
+native NAS Search usability RED and final 4be-A acceptance pending.
+
+**Native Action Paths Search review, 2026-11-20:** Justin reports that
+Search recordings remains extremely slow after the isolated packaged-GREEN
+candidate, while Viewer Events Search and the working picker are responsive.
+Exact loaded XLAM paths and native key-to-result timings were not captured.
+The visible usability gate is RED; see `expert guidance docs/026 Action Paths
+Search Native Performance Problem Report.md`. The 130/130 packaged result
+below remains valid within its tested scope and does not close this gate.
 
 **Action Paths Search implementation checkpoint, 2026-11-20:** The
 approved local-header filter is implemented in the Operations form. A focused

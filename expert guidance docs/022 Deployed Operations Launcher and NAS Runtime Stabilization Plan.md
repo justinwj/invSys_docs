@@ -1,5 +1,15 @@
 # Deployed Operations Launcher and NAS Runtime Stabilization Plan
 
+**2026-11-20 native Action Paths Search RED:** Justin reports that the
+isolated 130/130 packaged-GREEN candidate still types extremely slowly on
+the disposable NAS review warehouse. Viewer Events Search and the working
+picker are responsive. Exact loaded XLAM paths and native timing have not
+been verified. Architecture v4.11 D18-SEARCH-INPUT-01 is unchanged;
+Controls 1.786 marks visible usability RED. The source-backed, sanitized
+diagnostic request is `expert guidance docs/026 Action Paths Search Native
+Performance Problem Report.md`. Do not promote the candidate or count
+4be-A acceptance from packaged GREEN alone.
+
 **2026-11-20 D18-SEARCH-INPUT-01 implementation checkpoint:** Visible
 operator comparison showed Viewer Search filtering quickly on each keystroke,
 while Action Paths Search was unusably slow. The approved Architecture v4.11
